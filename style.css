@@ -140,20 +140,25 @@ body {
   }
 
   #left-panel {
-    width: 35%;           /* 좌측 리스트 폭 */
-    min-width: 150px;     /* 최소 폭 */
+    width: 35%;                       /* 좌측 리스트 폭 */
+    min-width: 150px;                 /* 최소 폭 */
     border-right: 2px solid #cccccc;
+    overflow-y: auto;                 /* 세로 스크롤 가능 */
+    -webkit-overflow-scrolling: touch; /* 스크롤 부드럽게 */
+    flex-shrink: 0;                   /* 폭 줄어드는 것 방지 */
   }
 
   #right-panel {
-    width: 65%;           /* 우측 레벨 정보 폭 */
+    width: 65%;                       /* 우측 레벨 정보 폭 */
     padding: 10px;
+    overflow-y: auto;                 /* 우측 패널 독립 스크롤 */
   }
 
   #map-video {
-    max-width: 100%;       /* 모바일 화면 폭에 맞춤 */
-    aspect-ratio: 16 / 9;  /* 16:9 비율 유지 */
+    max-width: 100%;                  /* 모바일 화면 폭에 맞춤 */
+    aspect-ratio: 16 / 9;             /* 16:9 비율 유지 */
   }
 }
+
 
 
