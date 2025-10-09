@@ -152,32 +152,32 @@ const demons = [
   {
     rank: 16,
     name: "Tunnel of Despair",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Exen, ImMaxX1",
+    verifier: "zZoink",
+    publisher: "Exen",
+    video: "https://www.youtube.com/embed/LpS4JREhW98",
+    id: "91351939",
     password: "Free to Copy"
   },
   {
     rank: 17,
     name: "Kyouki",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Demishio",
+    verifier: "Demishio",
+    publisher: "Demishio",
+    video: "https://www.youtube.com/embed/KDa5c0CJTHs",
+    id: "86018142",
     password: "Free to Copy"
   },
   {
     rank: 18,
     name: "Slaughterhouse",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "IcEDCave, Endlevel, Brittank88, DrCuber, River, CDMusic, GD Iris",
+    verifier: "Doggie",
+    publisher: "IcEDCave",
+    video: "https://www.youtube.com/embed/kpcF1-QAHQc",
+    id: "27690100",
+    password: "147337"
   },
   {
     rank: 19,
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
