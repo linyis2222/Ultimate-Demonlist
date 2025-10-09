@@ -5,7 +5,7 @@ const demons = [
     creators: "Jawis, Rin04, HaydenDom, V453C70M14, UFokinWotM8, Hyperbola, NcaT, KugelBlitZ, Triforce, Maxmur, MeatiusGaming, DrCuber, ADrone, Korewa, GhostVandalf, CairoX, RealVet, Genoxide, Crowlley, Meox, GamerKnight750, ThunderDarkness, DiamondSkull, Kevellium",
     verifier: "zZoink",
     publisher: "CairoX",
-    video: "https://www.youtube.com/watch?v=CELNmHwln_c",
+    video: "https://www.youtube.com/embed/CELNmHwln_c",
     id: "119544028",
     password: "Free to Copy"
   },
@@ -15,7 +15,7 @@ const demons = [
     creators: "iMist, IvashkaUA, NoobyPro27, iMinaY, BeClaNin0, Titoalper, Roselyne, ItsxEcho, GamerKnight750, Uriun112, 3DADronX, SnomGMD, Bedrock",
     verifier: "wPopoff",
     publisher: "iMist",
-    video: "https://www.youtube.com/watch?v=4lfkzz1VCbA",
+    video: "https://www.youtube.com/embed/4lfkzz1VCbA",
     id: "119550490",
     password: "Free to Copy"
   },
@@ -25,7 +25,7 @@ const demons = [
     creators: "OniLinkGD",
     verifier: "zZoink",
     publisher: "OniLinkGD",
-    video: "https://www.youtube.com/watch?v=9fsZ014qB3s",
+    video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
     password: "Free to Copy"
   }
@@ -79,6 +79,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
