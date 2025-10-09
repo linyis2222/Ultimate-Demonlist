@@ -242,82 +242,82 @@ const demons = [
     {
     rank: 25,
     name: "KOSETSU",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "fwwe, Arct, Alekszz, GamerKnight750, ADrone, Bli, Motheye, Halo, Pbreaker, Sacredbloom92",
+    verifier: "taiago",
+    publisher: "fwwe",
+    video: "https://www.youtube.com/embed/hZ8vFX8z_BU",
+    id: "109439644",
     password: "Free to Copy"
   },
   {
     rank: 26,
     name: "poocubed",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "Liisp, Earthum, Aespha, Faraoax, Arandamiguel123, TypicalGMD, Ph0bic",
+    verifier: "Kyasshukodo",
+    publisher: "Liisp",
+    video: "https://www.youtube.com/embed/VdVQkK3G234",
+    id: "85133223",
+    password: "688255"
   },
   {
     rank: 27,
     name: "Saul Goodman",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Renn241, Quacduc, Joojmiguel, loltad, DreamTide, GhostVandalf, MercuryDT, NukeIIX",
+    verifier: "Jori",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/hjs5PjUaw9k",
+    id: "90477539",
     password: "Free to Copy"
   },
   {
     rank: 28,
     name: "Eyes in the Water",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "nothawkyre, ImMaxX1, Bli, skywalker14, darksteelflame, Arithean",
+    verifier: "LordVadercraft",
+    publisher: "nothawkyre",
+    video: "https://www.youtube.com/embed/yvLwiOy3KEA",
+    id: "95851008",
     password: "Free to Copy"
   },
     {
     rank: 29,
     name: "Apocalyptic Trilogy",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "APTeamOfficial(36 people)",
+    verifier: "polterghast",
+    publisher: "APTeamOfficial",
+    video: "https://www.youtube.com/embed/RUBbpsTR5eU",
+    id: "113443235",
     password: "Free to Copy"
   },
   {
     rank: 30,
     name: "Operation Evolution",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Halzion, Graded, PhantomX, Cylyrii, Parallax, AubreyGoose, Saziur, Manu, Tygrysek, AlrexX, RealVet, Solarion, Knali, Wespdx, AnonIIExt, Iris, Samu, Limit, Nezopi, Zipixbox, Silver, Connected, Fitatfi, Nab, zmx",
+    verifier: "cobrablitz",
+    publisher: "Halzion",
+    video: "https://www.youtube.com/embed/WsVF-ayipvY",
+    id: "114999625",
     password: "Free to Copy"
   },
   {
     rank: 31,
     name: "The Hallucination",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "SyQual, Votchi",
+    verifier: "Votchi",
+    publisher: "SyQual",
+    video: "https://www.youtube.com/embed/tYbXsNkO9HE",
+    id: "81139702",
+    password: "220619"
   },
   {
     rank: 32,
     name: "Belladonna",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "Vernam, itami",
+    verifier: "exsii",
+    publisher: "cherryteam",
+    video: "https://www.youtube.com/embed/saHSgoU1JQQ",
+    id: "94969889",
+    password: "1441"
   },
   {
     rank: 33,
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
