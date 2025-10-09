@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GD Ultimate Demonlist</title>
+  <title>Ultimate Demonlist</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Ultimate Demonlist</h1>
-  <div id="list"></div>
+  <div id="container">
+    <!-- Left Panel: Map List -->
+    <div id="left-panel">
+      <ul id="map-list"></ul>
+    </div>
+
+    <!-- Right Panel: Map Details -->
+    <div id="right-panel">
+      <div id="map-details">
+        <h2 id="map-name">Map Name</h2>
+        <p id="map-creator">Creator: </p>
+        <p id="map-verifier">Verifier: </p>
+        <p id="map-publisher">Publisher: </p>
+        <div id="map-video">
+          <!-- YouTube embed -->
+        </div>
+        <p id="map-id">ID: </p>
+        <p id="map-password">Password: </p>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
