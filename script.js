@@ -1322,3 +1322,4 @@ function selectMap(demon, liElement) {
 
 
 
+
