@@ -102,31 +102,31 @@ const demons = [
   {
     rank: 11,
     name: "Menace",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "MannyHeffley",
+    verifier: "Whizkid05",
+    publisher: "MannyHeffley",
+    video: "https://www.youtube.com/embed/nnkgghxxsEE",
+    id: "107805281",
     password: "Free to Copy"
   },
   {
     rank: 12,
     name: "Avernus",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "BoBoBoBoBoBoBo, TriplasH, Zipixbox, kyhros, Woom, Zenntraa, El3cTr0, SyQual, Nidro, zDeadlox, GD Iris, Realvet, Looycat",
+    verifier: "zZoink",
+    publisher: "Pockewindfish",
+    video: "https://www.youtube.com/embed/16Zh8jssanc",
+    id: "89496627",
+    password: "30607"
   },
   {
     rank: 13,
     name: "Acheron",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "GrenadeofTacos, ryamu, Riot, icedcave, silver, Deadlox, Komp, AZuLer4, ewop, Metalface221, Cersia, LimeTime313, goob, Endlevel",
+    verifier: "zZoink",
+    publisher: "ryamu",
+    video: "https://www.youtube.com/embed/sBKR6aUorzA",
+    id: "73667628",
     password: "Free to Copy"
   },
   {
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
