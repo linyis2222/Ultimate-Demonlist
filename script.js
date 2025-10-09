@@ -20,7 +20,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 3,
+    rank: -,
     name: "Flamewall",
     creators: "UNarwall & more(125 people)",
     verifier: "Cuatrocientos",
@@ -30,7 +30,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 4,
+    rank: 3,
     name: "Nullscapes",
     creators: "ItzKiba",
     verifier: "zZoink",
@@ -40,7 +40,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 5,
+    rank: 4,
     name: "BOOBAWAMBA",
     creators: "Akunakunn, TheLetterV, ygg24",
     verifier: "EastShark",
@@ -50,7 +50,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 6,
+    rank: 5,
     name: "Tidal Wave",
     creators: "OniLinkGD",
     verifier: "zZoink",
@@ -109,6 +109,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
