@@ -2,7 +2,7 @@ const demons = [
   {
     rank: 1,
     name: "Thinking Space II",
-    creator: "CairoX",
+    creators: "CairoX",
     verifier: "Zoink",
     publisher: "CairoX",
     video: "https://www.youtube.com/embed/asdfasdfasdf",
@@ -12,7 +12,7 @@ const demons = [
   {
     rank: 2,
     name: "Amethyst",
-    creator: "iMist",
+    creators: "iMist",
     verifier: "wPopoff",
     publisher: "iMist",
     video: "https://www.youtube.com/embed/wertwertwert",
@@ -23,7 +23,7 @@ const demons = [
 
 const mapList = document.getElementById("map-list");
 const mapName = document.getElementById("map-name");
-const mapCreator = document.getElementById("map-creator");
+const mapCreators = document.getElementById("map-creators");
 const mapVerifier = document.getElementById("map-verifier");
 const mapPublisher = document.getElementById("map-publisher");
 const mapVideo = document.getElementById("map-video");
@@ -59,7 +59,7 @@ demons.forEach((d, index) => {
 function selectMap(demon, liElement) {
   mapName.textContent = demon.name;
 
-  mapCreator.innerHTML = `<span class="tag">CREATOR</span><span class="value">${demon.creator}</span>`;
+  mapCreators.innerHTML = `<span class="tag">CREATORS</span><span class="value">${demon.creators}</span>`;
   mapVerifier.innerHTML = `<span class="tag">VERIFIER</span><span class="value">${demon.verifier}</span>`;
   mapPublisher.innerHTML = `<span class="tag">PUBLISHER</span><span class="value">${demon.publisher}</span>`;
 
