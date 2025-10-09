@@ -24,16 +24,14 @@ html, body {
   gap: 12px;
 }
 
-/* 제목 왼쪽 정렬 (호환: .top-left 또는 .header-left) */
-.top-left h1,
+/* 제목 왼쪽 정렬 */
 .header-left h1 {
   color: #ffffff;
   margin: 0;
   font-size: 1.1rem;
 }
 
-/* 버튼 그룹 (오른쪽) - 호환 .top-right / .header-right */
-.top-right,
+/* 버튼 그룹 (오른쪽) */
 .header-right {
   display: flex;
   gap: 8px;
@@ -57,15 +55,17 @@ html, body {
    ============================== */
 #container {
   display: flex;
-  height: calc(100vh - 56px); /* header 높이(약 56px) 제외 */
+  height: calc(100vh - 56px); /* header 높이 제외 */
   box-sizing: border-box;
 }
 
 /* ==============================
-   좌측 패널 (기본 스타일 유지 + 개선)
+   좌측 패널 (비율 기반 + Rank/Name 줄바꿈)
    ============================== */
 #left-panel {
-  width: 300px;
+  width: 25%;        /* 화면 비율 기반 */
+  min-width: 220px;  /* 너무 작아지지 않도록 */
+  max-width: 300px;  /* 최대폭 유지 */
   background-color: #f0f0f0;
   border-right: 2px solid #cccccc;
   box-sizing: border-box;
@@ -74,59 +74,50 @@ html, body {
   padding: 8px;
 }
 
-/* 기존 규칙 유지 */
 #left-panel ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* ----------------------------------------------------------------
-   LEFT LIST — 호환성 있게 강력한 스타일 (기존 .map-item 유지 + 일반 li 커버)
-   - 이 블록은 "깨짐" 현상을 해결하도록 디자인됨
-   - rank/name 클래스가 없더라도 동작하도록 :first-child 보완 선택자 포함
-   ---------------------------------------------------------------- */
+/* 맵 리스트 항목 */
 #left-panel li,
 #left-panel li.map-item {
   display: flex;
-  align-items: flex-start; /* allow multi-line name to wrap */
-  gap: 8px;
-  padding: 12px;
+  flex-direction: column; /* Rank 위 / Name 아래 */
+  align-items: flex-start;
+  gap: 4px;
+  padding: 8px 6px;
   margin: 10px 0;
   background: #ffffff;
   border-radius: 8px;
   border: 1px solid rgba(0,0,0,0.04);
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-  transition: background 0.18s, transform 0.08s, box-shadow 0.12s;
   cursor: default;
-  min-width: 0; /* important for flex children to shrink on small screens */
+  min-width: 0;
+  transition: background 0.18s, transform 0.08s, box-shadow 0.12s;
 }
 
-/* rank 영역: 우선적으로 .rank 사용, 없으면 li > span:first-child 보완 */
-#left-panel li .rank,
-#left-panel li.map-item .rank,
-#left-panel li > span:first-child {
-  width: 48px;
-  flex: 0 0 48px;
+/* Rank */
+#left-panel li > span:first-child,
+#left-panel li .rank {
   font-weight: 700;
   color: #333;
-  text-align: left;
-  white-space: nowrap; /* rank stays single-line */
+  white-space: nowrap;
 }
 
-/* name 영역: allow wrapping, break long words */
-#left-panel li .mname,
+/* Name */
+#left-panel li > span:nth-child(2),
 #left-panel li .name,
-#left-panel li.map-item .mname,
-#left-panel li > span:nth-child(2) {
+#left-panel li.map-item .mname {
   flex: 1 1 auto;
   cursor: pointer;
   color: #111;
   user-select: none;
-  white-space: normal;       /* allow wrapping */
-  word-break: break-word;    /* break long words */
-  overflow-wrap: anywhere;   /* modern wrapping */
-  min-width: 0;              /* critical for flex child to shrink */
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  min-width: 0;
 }
 
 /* hover */
@@ -137,7 +128,7 @@ html, body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.06);
 }
 
-/* active (선택) 상태 - 확실히 보여짐 */
+/* active (선택) */
 #left-panel li.active,
 #left-panel li.map-item.active {
   background: linear-gradient(90deg, #fff7f0, #fff0e6);
@@ -145,14 +136,7 @@ html, body {
   box-shadow: 0 6px 16px rgba(255,127,80,0.08);
 }
 
-/* name hover 텍스트 강조 */
-#left-panel li .mname:hover,
-#left-panel li .name:hover,
-#left-panel li.map-item .mname:hover {
-  color: #ff7f50;
-}
-
-/* changelog list item (좌측 간단 목록) 유지 */
+/* Change Log / 기타 항목 스타일 */
 #left-panel li.log-item {
   padding: 10px;
   margin: 8px 0;
@@ -168,7 +152,7 @@ html, body {
 .hidden { display: none; }
 
 /* ==============================
-   우측 패널 (상세 / changelog view)
+   우측 패널
    ============================== */
 #right-panel {
   flex: 1;
@@ -178,31 +162,23 @@ html, body {
   height: calc(100vh - 56px);
 }
 
-/* MAP DETAILS (원본 유지) */
+/* MAP DETAILS */
 #map-details h2 { margin:0 0 8px 0; font-size:2rem; color:#ff7f50; }
 #map-details .tag { font-weight:bold; font-size:16px; display:inline-block; width:120px; }
 #map-details .value { font-weight:normal; font-size:14px; display:inline-block; margin-left:10px; white-space:pre-wrap; }
 
-/* ==============================
-   Change Log: 우측 패널내 표현 (네 요청 반영)
-   - 주요: 날짜 굵게 + detail 오른쪽, 비율은 2:5 (grid)
-   - 컨테이너는 우측 패널 내에서 가로 중앙에 정렬된 max-width 박스를 가짐
-   - 모바일에서는 세로 스택(날짜 위, 내용 아래)
-   ============================== */
-
-/* change-log 컨테이너 (우측 패널 내부에 위치) */
+/* Change Log */
 #change-log {
   width: 100%;
   box-sizing: border-box;
-  max-width: 900px;      /* 중앙 정렬된 읽기 좋은 폭 (필요시 조절) */
-  margin: 6px auto 0 auto; /* 우측 패널 내에서 가로 중앙 */
+  max-width: 900px;
+  margin: 6px auto 0 auto;
   padding: 6px 8px 12px 8px;
 }
 
-/* 각 로그 행: default desktop -> grid 2:5 */
 .change-log-entry {
   display: grid;
-  grid-template-columns: 28.57% 71.43%; /* 2/7 : 5/7 */
+  grid-template-columns: 28.57% 71.43%;
   gap: 12px;
   align-items: start;
   padding: 10px 12px;
@@ -210,27 +186,10 @@ html, body {
   background: #ffffff;
 }
 
-/* 날짜 영역: 굵게 표시 */
-.change-log-entry .log-date {
-  font-weight: 700;
-  color: #222;
-  white-space: nowrap;
-}
-
-/* detail 영역: 줄바꿈 허용, 단락 보존 */
-.change-log-entry .log-detail {
-  color: #111;
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-
-/* hover effect for rows */
+.change-log-entry .log-date { font-weight: 700; color: #222; white-space: nowrap; }
+.change-log-entry .log-detail { color: #111; white-space: pre-wrap; word-break: break-word; }
 .change-log-entry:hover { background: #fbfbfb; }
 
-/* ==============================
-   기존 테이블 기반 change-log 스타일(호환용)
-   - 혹시 이전에 테이블 방식으로 렌더되는 경우를 위해 남겨둠
-   ============================== */
 .change-log-title {
   text-align: center;
   font-weight: 700;
@@ -238,58 +197,21 @@ html, body {
   margin: 8px 0 14px 0;
   color: #111;
 }
-.log-table-wrap {
-  width: 100%;
-  box-sizing: border-box;
-  overflow-x: auto;
-}
-#change-log-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-  background: #fff;
-  color: #111;
-  border-radius: 8px;
-  overflow: hidden;
-}
+.log-table-wrap { width: 100%; box-sizing: border-box; overflow-x: auto; }
+#change-log-table { width: 100%; border-collapse: collapse; table-layout: fixed; background: #fff; color: #111; border-radius: 8px; overflow: hidden; }
 #change-log-table thead { background: #f3f3f3; }
-#change-log-table th, #change-log-table td {
-  padding: 10px 12px;
-  border-bottom: 1px solid #e6e6e6;
-  vertical-align: top;
-  word-break: break-word;
-}
+#change-log-table th, #change-log-table td { padding: 10px 12px; border-bottom: 1px solid #e6e6e6; vertical-align: top; word-break: break-word; }
 #change-log-table tbody tr:hover { background: #f9f9f9; }
-#change-log-table td:first-child, #change-log-table th:first-child {
-  font-weight: 600;
-  color: #333;
-}
+#change-log-table td:first-child, #change-log-table th:first-child { font-weight: 600; color: #333; }
+
+/* 비디오 */
+#map-video { position: relative; width: 100%; max-width: 400px; aspect-ratio: 16 / 9; margin: 15px 0; border-radius: 8px; overflow: hidden; }
+#map-video iframe, #map-video video { width: 100%; height: 100%; border: none; display: block; }
 
 /* ==============================
-   유튜브 / 비디오 영역 (map-video) - 16:9 유지
-   ============================== */
-#map-video {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  aspect-ratio: 16 / 9;
-  margin: 15px 0;
-  border-radius: 8px;
-  overflow: hidden;
-}
-#map-video iframe, #map-video video {
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
-}
-
-/* ==============================
-   Mobile Fix: Left Panel & List Items
+   Mobile Fix
    ============================== */
 @media (max-width: 768px) {
-
-  /* 1️⃣ left-panel 전체 유동화 */
   #left-panel {
     width: 100% !important;
     max-width: none !important;
@@ -297,60 +219,27 @@ html, body {
     overflow-x: hidden !important;
   }
 
-  /* 2️⃣ li 세로 배치: rank 위, name 아래 */
   #left-panel li,
   #left-panel li.map-item {
-    display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
     gap: 4px !important;
     padding: 8px 6px !important;
-    box-sizing: border-box !important;
     width: 100% !important;
     min-width: 0 !important;
   }
 
-  /* 3️⃣ rank 스타일: single line 유지 */
   #left-panel li .rank,
   #left-panel li > span:first-child,
-  #left-panel li.map-item .rank {
-    width: auto !important;
-    flex: none !important;
-    font-size: 0.95rem !important;
-    font-weight: 700 !important;
-    white-space: nowrap !important;
-    color: #333 !important;
-  }
+  #left-panel li.map-item .rank { width: auto !important; flex: none !important; font-size: 0.95rem !important; white-space: nowrap !important; }
 
-  /* 4️⃣ name 스타일: 줄바꿈 허용 */
   #left-panel li .name,
   #left-panel li > span:nth-child(2),
-  #left-panel li.map-item .mname {
-    display: block !important;
-    width: 100% !important;
-    white-space: normal !important;
-    word-break: break-word !important;
-    overflow-wrap: anywhere !important;
-    font-size: 1rem !important;
-    line-height: 1.2 !important;
-    min-width: 0 !important;
-    color: #111 !important;
-    cursor: pointer !important;
-  }
+  #left-panel li.map-item .mname { display: block !important; width: 100% !important; white-space: normal !important; word-break: break-word !important; overflow-wrap: anywhere !important; font-size: 1rem !important; line-height: 1.2 !important; min-width: 0 !important; color: #111 !important; cursor: pointer !important; }
 
-  /* 5️⃣ hover / active 유지 */
   #left-panel li:hover,
-  #left-panel li.map-item:hover {
-    background: #f0f7ff !important;
-    transform: translateX(0) !important; /* 모바일에서는 좌우 이동 제거 */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.06) !important;
-  }
+  #left-panel li.map-item:hover { transform: translateX(0) !important; background: #f0f7ff !important; box-shadow: 0 4px 10px rgba(0,0,0,0.06) !important; }
 
   #left-panel li.active,
-  #left-panel li.map-item.active {
-    background: linear-gradient(90deg, #fff7f0, #fff0e6) !important;
-    border-color: rgba(255,127,80,0.25) !important;
-    box-shadow: 0 6px 16px rgba(255,127,80,0.08) !important;
-  }
-
+  #left-panel li.map-item.active { background: linear-gradient(90deg, #fff7f0, #fff0e6) !important; border-color: rgba(255,127,80,0.25) !important; box-shadow: 0 6px 16px rgba(255,127,80,0.08) !important; }
 }
