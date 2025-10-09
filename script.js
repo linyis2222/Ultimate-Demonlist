@@ -2,7 +2,8 @@ const demons = [
   {
     rank: 1,
     name: "Thinking Space II",
-    creators: "Jawis, Rin04, HaydenDom, V453C70M14, UFokinWotM8, Hyperbola, NcaT, KugelBlitZ, Triforce, Maxmur, MeatiusGaming, DrCuber, ADrone, Korewa, GhostVandalf, CairoX, RealVet, Genoxide, Crowlley, Meox, GamerKnight750, ThunderDarkness, DiamondSkull, Kevellium",
+    creators: 'Jawis, Rin04, HaydenDom, V453C70M14, UFokinWotM8, Hyperbola, NcaT, KugelBlitZ, Triforce, Maxmur, MeatiusGaming, DrCuber,
+      ADrone, Korewa, GhostVandalf, CairoX, RealVet, Genoxide, Crowlley, Meox, GamerKnight750, ThunderDarkness, DiamondSkull, Kevellium',
     verifier: "Zoink",
     publisher: "CairoX",
     video: "https://www.youtube.com/embed/asdfasdfasdf",
@@ -69,4 +70,5 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
