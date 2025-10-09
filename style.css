@@ -1,12 +1,19 @@
 /* ==============================
+   html, body 높이
+   ============================== */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==============================
    전체 배경
    ============================== */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #ffffff;
   color: #000000;
-  margin: 0;
-  padding: 0;
 }
 
 /* ==============================
@@ -134,31 +141,26 @@ body {
    ============================== */
 @media (max-width: 768px) {
   #container {
-    flex-direction: row;              /* 좌우 레이아웃 유지 */
-    height: auto;                     /* 내용에 따라 늘어나도록 */
-    min-height: calc(100vh - 80px);   /* 화면 내용이 적어도 밑이 짤리지 않음 */
+    flex-direction: row;                  /* 좌우 레이아웃 유지 */
+    min-height: calc(100vh - 80px);      /* 화면 내용이 적어도 밑이 짤리지 않음 */
+    height: auto;                         /* 내용에 따라 늘어나도록 */
   }
 
   #left-panel {
-    width: 35%;                       /* 좌측 리스트 폭 */
-    min-width: 150px;                 /* 최소 폭 */
-    border-right: 2px solid #cccccc;
-    overflow-y: auto;                 /* 세로 스크롤 가능 */
-    -webkit-overflow-scrolling: touch; /* 스크롤 부드럽게 */
-    flex-shrink: 0;                   /* 폭 줄어드는 것 방지 */
+    flex: 0 0 35%;                       /* 좌측 리스트 폭 고정 */
+    min-width: 150px;
+    overflow-y: auto;                     /* 세로 스크롤 가능 */
+    -webkit-overflow-scrolling: touch;    /* 스크롤 부드럽게 */
   }
 
   #right-panel {
-    width: 65%;                       /* 우측 레벨 정보 폭 */
+    flex: 0 0 65%;                       /* 우측 레벨 정보 폭 고정 */
     padding: 10px;
-    overflow-y: auto;                 /* 우측 패널 독립 스크롤 */
+    overflow-y: auto;                     /* 독립 스크롤 */
   }
 
   #map-video {
-    max-width: 100%;                  /* 모바일 화면 폭에 맞춤 */
-    aspect-ratio: 16 / 9;             /* 16:9 비율 유지 */
+    max-width: 100%;                      /* 모바일 화면 폭에 맞춤 */
+    aspect-ratio: 16 / 9;                 /* 16:9 비율 유지 */
   }
 }
-
-
-
