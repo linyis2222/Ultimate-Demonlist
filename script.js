@@ -202,42 +202,42 @@ const demons = [
   {
     rank: 21,
     name: "Deimos",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "ItsHybrid & more(27 people)",
+    verifier: "Doggie",
+    publisher: "ItsHybrid",
+    video: "https://www.youtube.com/embed/b2yHaIk5zio",
+    id: "93091893",
     password: "Free to Copy"
   },
   {
     rank: 22,
     name: "The Lightning Rod",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Lavatrex",
+    verifier: "Lavatrex",
+    publisher: "Lavatrex",
+    video: "https://www.youtube.com/embed/nQDTi077O6M",
+    id: "93917076",
     password: "Free to Copy"
   },
     {
     rank: 23,
     name: "Sakupen Circles",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Nick24, DrCuber, Korewa, Renn241, Muffy450, endevvor, Mzero, NineDice, GhostVandalf",
+    verifier: "TheDiamondPizza",
+    publisher: "TheDiamondPizza",
+    video: "https://www.youtube.com/embed/ofG2mJi9kEA",
+    id: "76962930",
     password: "Free to Copy"
   },
   {
     rank: 24,
     name: "Firework",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "Vernam, lillium, 00Zero, Konsi, Realvet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
+    verifier: "TrickGMD",
+    publisher: "TrickGMD",
+    video: "https://www.youtube.com/embed/QBe5x2o9v2w",
+    id: "75296202",
+    password: "234000"
   },
     {
     rank: 25,
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
