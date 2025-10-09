@@ -141,7 +141,7 @@ const demons = [
   },
   {
     rank: 15,
-    name: "Tunnel of Despair",
+    name: "Abyss of Darkness",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -151,7 +151,7 @@ const demons = [
   },
   {
     rank: 16,
-    name: "Abyss of Darkness",
+    name: "Tunnel of Despair",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -171,7 +171,7 @@ const demons = [
   },
   {
     rank: 18,
-    name: "Subterminal Point",
+    name: "Slaughterhouse",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -181,7 +181,7 @@ const demons = [
   },
   {
     rank: 19,
-    name: "Slaughterhouse",
+    name: "Subterminal Point",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -221,7 +221,7 @@ const demons = [
   },
   {
     rank: 23,
-    name: "Firework",
+    name: "The Lightning Rod",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -231,7 +231,7 @@ const demons = [
   },
   {
     rank: 24,
-    name: "The Lightning Rod",
+    name: "Firework",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -299,6 +299,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
