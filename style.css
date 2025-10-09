@@ -284,29 +284,47 @@ html, body {
   display: block;
 }
 
-/* ==============================
-   반응형: 모바일에서도 좌우 레이아웃 유지, 비율 조정
-   - 모바일에서는 왼쪽 리스트 텍스트 줄바꿈 허용 (위에서 이미 적용)
-   - 모바일 change-log는 grid -> stacked (date above detail)
-   ============================== */
+/* ---------- Mobile: left list stacked rank on top, name below (wraps) ---------- */
 @media (max-width: 768px) {
-  #container { height: calc(100vh - 56px); }
-  #left-panel { flex: 0 0 35%; min-width: 140px; height: calc(100vh - 56px); }
-  #right-panel { flex: 0 0 65%; padding: 12px; height: calc(100vh - 56px); }
-  #map-video { max-width: 100%; aspect-ratio: 16/9; }
-
-  /* 모바일에서 change-log: 세로 스택(날짜 위, 상세 아래) */
-  .change-log-entry {
-    display: block;         /* stacked layout on mobile */
+  /* make each left-list item stack vertically */
+  #left-panel li,
+  #left-panel li.map-item {
+    /* column so rank on its own row, name below (allows wrapping) */
+    flex-direction: column;
+    align-items: flex-start; /* left align contents */
+    gap: 6px;                /* vertical gap between rank and name */
     padding: 10px 8px;
   }
-  .change-log-entry .log-date {
-    display: block;
-    font-weight: 700;
-    margin-bottom: 6px;
+
+  /* rank: keep it single-line and slightly smaller space */
+  #left-panel li .rank,
+  #left-panel li > span:first-child,
+  #left-panel li.map-item .rank {
+    width: auto;      /* allow full width */
+    flex: none;
+    font-size: 0.95rem;
+    white-space: nowrap; /* keep the rank itself single-line */
+    margin-bottom: 0;
   }
-  .change-log-entry .log-detail {
+
+  /* name: allow wrapping and break long words */
+  #left-panel li .mname,
+  #left-panel li .name,
+  #left-panel li > span:nth-child(2),
+  #left-panel li.map-item .mname {
     display: block;
-    margin-left: 0;
+    width: 100%;
+    white-space: normal;      /* allow wrapping */
+    word-break: break-word;
+    overflow-wrap: anywhere;  /* break anywhere if needed */
+    font-size: 1rem;
+    line-height: 1.2;
   }
+
+  /* ensure list item doesn't force horizontal scroll */
+  #left-panel { min-width: 0; }
+
+  /* optional: slightly reduce left-panel padding for mobile */
+  #left-panel { padding: 6px; }
 }
+
