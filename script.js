@@ -33,8 +33,21 @@ const mapPassword = document.getElementById("map-password");
 // 좌측 목록 생성
 demons.forEach((d, index) => {
   const li = document.createElement("li");
-  li.textContent = `#${d.rank} ${d.name}`;
-  li.addEventListener("click", () => selectMap(d, li));
+
+  // 순위 span (클릭 X)
+  const rankSpan = document.createElement("span");
+  rankSpan.textContent = `#${d.rank} `;
+  rankSpan.style.fontWeight = "bold";
+  rankSpan.style.marginRight = "5px";
+
+  // 맵 이름 span (클릭 가능)
+  const nameSpan = document.createElement("span");
+  nameSpan.textContent = d.name;
+  nameSpan.classList.add("name");
+  nameSpan.addEventListener("click", () => selectMap(d, li));
+
+  li.appendChild(rankSpan);
+  li.appendChild(nameSpan);
   mapList.appendChild(li);
 
   // 첫 번째 항목 기본 선택
@@ -44,7 +57,6 @@ demons.forEach((d, index) => {
 });
 
 function selectMap(demon, liElement) {
-  // 오른쪽 패널 업데이트
   mapName.textContent = demon.name;
   mapCreator.textContent = `Creator: ${demon.creator}`;
   mapVerifier.textContent = `Verifier: ${demon.verifier}`;
