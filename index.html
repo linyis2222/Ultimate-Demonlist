@@ -1,38 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ultimate Demonlist</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- 상단 검은 헤더 바 -->
+  <!--
+    상단 헤더
+    - 기존 'Ultimate Demonlist' 제목은 그대로 왼쪽 정렬로 유지
+    - 오른쪽에 List / Change Log 버튼을 추가 (기능: 우측 패널 전환)
+    - ***중요***: 헤더 내부의 제목 텍스트(문구)는 절대 변경하지 마세요(요청사항).
+  -->
   <header id="top-bar">
-    <h1>Ultimate Demonlist</h1>
-  </header>
-
-  <div id="container">
-    <!-- Left Panel: Map List -->
-    <div id="left-panel">
-      <ul id="map-list"></ul>
+    <div class="header-left">
+      <h1>Ultimate Demonlist</h1>
     </div>
 
-    <!-- Right Panel: Map Details -->
-    <div id="right-panel">
-      <div id="map-details">
+    <div class="header-right">
+      <!-- List 버튼: 누르면 '데몬리스트'(기본뷰)로 초기화하여 #1을 선택 -->
+      <button id="btn-list" class="top-btn" aria-pressed="true">List</button>
+
+      <!-- Change Log 버튼: 누르면 우측 패널에 Change Log(날짜 굵게 + 상세 텍스트) 표시 -->
+      <button id="btn-changelog" class="top-btn" aria-pressed="false">Change Log</button>
+    </div>
+  </header>
+
+  <!--
+    메인 컨테이너
+    - 왼쪽: 기존 데몬 리스트 (원본 코드에서 생성됨) -> 절대 구조 변경 금지
+    - 오른쪽: 우측 패널 (맵 상세 OR 체인지로그)이 자리함
+  -->
+  <div id="container">
+    <!-- LEFT: map list (원본 스크립트가 여기를 채움) -->
+    <aside id="left-panel">
+      <ul id="map-list"></ul>
+    </aside>
+
+    <!-- RIGHT: 우측 패널: 원본 map-details와 change-log 영역 공존 (JS로 토글) -->
+    <main id="right-panel">
+      <!-- 기존 map 상세 (원본대로 사용) -->
+      <section id="map-details">
         <h2 id="map-name"></h2>
-        <p id="map-creators"></p> <!-- CREATOR → CREATORS -->
+        <p id="map-creators"></p>    <!-- 'CREATORS' 태그 + 값 (굵은 태그 및 줄바꿈 유지) -->
         <p id="map-verifier"></p>
         <p id="map-publisher"></p>
         <div id="map-video"></div>
         <p id="map-id"></p>
         <p id="map-password"></p>
-      </div>
-    </div>
+      </section>
+
+      <!-- 추가: change-log 뷰 (초기엔 숨김)
+           - 요청대로 헤더 텍스트("Change Log")는 표시하지 않음.
+           - 각 줄: 날짜(굵게) + 공백 + 상세 텍스트
+           - 좌측 리스트는 항상 표시되므로 change-log는 우측의 내용만 대체.
+      -->
+      <section id="change-log" aria-label="Change Log" class="hidden"></section>
+    </main>
   </div>
 
+  <!-- 원본 스크립트 파일을 대체/확장한 script.js -->
   <script src="script.js"></script>
 </body>
 </html>
