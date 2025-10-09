@@ -30,18 +30,30 @@ const mapVideo = document.getElementById("map-video");
 const mapId = document.getElementById("map-id");
 const mapPassword = document.getElementById("map-password");
 
-// Left panel: create clickable list
-demons.forEach(d => {
+// 좌측 목록 생성
+demons.forEach((d, index) => {
   const li = document.createElement("li");
   li.textContent = `#${d.rank} ${d.name}`;
-  li.addEventListener("click", () => {
-    mapName.textContent = d.name;
-    mapCreator.textContent = `Creator: ${d.creator}`;
-    mapVerifier.textContent = `Verifier: ${d.verifier}`;
-    mapPublisher.textContent = `Publisher: ${d.publisher}`;
-    mapVideo.innerHTML = `<iframe src="${d.video}" allowfullscreen></iframe>`;
-    mapId.textContent = `ID: ${d.id}`;
-    mapPassword.textContent = `Password: ${d.password}`;
-  });
+  li.addEventListener("click", () => selectMap(d, li));
   mapList.appendChild(li);
+
+  // 첫 번째 항목 기본 선택
+  if(index === 0) {
+    selectMap(d, li);
+  }
 });
+
+function selectMap(demon, liElement) {
+  // 오른쪽 패널 업데이트
+  mapName.textContent = demon.name;
+  mapCreator.textContent = `Creator: ${demon.creator}`;
+  mapVerifier.textContent = `Verifier: ${demon.verifier}`;
+  mapPublisher.textContent = `Publisher: ${demon.publisher}`;
+  mapVideo.innerHTML = `<iframe src="${demon.video}" allowfullscreen></iframe>`;
+  mapId.textContent = `ID: ${demon.id}`;
+  mapPassword.textContent = `Password: ${demon.password}`;
+
+  // 선택 표시
+  document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
+  liElement.classList.add('active');
+}
