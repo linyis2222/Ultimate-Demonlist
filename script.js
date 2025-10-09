@@ -58,6 +58,26 @@ const demons = [
     video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
     password: "Free to Copy"
+  }.
+  {
+    rank: 7,
+    name: "andromeda",
+    creators: "Insxne97",
+    verifier: "taiago",
+    publisher: "Insxne97",
+    video: "https://www.youtube.com/embed/mk3TDemdkC0",
+    id: "114283297",
+    password: "Free to Copy"
+  },
+  {
+    rank: 8,
+    name: "Every End",
+    creators: "MindCap",
+    verifier: "Hqmy",
+    publisher: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, Cobrablitz",
+    video: "https://www.youtube.com/embed/AO--mVVFtKI",
+    id: "116174063",
+    password: "Free to Copy"
   }
 ];
 
@@ -109,6 +129,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
