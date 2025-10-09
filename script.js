@@ -3,20 +3,30 @@ const demons = [
     rank: 1,
     name: "Thinking Space II",
     creators: "Jawis, Rin04, HaydenDom, V453C70M14, UFokinWotM8, Hyperbola, NcaT, KugelBlitZ, Triforce, Maxmur, MeatiusGaming, DrCuber, ADrone, Korewa, GhostVandalf, CairoX, RealVet, Genoxide, Crowlley, Meox, GamerKnight750, ThunderDarkness, DiamondSkull, Kevellium",
-    verifier: "Zoink",
+    verifier: "zZoink",
     publisher: "CairoX",
-    video: "https://www.youtube.com/embed/asdfasdfasdf",
-    id: "2345234234234324",
+    video: "https://www.youtube.com/embed/CELNmHwln_c",
+    id: "119544028",
     password: "Free to Copy"
   },
   {
     rank: 2,
     name: "Amethyst",
-    creators: "iMist",
+    creators: "iMist, IvashkaUA, NoobyPro27, iMinaY, BeClaNin0, Titoalper, Roselyne, ItsxEcho, GamerKnight750, Uriun112, 3DADronX, SnomGMD, Bedrock",
     verifier: "wPopoff",
     publisher: "iMist",
-    video: "https://www.youtube.com/embed/wertwertwert",
-    id: "34593485349587",
+    video: "https://www.youtube.com/embed/4lfkzz1VCbA",
+    id: "119550490",
+    password: "Free to Copy"
+  },
+  {
+    rank: 3,
+    name: "Tidal Wave",
+    creators: "OniLinkGD",
+    verifier: "zZoink",
+    publisher: "OniLinkGD",
+    video: "https://www.youtube.com/embed/9fsZ014qB3s",
+    id: "86407629",
     password: "Free to Copy"
   }
 ];
@@ -69,6 +79,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
