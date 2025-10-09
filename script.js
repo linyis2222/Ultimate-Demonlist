@@ -322,71 +322,71 @@ const demons = [
   {
     rank: 33,
     name: "COMBUSTION",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Cersia, Slithium",
+    verifier: "Slithium",
+    publisher: "Cersia",
+    video: "https://www.youtube.com/embed/3cTR4XUcA28",
+    id: "94359172",
     password: "Free to Copy"
   },
   {
     rank: 34,
     name: "Sevvend Clubstep",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "MinAY, Maybee, Nickname, IGenoxide, _ego11, winchester, Koshkaht, WarningGoat, Vizitek, Quminy",
+    verifier: "Vorten",
+    publisher: "cherryteam",
+    video: "https://www.youtube.com/embed/TvA8EJTJFCc",
+    id: "120255728",
     password: "Free to Copy"
   },
   {
     rank: 35,
     name: "Deadlier Clubstep",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "herozombie80, Realvet, Solarion, Valentine, Pla, X2K, nab, CloverPhoenix, caro, SnapNK",
+    verifier: "Jenath",
+    publisher: "herozombie80",
+    video: "https://www.youtube.com/embed/eRhgaF0r5Q0",
+    id: "96314787",
     password: "Free to Copy"
   },
   {
     rank: 36,
     name: "Gaggatrondra",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "JCMoon",
+    verifier: "Zeronium",
+    publisher: "JCMoon",
+    video: "https://www.youtube.com/embed/A4G41vw6Cf0",
+    id: "114990369",
     password: "Free to Copy"
   },
   {
     rank: 37,
     name: "Edge of Destiny",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
+    verifier: " Polterghast",
+    publisher: "CDMusic",
+    video: "https://www.youtube.com/embed/rUphe3H59yU",
+    id: "89187968",
     password: "Free to Copy"
   },
   {
     rank: 38,
     name: "walter white",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Renn241",
+    verifier: "iIilaseriIi",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/KzK62PkWOJ0",
+    id: "81011195",
     password: "Free to Copy"
   },
   {
     rank: 39,
     name: "The Plunge",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Arachnid, TriplashGD, G4lvatron, Roselyne, PBreakerGD, Adrone, shodai",
+    verifier: "Gokill",
+    publisher: "DolaLXM",
+    video: "https://www.youtube.com/embed/8gW1-_u1K0Y",
+    id: "113220284",
     password: "Free to Copy"
   },
     {
@@ -1927,6 +1927,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
