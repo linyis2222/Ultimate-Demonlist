@@ -58,7 +58,7 @@ const demons = [
     video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
     password: "Free to Copy"
-  }.
+  },
   {
     rank: 7,
     name: "andromeda",
@@ -129,6 +129,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
