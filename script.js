@@ -98,6 +98,166 @@ const demons = [
     video: "https://www.youtube.com/embed/_uKwmjHmySI",
     id: "112313819",
     password: "Free to Copy"
+  },
+  {
+    rank: 10,
+    name: "Anathema",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 11,
+    name: "Menace",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 12,
+    name: "Avernus",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 13,
+    name: "Acheron",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 14,
+    name: "Spectre",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 15,
+    name: "Tunnel of Despair",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 16,
+    name: "Abyss of Darkness",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 17,
+    name: "Kyouki",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 18,
+    name: "Subterminal Point",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 19,
+    name: "Slaughterhouse",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 20,
+    name: "KOCMOC",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 21,
+    name: "Sakupen Circles",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 22,
+    name: "Deimos",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 23,
+    name: "Firework",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 24,
+    name: "The Lightning Rod",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 25,
+    name: "poocubed",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
   }
 ];
 
@@ -149,6 +309,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
