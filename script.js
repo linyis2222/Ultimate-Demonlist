@@ -841,7 +841,7 @@ const demons = [
   },
   {
     rank: 85,
-    name: "Trueffet",
+    name: "VOID",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -851,7 +851,7 @@ const demons = [
   },
   {
     rank: 86,
-    name: "Trueffet",
+    name: "Destruction 19",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -861,7 +861,7 @@ const demons = [
   },
   {
     rank: 87,
-    name: "Trueffet",
+    name: "Starlight Summit",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -871,7 +871,7 @@ const demons = [
   },
   {
     rank: 88,
-    name: "Trueffet",
+    name: "IRIS",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -881,7 +881,7 @@ const demons = [
   },
   {
     rank: 89,
-    name: "Trueffet",
+    name: "Judgement Knights",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -891,7 +891,7 @@ const demons = [
   },
   {
     rank: 90,
-    name: "Trueffet",
+    name: "Kenos",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -901,7 +901,7 @@ const demons = [
   },
   {
     rank: 91,
-    name: "Trueffet",
+    name: "WOBBLING MACHINE",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -911,7 +911,7 @@ const demons = [
   },
   {
     rank: 92,
-    name: "Trueffet",
+    name: "Esfera",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -921,7 +921,7 @@ const demons = [
   },
   {
     rank: 93,
-    name: "Trueffet",
+    name: "Axinie",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -931,7 +931,7 @@ const demons = [
   },
   {
     rank: 94,
-    name: "Trueffet",
+    name: "NEUTRA",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -941,7 +941,7 @@ const demons = [
   },
   {
     rank: 95,
-    name: "Trueffet",
+    name: "Zodiac",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -951,7 +951,7 @@ const demons = [
   },
   {
     rank: 96,
-    name: "Trueffet",
+    name: "Swing Swing",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -961,7 +961,7 @@ const demons = [
   },
   {
     rank: 97,
-    name: "Trueffet",
+    name: "Guideless Goobering",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -971,7 +971,7 @@ const demons = [
   },
   {
     rank: 98,
-    name: "Trueffet",
+    name: "DISSONANCE",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -981,7 +981,7 @@ const demons = [
   },
   {
     rank: 99,
-    name: "Trueffet",
+    name: "Lithium",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -991,7 +991,7 @@ const demons = [
   },
   {
     rank: 100,
-    name: "Trueffet",
+    name: "Fragile",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1001,7 +1001,7 @@ const demons = [
   },
   {
     rank: 101,
-    name: "Trueffet",
+    name: "Hard Machine",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1011,7 +1011,7 @@ const demons = [
   },
   {
     rank: 102,
-    name: "Trueffet",
+    name: "Widestep",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1021,7 +1021,7 @@ const demons = [
   },
   {
     rank: 103,
-    name: "Trueffet",
+    name: "Crackhead Circles",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1031,7 +1031,7 @@ const demons = [
   },
   {
     rank: 104,
-    name: "Trueffet",
+    name: "Scream Machine",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1041,7 +1041,7 @@ const demons = [
   },
   {
     rank: 105,
-    name: "Trueffet",
+    name: "Keres",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1051,7 +1051,7 @@ const demons = [
   },
   {
     rank: 106,
-    name: "Trueffet",
+    name: "Ascent",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1061,7 +1061,7 @@ const demons = [
   },
   {
     rank: 107,
-    name: "Trueffet",
+    name: "Lotus Flower",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1071,7 +1071,7 @@ const demons = [
   },
   {
     rank: 108,
-    name: "Trueffet",
+    name: "Frost Spirit",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1081,7 +1081,7 @@ const demons = [
   },
   {
     rank: 109,
-    name: "Trueffet",
+    name: "Dry Out Copyable 2",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1091,7 +1091,7 @@ const demons = [
   },
   {
     rank: 110,
-    name: "Trueffet",
+    name: "Promethean",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1101,7 +1101,7 @@ const demons = [
   },
   {
     rank: 111,
-    name: "Trueffet",
+    name: "Cold Sweat",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1111,7 +1111,7 @@ const demons = [
   },
   {
     rank: 112,
-    name: "Trueffet",
+    name: "Thinking Space",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1121,7 +1121,7 @@ const demons = [
   },
   {
     rank: 113,
-    name: "Trueffet",
+    name: "Renevant",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1131,7 +1131,7 @@ const demons = [
   },
   {
     rank: 114,
-    name: "Trueffet",
+    name: "ConClusion",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1141,7 +1141,7 @@ const demons = [
   },
   {
     rank: 115,
-    name: "Trueffet",
+    name: "We Are Not The Same",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1150,8 +1150,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 126,
-    name: "Trueffet",
+    rank: 116,
+    name: "Instinct",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1160,8 +1160,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 127,
-    name: "Trueffet",
+    rank: 117,
+    name: "Sky Shredder",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1170,8 +1170,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 128,
-    name: "Trueffet",
+    rank: 118,
+    name: "Calculator Core",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1180,8 +1180,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 129,
-    name: "Trueffet",
+    rank: 119,
+    name: "Trotil",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1190,8 +1190,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 130,
-    name: "Trueffet",
+    rank: 120,
+    name: "shimmer",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1200,8 +1200,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 131,
-    name: "Trueffet",
+    rank: 121,
+    name: "Crimson Planet",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1210,8 +1210,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 132,
-    name: "Trueffet",
+    rank: 122,
+    name: "DIRECTIONS",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1220,8 +1220,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 133,
-    name: "Trueffet",
+    rank: 123,
+    name: "Disconnected Descent",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1230,8 +1230,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 134,
-    name: "Trueffet",
+    rank: 124,
+    name: "Axiom Asterism",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1289,6 +1289,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
