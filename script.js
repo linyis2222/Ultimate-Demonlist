@@ -20,7 +20,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: -,
+    rank: 3,
     name: "Flamewall",
     creators: "UNarwall & more(125 people)",
     verifier: "Cuatrocientos",
@@ -109,6 +109,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
