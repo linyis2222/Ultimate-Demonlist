@@ -100,16 +100,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 10,
-    name: "Anathema",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
-  },
-  {
     rank: 11,
     name: "Menace",
     creators: "이름만 등록해놓음 나중에 수정함",
@@ -309,6 +299,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
