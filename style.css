@@ -134,9 +134,10 @@ body {
    ============================== */
 @media (max-width: 768px) {
   #container {
-    flex-direction: row; /* 좌우 레이아웃 유지 */
-    height: auto;
+    min-height: calc(100vh - 80px); /* 화면 내용이 적어도 밑이 짤리지 않음 */
+    height: auto;                    /* 내용에 따라 늘어나도록 */
   }
+}
 
   #left-panel {
     width: 35%;           /* 좌측 리스트 폭 */
@@ -154,3 +155,4 @@ body {
     aspect-ratio: 16 / 9;  /* 16:9 비율 유지 */
   }
 }
+
