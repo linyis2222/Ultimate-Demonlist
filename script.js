@@ -581,7 +581,7 @@ const demons = [
   },
   {
     rank: 59,
-    name: "Tartarus",
+    name: "Sonic Wave Infinity",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -591,7 +591,7 @@ const demons = [
   },
   {
     rank: 60,
-    name: "Sonic Wave Infinity",
+    name: "Tartarus",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
