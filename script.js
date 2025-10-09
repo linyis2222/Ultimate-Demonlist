@@ -541,6 +541,26 @@ const demons = [
   },
   {
     rank: 55,
+    name: "arcturus",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+    {
+    rank: 56,
+    name: "Sonic Wave Infinity",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+    {
+    rank: 57,
     name: "Waterfall",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -550,17 +570,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 56,
-    name: "arcturus",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
-  },
-  {
-    rank: 57,
+    rank: 58,
     name: "Coalescence",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -570,18 +580,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 58,
-    name: "Crystal Crusher",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
-  },
-  {
     rank: 59,
-    name: "Sonic Wave Infinity",
+    name: "Crystal Crusher",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
