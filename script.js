@@ -311,16 +311,6 @@ const demons = [
   },
   {
     rank: 32,
-    name: "MINUSdry",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
-  },
-  {
-    rank: 33,
     name: "Belladonna",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -330,7 +320,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 34,
+    rank: 33,
     name: "COMBUSTION",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -340,7 +330,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 35,
+    rank: 34,
     name: "Sevvend Clubstep",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -350,7 +340,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 36,
+    rank: 35,
     name: "Deadlier Clubstep",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -360,7 +350,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 37,
+    rank: 36,
     name: "Gaggatrondra",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -370,7 +360,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 38,
+    rank: 37,
     name: "Edge of Destiny",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -380,7 +370,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 39,
+    rank: 38,
     name: "walter white",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -390,8 +380,18 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 40,
+    rank: 39,
     name: "The Plunge",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+    {
+    rank: 40,
+    name: "MINUSdry",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
