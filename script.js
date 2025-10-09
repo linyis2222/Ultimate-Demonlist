@@ -72,9 +72,9 @@ const demons = [
   {
     rank: 8,
     name: "Every End",
-    creators: "MindCap",
+    creators: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, Cobrablitz",
     verifier: "Hqmy",
-    publisher: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, Cobrablitz",
+    publisher: "MindCap",
     video: "https://www.youtube.com/embed/AO--mVVFtKI",
     id: "116174063",
     password: "Free to Copy"
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
