@@ -201,16 +201,6 @@ const demons = [
   },
   {
     rank: 21,
-    name: "Sakupen Circles",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
-  },
-  {
-    rank: 22,
     name: "Deimos",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -220,8 +210,18 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 23,
+    rank: 22,
     name: "The Lightning Rod",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+    {
+    rank: 23,
+    name: "Sakupen Circles",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -239,9 +239,9 @@ const demons = [
     id: "이름만 등록해놓음 나중에 수정함",
     password: "Free to Copy"
   },
-  {
+    {
     rank: 25,
-    name: "poocubed",
+    name: "KOSETSU",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -251,7 +251,7 @@ const demons = [
   },
   {
     rank: 26,
-    name: "KOSETSU",
+    name: "poocubed",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -279,9 +279,9 @@ const demons = [
     id: "이름만 등록해놓음 나중에 수정함",
     password: "Free to Copy"
   },
-  {
+    {
     rank: 29,
-    name: "MINUSdry",
+    name: "Apocalyptic Trilogy",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -291,16 +291,6 @@ const demons = [
   },
   {
     rank: 30,
-    name: "Belladonna",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
-  },
-  {
-    rank: 31,
     name: "Operation Evolution",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -310,7 +300,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 32,
+    rank: 31,
     name: "The Hallucination",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -320,8 +310,18 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    rank: 32,
+    name: "MINUSdry",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
     rank: 33,
-    name: "COMBUSTION",
+    name: "Belladonna",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -331,7 +331,7 @@ const demons = [
   },
   {
     rank: 34,
-    name: "Apocalyptic Trilogy",
+    name: "COMBUSTION",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
