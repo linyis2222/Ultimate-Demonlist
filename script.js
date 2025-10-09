@@ -1728,6 +1728,16 @@ const demons = [
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
     id: "이름만 등록해놓음 나중에 수정함",
     password: "Free to Copy"
+  },
+  {
+    rank: 174,
+    name: "Jesse Pinkman",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
   }
 ];
 
@@ -1737,7 +1747,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-10-09', detail: 'The Art of the Blade ~ PROTON LAUNCHER were placed at #156 ~ #173' },
+  { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174' },
   { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155' },
   { date: '2025-10-09', detail: 'List Created' }
 ];
@@ -1917,6 +1927,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
