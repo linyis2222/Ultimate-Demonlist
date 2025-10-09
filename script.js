@@ -132,22 +132,22 @@ const demons = [
   {
     rank: 14,
     name: "Spectre",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "xander556 & more(38 people)",
+    verifier: "PersonHuman42",
+    publisher: "xander556",
+    video: "https://www.youtube.com/embed/MzsSLKJrLSI",
+    id: "110815379",
     password: "Free to Copy"
   },
   {
     rank: 15,
     name: "Abyss of Darkness",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "Exen, CDMusic, Megaskill, DigitalZero, Masterman, maxfs, Xolarzz, Waffle, ZmL(XDiamondX), GrenadeofTacos, Fenrrig, AlrexX, rynoxious, RealVet, GD Iris, GrayRain, celestia",
+    verifier: "Cursed",
+    publisher: "Exen",
+    video: "https://www.youtube.com/embed/ejJkpqcMMCY",
+    id: "49896559",
+    password: "030422"
   },
   {
     rank: 16,
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
