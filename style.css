@@ -132,29 +132,26 @@ body {
   border: none;
 }
 
-/* ==============================
-   모바일 반응형
-   ============================== */
+/* 모바일용 반응형 */
 @media (max-width: 768px) {
   #container {
-    flex-direction: column; /* 상하 배치 */
-    height: auto;
+    flex-direction: row; /* 좌우 레이아웃 유지 */
+    height: auto;        /* 높이 자동 */
   }
 
   #left-panel {
-    width: 100%;
-    border-right: none;
-    border-bottom: 2px solid #cccccc;
+    width: 35%;           /* 좌측 리스트 폭 줄이기 */
+    min-width: 200px;     /* 너무 좁아지지 않도록 최소폭 */
+    border-right: 2px solid #cccccc;
   }
 
   #right-panel {
-    width: 100%;
+    width: 65%;           /* 우측 레벨 정보 폭 */
     padding: 15px;
   }
 
   #map-video {
-    max-width: 100%;       /* 화면 폭에 맞춤 */
-    padding-top: 56.25%;   /* 16:9 비율 유지 */
-    margin: 15px 0;
+    max-width: 100%;      /* 영상 폭 제한 */
+    height: auto;         /* 세로 자동 */
   }
 }
