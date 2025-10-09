@@ -1557,7 +1557,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-10-10', detail: 'Amethyst has been placed at #2' },
+  { date: '2025-10-10', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155' },
   { date: '2025-10-09', detail: 'List Created' }
 ];
 
@@ -1736,6 +1736,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
