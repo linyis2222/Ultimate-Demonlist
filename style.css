@@ -89,7 +89,7 @@ html, body {
 #left-panel li,
 #left-panel li.map-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* allow multi-line name to wrap */
   gap: 8px;
   padding: 12px;
   margin: 10px 0;
@@ -99,6 +99,7 @@ html, body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
   transition: background 0.18s, transform 0.08s, box-shadow 0.12s;
   cursor: default;
+  min-width: 0; /* important for flex children to shrink on small screens */
 }
 
 /* rank 영역: 우선적으로 .rank 사용, 없으면 li > span:first-child 보완 */
@@ -110,9 +111,10 @@ html, body {
   font-weight: 700;
   color: #333;
   text-align: left;
+  white-space: nowrap; /* rank stays single-line */
 }
 
-/* name 영역: .mname or .name or generic second span */
+/* name 영역: allow wrapping, break long words */
 #left-panel li .mname,
 #left-panel li .name,
 #left-panel li.map-item .mname,
@@ -121,6 +123,10 @@ html, body {
   cursor: pointer;
   color: #111;
   user-select: none;
+  white-space: normal;       /* allow wrapping */
+  word-break: break-word;    /* break long words */
+  overflow-wrap: anywhere;   /* modern wrapping */
+  min-width: 0;              /* critical for flex child to shrink */
 }
 
 /* hover */
@@ -181,7 +187,7 @@ html, body {
    Change Log: 우측 패널내 표현 (네 요청 반영)
    - 주요: 날짜 굵게 + detail 오른쪽, 비율은 2:5 (grid)
    - 컨테이너는 우측 패널 내에서 가로 중앙에 정렬된 max-width 박스를 가짐
-   - 헤더 텍스트는 표시하지 않음 (요청)
+   - 모바일에서는 세로 스택(날짜 위, 내용 아래)
    ============================== */
 
 /* change-log 컨테이너 (우측 패널 내부에 위치) */
@@ -193,7 +199,7 @@ html, body {
   padding: 6px 8px 12px 8px;
 }
 
-/* 각 로그 행: 2:5 비율로 정확히 분할 (grid로 설정) */
+/* 각 로그 행: default desktop -> grid 2:5 */
 .change-log-entry {
   display: grid;
   grid-template-columns: 28.57% 71.43%; /* 2/7 : 5/7 */
@@ -280,6 +286,8 @@ html, body {
 
 /* ==============================
    반응형: 모바일에서도 좌우 레이아웃 유지, 비율 조정
+   - 모바일에서는 왼쪽 리스트 텍스트 줄바꿈 허용 (위에서 이미 적용)
+   - 모바일 change-log는 grid -> stacked (date above detail)
    ============================== */
 @media (max-width: 768px) {
   #container { height: calc(100vh - 56px); }
@@ -287,6 +295,18 @@ html, body {
   #right-panel { flex: 0 0 65%; padding: 12px; height: calc(100vh - 56px); }
   #map-video { max-width: 100%; aspect-ratio: 16/9; }
 
-  /* 모바일에서 change-log 비율 약간 조정해 가독성 향상 */
-  .change-log-entry { grid-template-columns: 32% 68%; }
+  /* 모바일에서 change-log: 세로 스택(날짜 위, 상세 아래) */
+  .change-log-entry {
+    display: block;         /* stacked layout on mobile */
+    padding: 10px 8px;
+  }
+  .change-log-entry .log-date {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .change-log-entry .log-detail {
+    display: block;
+    margin-left: 0;
+  }
 }
