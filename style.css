@@ -1,3 +1,4 @@
+/* 기본 스타일 */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #0d1117;
@@ -12,37 +13,41 @@ h1 {
   color: #ff3e3e;
 }
 
+/* 컨테이너: 좌우 패널 */
 #container {
   display: flex;
-  height: calc(100vh - 80px); /* exclude h1 */
+  height: calc(100vh - 80px);
 }
 
+/* 좌측 패널 */
 #left-panel {
   width: 300px;
-  overflow-y: auto;
   background-color: #161b22;
-  padding: 10px;
+  overflow-y: auto;
   border-right: 2px solid #22272e;
 }
 
 #left-panel ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 #left-panel li {
-  padding: 10px;
-  margin-bottom: 5px;
+  padding: 12px;
+  margin: 10px;
   background-color: #21262d;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.2s;
 }
 
-#left-panel li:hover {
+#left-panel li:hover, #left-panel li.active {
   background-color: #2a313b;
 }
 
+/* 우측 패널 */
 #right-panel {
   flex: 1;
   padding: 20px;
@@ -58,10 +63,11 @@ h1 {
   margin: 5px 0;
 }
 
+/* 유튜브 iframe */
 #map-video iframe {
   width: 100%;
-  height: 300px;
+  max-height: 360px;
   border: none;
-  margin: 10px 0;
+  margin: 15px 0;
   border-radius: 8px;
 }
