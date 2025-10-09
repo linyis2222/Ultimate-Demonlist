@@ -103,9 +103,9 @@ body {
 #map-video {
   position: relative;
   width: 100%;
-  max-width: 560px; /* 영상 최대 가로 크기 조절 */
-  padding-top: 56.25%; /* 16:9 비율 */
-  margin: 15px 0;
+  max-width: 400px; /* 영상 최대 가로 크기 조절 */
+  padding-top: 56.25%; /* 16:9 비율 유지 */
+  margin: 15px 0; /* 위/아래 여백만 */
   border-radius: 8px;
   overflow: hidden;
 }
@@ -118,4 +118,3 @@ body {
   height: 100%;
   border: none;
 }
-
