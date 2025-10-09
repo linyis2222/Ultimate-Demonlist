@@ -392,71 +392,71 @@ const demons = [
     {
     rank: 40,
     name: "MINUSdry",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "CDMusic, Sevant",
+    verifier: "Varium",
+    publisher: "CDMusic",
+    video: "https://www.youtube.com/embed/YvA8ehhzz0Q",
+    id: "89414220",
     password: "Free to Copy"
   },
   {
     rank: 41,
     name: "Solar Flare",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Linear2, Rynoxious",
+    verifier: "swiborg",
+    publisher: "Linear2",
+    video: "https://www.youtube.com/embed/eHQNgty8ypY",
+    id: "90390075",
     password: "Free to Copy"
   },
   {
     rank: 42,
     name: "Climax",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "HushLC, Wain",
+    verifier: "Wain",
+    publisher: "HushLC",
+    video: "https://www.youtube.com/embed/E4ppq2WeAAs",
+    id: "95049815",
     password: "Free to Copy"
   },
   {
     rank: 43,
     name: "LIMBO",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "MindCap & more(34 people)",
+    verifier: "BGram",
+    publisher: "MindCap",
+    video: "https://www.youtube.com/embed/kXYMbaMVOZg",
+    id: "86084399",
+    password: "772002"
   },
   {
     rank: 44,
     name: "Codependence",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "GaidenHertuny & more(31 people)",
+    verifier: "Pukklez",
+    publisher: "TCTEam",
+    video: "https://www.youtube.com/embed/IKGk41hSnDo",
+    id: "62556400",
     password: "Free to Copy"
   },
   {
     rank: 45,
     name: "Mayhem",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Vernam, vit12, Synd, Konsi, DMSD, Sauzzeth, Enely, Thrasher, Vitchrose",
+    verifier: "LordVadercraft",
+    publisher: "LordVadercraft",
+    video: "https://www.youtube.com/embed/U6e6DD32noM",
+    id: "82544060",
     password: "Free to Copy"
   },
   {
     rank: 46,
     name: "Damascus",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Dzeser & more(67 people)",
+    verifier: "Timo",
+    publisher: "Dzeser",
+    video: "https://www.youtube.com/embed/MWQyCUGt76Y",
+    id: "93339534",
     password: "Free to Copy"
   },
   {
@@ -1927,6 +1927,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
