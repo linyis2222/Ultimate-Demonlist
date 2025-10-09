@@ -182,21 +182,21 @@ const demons = [
   {
     rank: 19,
     name: "Subterminal Point",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "SyQual",
+    verifier: "PoCle",
+    publisher: "SyQual",
+    video: "https://www.youtube.com/embed/h2wmRMgACH4",
+    id: "113599729",
     password: "Free to Copy"
   },
   {
     rank: 20,
     name: "KOCMOC",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Vernam, Spk, Synd, Vinty, Sauzzeth, Bli, Kivvvi, Xatz, ZDeadlox, Cuaer",
+    verifier: "zZoink",
+    publisher: "cherryteam",
+    video: "https://www.youtube.com/embed/2CxE-UWCIG4",
+    id: "87665224",
     password: "Free to Copy"
   },
   {
@@ -889,6 +889,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
