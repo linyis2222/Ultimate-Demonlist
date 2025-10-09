@@ -1238,6 +1238,316 @@ const demons = [
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
     id: "이름만 등록해놓음 나중에 수정함",
     password: "Free to Copy"
+  },
+  {
+    rank: 125,
+    name: "Cognition",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 126,
+    name: "ATOMIC CANNON Mk II",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 127,
+    name: "Indivine",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 128,
+    name: "Cosmic Cyclone",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 129,
+    name: "qoUEO",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 130,
+    name: "Gloxinia",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 131,
+    name: "ta1LSD0ll",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 132,
+    name: "SARY NEVER CLEAR",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 133,
+    name: "Rigel",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 134,
+    name: "Scrubbabingo force",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 135,
+    name: "Call Me Maybe",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 136,
+    name: "CORRODERE",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 137,
+    name: "SAND SAILOR",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 138,
+    name: "Akashic Records",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 139,
+    name: "Lucid Nightmares",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 140,
+    name: "RUTHLESS",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 141,
+    name: "Neon Skyline",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 142,
+    name: "Coral Cave",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 143,
+    name: "Launchpad Labyrinth",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 144,
+    name: "SUPERHATEMEWORLD",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 145,
+    name: "Amalgam",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 146,
+    name: "Tenkai",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 147,
+    name: "Sides Of My Mind",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 148,
+    name: "Horros",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 149,
+    name: "Cobwebs",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 150,
+    name: "Omega Interface",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 151,
+    name: "Ykds1479ymdppr",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 152,
+    name: "Ragnarok",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 153,
+    name: "me when machine gang",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 154,
+    name: "Pandemonium",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
+  },
+  {
+    rank: 155,
+    name: "Shardscapes",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
   }
 ];
 
@@ -1289,6 +1599,7 @@ function selectMap(demon, liElement) {
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
   liElement.classList.add('active');
 }
+
 
 
 
