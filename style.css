@@ -1,19 +1,12 @@
 /* ==============================
-   html, body 높이
-   ============================== */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-/* ==============================
    전체 배경
    ============================== */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #ffffff;
   color: #000000;
+  margin: 0;
+  padding: 0;
 }
 
 /* ==============================
@@ -35,7 +28,7 @@ body {
    ============================== */
 #container {
   display: flex;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px); /* 헤더 제외 화면 전체 */
 }
 
 /* ==============================
@@ -141,26 +134,28 @@ body {
    ============================== */
 @media (max-width: 768px) {
   #container {
-    flex-direction: row;                  /* 좌우 레이아웃 유지 */
-    min-height: calc(100vh - 80px);      /* 화면 내용이 적어도 밑이 짤리지 않음 */
-    height: auto;                         /* 내용에 따라 늘어나도록 */
+    flex-direction: row;             
+    height: calc(100vh - 80px); /* 부모 높이 고정 */
+  }
+
+  #left-panel, #right-panel {
+    height: 100%;        /* 부모 컨테이너 높이 그대로 */
+    overflow-y: auto;    /* 좌/우 독립 스크롤 */
   }
 
   #left-panel {
-    flex: 0 0 35%;                       /* 좌측 리스트 폭 고정 */
+    flex: 0 0 35%;        /* 폭 고정 */
     min-width: 150px;
-    overflow-y: auto;                     /* 세로 스크롤 가능 */
-    -webkit-overflow-scrolling: touch;    /* 스크롤 부드럽게 */
+    -webkit-overflow-scrolling: touch; /* 스크롤 부드럽게 */
   }
 
   #right-panel {
-    flex: 0 0 65%;                       /* 우측 레벨 정보 폭 고정 */
+    flex: 0 0 65%;        /* 폭 고정 */
     padding: 10px;
-    overflow-y: auto;                     /* 독립 스크롤 */
   }
 
   #map-video {
-    max-width: 100%;                      /* 모바일 화면 폭에 맞춤 */
-    aspect-ratio: 16 / 9;                 /* 16:9 비율 유지 */
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
   }
 }
