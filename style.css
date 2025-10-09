@@ -24,15 +24,17 @@ html, body {
   gap: 12px;
 }
 
-/* 제목 왼쪽 정렬 */
-.top-left h1 {
+/* 제목 왼쪽 정렬 (호환: .top-left 또는 .header-left) */
+.top-left h1,
+.header-left h1 {
   color: #ffffff;
   margin: 0;
   font-size: 1.1rem;
 }
 
-/* 버튼 그룹 (오른쪽) */
-.top-right {
+/* 버튼 그룹 (오른쪽) - 호환 .top-right / .header-right */
+.top-right,
+.header-right {
   display: flex;
   gap: 8px;
 }
@@ -60,7 +62,7 @@ html, body {
 }
 
 /* ==============================
-   좌측 패널
+   좌측 패널 (기본 스타일 유지 + 개선)
    ============================== */
 #left-panel {
   width: 300px;
@@ -72,29 +74,79 @@ html, body {
   padding: 8px;
 }
 
+/* 기존 규칙 유지 */
 #left-panel ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* map item */
+/* ----------------------------------------------------------------
+   LEFT LIST — 호환성 있게 강력한 스타일 (기존 .map-item 유지 + 일반 li 커버)
+   - 이 블록은 "깨짐" 현상을 해결하도록 디자인됨
+   - rank/name 클래스가 없더라도 동작하도록 :first-child 보완 선택자 포함
+   ---------------------------------------------------------------- */
+#left-panel li,
 #left-panel li.map-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding: 12px;
   margin: 10px 0;
   background: #ffffff;
   border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.04);
   box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-  transition: background 0.18s, transform 0.08s;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  transition: background 0.18s, transform 0.08s, box-shadow 0.12s;
+  cursor: default;
 }
-#left-panel li.map-item:hover { background:#e8e8e8; transform: translateX(3px); }
-#left-panel li.map-item .rank { font-weight:700; width:46px; color:#333; }
-#left-panel li.map-item .mname { cursor:pointer; color:#111; }
 
-/* changelog list item (좌측 간단 목록) */
+/* rank 영역: 우선적으로 .rank 사용, 없으면 li > span:first-child 보완 */
+#left-panel li .rank,
+#left-panel li.map-item .rank,
+#left-panel li > span:first-child {
+  width: 48px;
+  flex: 0 0 48px;
+  font-weight: 700;
+  color: #333;
+  text-align: left;
+}
+
+/* name 영역: .mname or .name or generic second span */
+#left-panel li .mname,
+#left-panel li .name,
+#left-panel li.map-item .mname,
+#left-panel li > span:nth-child(2) {
+  flex: 1 1 auto;
+  cursor: pointer;
+  color: #111;
+  user-select: none;
+}
+
+/* hover */
+#left-panel li:hover,
+#left-panel li.map-item:hover {
+  background: #f0f7ff;
+  transform: translateX(2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+/* active (선택) 상태 - 확실히 보여짐 */
+#left-panel li.active,
+#left-panel li.map-item.active {
+  background: linear-gradient(90deg, #fff7f0, #fff0e6);
+  border-color: rgba(255,127,80,0.25);
+  box-shadow: 0 6px 16px rgba(255,127,80,0.08);
+}
+
+/* name hover 텍스트 강조 */
+#left-panel li .mname:hover,
+#left-panel li .name:hover,
+#left-panel li.map-item .mname:hover {
+  color: #ff7f50;
+}
+
+/* changelog list item (좌측 간단 목록) 유지 */
 #left-panel li.log-item {
   padding: 10px;
   margin: 8px 0;
@@ -120,33 +172,71 @@ html, body {
   height: calc(100vh - 56px);
 }
 
-/* MAP DETAILS */
+/* MAP DETAILS (원본 유지) */
 #map-details h2 { margin:0 0 8px 0; font-size:2rem; color:#ff7f50; }
 #map-details .tag { font-weight:bold; font-size:16px; display:inline-block; width:120px; }
 #map-details .value { font-weight:normal; font-size:14px; display:inline-block; margin-left:10px; white-space:pre-wrap; }
 
 /* ==============================
-   CHANGE LOG VIEW (우측 전용)
-   - 상단 가운데 제목
-   - 테이블: Date | Detail (2:5 비율)
-   - 전체 뷰는 오른쪽 패널과 동일한 높이/스크롤 규칙
+   Change Log: 우측 패널내 표현 (네 요청 반영)
+   - 주요: 날짜 굵게 + detail 오른쪽, 비율은 2:5 (grid)
+   - 컨테이너는 우측 패널 내에서 가로 중앙에 정렬된 max-width 박스를 가짐
+   - 헤더 텍스트는 표시하지 않음 (요청)
+   ============================== */
+
+/* change-log 컨테이너 (우측 패널 내부에 위치) */
+#change-log {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 900px;      /* 중앙 정렬된 읽기 좋은 폭 (필요시 조절) */
+  margin: 6px auto 0 auto; /* 우측 패널 내에서 가로 중앙 */
+  padding: 6px 8px 12px 8px;
+}
+
+/* 각 로그 행: 2:5 비율로 정확히 분할 (grid로 설정) */
+.change-log-entry {
+  display: grid;
+  grid-template-columns: 28.57% 71.43%; /* 2/7 : 5/7 */
+  gap: 12px;
+  align-items: start;
+  padding: 10px 12px;
+  border-bottom: 1px solid #f0f0f0;
+  background: #ffffff;
+}
+
+/* 날짜 영역: 굵게 표시 */
+.change-log-entry .log-date {
+  font-weight: 700;
+  color: #222;
+  white-space: nowrap;
+}
+
+/* detail 영역: 줄바꿈 허용, 단락 보존 */
+.change-log-entry .log-detail {
+  color: #111;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* hover effect for rows */
+.change-log-entry:hover { background: #fbfbfb; }
+
+/* ==============================
+   기존 테이블 기반 change-log 스타일(호환용)
+   - 혹시 이전에 테이블 방식으로 렌더되는 경우를 위해 남겨둠
    ============================== */
 .change-log-title {
   text-align: center;
   font-weight: 700;
-  font-size: 1.6rem; /* 굵고 좀 큰 글씨 */
+  font-size: 1.6rem;
   margin: 8px 0 14px 0;
   color: #111;
 }
-
-/* table wrapper to allow proper scrolling inside right-panel */
 .log-table-wrap {
   width: 100%;
   box-sizing: border-box;
-  overflow-x: auto; /* 세로 스크롤은 right-panel에서 처리 */
+  overflow-x: auto;
 }
-
-/* table 스타일, 2:5 비율을 colgroup으로 지정 */
 #change-log-table {
   width: 100%;
   border-collapse: collapse;
@@ -156,20 +246,14 @@ html, body {
   border-radius: 8px;
   overflow: hidden;
 }
-#change-log-table thead {
-  background: #f3f3f3;
-}
+#change-log-table thead { background: #f3f3f3; }
 #change-log-table th, #change-log-table td {
   padding: 10px 12px;
   border-bottom: 1px solid #e6e6e6;
   vertical-align: top;
   word-break: break-word;
 }
-#change-log-table tbody tr:hover {
-  background: #f9f9f9;
-}
-
-/* 날짜 칸 스타일 */
+#change-log-table tbody tr:hover { background: #f9f9f9; }
 #change-log-table td:first-child, #change-log-table th:first-child {
   font-weight: 600;
   color: #333;
@@ -202,4 +286,7 @@ html, body {
   #left-panel { flex: 0 0 35%; min-width: 140px; height: calc(100vh - 56px); }
   #right-panel { flex: 0 0 65%; padding: 12px; height: calc(100vh - 56px); }
   #map-video { max-width: 100%; aspect-ratio: 16/9; }
+
+  /* 모바일에서 change-log 비율 약간 조정해 가독성 향상 */
+  .change-log-entry { grid-template-columns: 32% 68%; }
 }
