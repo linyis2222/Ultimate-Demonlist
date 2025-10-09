@@ -79,13 +79,28 @@ body {
   overflow-y: auto;
 }
 
+/* 맵 제목 크게 */
 #map-details h2 {
   margin-top: 0;
+  font-size: 2rem; /* 제목 크게 */
   color: #ff7f50;
 }
 
-#map-details p {
-  margin: 5px 0;
+/* 태그(VERIFIER, PUBLISHER 등) */
+#map-details .tag {
+  font-weight: bold;
+  font-size: 16px; /* 태그 글씨 조금 크게 */
+  display: inline-block;
+  width: 120px; /* 일정 공간 확보 */
+}
+
+/* 값(유저네임 등) */
+#map-details .value {
+  font-weight: normal;
+  font-size: 14px; /* 값 글씨 약간 작게 */
+  display: inline-block;
+  margin-left: 10px;
+  color: #000000;
 }
 
 #map-video iframe {
