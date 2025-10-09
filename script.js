@@ -58,12 +58,14 @@ demons.forEach((d, index) => {
 
 function selectMap(demon, liElement) {
   mapName.textContent = demon.name;
-  mapCreator.textContent = `Creator: ${demon.creator}`;
-  mapVerifier.textContent = `Verifier: ${demon.verifier}`;
-  mapPublisher.textContent = `Publisher: ${demon.publisher}`;
+
+  mapCreator.innerHTML = `<span class="tag">CREATOR</span><span class="value">${demon.creator}</span>`;
+  mapVerifier.innerHTML = `<span class="tag">VERIFIER</span><span class="value">${demon.verifier}</span>`;
+  mapPublisher.innerHTML = `<span class="tag">PUBLISHER</span><span class="value">${demon.publisher}</span>`;
+
   mapVideo.innerHTML = `<iframe src="${demon.video}" allowfullscreen></iframe>`;
-  mapId.textContent = `ID: ${demon.id}`;
-  mapPassword.textContent = `Password: ${demon.password}`;
+  mapId.innerHTML = `<span class="tag">ID</span><span class="value">${demon.id}</span>`;
+  mapPassword.innerHTML = `<span class="tag">PASSWORD</span><span class="value">${demon.password}</span>`;
 
   // 선택 표시
   document.querySelectorAll('#map-list li').forEach(li => li.classList.remove('active'));
