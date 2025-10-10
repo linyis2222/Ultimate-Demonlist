@@ -562,61 +562,61 @@ const demons = [
     {
     rank: 57,
     name: "Waterfall",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Vernam & more(27 people)",
+    verifier: "LordVadercraft",
+    publisher: "cherryteam",
+    video: "https://www.youtube.com/embed/VKuVdqneG9Y",
+    id: "110991117",
     password: "Free to Copy"
   },
   {
     rank: 58,
     name: "Coalescence",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "amplitron, Slayerkirb, notesxd, Pixll, Amza",
+    verifier: "amplitron",
+    publisher: "amplitron",
+    video: "https://www.youtube.com/embed/do-a2EzZ4R8",
+    id: "108708033",
     password: "Free to Copy"
   },
   {
     rank: 59,
     name: "Crystal Crusher",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: " Zeniux, Zeus",
+    verifier: "GuitGuit",
+    publisher: "Zeniux",
+    video: "https://www.youtube.com/embed/qirwgz-haVQ",
+    id: "93732702",
     password: "Free to Copy"
   },
   {
     rank: 60,
     name: "Tartarus",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "Riot, Vermillion, Aurorus, Rek3dge, Aquatias, Komp, Cyclic, EndLevel, Azuler, Hinds1324, Salaxium",
+    verifier: "ItzDolphy",
+    publisher: "ItzDolphy",
+    video: "https://www.youtube.com/embed/9YYQBbrsV5Y",
+    id: "59075347",
+    password: "061742"
   },
   {
     rank: 61,
     name: "Delta",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, Loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, MercuryDT, Novaach, Tamori",
+    verifier: "Doggie",
+    publisher: "Drakosa",
+    video: "https://www.youtube.com/embed/_rr3J8DkIm4",
+    id: "93917362",
     password: "Free to Copy"
   },
   {
     rank: 62,
     name: "THE JET ENGINE",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Billzer",
+    verifier: "eviljoe",
+    publisher: "Billzer",
+    video: "https://www.youtube.com/embed/8Q20XU__LoQ",
+    id: "122941596",
     password: "Free to Copy"
   },
     {
@@ -1927,6 +1927,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
