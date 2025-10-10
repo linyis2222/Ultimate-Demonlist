@@ -609,18 +609,8 @@ const demons = [
     id: "93917362",
     password: "Free to Copy"
   },
-  {
-    rank: 62,
-    name: "THE JET ENGINE",
-    creators: "Billzer",
-    verifier: "eviljoe",
-    publisher: "Billzer",
-    video: "https://www.youtube.com/embed/8Q20XU__LoQ",
-    id: "122941596",
-    password: "Free to Copy"
-  },
     {
-    rank: 63,
+    rank: 62,
     name: "NETWORK",
     creators: "Agat3, Amza, theworldofme",
     verifier: "vulcanium4",
@@ -630,13 +620,23 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 64,
+    rank: 63,
     name: "BPATA MPAKA",
     creators: "Inex, NitroN, MittiRan, WitaWaier, Axon, Zeox, Unity, Nezeritos, Yakov47, Hashinoby, Akeko, Dilisae, Ziza, Pes11, Markota, E9_KH, Sosiska",
     verifier: "Maybee",
     publisher: "Inex",
     video: "https://www.youtube.com/embed/sSbHYzYgYfA",
     id: "109947627",
+    password: "Free to Copy"
+  },
+    {
+    rank: 64,
+    name: "THE JET ENGINE",
+    creators: "Billzer",
+    verifier: "eviljoe",
+    publisher: "Billzer",
+    video: "https://www.youtube.com/embed/8Q20XU__LoQ",
+    id: "122941596",
     password: "Free to Copy"
   },
   {
@@ -1747,6 +1747,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #65, above Jigsaw and below BPATA MPAKA' },
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
   { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174' },
   { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155' },
@@ -1928,6 +1929,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
