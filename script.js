@@ -1758,14 +1758,12 @@ const changeLog = [
    DOM references (요소 ID는 index.html에서 정의된 것과 일치)
    =========================== */
 const mapList = document.getElementById('map-list');
-
-const mapDetailsDiv = document.getElementById('map-details'); // 기존 맵 상세 영역
-const changeLogDiv = document.getElementById('change-log'); // 우측 체인지로그 영역
+const mapDetailsDiv = document.getElementById('map-details');
+const changeLogDiv = document.getElementById('change-log');
 
 const btnList = document.getElementById('btn-list');
 const btnChangelog = document.getElementById('btn-changelog');
 
-/* 아래는 map-details 내부 요소들 (원본과 호환되도록 id 명 맞춤) */
 const mapName = document.getElementById('map-name');
 const mapCreators = document.getElementById('map-creators');
 const mapVerifier = document.getElementById('map-verifier');
@@ -1774,162 +1772,133 @@ const mapVideo = document.getElementById('map-video');
 const mapId = document.getElementById('map-id');
 const mapPassword = document.getElementById('map-password');
 
-/* ===========================
-   안전한 텍스트 삽입을 위한 간단한 이스케이프 함수
-   =========================== */
 function escapeHtml(str) {
   return String(str || '').replace(/[&<>"']/g, function(m) {
     return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m];
   });
 }
 
-/* ===========================
-   1) 좌측 리스트 생성 (원본과 동일 방식 유지)
-   - 리스트가 길 경우에도 자동으로 좌측에서 스크롤됩니다.
-   - 'name' span 클릭시 selectMap 호출 (맵 상세 표시)
-   =========================== */
+// ===========================
+// 좌측 리스트 생성 (구분 라벨 포함)
+// ===========================
 function buildLeftList() {
-  // clear first
   mapList.innerHTML = '';
 
   demons.forEach((d, index) => {
+    // 구분 라벨 삽입
+    let separator = null;
+    if (d.rank === 1) separator = "Main List";
+    else if (d.rank === 76) separator = "Extended List";
+    else if (d.rank === 151) separator = "Legacy List";
+
+    if (separator) {
+      const sepLi = document.createElement('li');
+      sepLi.textContent = separator;
+      sepLi.classList.add('separator'); // CSS에서 style 정의
+      mapList.appendChild(sepLi);
+    }
+
+    // 기존 li 생성
     const li = document.createElement('li');
 
-    // rank span (비활성 텍스트)
     const rankSpan = document.createElement('span');
     rankSpan.textContent = `#${d.rank} `;
     rankSpan.style.fontWeight = 'bold';
     rankSpan.style.marginRight = '6px';
 
-    // name span (클릭 가능)
     const nameSpan = document.createElement('span');
     nameSpan.textContent = d.name;
     nameSpan.classList.add('name');
-
-    // 클릭하면 selectMap 호출 — 이 함수은 맵 상세를 우측에 렌더
-    nameSpan.addEventListener('click', () => {
-      selectMap(d, li);
-    });
+    nameSpan.addEventListener('click', () => selectMap(d, li));
 
     li.appendChild(rankSpan);
     li.appendChild(nameSpan);
-
     mapList.appendChild(li);
 
-    // 기본 첫 항목은 페이지 로드 시 자동 선택 (기존 동작 유지)
-    if (index === 0) {
-      // 약간의 지연 없이 바로 선택 (동일 동작 재현)
-      selectMap(d, li);
-    }
+    if (index === 0) selectMap(d, li);
   });
 }
 
-/* ===========================
-   2) selectMap: 맵 상세 표시 (기존 동작 유지)
-   - 맵 상세를 우측(map-details)에 출력한다.
-   - 만약 changeLog 뷰가 보이고 있어도, 맵 클릭 시 map-details로 전환하여 상세를 보여줌.
-   - (즉 좌측 리스트 클릭은 항상 '맵 상세'로 동작함.)
-   =========================== */
+// ===========================
+// map 상세 표시
+// (기존 selectMap 함수 그대로 유지)
+// ===========================
 function selectMap(demon, liElement) {
-  // 1) 우측: map-details 보이기, change-log 숨기기
   if (mapDetailsDiv) mapDetailsDiv.style.display = '';
   if (changeLogDiv) changeLogDiv.style.display = 'none';
 
-  // 2) populate fields (CREATORS 등 기존 포맷 유지)
   mapName.textContent = demon.name;
   mapCreators.innerHTML = `<span class="tag">CREATORS</span><span class="value">${escapeHtml(demon.creators)}</span>`;
   mapVerifier.innerHTML = `<span class="tag">VERIFIER</span><span class="value">${escapeHtml(demon.verifier)}</span>`;
   mapPublisher.innerHTML = `<span class="tag">PUBLISHER</span><span class="value">${escapeHtml(demon.publisher)}</span>`;
-
-  // embed video safely (iframe src already set in data)
   mapVideo.innerHTML = `<iframe src="${escapeHtml(demon.video)}" allowfullscreen></iframe>`;
-
   mapId.innerHTML = `<span class="tag">ID</span><span class="value">${escapeHtml(demon.id)}</span>`;
   mapPassword.innerHTML = `<span class="tag">PASSWORD</span><span class="value">${escapeHtml(demon.password)}</span>`;
 
-  // 3) left-list highlight (기존 동작 유지)
   document.querySelectorAll('#map-list li').forEach(el => el.classList.remove('active'));
   if (liElement) liElement.classList.add('active');
 
-  // 4) update button states: when a map is selected explicitly we consider this being in List-mode
   btnList.classList.add('active');
   btnChangelog.classList.remove('active');
   btnList.setAttribute('aria-pressed', 'true');
   btnChangelog.setAttribute('aria-pressed', 'false');
 }
 
-/* ===========================
-   3) renderChangeLog: 우측 changeLogDiv에 텍스트 출력
-   - 요청: "헤더 표시 X", 각 라인 "날짜(굵게)   내용"
-   - 날짜는 .log-date(굵게), detail은 .log-detail
-   - changeLog 배열의 순서대로 출력 (원하면 역순 정렬도 가능)
-   =========================== */
+// ===========================
+// changeLog 표시
+// ===========================
 function renderChangeLog() {
   if (!changeLogDiv) return;
 
-  // clear previous content
   changeLogDiv.innerHTML = '';
 
-  // for each log entry, create a .change-log-entry row
   changeLog.forEach((entry) => {
     const row = document.createElement('div');
     row.className = 'change-log-entry';
 
     const d = document.createElement('div');
     d.className = 'log-date';
-    d.textContent = entry.date; // 날짜 텍스트 (굵게 스타일은 CSS에서 처리)
+    d.textContent = entry.date;
 
     const detail = document.createElement('div');
     detail.className = 'log-detail';
-    detail.textContent = entry.detail; // 요청대로 글만 표시
+    detail.textContent = entry.detail;
 
     row.appendChild(d);
     row.appendChild(detail);
     changeLogDiv.appendChild(row);
   });
 
-  // show changeLog view (우측) and hide map-details
   changeLogDiv.style.display = 'block';
   if (mapDetailsDiv) mapDetailsDiv.style.display = 'none';
 
-  // update button states (UI)
   btnChangelog.classList.add('active');
   btnList.classList.remove('active');
   btnChangelog.setAttribute('aria-pressed', 'true');
   btnList.setAttribute('aria-pressed', 'false');
 }
 
-/* ===========================
-   4) Button event wiring
-   - List 버튼: 언제 눌러도 '데몬리스트 초기화' 동작 (1위 선택)
-   - Change Log 버튼: 우측 패널에 changeLog 표시
-   =========================== */
+// ===========================
+// 버튼 이벤트
+// ===========================
 btnList.addEventListener('click', () => {
-  // show map-details and select first map
   btnList.classList.add('active');
   btnChangelog.classList.remove('active');
   btnList.setAttribute('aria-pressed', 'true');
   btnChangelog.setAttribute('aria-pressed', 'false');
 
-  // select first map if exists
-  const firstLi = document.querySelector('#map-list li');
+  const firstLi = document.querySelector('#map-list li:not(.separator)');
   if (demons.length > 0 && firstLi) {
     selectMap(demons[0], firstLi);
   }
 });
 
-btnChangelog.addEventListener('click', () => {
-  renderChangeLog();
-});
+btnChangelog.addEventListener('click', () => renderChangeLog());
 
-/* ===========================
-   5) Initial boot: build left list and render initial right content
-   - Left list is built from demons array (original behavior preserved)
-   - First map is automatically selected (original behavior preserved)
-   =========================== */
+// ===========================
+// 초기 부트
+// ===========================
 buildLeftList();
-// NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
-
 
 
 
