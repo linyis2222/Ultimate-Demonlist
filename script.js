@@ -1787,9 +1787,9 @@ function buildLeftList() {
   demons.forEach((d, index) => {
     // 구분 라벨 삽입
     let separator = null;
-    if (d.rank === 1) separator = "Main List";
-    else if (d.rank === 76) separator = "Extended List";
-    else if (d.rank === 151) separator = "Legacy List";
+    if (d.rank === 1) separator = "Main List (#1 ~ #75)";
+    else if (d.rank === 76) separator = "Extended List (#76 ~ #150)";
+    else if (d.rank === 151) separator = "Legacy List (#151 ~)";
 
     if (separator) {
       const sepLi = document.createElement('li');
@@ -1899,6 +1899,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
