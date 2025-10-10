@@ -389,24 +389,24 @@ const demons = [
     id: "113220284",
     password: "Free to Copy"
   },
-    {
-    rank: 40,
-    name: "MINUSdry",
-    creators: "CDMusic, Sevant",
-    verifier: "Varium",
-    publisher: "CDMusic",
-    video: "https://www.youtube.com/embed/YvA8ehhzz0Q",
-    id: "89414220",
-    password: "Free to Copy"
-  },
   {
-    rank: 41,
+    rank: 40,
     name: "Solar Flare",
     creators: "Linear2, Rynoxious",
     verifier: "swiborg",
     publisher: "Linear2",
     video: "https://www.youtube.com/embed/eHQNgty8ypY",
     id: "90390075",
+    password: "Free to Copy"
+  },
+      {
+    rank: 41,
+    name: "MINUSdry",
+    creators: "CDMusic, Sevant",
+    verifier: "Varium",
+    publisher: "CDMusic",
+    video: "https://www.youtube.com/embed/YvA8ehhzz0Q",
+    id: "89414220",
     password: "Free to Copy"
   },
   {
@@ -1747,6 +1747,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
   { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174' },
   { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155' },
   { date: '2025-10-09', detail: 'List Created' }
@@ -1927,6 +1928,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
