@@ -662,72 +662,72 @@ const demons = [
    {
     rank: 67,
     name: "RUST",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "neigefeu",
+    verifier: "Keir",
+    publisher: "neigefeu",
+    video: "https://www.youtube.com/embed/mEXGlrNMyR4",
+    id: "71912451",
     password: "Free to Copy"
   },
   {
     rank: 68,
     name: "Checked Steam",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "gruzyGD",
+    verifier: "Whizkid05",
+    publisher: "gruzyGD",
+    video: "https://www.youtube.com/embed/cq6047eYGXs",
+    id: "105748155",
     password: "Free to Copy"
   },
       {
     rank: 69,
     name: "Starlit Stroll",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Enfur, Cork",
+    verifier: "N0ctaXI",
+    publisher: "Enfur",
+    video: "https://www.youtube.com/embed/U7MM74dTXuI",
+    id: "115380769",
     password: "Free to Copy"
   },
     {
     rank: 70,
     name: "Cimmerian Shade",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "SrGuillester, Azuler",
+    verifier: "spcreat",
+    publisher: "spcreat",
+    video: "https://www.youtube.com/embed/lUNvV1k19HA",
+    id: "93340783",
     password: "Free to Copy"
   },
   {
     rank: 71,
     name: "Viprin UFO",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "nothawkyre, Morin, PhantomX, Solarion, Valentine, Graded, noodleshelf, Arithean, Moonlightmari, Smear",
+    verifier: "TheRealAlexbear",
+    publisher: "nothawkyre",
+    video: "https://www.youtube.com/embed/LTMW9Py-nHE",
+    id: "107238250",
     password: "Free to Copy"
   },
   {
     rank: 72,
     name: "Terminal Rampancy",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Xyriak",
+    verifier: "Bigthunder556",
+    publisher: "Xyriak",
+    video: "https://www.youtube.com/embed/29hRhhqQTLc",
+    id: "90057148",
     password: "Free to Copy"
   },
   {
     rank: 73,
     name: "The Golden",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "BoBoBoBoBoBoBo, El3ctr0, Gooseam, Geemi, rWoomy, EyeOfTheStorm, Eridani, BySelling",
+    verifier: "nSwish",
+    publisher: "BoBoBoBoBoBoBo",
+    video: "https://www.youtube.com/embed/wpS5PSHmji0",
+    id: "60978746",
+    password: "886988"
   },
   {
     rank: 74,
@@ -1929,6 +1929,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
