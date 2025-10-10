@@ -732,92 +732,92 @@ const demons = [
   {
     rank: 74,
     name: "Natural Disaster",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "GammaReXx, TheRealPeng, FreddyDash, XeNith, CairoX, Nyoom, AVRG, Szilu, Isem, PugDomination, feijoa, awesomeme, Cantis, Dreamlight, Dutchiee",
+    verifier: "iIiLaSeRiIi",
+    publisher: "iIiLaSeRiIi",
+    video: "https://www.youtube.com/embed/_0GqdSFmG_8",
+    id: "107741051",
     password: "Free to Copy"
   },
   {
     rank: 75,
     name: "Verdant Landscape",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "ItzNisha",
+    verifier: "ItzNisha",
+    publisher: "ItzNisha",
+    video: "https://www.youtube.com/embed/wjZxkS5KC0A",
+    id: "76543324",
+    password: "446799"
   },
   {
     rank: 76,
     name: "ATOMIC CANNON Mk III",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "LIEB, Giron, FrostBurn, ZeroSR",
+    verifier: "Zeronium",
+    publisher: "LIEB",
+    video: "https://www.youtube.com/embed/5nM4hlnLDyM",
+    id: "104672501",
     password: "Free to Copy"
   },
   {
     rank: 77,
     name: "Shukketsu",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "MadisonYuko, Gablor, Duke, arekushi14, Zentraa",
+    verifier: "Baeru",
+    publisher: "MadisonYuko",
+    video: "https://www.youtube.com/embed/nkG4hKJIz2g",
+    id: "75286957",
     password: "Free to Copy"
   },
   {
     rank: 78,
     name: "Oblivion",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Benji8080, Eth, Goob, Silver, zDeadlox",
+    verifier: "dice88",
+    publisher: "dice88",
+    video: "https://www.youtube.com/embed/ZcmDAm50BB0",
+    id: "71025973",
     password: "Free to Copy"
   },
   {
     rank: 79,
     name: "Critical Heat",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Zeniux, ZeusGD",
+    verifier: "hstorm",
+    publisher: "Zeniux",
+    video: "https://www.youtube.com/embed/UjYIt2jy_BY",
+    id: "88442157",
     password: "Free to Copy"
   },
   {
     rank: 80,
     name: "limbo but uwu ig idk",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Akunakunn",
+    verifier: "ViperVenom95",
+    publisher: "Akunakunn",
+    video: "https://www.youtube.com/embed/3B36N-qfOD8",
+    id: "110705712",
     password: "Free to Copy"
   },
   {
     rank: 81,
     name: "The Paroxysm of Rage",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Zacanaii, Evil Buds",
+    verifier: "turtle",
+    publisher: "Zacanaii",
+    video: "https://www.youtube.com/embed/nq3i1qJQeEk",
+    id: "87071894",
     password: "Free to Copy"
   },
   {
     rank: 82,
     name: "Aerial Gleam",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "EndLevel, CuLuC, Antares, zDeadlox, El3cTr0",
+    verifier: "Doggie",
+    publisher: "EndLevel",
+    video: "https://www.youtube.com/embed/eyZjKtrGVYw",
+    id: "79771070",
+    password: "789123"
   },
   {
     rank: 83,
@@ -1899,6 +1899,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
