@@ -622,41 +622,41 @@ const demons = [
     {
     rank: 63,
     name: "NETWORK",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Agat3, Amza, theworldofme",
+    verifier: "vulcanium4",
+    publisher: "Agat3",
+    video: "https://www.youtube.com/embed/K7wJi01J5D8",
+    id: "95176417",
     password: "Free to Copy"
   },
   {
     rank: 64,
     name: "BPATA MPAKA",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Inex, NitroN, MittiRan, WitaWaier, Axon, Zeox, Unity, Nezeritos, Yakov47, Hashinoby, Akeko, Dilisae, Ziza, Pes11, Markota, E9_KH, Sosiska",
+    verifier: "Maybee",
+    publisher: "Inex",
+    video: "https://www.youtube.com/embed/sSbHYzYgYfA",
+    id: "109947627",
     password: "Free to Copy"
   },
   {
     rank: 65,
     name: "Jigsaw",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "nekongames & more(29 people)",
+    verifier: "Gokill",
+    publisher: "nekongames",
+    video: "https://www.youtube.com/embed/FPfSqlI0T30",
+    id: "95031870",
     password: "Free to Copy"
   },
   {
     rank: 66,
     name: "UNKNOWN",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Relayne, NineDice, Gusearth, kywy, Renn241, DrCuber, GhostVandalf, GD Iris, muriday",
+    verifier: "TheDiamondPizza",
+    publisher: "NineDice",
+    video: "https://www.youtube.com/embed/a1sQxQqU6EM",
+    id: "88203501",
     password: "Free to Copy"
   },
    {
@@ -1927,6 +1927,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
