@@ -1747,7 +1747,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #65, above Jigsaw and below BPATA MPAKA' },
+  { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA' },
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
   { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174' },
   { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155' },
@@ -1929,6 +1929,7 @@ btnChangelog.addEventListener('click', () => {
    =========================== */
 buildLeftList();
 // NOTE: buildLeftList already calls selectMap on index 0, so right panel initial state is set.
+
 
 
 
