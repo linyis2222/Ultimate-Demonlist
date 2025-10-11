@@ -1747,7 +1747,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-10-10', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos' },
+  { date: '2025-10-11', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos' },
   { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA' },
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
   { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174' },
@@ -1900,6 +1900,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
