@@ -117,7 +117,7 @@ const demons = [
     publisher: "Pockewindfish",
     video: "https://www.youtube.com/embed/16Zh8jssanc",
     id: "89496627",
-    password: "30607"
+    password: "030607"
   },
   {
     rank: 13,
@@ -147,7 +147,7 @@ const demons = [
     publisher: "Exen",
     video: "https://www.youtube.com/embed/ejJkpqcMMCY",
     id: "49896559",
-    password: "030422"
+    password: "Free to Copy"
   },
   {
     rank: 16,
@@ -177,7 +177,7 @@ const demons = [
     publisher: "IcEDCave",
     video: "https://www.youtube.com/embed/kpcF1-QAHQc",
     id: "27690100",
-    password: "147337"
+    password: "Free to Copy"
   },
   {
     rank: 19,
@@ -257,7 +257,7 @@ const demons = [
     publisher: "Liisp",
     video: "https://www.youtube.com/embed/VdVQkK3G234",
     id: "85133223",
-    password: "688255"
+    password: "Free to Copy"
   },
   {
     rank: 27,
@@ -307,7 +307,7 @@ const demons = [
     publisher: "SyQual",
     video: "https://www.youtube.com/embed/tYbXsNkO9HE",
     id: "81139702",
-    password: "220619"
+    password: "Free to Copy"
   },
   {
     rank: 32,
@@ -317,7 +317,7 @@ const demons = [
     publisher: "cherryteam",
     video: "https://www.youtube.com/embed/saHSgoU1JQQ",
     id: "94969889",
-    password: "1441"
+    password: "001441"
   },
   {
     rank: 33,
@@ -427,7 +427,7 @@ const demons = [
     publisher: "MindCap",
     video: "https://www.youtube.com/embed/kXYMbaMVOZg",
     id: "86084399",
-    password: "772002"
+    password: "Free to Copy"
   },
   {
     rank: 44,
@@ -907,7 +907,7 @@ const demons = [
     publisher: "RicoLP",
     video: "https://www.youtube.com/embed/N4QjElo58_o",
     id: "52374843",
-    password: "5875"
+    password: "005875"
   },
   {
     rank: 92,
@@ -1900,6 +1900,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
