@@ -822,95 +822,105 @@ const demons = [
   {
     rank: 83,
     name: "Blood Echo",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Farva, Goobfrudla, LimeTime03, snapNK, clodsire",
+    verifier: "swiborg",
+    publisher: "Farva",
+    video: "https://www.youtube.com/embed/fSvk4tLlQzQ",
+    id: "112242564",
     password: "Free to Copy"
   },
   {
     rank: 84,
     name: "Trueffet",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "SyQual, Rainstorm",
+    verifier: "Baeru",
+    publisher: "SyQual",
+    video: "https://www.youtube.com/embed/yHESkazVD4Q",
+    id: "71434979",
     password: "Free to Copy"
   },
   {
     rank: 85,
     name: "VOID",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "nikoberry",
+    verifier: "Whizkid05",
+    publisher: "nikoberry",
+    video: "https://www.youtube.com/embed/kN1FUoucoSc",
+    id: "100990392",
     password: "Free to Copy"
   },
   {
     rank: 86,
     name: "Destruction 19",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "bosjoker",
+    verifier: "razsta4ax",
+    publisher: "bosjoker",
+    video: "https://www.youtube.com/embed/bosjoker",
+    id: "99495619",
     password: "Free to Copy"
   },
   {
     rank: 87,
     name: "Starlight Summit",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "hazelmrow",
+    verifier: "hazelmrow",
+    publisher: "hazelmrow",
+    video: "https://www.youtube.com/embed/LB9xx41M4Ns",
+    id: "114530859",
     password: "Free to Copy"
   },
   {
     rank: 88,
     name: "IRIS",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "KazaGD, Skyavoxii, Nexel",
+    verifier: "bnuuy",
+    publisher: "KazaGD",
+    video: "https://www.youtube.com/embed/WiFwAU8pgr4",
+    id: "123853954",
     password: "Free to Copy"
   },
   {
     rank: 89,
     name: "Judgement Knights",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "HangerLord, fusion425, Farlayy, Insxne97, kngstn",
+    verifier: "fusion425",
+    publisher: "HangerLord",
+    video: "https://www.youtube.com/embed/MzzY8nWfxnk",
+    id: "110913375",
     password: "Free to Copy"
   },
   {
     rank: 90,
     name: "Kenos",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Bianox, ChiefFlurry, Terron, Pennutoh, Krampux, Eclipsed, SlimJim, Splash, nikroplays, Lazuli, Endlevel, Spectex, Zimnior12, Salaxium",
+    verifier: "npesta",
+    publisher: "npesta",
+    video: "https://www.youtube.com/embed/Bs1kVySdUtI",
+    id: "58673581",
     password: "Free to Copy"
   },
   {
     rank: 91,
-    name: "WOBBLING MACHINE",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    name: "Zodiac",
+    creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
+    verifier: "Technical",
+    publisher: "RicoLP",
+    video: "https://www.youtube.com/embed/N4QjElo58_o",
+    id: "52374843",
+    password: "5875"
   },
   {
     rank: 92,
+    name: "WOBBLING MACHINE",
+    creators: "Smarted",
+    verifier: "conski",
+    publisher: "Smarted",
+    video: "https://www.youtube.com/embed/RKX6VOsICOg",
+    id: "87130877",
+    password: "Free to Copy"
+  },
+  {
+    rank: 93,
     name: "Esfera",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -920,7 +930,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 93,
+    rank: 94,
     name: "Axinie",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -930,18 +940,8 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 94,
-    name: "NEUTRA",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
-  },
-  {
     rank: 95,
-    name: "Zodiac",
+    name: "NEUTRA",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1747,6 +1747,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-10-10', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos' },
   { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA' },
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
   { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174' },
@@ -1899,6 +1900,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
