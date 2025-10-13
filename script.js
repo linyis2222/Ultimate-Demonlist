@@ -31,6 +31,16 @@ const demons = [
   },
   {
     rank: 4,
+    name: "Tidal Wave",
+    creators: "OniLinkGD",
+    verifier: "zZoink",
+    publisher: "OniLinkGD",
+    video: "https://www.youtube.com/embed/9fsZ014qB3s",
+    id: "86407629",
+    password: "Free to Copy"
+  },
+  {
+    rank: 5,
     name: "Nullscapes",
     creators: "ItzKiba",
     verifier: "zZoink",
@@ -40,23 +50,13 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 5,
+    rank: 6,
     name: "BOOBAWAMBA",
     creators: "Akunakunn, TheLetterV, ygg24",
     verifier: "EastShark",
     publisher: "Akunakunn",
     video: "https://www.youtube.com/embed/20fYiqLAo_E",
     id: "110816181",
-    password: "Free to Copy"
-  },
-  {
-    rank: 6,
-    name: "Tidal Wave",
-    creators: "OniLinkGD",
-    verifier: "zZoink",
-    publisher: "OniLinkGD",
-    video: "https://www.youtube.com/embed/9fsZ014qB3s",
-    id: "86407629",
     password: "Free to Copy"
   },
   {
@@ -1747,6 +1747,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-10-13', detail: 'Tidal Wave has been raised from #6 to #4, above Nullscapes and below Amethyst' },
   { date: '2025-10-11', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos' },
   { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA' },
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
@@ -1900,6 +1901,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
