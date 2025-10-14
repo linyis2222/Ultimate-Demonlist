@@ -1012,71 +1012,71 @@ const demons = [
   {
     rank: 102,
     name: "Widestep",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Demishio",
+    verifier: "Demishio",
+    publisher: "Demishio",
+    video: "https://www.youtube.com/embed/TN8fHN_XV3o",
+    id: "69289606",
     password: "Free to Copy"
   },
   {
     rank: 103,
     name: "Crackhead Circles",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "AlrexX, TriplasH, rynoxious, Linear",
+    verifier: "teraaa",
+    publisher: "AlrexX",
+    video: "https://www.youtube.com/embed/_4MDq8Us5gM",
+    id: "95524621",
     password: "Free to Copy"
   },
   {
     rank: 104,
     name: "Scream Machine",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "TMco, HelpegasuS, nikroplays, Zipixbox, ItsHybrid, Realvet, Wesp, Siv, Connected, Culuc, GD Iris, rynoxious, SwagMasta001",
+    verifier: "WatchPiggy",
+    publisher: "TMco",
+    video: "https://www.youtube.com/embed/n-KeSGEX7Jg",
+    id: "96035641",
     password: "Free to Copy"
   },
   {
     rank: 105,
     name: "Keres",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
-    password: "Free to Copy"
+    creators: "ItsHybrid & more(24 people)",
+    verifier: "Crisis",
+    publisher: "ItsHybrid",
+    video: "https://www.youtube.com/embed/MFFIjZP7PxQ",
+    id: "74391640",
+    password: "251326"
   },
   {
     rank: 106,
     name: "Ascent",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "Rimexon, Nekon, qGreazy, Medu, Vendas, Rhymer, Zxnt, Epdjip, Revue, Kngstn, Plugy, PreeZee, Vevex, Khelado, Vinty, Grimes, Xenith, Ego, IvashkaUA, Tomi, Iz",
+    verifier: "LordVadercraft",
+    publisher: "Rimexon",
+    video: "https://www.youtube.com/embed/sII8zQZIJlg",
+    id: "112046512",
     password: "Free to Copy"
   },
   {
     rank: 107,
     name: "Lotus Flower",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "StarkyTheSalad, zzzgecko",
+    verifier: "BrianTheBurger",
+    publisher: "StarkyTheSalad",
+    video: "https://www.youtube.com/embed/pTgOHcwJhd0",
+    id: "75813671",
     password: "Free to Copy"
   },
   {
     rank: 108,
     name: "Frost Spirit",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    creators: "DrayTM, Halzion, Reda, Zipixbox, Realvet, River, silver, AlrexX, Valentine, Linear, Pla, Mercury, InfiniteStyles, GDIris, ConnectedGD, Manu",
+    verifier: "Varium",
+    publisher: "Quaybus",
+    video: "https://www.youtube.com/embed/KXbaRnRpm58",
+    id: "95767653",
     password: "Free to Copy"
   },
   {
@@ -1738,6 +1738,16 @@ const demons = [
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
     id: "이름만 등록해놓음 나중에 수정함",
     password: "Free to Copy"
+  },
+  {
+    rank: 174,
+    name: "Jesse Pinkman",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "이름만 등록해놓음 나중에 수정함",
+    password: "Free to Copy"
   }
 ];
 
@@ -1901,6 +1911,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
