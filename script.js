@@ -841,56 +841,6 @@ const demons = [
   },
   {
     rank: 85,
-    name: "VOID",
-    creators: "nikoberry",
-    verifier: "Whizkid05",
-    publisher: "nikoberry",
-    video: "https://www.youtube.com/embed/kN1FUoucoSc",
-    id: "100990392",
-    password: "Free to Copy"
-  },
-  {
-    rank: 86,
-    name: "Destruction 19",
-    creators: "bosjoker",
-    verifier: "razsta4ax",
-    publisher: "bosjoker",
-    video: "https://www.youtube.com/embed/bosjoker",
-    id: "99495619",
-    password: "Free to Copy"
-  },
-  {
-    rank: 87,
-    name: "Starlight Summit",
-    creators: "hazelmrow",
-    verifier: "hazelmrow",
-    publisher: "hazelmrow",
-    video: "https://www.youtube.com/embed/LB9xx41M4Ns",
-    id: "114530859",
-    password: "Free to Copy"
-  },
-  {
-    rank: 88,
-    name: "IRIS",
-    creators: "KazaGD, Skyavoxii, Nexel",
-    verifier: "bnuuy",
-    publisher: "KazaGD",
-    video: "https://www.youtube.com/embed/WiFwAU8pgr4",
-    id: "123853954",
-    password: "Free to Copy"
-  },
-  {
-    rank: 89,
-    name: "Judgement Knights",
-    creators: "HangerLord, fusion425, Farlayy, Insxne97, kngstn",
-    verifier: "fusion425",
-    publisher: "HangerLord",
-    video: "https://www.youtube.com/embed/MzzY8nWfxnk",
-    id: "110913375",
-    password: "Free to Copy"
-  },
-  {
-    rank: 90,
     name: "Kenos",
     creators: "Bianox, ChiefFlurry, Terron, Pennutoh, Krampux, Eclipsed, SlimJim, Splash, nikroplays, Lazuli, Endlevel, Spectex, Zimnior12, Salaxium",
     verifier: "npesta",
@@ -900,7 +850,67 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    rank: 86,
+    name: "Fragile",
+    creators: "iIiViRuZiIi, EndLevel, Gablor, zYuko, XLSpiral, deadlox, Artumanka, Minaxa",
+    verifier: "vaen",
+    publisher: "EndLevel",
+    video: "https://www.youtube.com/embed/XfXzGv0oALw",
+    id: "65588448",
+    password: "Free to Copy"
+  },
+  {
+    rank: 87,
+    name: "VOID",
+    creators: "nikoberry",
+    verifier: "Whizkid05",
+    publisher: "nikoberry",
+    video: "https://www.youtube.com/embed/kN1FUoucoSc",
+    id: "100990392",
+    password: "Free to Copy"
+  },
+  {
+    rank: 88,
+    name: "Destruction 19",
+    creators: "bosjoker",
+    verifier: "razsta4ax",
+    publisher: "bosjoker",
+    video: "https://www.youtube.com/embed/bosjoker",
+    id: "99495619",
+    password: "Free to Copy"
+  },
+  {
+    rank: 89,
+    name: "Starlight Summit",
+    creators: "hazelmrow",
+    verifier: "hazelmrow",
+    publisher: "hazelmrow",
+    video: "https://www.youtube.com/embed/LB9xx41M4Ns",
+    id: "114530859",
+    password: "Free to Copy"
+  },
+  {
+    rank: 90,
+    name: "IRIS",
+    creators: "KazaGD, Skyavoxii, Nexel",
+    verifier: "bnuuy",
+    publisher: "KazaGD",
+    video: "https://www.youtube.com/embed/WiFwAU8pgr4",
+    id: "123853954",
+    password: "Free to Copy"
+  },
+  {
     rank: 91,
+    name: "Judgement Knights",
+    creators: "HangerLord, fusion425, Farlayy, Insxne97, kngstn",
+    verifier: "fusion425",
+    publisher: "HangerLord",
+    video: "https://www.youtube.com/embed/MzzY8nWfxnk",
+    id: "110913375",
+    password: "Free to Copy"
+  },
+  {
+    rank: 92,
     name: "Zodiac",
     creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
     verifier: "Technical",
@@ -910,7 +920,7 @@ const demons = [
     password: "005875"
   },
   {
-    rank: 92,
+    rank: 93,
     name: "WOBBLING MACHINE",
     creators: "Smarted",
     verifier: "conski",
@@ -920,7 +930,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 93,
+    rank: 94,
     name: "Esfera",
     creators: "KeiAs & more(33 people)",
     verifier: "Baeru",
@@ -930,7 +940,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 94,
+    rank: 95,
     name: "Axinie",
     creators: "SaturMan",
     verifier: "SaturMan",
@@ -940,7 +950,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 95,
+    rank: 96,
     name: "NEUTRA",
     creators: "Jenkins, Ilrell, Marwec",
     verifier: "AeonAir",
@@ -950,7 +960,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 96,
+    rank: 97,
     name: "Swing Swing",
     creators: "KazaGD, rnexel, z3phli, rinjello, milklover2351, velkyy, KrynioGD, asmallsock, Airu2015, zurteh, itsRyoui, usbserialbus, DuskerHu, SupaCLUCK, devilmine, dshifter7, Polygd",
     verifier: "Whizkid05",
@@ -960,7 +970,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 97,
+    rank: 98,
     name: "Guideless Goobering",
     creators: "Enfur, Xuser, Akunakunn",
     verifier: "Zytrox",
@@ -970,7 +980,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 98,
+    rank: 99,
     name: "DISSONANCE",
     creators: "ivyteal",
     verifier: "zSquidKnight",
@@ -980,23 +990,13 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 99,
+    rank: 100,
     name: "Lithium",
     creators: "L4TeZk, RpgRaketti, xVainaja, DreamZoneGD, At424, Copc, Kekis, LapoGD, ManHeadRambo, Ked, Aleph, Valentine, ArtsiBurn, Cookieszs, Darksive, Novaach, TrueInverse, goob, Lepuska, kloone, Xenote, Flaksy",
     verifier: "kloone",
     publisher: "L4TeZk",
     video: "https://www.youtube.com/embed/IfVM56qNVdA",
     id: "97364686",
-    password: "Free to Copy"
-  },
-  {
-    rank: 100,
-    name: "Fragile",
-    creators: "iIiViRuZiIi, EndLevel, Gablor, zYuko, XLSpiral, deadlox, Artumanka, Minaxa",
-    verifier: "vaen",
-    publisher: "EndLevel",
-    video: "https://www.youtube.com/embed/XfXzGv0oALw",
-    id: "65588448",
     password: "Free to Copy"
   },
   {
@@ -1757,6 +1757,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-10-24', detail: 'Fragile has been raised from #100 to #86, above VOID and below Kenos' },
+  { date: '2025-10-24', detail: 'Kenos has been raised from #90 to #85, above VOID and below Trueffet' },
   { date: '2025-10-13', detail: 'Tidal Wave has been raised from #6 to #4, above Nullscapes and below Amethyst' },
   { date: '2025-10-11', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos' },
   { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA' },
@@ -1911,6 +1913,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
