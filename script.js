@@ -221,6 +221,16 @@ const demons = [
   },
     {
     rank: 23,
+    name: "KOSETSU",
+    creators: "fwwe, Arct, Alekszz, GamerKnight750, ADrone, Bli, Motheye, Halo, Pbreaker, Sacredbloom92",
+    verifier: "taiago",
+    publisher: "fwwe",
+    video: "https://www.youtube.com/embed/hZ8vFX8z_BU",
+    id: "109439644",
+    password: "Free to Copy"
+  },
+    {
+    rank: 24,
     name: "Sakupen Circles",
     creators: "Nick24, DrCuber, Korewa, Renn241, Muffy450, endevvor, Mzero, NineDice, GhostVandalf",
     verifier: "TheDiamondPizza",
@@ -230,7 +240,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 24,
+    rank: 25,
     name: "Firework",
     creators: "Vernam, lillium, 00Zero, Konsi, Realvet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
     verifier: "TrickGMD",
@@ -238,16 +248,6 @@ const demons = [
     video: "https://www.youtube.com/embed/QBe5x2o9v2w",
     id: "75296202",
     password: "234000"
-  },
-    {
-    rank: 25,
-    name: "KOSETSU",
-    creators: "fwwe, Arct, Alekszz, GamerKnight750, ADrone, Bli, Motheye, Halo, Pbreaker, Sacredbloom92",
-    verifier: "taiago",
-    publisher: "fwwe",
-    video: "https://www.youtube.com/embed/hZ8vFX8z_BU",
-    id: "109439644",
-    password: "Free to Copy"
   },
   {
     rank: 26,
@@ -669,18 +669,8 @@ const demons = [
     id: "105748155",
     password: "Free to Copy"
   },
-      {
-    rank: 68,
-    name: "Starlit Stroll",
-    creators: "Enfur, Cork",
-    verifier: "N0ctaXI",
-    publisher: "Enfur",
-    video: "https://www.youtube.com/embed/U7MM74dTXuI",
-    id: "115380769",
-    password: "Free to Copy"
-  },
     {
-    rank: 69,
+    rank: 68,
     name: "Cimmerian Shade",
     creators: "SrGuillester, Azuler",
     verifier: "spcreat",
@@ -690,7 +680,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 70,
+    rank: 69,
     name: "Viprin UFO",
     creators: "nothawkyre, Morin, PhantomX, Solarion, Valentine, Graded, noodleshelf, Arithean, Moonlightmari, Smear",
     verifier: "TheRealAlexbear",
@@ -700,7 +690,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 71,
+    rank: 70,
     name: "Terminal Rampancy",
     creators: "Xyriak",
     verifier: "Bigthunder556",
@@ -710,7 +700,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 72,
+    rank: 71,
     name: "The Golden",
     creators: "BoBoBoBoBoBoBo, El3ctr0, Gooseam, Geemi, rWoomy, EyeOfTheStorm, Eridani, BySelling",
     verifier: "nSwish",
@@ -718,6 +708,16 @@ const demons = [
     video: "https://www.youtube.com/embed/wpS5PSHmji0",
     id: "60978746",
     password: "886988"
+  },
+      {
+    rank: 72,
+    name: "Starlit Stroll",
+    creators: "Enfur, Cork",
+    verifier: "N0ctaXI",
+    publisher: "Enfur",
+    video: "https://www.youtube.com/embed/U7MM74dTXuI",
+    id: "115380769",
+    password: "Free to Copy"
   },
   {
     rank: 73,
@@ -1747,12 +1747,14 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-10-26', detail: 'Starlit Stroll has been lowered from #68 to #72, above Natural Disaster and below The Golden' },
+  { date: '2025-10-26', detail: 'KOSETSU has been raised from #25 to #23, above Sakupen Circles and below The Lightning Rod' },
   { date: '2025-10-26', detail: 'Operation Evolution has been lowered from #30 to #45, above Damascus and below Mayhem' },
   { date: '2025-10-26', detail: 'IRIS has been lowered from #90 to #102, above Crackhead Circles and below Widestep' },
   { date: '2025-10-26', detail: 'UNKNOWN has been lowered from #66 to #75, above ATOMIC CANNON Mk III and below Verdant Landscape' },
   { date: '2025-10-24', detail: 'Fragile has been raised from #100 to #86, above VOID and below Kenos' },
   { date: '2025-10-24', detail: 'Kenos has been raised from #90 to #85, above VOID and below Trueffet' },
-  { date: '2025-10-13', detail: 'Tidal Wave has been raised from #6 to #4, above Nullscapes and below Amethyst' },
+  { date: '2025-10-13', detail: 'Tidal Wave has been raised from #6 to #4, above Nullscapes and below Flamewall' },
   { date: '2025-10-11', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos' },
   { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA' },
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
@@ -1906,6 +1908,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
