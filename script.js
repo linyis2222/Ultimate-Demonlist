@@ -1104,9 +1104,9 @@ const demons = [
     name: "Dry Out Copyable 2",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "tenzk",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "106522770",
     password: "Free to Copy"
   },
   {
@@ -1114,9 +1114,9 @@ const demons = [
     name: "Promethean",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "EndLevel",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "69333212",
     password: "Free to Copy"
   },
   {
@@ -1124,9 +1124,9 @@ const demons = [
     name: "Cold Sweat",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "para",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "63996127",
     password: "Free to Copy"
   },
   {
@@ -1134,9 +1134,9 @@ const demons = [
     name: "Thinking Space",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "Atomic",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "54953085",
     password: "Free to Copy"
   },
   {
@@ -1144,9 +1144,9 @@ const demons = [
     name: "Renevant",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "nikroplays",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "58161496",
     password: "Free to Copy"
   },
   {
@@ -1154,9 +1154,9 @@ const demons = [
     name: "ConClusion",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "DreamZoneGD",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "96471171",
     password: "Free to Copy"
   },
   {
@@ -1164,9 +1164,9 @@ const demons = [
     name: "We Are Not The Same",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "mbed",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "90104288",
     password: "Free to Copy"
   },
   {
@@ -1174,9 +1174,9 @@ const demons = [
     name: "Instinct",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "Krazyman50",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "94043690",
     password: "Free to Copy"
   },
   {
@@ -1184,9 +1184,9 @@ const demons = [
     name: "Sky Shredder",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "dorvict",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "88136707",
     password: "Free to Copy"
   },
   {
@@ -1194,9 +1194,9 @@ const demons = [
     name: "Calculator Core",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "Walroose",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "58355141",
     password: "Free to Copy"
   },
   {
@@ -1204,9 +1204,9 @@ const demons = [
     name: "Trotil",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "cherryteam",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "94578424",
     password: "Free to Copy"
   },
   {
@@ -1214,9 +1214,9 @@ const demons = [
     name: "shimmer",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "amplitron",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "94156085",
     password: "Free to Copy"
   },
   {
@@ -1224,9 +1224,9 @@ const demons = [
     name: "Crimson Planet",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "TrueOmega",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "45866767",
     password: "Free to Copy"
   },
   {
@@ -1234,9 +1234,9 @@ const demons = [
     name: "DIRECTIONS",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "wokecat",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "88233955",
     password: "Free to Copy"
   },
   {
@@ -1244,9 +1244,9 @@ const demons = [
     name: "Disconnected Descent",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "TheSkeletonGMD",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "118664383",
     password: "Free to Copy"
   },
   {
@@ -1254,9 +1254,9 @@ const demons = [
     name: "Axiom Asterism",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "Filqh",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "114340057",
     password: "Free to Copy"
   },
   {
@@ -1264,8 +1264,8 @@ const demons = [
     name: "Cognition",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    publisher: "EndLevel",
+    video: "https://www.youtube.com/embed/57600307",
     id: "이름만 등록해놓음 나중에 수정함",
     password: "Free to Copy"
   },
@@ -1274,9 +1274,9 @@ const demons = [
     name: "ATOMIC CANNON Mk II",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "lieb",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "91180835",
     password: "Free to Copy"
   },
   {
@@ -1284,14 +1284,14 @@ const demons = [
     name: "Indivine",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "이름만 등록해놓음 나중에 수정함",
+    publisher: "Mercury6779",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "이름만 등록해놓음 나중에 수정함",
+    id: "112586799",
     password: "Free to Copy"
   },
   {
     rank: 130,
-    name: "Cosmic Cyclone",
+    name: "CORRODERE",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1301,7 +1301,7 @@ const demons = [
   },
   {
     rank: 131,
-    name: "qoUEO",
+    name: "Cosmic Cyclone",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1311,7 +1311,7 @@ const demons = [
   },
   {
     rank: 132,
-    name: "Gloxinia",
+    name: "qoUEO",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1321,7 +1321,7 @@ const demons = [
   },
   {
     rank: 133,
-    name: "ta1LSD0ll",
+    name: "Gloxinia",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1331,7 +1331,7 @@ const demons = [
   },
   {
     rank: 134,
-    name: "SARY NEVER CLEAR",
+    name: "ta1LSD0ll",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1341,7 +1341,7 @@ const demons = [
   },
   {
     rank: 135,
-    name: "Rigel",
+    name: "SARY NEVER CLEAR",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1351,7 +1351,7 @@ const demons = [
   },
   {
     rank: 136,
-    name: "Scrubbabingo force",
+    name: "Rigel",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1361,7 +1361,7 @@ const demons = [
   },
   {
     rank: 137,
-    name: "Call Me Maybe",
+    name: "Scrubbabingo force",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1371,7 +1371,7 @@ const demons = [
   },
   {
     rank: 138,
-    name: "CORRODERE",
+    name: "Call Me Maybe",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
     publisher: "이름만 등록해놓음 나중에 수정함",
@@ -1767,6 +1767,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine' },
   { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water' },
   { date: '2025-11-02', detail: 'Defeated Circles has been placed at #17, above Kyouki and below Tunnel of Despair' },
   { date: '2025-10-26', detail: 'Starlit Stroll has been lowered from #68 to #72, above Natural Disaster and below The Golden' },
@@ -1930,6 +1931,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
