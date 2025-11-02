@@ -1102,28 +1102,28 @@ const demons = [
   {
     rank: 111,
     name: "Dry Out Copyable 2",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "RobTop, tenzk & more(22 people)",
+    verifier: "s3batr0nic",
     publisher: "tenzk",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/FXW9J9CaREU",
     id: "106522770",
     password: "Free to Copy"
   },
   {
     rank: 112,
     name: "Promethean",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "EndLevel, RealVet, River, Connected",
+    verifier: "RicoLP",
     publisher: "EndLevel",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/19kE_Yo8puE",
     id: "69333212",
-    password: "Free to Copy"
+    password: "789123"
   },
   {
     rank: 113,
     name: "Cold Sweat",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "para, REDACTED, Wulzy",
+    verifier: "Kapinapi",
     publisher: "para",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
     id: "63996127",
@@ -1132,52 +1132,52 @@ const demons = [
   {
     rank: 114,
     name: "Thinking Space",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "HidekiX",
+    verifier: "Atomic",
     publisher: "Atomic",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/iHf2nanWjvE",
     id: "54953085",
-    password: "Free to Copy"
+    password: "235236"
   },
   {
     rank: 115,
     name: "Renevant",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "nikroplays",
+    verifier: "rori",
     publisher: "nikroplays",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/2Y8kBw8YxO8",
     id: "58161496",
     password: "Free to Copy"
   },
   {
     rank: 116,
     name: "ConClusion",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "DreamZoneGD",
+    verifier: "BrowaKedawar",
     publisher: "DreamZoneGD",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/wpuPFFqnJFY",
     id: "96471171",
     password: "Free to Copy"
   },
   {
     rank: 117,
     name: "We Are Not The Same",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "mbed, SpKale",
+    verifier: "GuitGuit",
     publisher: "mbed",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/yLLd4mpeYC4",
     id: "90104288",
     password: "Free to Copy"
   },
   {
     rank: 118,
     name: "Instinct",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "KrmaL, Pennutoh, Zendayo, Kugelblitz, talia, Lqah, recillia, dysbelief, SleyGD, pocke, Nightning, krisking, DogGoesWoof, S3rios, wokecat, valentine",
+    verifier: "Blitzer",
     publisher: "Krazyman50",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/6W3Gvi9ft0w",
     id: "94043690",
-    password: "Free to Copy"
+    password: "251326"
   },
   {
     rank: 119,
@@ -1931,6 +1931,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
