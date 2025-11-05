@@ -54,21 +54,21 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "andromeda",
-    creators: "Insxne97",
-    verifier: "taiago",
-    publisher: "Insxne97",
-    video: "https://www.youtube.com/embed/mk3TDemdkC0",
-    id: "114283297",
-    password: "Free to Copy"
-  },
-  {
     name: "Every End",
     creators: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, Cobrablitz",
     verifier: "Hqmy",
     publisher: "MindCap",
     video: "https://www.youtube.com/embed/AO--mVVFtKI",
     id: "116174063",
+    password: "Free to Copy"
+  },
+  {
+    name: "andromeda",
+    creators: "Insxne97",
+    verifier: "taiago",
+    publisher: "Insxne97",
+    video: "https://www.youtube.com/embed/mk3TDemdkC0",
+    id: "114283297",
     password: "Free to Copy"
   },
   {
@@ -1600,6 +1600,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-05', detail: 'andromeda and Every End have been swapped, with Every End now sitting above, at #7' },
   { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space' },
   { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37' },
   { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine' },
@@ -1768,6 +1769,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
