@@ -1,6 +1,5 @@
 const demons = [
   {
-    rank: 1,
     name: "Thinking Space II",
     creators: "Jawis, Rin04, HaydenDom, V453C70M14, UFokinWotM8, Hyperbola, NcaT, KugelBlitZ, Triforce, Maxmur, MeatiusGaming, DrCuber, ADrone, Korewa, GhostVandalf, CairoX, RealVet, Genoxide, Crowlley, Meox, GamerKnight750, ThunderDarkness, DiamondSkull, Kevellium",
     verifier: "zZoink",
@@ -10,7 +9,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 2,
     name: "Amethyst",
     creators: "iMist, IvashkaUA, NoobyPro27, iMinaY, BeClaNin0, Titoalper, Roselyne, ItsxEcho, GamerKnight750, Uriun112, 3DADronX, SnomGMD, Bedrock",
     verifier: "wPopoff",
@@ -20,7 +18,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 3,
     name: "Flamewall",
     creators: "UNarwall & more(125 people)",
     verifier: "Cuatrocientos",
@@ -30,7 +27,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 4,
     name: "Tidal Wave",
     creators: "OniLinkGD",
     verifier: "zZoink",
@@ -40,7 +36,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 5,
     name: "Nullscapes",
     creators: "ItzKiba",
     verifier: "zZoink",
@@ -50,7 +45,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 6,
     name: "BOOBAWAMBA",
     creators: "Akunakunn, TheLetterV, ygg24",
     verifier: "EastShark",
@@ -60,7 +54,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 7,
     name: "andromeda",
     creators: "Insxne97",
     verifier: "taiago",
@@ -70,7 +63,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 8,
     name: "Every End",
     creators: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, Cobrablitz",
     verifier: "Hqmy",
@@ -80,7 +72,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 9,
     name: "Silent clubstep",
     creators: "TheRealSailent",
     verifier: "paqoe",
@@ -90,7 +81,6 @@ const demons = [
     password: "No Copy"
   },
   {
-    rank: 10,
     name: "Anathema",
     creators: "nikroplays, Iris, Zipixboxs, Eternaswip, ItsHybrid, TMco",
     verifier: "Whizkid05",
@@ -100,7 +90,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 11,
     name: "Menace",
     creators: "MannyHeffley",
     verifier: "Whizkid05",
@@ -110,7 +99,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 12,
     name: "Avernus",
     creators: "BoBoBoBoBoBoBo, TriplasH, Zipixbox, kyhros, Woom, Zenntraa, El3cTr0, SyQual, Nidro, zDeadlox, GD Iris, Realvet, Looycat",
     verifier: "zZoink",
@@ -120,7 +108,6 @@ const demons = [
     password: "030607"
   },
   {
-    rank: 13,
     name: "Acheron",
     creators: "GrenadeofTacos, ryamu, Riot, icedcave, silver, Deadlox, Komp, AZuLer4, ewop, Metalface221, Cersia, LimeTime313, goob, Endlevel",
     verifier: "zZoink",
@@ -130,7 +117,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 14,
     name: "Spectre",
     creators: "xander556 & more(38 people)",
     verifier: "PersonHuman42",
@@ -140,7 +126,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 15,
     name: "Abyss of Darkness",
     creators: "Exen, CDMusic, Megaskill, DigitalZero, Masterman, maxfs, Xolarzz, Waffle, ZmL(XDiamondX), GrenadeofTacos, Fenrrig, AlrexX, rynoxious, RealVet, GD Iris, GrayRain, celestia",
     verifier: "Cursed",
@@ -150,7 +135,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 16,
     name: "Tunnel of Despair",
     creators: "Exen, ImMaxX1",
     verifier: "zZoink",
@@ -160,7 +144,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 17,
     name: "Defeated Circles",
     creators: "Slijee, GDFluxit, SlendStone, GXQ, notcyanide, lupodzn, pootys1337, muriday",
     verifier: "zZoink",
@@ -170,7 +153,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 18,
     name: "Kyouki",
     creators: "Demishio",
     verifier: "Demishio",
@@ -180,7 +162,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 19,
     name: "Slaughterhouse",
     creators: "IcEDCave, Endlevel, Brittank88, DrCuber, River, CDMusic, GD Iris",
     verifier: "Doggie",
@@ -190,7 +171,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 20,
     name: "Subterminal Point",
     creators: "SyQual",
     verifier: "PoCle",
@@ -200,7 +180,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 21,
     name: "KOCMOC",
     creators: "Vernam, Spk, Synd, Vinty, Sauzzeth, Bli, Kivvvi, Xatz, ZDeadlox, Cuaer",
     verifier: "zZoink",
@@ -210,7 +189,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 22,
     name: "Deimos",
     creators: "ItsHybrid & more(27 people)",
     verifier: "Doggie",
@@ -220,7 +198,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 23,
     name: "The Lightning Rod",
     creators: "Lavatrex",
     verifier: "Lavatrex",
@@ -230,7 +207,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 24,
     name: "KOSETSU",
     creators: "fwwe, Arct, Alekszz, GamerKnight750, ADrone, Bli, Motheye, Halo, Pbreaker, Sacredbloom92",
     verifier: "taiago",
@@ -240,7 +216,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 25,
     name: "Sakupen Circles",
     creators: "Nick24, DrCuber, Korewa, Renn241, Muffy450, endevvor, Mzero, NineDice, GhostVandalf",
     verifier: "TheDiamondPizza",
@@ -250,7 +225,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 26,
     name: "Firework",
     creators: "Vernam, lillium, 00Zero, Konsi, Realvet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
     verifier: "TrickGMD",
@@ -260,7 +234,6 @@ const demons = [
     password: "234000"
   },
   {
-    rank: 27,
     name: "poocubed",
     creators: "Liisp, Earthum, Aespha, Faraoax, Arandamiguel123, TypicalGMD, Ph0bic",
     verifier: "Kyasshukodo",
@@ -270,7 +243,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 28,
     name: "Saul Goodman",
     creators: "Renn241, Quacduc, Joojmiguel, loltad, DreamTide, GhostVandalf, MercuryDT, NukeIIX",
     verifier: "Jori",
@@ -280,7 +252,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 29,
     name: "Eyes in the Water",
     creators: "nothawkyre, ImMaxX1, Bli, skywalker14, darksteelflame, Arithean",
     verifier: "LordVadercraft",
@@ -290,7 +261,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 30,
     name: "CONVULSION",
     creators: "femboy",
     verifier: "Whizkid05",
@@ -300,7 +270,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 31,
     name: "Apocalyptic Trilogy",
     creators: "APTeamOfficial(36 people)",
     verifier: "polterghast",
@@ -310,7 +279,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 32,
     name: "The Hallucination",
     creators: "SyQual, Votchi",
     verifier: "Votchi",
@@ -320,7 +288,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 33,
     name: "Belladonna",
     creators: "Vernam, itami",
     verifier: "exsii",
@@ -330,7 +297,6 @@ const demons = [
     password: "001441"
   },
   {
-    rank: 34,
     name: "COMBUSTION",
     creators: "Cersia, Slithium",
     verifier: "Slithium",
@@ -340,7 +306,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 35,
     name: "Sevvend Clubstep",
     creators: "MinAY, Maybee, Nickname, IGenoxide, _ego11, winchester, Koshkaht, WarningGoat, Vizitek, Quminy",
     verifier: "Vorten",
@@ -350,7 +315,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 36,
     name: "Deadlier Clubstep",
     creators: "herozombie80, Realvet, Solarion, Valentine, Pla, X2K, nab, CloverPhoenix, caro, SnapNK",
     verifier: "Jenath",
@@ -360,7 +324,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 37,
     name: "Gaggatrondra",
     creators: "JCMoon",
     verifier: "Zeronium",
@@ -370,7 +333,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 38,
     name: "Edge of Destiny",
     creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
     verifier: " Polterghast",
@@ -380,7 +342,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 39,
     name: "walter white",
     creators: "Renn241",
     verifier: "iIilaseriIi",
@@ -390,7 +351,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 40,
     name: "The Plunge",
     creators: "Arachnid, TriplashGD, G4lvatron, Roselyne, PBreakerGD, Adrone, shodai",
     verifier: "Gokill",
@@ -400,7 +360,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 41,
     name: "Solar Flare",
     creators: "Linear2, Rynoxious",
     verifier: "swiborg",
@@ -410,7 +369,6 @@ const demons = [
     password: "Free to Copy"
   },
       {
-    rank: 42,
     name: "MINUSdry",
     creators: "CDMusic, Sevant",
     verifier: "Varium",
@@ -420,7 +378,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 43,
     name: "Climax",
     creators: "HushLC, Wain",
     verifier: "Wain",
@@ -430,7 +387,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 44,
     name: "LIMBO",
     creators: "MindCap & more(34 people)",
     verifier: "BGram",
@@ -440,7 +396,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 45,
     name: "Codependence",
     creators: "GaidenHertuny & more(31 people)",
     verifier: "Pukklez",
@@ -450,7 +405,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 46,
     name: "Mayhem",
     creators: "Vernam, vit12, Synd, Konsi, DMSD, Sauzzeth, Enely, Thrasher, Vitchrose",
     verifier: "LordVadercraft",
@@ -460,7 +414,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 47,
     name: "Operation Evolution",
     creators: "Halzion, Graded, PhantomX, Cylyrii, Parallax, AubreyGoose, Saziur, Manu, Tygrysek, AlrexX, RealVet, Solarion, Knali, Wespdx, AnonIIExt, Iris, Samu, Limit, Nezopi, Zipixbox, Silver, Connected, Fitatfi, Nab, zmx",
     verifier: "cobrablitz",
@@ -470,7 +423,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 48,
     name: "Damascus",
     creators: "Dzeser & more(67 people)",
     verifier: "Timo",
@@ -480,7 +432,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 49,
     name: "PSYCHOPATH",
     creators: "DeniPol",
     verifier: "BONN GD",
@@ -490,7 +441,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 50,
     name: "Collapse",
     creators: "rnexel",
     verifier: "rnexel",
@@ -500,7 +450,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 51,
     name: "The Yangire",
     creators: "Dorami, Alderite, JenkinsGD, Partition, matty2003, DavJT, JonathanGD, MaxyLAND, Spectex, Mulpan, genoxide, DHaner, Master X, Synd, Xaro, DeniPol, TheElectro, EnZore, Astraa, Buragoz, Zafkiel7, iIBonIi, Mercury, Viwi",
     verifier: "Dorami",
@@ -510,7 +459,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 52,
     name: "SARYYX NEVER CLEAR",
     creators: "aartos, Axxorz, Voltex, Realvet, Deadlox, spcreat, Graded, Pla, Indra",
     verifier: "skzyl",
@@ -520,7 +468,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 53,
     name: "ORDINARY",
     creators: "vit12, Birds, GustavoV3, Hugo",
     verifier: "wPopoff",
@@ -530,7 +477,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 54,
     name: "Midnight",
     creators: "MadisonYuko",
     verifier: "nei",
@@ -540,7 +486,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 55,
     name: "Sinister Silence",
     creators: "Wahffle & more(101 people)",
     verifier: "wwdonut",
@@ -550,7 +495,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 56,
     name: "BEELINE",
     creators: "Galaxxyss, pocke, Waffl3X, 7AK",
     verifier: "Motor",
@@ -560,7 +504,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 57,
     name: "arcturus",
     creators: "maxfs",
     verifier: "ultracauaHD",
@@ -570,7 +513,6 @@ const demons = [
     password: "666999"
   },
     {
-    rank: 58,
     name: "Sonic Wave Infinity",
     creators: "Cyclic & APTeamOfficial(32 people)",
     verifier: "xanii",
@@ -580,7 +522,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 59,
     name: "Waterfall",
     creators: "Vernam & more(27 people)",
     verifier: "LordVadercraft",
@@ -590,7 +531,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 60,
     name: "Coalescence",
     creators: "amplitron, Slayerkirb, notesxd, Pixll, Amza",
     verifier: "amplitron",
@@ -600,7 +540,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 61,
     name: "Crystal Crusher",
     creators: " Zeniux, Zeus",
     verifier: "GuitGuit",
@@ -610,7 +549,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 62,
     name: "Tartarus",
     creators: "Riot, Vermillion, Aurorus, Rek3dge, Aquatias, Komp, Cyclic, EndLevel, Azuler, Hinds1324, Salaxium",
     verifier: "ItzDolphy",
@@ -620,7 +558,6 @@ const demons = [
     password: "061742"
   },
   {
-    rank: 63,
     name: "Delta",
     creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, Loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, MercuryDT, Novaach, Tamori",
     verifier: "Doggie",
@@ -630,7 +567,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 64,
     name: "NETWORK",
     creators: "Agat3, Amza, theworldofme",
     verifier: "vulcanium4",
@@ -640,7 +576,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 65,
     name: "BPATA MPAKA",
     creators: "Inex, NitroN, MittiRan, WitaWaier, Axon, Zeox, Unity, Nezeritos, Yakov47, Hashinoby, Akeko, Dilisae, Ziza, Pes11, Markota, E9_KH, Sosiska",
     verifier: "Maybee",
@@ -650,7 +585,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 66,
     name: "THE JET ENGINE",
     creators: "Billzer",
     verifier: "eviljoe",
@@ -660,7 +594,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 67,
     name: "Jigsaw",
     creators: "nekongames & more(29 people)",
     verifier: "Gokill",
@@ -670,7 +603,6 @@ const demons = [
     password: "Free to Copy"
   },
    {
-    rank: 68,
     name: "RUST",
     creators: "neigefeu",
     verifier: "Keir",
@@ -680,7 +612,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 69,
     name: "Checked Steam",
     creators: "gruzyGD",
     verifier: "Whizkid05",
@@ -690,7 +621,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    rank: 70,
     name: "Cimmerian Shade",
     creators: "SrGuillester, Azuler",
     verifier: "spcreat",
@@ -700,7 +630,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 71,
     name: "Viprin UFO",
     creators: "nothawkyre, Morin, PhantomX, Solarion, Valentine, Graded, noodleshelf, Arithean, Moonlightmari, Smear",
     verifier: "TheRealAlexbear",
@@ -710,7 +639,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 72,
     name: "Terminal Rampancy",
     creators: "Xyriak",
     verifier: "Bigthunder556",
@@ -720,7 +648,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 73,
     name: "The Golden",
     creators: "BoBoBoBoBoBoBo, El3ctr0, Gooseam, Geemi, rWoomy, EyeOfTheStorm, Eridani, BySelling",
     verifier: "nSwish",
@@ -730,7 +657,6 @@ const demons = [
     password: "886988"
   },
       {
-    rank: 74,
     name: "Starlit Stroll",
     creators: "Enfur, Cork",
     verifier: "N0ctaXI",
@@ -740,7 +666,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 75,
     name: "Natural Disaster",
     creators: "GammaReXx, TheRealPeng, FreddyDash, XeNith, CairoX, Nyoom, AVRG, Szilu, Isem, PugDomination, feijoa, awesomeme, Cantis, Dreamlight, Dutchiee",
     verifier: "iIiLaSeRiIi",
@@ -750,7 +675,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 76,
     name: "Verdant Landscape",
     creators: "ItzNisha",
     verifier: "ItzNisha",
@@ -760,7 +684,6 @@ const demons = [
     password: "446799"
   },
   {
-    rank: 77,
     name: "UNKNOWN",
     creators: "Relayne, NineDice, Gusearth, kywy, Renn241, DrCuber, GhostVandalf, GD Iris, muriday",
     verifier: "TheDiamondPizza",
@@ -770,7 +693,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 78,
     name: "ATOMIC CANNON Mk III",
     creators: "LIEB, Giron, FrostBurn, ZeroSR",
     verifier: "Zeronium",
@@ -780,7 +702,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 79,
     name: "Shukketsu",
     creators: "MadisonYuko, Gablor, Duke, arekushi14, Zentraa",
     verifier: "Baeru",
@@ -790,7 +711,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 80,
     name: "Oblivion",
     creators: "Benji8080, Eth, Goob, Silver, zDeadlox",
     verifier: "dice88",
@@ -800,7 +720,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 81,
     name: "Critical Heat",
     creators: "Zeniux, ZeusGD",
     verifier: "hstorm",
@@ -810,7 +729,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 82,
     name: "limbo but uwu ig idk",
     creators: "Akunakunn",
     verifier: "ViperVenom95",
@@ -820,7 +738,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 83,
     name: "The Paroxysm of Rage",
     creators: "Zacanaii, Evil Buds",
     verifier: "turtle",
@@ -830,7 +747,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 84,
     name: "Aerial Gleam",
     creators: "EndLevel, CuLuC, Antares, zDeadlox, El3cTr0",
     verifier: "Doggie",
@@ -840,7 +756,6 @@ const demons = [
     password: "789123"
   },
   {
-    rank: 85,
     name: "Blood Echo",
     creators: "Farva, Goobfrudla, LimeTime03, snapNK, clodsire",
     verifier: "swiborg",
@@ -850,7 +765,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 86,
     name: "Trueffet",
     creators: "SyQual, Rainstorm",
     verifier: "Baeru",
@@ -860,7 +774,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 87,
     name: "Kenos",
     creators: "Bianox, ChiefFlurry, Terron, Pennutoh, Krampux, Eclipsed, SlimJim, Splash, nikroplays, Lazuli, Endlevel, Spectex, Zimnior12, Salaxium",
     verifier: "npesta",
@@ -870,7 +783,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 88,
     name: "Fragile",
     creators: "iIiViRuZiIi, EndLevel, Gablor, zYuko, XLSpiral, deadlox, Artumanka, Minaxa",
     verifier: "vaen",
@@ -880,7 +792,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 89,
     name: "VOID",
     creators: "nikoberry",
     verifier: "Whizkid05",
@@ -890,7 +801,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 90,
     name: "Destruction 19",
     creators: "bosjoker",
     verifier: "razsta4ax",
@@ -900,7 +810,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 91,
     name: "Starlight Summit",
     creators: "hazelmrow",
     verifier: "hazelmrow",
@@ -910,7 +819,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 92,
     name: "Judgement Knights",
     creators: "HangerLord, fusion425, Farlayy, Insxne97, kngstn",
     verifier: "fusion425",
@@ -920,7 +828,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 93,
     name: "Zodiac",
     creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
     verifier: "Technical",
@@ -930,7 +837,6 @@ const demons = [
     password: "005875"
   },
   {
-    rank: 94,
     name: "WOBBLING MACHINE",
     creators: "Smarted",
     verifier: "conski",
@@ -940,7 +846,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 95,
     name: "Esfera",
     creators: "KeiAs & more(33 people)",
     verifier: "Baeru",
@@ -950,7 +855,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 96,
     name: "Axinie",
     creators: "SaturMan",
     verifier: "SaturMan",
@@ -960,7 +864,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 97,
     name: "NEUTRA",
     creators: "Jenkins, Ilrell, Marwec",
     verifier: "AeonAir",
@@ -970,7 +873,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 98,
     name: "Swing Swing",
     creators: "KazaGD, rnexel, z3phli, rinjello, milklover2351, velkyy, KrynioGD, asmallsock, Airu2015, zurteh, itsRyoui, usbserialbus, DuskerHu, SupaCLUCK, devilmine, dshifter7, Polygd",
     verifier: "Whizkid05",
@@ -980,7 +882,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 99,
     name: "Guideless Goobering",
     creators: "Enfur, Xuser, Akunakunn",
     verifier: "Zytrox",
@@ -990,7 +891,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 100,
     name: "DISSONANCE",
     creators: "ivyteal",
     verifier: "zSquidKnight",
@@ -1000,7 +900,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 101,
     name: "Lithium",
     creators: "L4TeZk, RpgRaketti, xVainaja, DreamZoneGD, At424, Copc, Kekis, LapoGD, ManHeadRambo, Ked, Aleph, Valentine, ArtsiBurn, Cookieszs, Darksive, Novaach, TrueInverse, goob, Lepuska, kloone, Xenote, Flaksy",
     verifier: "kloone",
@@ -1010,7 +909,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 102,
     name: "Hard Machine",
     creators: "komp, nikroplays",
     verifier: "Varium",
@@ -1020,7 +918,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 103,
     name: "Widestep",
     creators: "Demishio",
     verifier: "Demishio",
@@ -1030,7 +927,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 104,
     name: "IRIS",
     creators: "KazaGD, Skyavoxii, Nexel",
     verifier: "bnuuy",
@@ -1040,7 +936,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 105,
     name: "Crackhead Circles",
     creators: "AlrexX, TriplasH, rynoxious, Linear",
     verifier: "teraaa",
@@ -1050,7 +945,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 106,
     name: "Scream Machine",
     creators: "TMco, HelpegasuS, nikroplays, Zipixbox, ItsHybrid, Realvet, Wesp, Siv, Connected, Culuc, GD Iris, rynoxious, SwagMasta001",
     verifier: "WatchPiggy",
@@ -1060,7 +954,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 107,
     name: "Keres",
     creators: "ItsHybrid & more(24 people)",
     verifier: "Crisis",
@@ -1070,7 +963,6 @@ const demons = [
     password: "251326"
   },
   {
-    rank: 108,
     name: "Ascent",
     creators: "Rimexon, Nekon, qGreazy, Medu, Vendas, Rhymer, Zxnt, Epdjip, Revue, Kngstn, Plugy, PreeZee, Vevex, Khelado, Vinty, Grimes, Xenith, Ego, IvashkaUA, Tomi, Iz",
     verifier: "LordVadercraft",
@@ -1080,7 +972,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 109,
     name: "Lotus Flower",
     creators: "StarkyTheSalad, zzzgecko",
     verifier: "BrianTheBurger",
@@ -1090,7 +981,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 110,
     name: "Frost Spirit",
     creators: "DrayTM, Halzion, Reda, Zipixbox, Realvet, River, silver, AlrexX, Valentine, Linear, Pla, Mercury, InfiniteStyles, GDIris, ConnectedGD, Manu",
     verifier: "Varium",
@@ -1100,7 +990,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 111,
     name: "Dry Out Copyable 2",
     creators: "RobTop, tenzk & more(22 people)",
     verifier: "s3batr0nic",
@@ -1110,7 +999,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 112,
     name: "Promethean",
     creators: "EndLevel, RealVet, River, Connected",
     verifier: "RicoLP",
@@ -1120,7 +1008,6 @@ const demons = [
     password: "789123"
   },
   {
-    rank: 113,
     name: "Cold Sweat",
     creators: "para, REDACTED, Wulzy",
     verifier: "Kapinapi",
@@ -1130,7 +1017,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 114,
     name: "Thinking Space",
     creators: "HidekiX",
     verifier: "Atomic",
@@ -1140,7 +1026,6 @@ const demons = [
     password: "235236"
   },
   {
-    rank: 115,
     name: "Renevant",
     creators: "nikroplays",
     verifier: "rori",
@@ -1150,7 +1035,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 116,
     name: "ConClusion",
     creators: "DreamZoneGD",
     verifier: "BrowaKedawar",
@@ -1160,7 +1044,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 117,
     name: "We Are Not The Same",
     creators: "mbed, SpKale",
     verifier: "GuitGuit",
@@ -1170,7 +1053,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 118,
     name: "Instinct",
     creators: "KrmaL, Pennutoh, Zendayo, Kugelblitz, talia, Lqah, recillia, dysbelief, SleyGD, pocke, Nightning, krisking, DogGoesWoof, S3rios, wokecat, valentine",
     verifier: "Blitzer",
@@ -1180,7 +1062,6 @@ const demons = [
     password: "251326"
   },
   {
-    rank: 119,
     name: "Sky Shredder",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1190,7 +1071,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 120,
     name: "Calculator Core",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1200,7 +1080,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 121,
     name: "Trotil",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1210,7 +1089,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 122,
     name: "shimmer",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1220,7 +1098,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 123,
     name: "Crimson Planet",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1230,7 +1107,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 124,
     name: "DIRECTIONS",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1240,7 +1116,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 125,
     name: "Disconnected Descent",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1250,7 +1125,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 126,
     name: "Axiom Asterism",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1260,7 +1134,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 127,
     name: "Cognition",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1270,7 +1143,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 128,
     name: "ATOMIC CANNON Mk II",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1280,7 +1152,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 129,
     name: "Indivine",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1290,7 +1161,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 130,
     name: "CORRODERE",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1300,7 +1170,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 131,
     name: "Cosmic Cyclone",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1310,7 +1179,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 132,
     name: "qoUEO",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1320,7 +1188,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 133,
     name: "Gloxinia",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1330,7 +1197,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 134,
     name: "ta1LSD0ll",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1340,7 +1206,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 135,
     name: "SARY NEVER CLEAR",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1350,7 +1215,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 136,
     name: "Rigel",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1360,7 +1224,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 137,
     name: "Scrubbabingo force",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1370,7 +1233,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 138,
     name: "Call Me Maybe",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1380,7 +1242,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 139,
     name: "SAND SAILOR",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1390,7 +1251,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 140,
     name: "Akashic Records",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1400,7 +1260,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 141,
     name: "Lucid Nightmares",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1410,7 +1269,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 142,
     name: "RUTHLESS",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1420,7 +1278,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 143,
     name: "Neon Skyline",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1430,7 +1287,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 144,
     name: "Coral Cave",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1440,7 +1296,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 145,
     name: "Launchpad Labyrinth",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1450,7 +1305,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 146,
     name: "SUPERHATEMEWORLD",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1460,7 +1314,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 147,
     name: "Amalgam",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1470,7 +1323,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 148,
     name: "Tenkai",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1480,7 +1332,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 149,
     name: "Sides Of My Mind",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1490,7 +1341,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 150,
     name: "Horros",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1500,7 +1350,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 151,
     name: "Cobwebs",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1510,7 +1359,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 152,
     name: "Omega Interface",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1520,7 +1368,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 153,
     name: "Ykds1479ymdppr",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1530,7 +1377,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 154,
     name: "Ragnarok",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1540,7 +1386,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 155,
     name: "me when machine gang",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1550,7 +1395,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 156,
     name: "Pandemonium",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1560,7 +1404,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 157,
     name: "Shardscapes",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1570,7 +1413,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 158,
     name: "The Art of the Blade",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1580,7 +1422,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 159,
     name: "Descent Into Exile",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1590,7 +1431,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 160,
     name: "Deep Bass",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1600,7 +1440,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 161,
     name: "The Rupture",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1610,7 +1449,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 162,
     name: "Jupiter My Favourite",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1620,7 +1458,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 163,
     name: "Silent Club",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "Luqualizer",
@@ -1630,7 +1467,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 164,
     name: "Escape Room",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1640,7 +1476,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 165,
     name: "Kappa",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1650,7 +1485,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 166,
     name: "no jokes",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1660,7 +1494,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 167,
     name: "FARBIDI THEORY",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1670,7 +1503,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 168,
     name: "LD50",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1680,7 +1512,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 169,
     name: "Nabil Let Go",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1690,7 +1521,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 170,
     name: "BarbarosFinaleFinale",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1700,7 +1530,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 171,
     name: "Sank",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1710,7 +1539,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 172,
     name: "Asterios",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1720,7 +1548,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 173,
     name: "Bloodlust",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "Knobbelboy",
@@ -1730,7 +1557,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 174,
     name: "Moving Forward",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1740,7 +1566,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 175,
     name: "PROTON LAUNCHER",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1750,7 +1575,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    rank: 176,
     name: "Jesse Pinkman",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1931,66 +1755,6 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
