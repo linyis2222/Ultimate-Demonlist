@@ -1414,10 +1414,10 @@ const demons = [
   },
   {
     name: "Shardscapes",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "ItzKiba",
+    verifier: "kiseta",
     publisher: "ItzKiba",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/tme4Mvm0Mf8",
     id: "79997992",
     password: "Free to Copy"
   },
@@ -1769,6 +1769,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
