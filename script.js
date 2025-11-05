@@ -1641,11 +1641,14 @@ function buildLeftList() {
   mapList.innerHTML = '';
 
   demons.forEach((d, index) => {
-    // 구분 라벨 삽입
+    // rank 계산 (index + 1)
+    const rank = index + 1;
+
+    // 구분 라벨 자동 계산
     let separator = null;
-    if (d.rank === 1) separator = "Main List (#1 ~ #75)";
-    else if (d.rank === 76) separator = "Extended List (#76 ~ #150)";
-    else if (d.rank === 151) separator = "Legacy List (#151 ~)";
+    if (index === 0) separator = "Main List (#1 ~ #75)";
+    else if (index === 75) separator = "Extended List (#76 ~ #150)";
+    else if (index === 150) separator = "Legacy List (#151 ~)";
 
     if (separator) {
       const sepLi = document.createElement('li');
@@ -1658,7 +1661,7 @@ function buildLeftList() {
     const li = document.createElement('li');
 
     const rankSpan = document.createElement('span');
-    rankSpan.textContent = `#${d.rank} `;
+    rankSpan.textContent = `#${rank} `;
     rankSpan.style.fontWeight = 'bold';
     rankSpan.style.marginRight = '6px';
 
@@ -1676,8 +1679,7 @@ function buildLeftList() {
 }
 
 // ===========================
-// map 상세 표시
-// (기존 selectMap 함수 그대로 유지)
+// map 상세 표시 (기존 selectMap 함수 그대로 유지)
 // ===========================
 function selectMap(demon, liElement) {
   if (mapDetailsDiv) mapDetailsDiv.style.display = '';
@@ -1755,6 +1757,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
