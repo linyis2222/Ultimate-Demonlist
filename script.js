@@ -1360,10 +1360,10 @@ const demons = [
   },
   {
     name: "Cobwebs",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "NineDice",
+    verifier: "Cursed",
     publisher: "NineDice",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/bgZ85rCaEGY",
     id: "82172844",
     password: "Free to Copy"
   },
@@ -1387,10 +1387,10 @@ const demons = [
   },
   {
     name: "Ragnarok",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "PanMan, Rustam, Gaero, Th04, Xaro, ZephiroX, BIANOX, Platnuu, Tobi, Enlex, J i, Darwin, Knobbelboy, Davphla",
+    verifier: "Technical",
     publisher: "Knobbelboy",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/aGtXqn9HL2o",
     id: "55624478",
     password: "Free to Copy"
   },
@@ -1769,6 +1769,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
