@@ -1026,6 +1026,15 @@ const demons = [
     password: "235236"
   },
   {
+    name: "azure blast",
+    creators: "AlbinoSnail, C4rin, Yonaka, K911unA, Cadooo, Wain, Neogul, ihotdog, MaLiaN, blanc, Flosia, Inishia, BNDL",
+    verifier: "DNM121",
+    publisher: "AlbinoSnail",
+    video: "https://www.youtube.com/embed/TN0FQ3KBv4w",
+    id: "120060187",
+    password: "Free to Copy"
+  },
+  {
     name: "Renevant",
     creators: "nikroplays",
     verifier: "rori",
@@ -1591,6 +1600,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space' },
   { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37' },
   { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine' },
   { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water' },
@@ -1758,6 +1768,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
