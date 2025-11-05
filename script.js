@@ -1468,10 +1468,10 @@ const demons = [
   },
   {
     name: "Silent Club",
-    creators: "이름만 등록해놓음 나중에 수정함",
+    creators: "BlackP2sFull",
     verifier: "Luqualizer",
     publisher: "Luqualizer",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/NjEiHIokTGM",
     id: "68600127",
     password: "Free to Copy"
   },
@@ -1768,6 +1768,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
