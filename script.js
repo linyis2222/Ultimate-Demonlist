@@ -324,21 +324,21 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Gaggatrondra",
-    creators: "JCMoon",
-    verifier: "Zeronium",
-    publisher: "JCMoon",
-    video: "https://www.youtube.com/embed/A4G41vw6Cf0",
-    id: "114990369",
-    password: "Free to Copy"
-  },
-  {
     name: "Edge of Destiny",
     creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
     verifier: " Polterghast",
     publisher: "CDMusic",
     video: "https://www.youtube.com/embed/rUphe3H59yU",
     id: "89187968",
+    password: "Free to Copy"
+  },
+  {
+    name: "Gaggatrondra",
+    creators: "JCMoon",
+    verifier: "Zeronium",
+    publisher: "JCMoon",
+    video: "https://www.youtube.com/embed/A4G41vw6Cf0",
+    id: "114990369",
     password: "Free to Copy"
   },
   {
@@ -1591,6 +1591,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37' },
   { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine' },
   { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water' },
   { date: '2025-11-02', detail: 'Defeated Circles has been placed at #17, above Kyouki and below Tunnel of Despair' },
@@ -1757,6 +1758,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
