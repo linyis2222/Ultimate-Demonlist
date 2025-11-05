@@ -1558,12 +1558,12 @@ const demons = [
   },
   {
     name: "Bloodlust",
-    creators: "이름만 등록해놓음 나중에 수정함",
+    creators: "Quasar, Panman, Namtar, nikroplays, Havok, Wabbit, Rustam, Xaro, Terron, Willy5000, TMNGaming, Manix648, nwolc, Minesap, non4med, Knobbelboy",
     verifier: "Knobbelboy",
     publisher: "Knobbelboy",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/5SzKetF2btw",
     id: "42584142",
-    password: "Free to Copy"
+    password: "121296"
   },
   {
     name: "Moving Forward",
@@ -1768,6 +1768,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
