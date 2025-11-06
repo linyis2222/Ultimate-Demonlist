@@ -513,15 +513,6 @@ const demons = [
     password: "666999"
   },
     {
-    name: "Sonic Wave Infinity",
-    creators: "Cyclic & APTeamOfficial(32 people)",
-    verifier: "xanii",
-    publisher: "APTeamOffical",
-    video: "https://www.youtube.com/embed/C3-l_fFikpQ",
-    id: "69685815",
-    password: "Free to Copy"
-  },
-    {
     name: "Waterfall",
     creators: "Vernam & more(27 people)",
     verifier: "LordVadercraft",
@@ -546,6 +537,15 @@ const demons = [
     publisher: "Zeniux",
     video: "https://www.youtube.com/embed/qirwgz-haVQ",
     id: "93732702",
+    password: "Free to Copy"
+  },
+    {
+    name: "Sonic Wave Infinity",
+    creators: "Cyclic & APTeamOfficial(32 people)",
+    verifier: "xanii",
+    publisher: "APTeamOffical",
+    video: "https://www.youtube.com/embed/C3-l_fFikpQ",
+    id: "69685815",
     password: "Free to Copy"
   },
   {
@@ -1600,6 +1600,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-06', detail: 'Sonic Wave Infinity has been lowered from #58 to #61, above Tartarus and below Crystal Crusher' },
   { date: '2025-11-05', detail: 'andromeda and Every End have been swapped, with Every End now sitting above, at #7' },
   { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space' },
   { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37' },
@@ -1769,6 +1770,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
