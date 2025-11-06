@@ -1477,73 +1477,73 @@ const demons = [
   },
   {
     name: "Escape Room",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "SleyGD",
+    verifier: "Slayer",
     publisher: "SleyGD",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/aVL2VvnFgL8",
     id: "90420966",
     password: "Free to Copy"
   },
   {
     name: "Kappa",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Armadeus, nwolc, maxmur, Spectex, Yoonsrdynamix, Isane, Ferox, crumche, Levin, Vyu, ilp, XLSpiral, El3ctr0, Lime0037, tolstyh, Walroose, Extravagon, EyeOfTheStorm, Davphla",
+    verifier: "nSwish",
     publisher: "Armadeus",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/eIfc1zUuOPU",
     id: "59800588",
     password: "Free to Copy"
   },
   {
     name: "no jokes",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "TyakyoFyai, Nexi, Quicklen, Aqualime, FlashWings576",
+    verifier: "Zeronium",
     publisher: "theParadoxTeam",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/oVhGYiQ8fBc",
     id: "84507862",
     password: "Free to Copy"
   },
   {
     name: "FARBIDI THEORY",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "ItsHybrid, Connected, Nikrodox, Zipixbox, Iris, Wespdx, pla",
+    verifier: "WatchPiggy",
     publisher: "TMco",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/MQD6klwhcsM",
     id: "103373693",
     password: "Free to Copy"
   },
   {
     name: "LD50",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "StarkyTheSalad, paqoe, wokecat",
+    verifier: "Blitzer",
     publisher: "StarkyTheSalad",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/2OiS9mVDlmQ",
     id: "103947139",
     password: "Free to Copy"
   },
   {
     name: "Nabil Let Go",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "nabbbbbb, Awedsy, Manu, CelestialCat, Zeba, gaB, vxvian, Artimeows, YouKnowWho, Limit2, Kacurro, Moustache, SundayGMD, ApeqX, sebestein, silver, moonlightmari, solarion, Jakalope",
+    verifier: "VoltreN",
     publisher: "nabbbbbb",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/p5aD6SFeUlI",
     id: "110965084",
     password: "Free to Copy"
   },
   {
     name: "BarbarosFinaleFinale",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "awesomeme360, Moffe, Dep96",
+    verifier: "AeonAir",
     publisher: "awesomeme360",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/F32ekXnS3a4",
     id: "102712028",
     password: "Free to Copy"
   },
   {
     name: "Sank",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Waterbound",
+    verifier: "Waterbound",
     publisher: "Waterbound",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/6ZuEWp1dJ0c",
     id: "112351854",
     password: "Free to Copy"
   },
@@ -1771,6 +1771,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
