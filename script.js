@@ -171,21 +171,21 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Subterminal Point",
-    creators: "SyQual",
-    verifier: "PoCle",
-    publisher: "SyQual",
-    video: "https://www.youtube.com/embed/h2wmRMgACH4",
-    id: "113599729",
-    password: "Free to Copy"
-  },
-  {
     name: "KOCMOC",
     creators: "Vernam, Spk, Synd, Vinty, Sauzzeth, Bli, Kivvvi, Xatz, ZDeadlox, Cuaer",
     verifier: "zZoink",
     publisher: "cherryteam",
     video: "https://www.youtube.com/embed/2CxE-UWCIG4",
     id: "87665224",
+    password: "Free to Copy"
+  },
+  {
+    name: "Subterminal Point",
+    creators: "SyQual",
+    verifier: "PoCle",
+    publisher: "SyQual",
+    video: "https://www.youtube.com/embed/h2wmRMgACH4",
+    id: "113599729",
     password: "Free to Copy"
   },
   {
@@ -1600,6 +1600,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-06', detail: 'Subterminal Point and KOCMOC have been swapped, with KOCMOC now sitting above, at #20' },
   { date: '2025-11-06', detail: 'Sonic Wave Infinity has been lowered from #58 to #61, above Tartarus and below Crystal Crusher' },
   { date: '2025-11-05', detail: 'andromeda and Every End have been swapped, with Every End now sitting above, at #7' },
   { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space' },
@@ -1770,6 +1771,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
