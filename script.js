@@ -1549,10 +1549,10 @@ const demons = [
   },
   {
     name: "Asterios",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Buragoz, Baker, Kentakiman, maelstrom, DBlade, Hantein, Exen, Pineapple Cat",
+    verifier: "Atomic",
     publisher: "Exen",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/YG3taML8WjA",
     id: "60870688",
     password: "Free to Copy"
   },
@@ -1567,28 +1567,28 @@ const demons = [
   },
   {
     name: "Moving Forward",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "crohn44",
+    verifier: "REDACTED",
     publisher: "crohn44",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/2wYnXim6TYY",
     id: "99692910",
     password: "Free to Copy"
   },
   {
     name: "PROTON LAUNCHER",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Multiverse55, TysonGD",
+    verifier: "MrOozer",
     publisher: "Multiverse55",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/8stjtuvzfyk",
     id: "108514663",
     password: "Free to Copy"
   },
   {
     name: "Jesse Pinkman",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Renn241",
+    verifier: "Comlayze",
     publisher: "Renn241",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/fYcBtp4X8GA",
     id: "79918576",
     password: "Free to Copy"
   }
@@ -1771,6 +1771,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
