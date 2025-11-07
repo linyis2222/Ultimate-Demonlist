@@ -1600,29 +1600,29 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-11-07', detail: 'Omega Interface has been raised from #153 to #148, above Amalgam and below SUPERHATEMEWORLD' },
-  { date: '2025-11-06', detail: 'Subterminal Point and KOCMOC have been swapped, with KOCMOC now sitting above, at #20' },
-  { date: '2025-11-06', detail: 'Sonic Wave Infinity has been lowered from #58 to #61, above Tartarus and below Crystal Crusher' },
-  { date: '2025-11-05', detail: 'andromeda and Every End have been swapped, with Every End now sitting above, at #7' },
-  { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space' },
-  { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37' },
-  { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine' },
-  { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water' },
-  { date: '2025-11-02', detail: 'Defeated Circles has been placed at #17, above Kyouki and below Tunnel of Despair' },
-  { date: '2025-10-26', detail: 'Starlit Stroll has been lowered from #68 to #72, above Natural Disaster and below The Golden' },
-  { date: '2025-10-26', detail: 'KOSETSU has been raised from #25 to #23, above Sakupen Circles and below The Lightning Rod' },
-  { date: '2025-10-26', detail: 'Operation Evolution has been lowered from #30 to #45, above Damascus and below Mayhem' },
-  { date: '2025-10-26', detail: 'IRIS has been lowered from #90 to #102, above Crackhead Circles and below Widestep' },
-  { date: '2025-10-26', detail: 'UNKNOWN has been lowered from #66 to #75, above ATOMIC CANNON Mk III and below Verdant Landscape' },
-  { date: '2025-10-24', detail: 'Fragile has been raised from #100 to #86, above VOID and below Kenos' },
-  { date: '2025-10-24', detail: 'Kenos has been raised from #90 to #85, above VOID and below Trueffet' },
-  { date: '2025-10-13', detail: 'Tidal Wave has been raised from #6 to #4, above Nullscapes and below Flamewall' },
-  { date: '2025-10-11', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos' },
-  { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA' },
-  { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40' },
-  { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174' },
-  { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155' },
-  { date: '2025-10-09', detail: 'List Created' }
+  { date: '2025-11-07', detail: 'Omega Interface has been raised from #153 to #148, above Amalgam and below SUPERHATEMEWORLD. This pushes Sides Of My Mind to the legacy list.' },
+  { date: '2025-11-06', detail: 'Subterminal Point and KOCMOC have been swapped, with KOCMOC now sitting above, at #20.' },
+  { date: '2025-11-06', detail: 'Sonic Wave Infinity has been lowered from #58 to #61, above Tartarus and below Crystal Crusher.' },
+  { date: '2025-11-05', detail: 'andromeda and Every End have been swapped, with Every End now sitting above, at #7.' },
+  { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space. This pushes Horros to the legacy list.' },
+  { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37.' },
+  { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine.' },
+  { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water. This pushes Cobwebs to the legacy list.' },
+  { date: '2025-11-02', detail: 'Defeated Circles has been placed at #17, above Kyouki and below Tunnel of Despair. This pushes UNKNOWN to the extended list, and Omega Interface to the legacy list.' },
+  { date: '2025-10-26', detail: 'Starlit Stroll has been lowered from #68 to #72, above Natural Disaster and below The Golden.' },
+  { date: '2025-10-26', detail: 'KOSETSU has been raised from #25 to #23, above Sakupen Circles and below The Lightning Rod.' },
+  { date: '2025-10-26', detail: 'Operation Evolution has been lowered from #30 to #45, above Damascus and below Mayhem.' },
+  { date: '2025-10-26', detail: 'IRIS has been lowered from #90 to #102, above Crackhead Circles and below Widestep.' },
+  { date: '2025-10-26', detail: 'UNKNOWN has been lowered from #66 to #75, above ATOMIC CANNON Mk III and below Verdant Landscape.' },
+  { date: '2025-10-24', detail: 'Fragile has been raised from #100 to #86, above VOID and below Kenos.' },
+  { date: '2025-10-24', detail: 'Kenos has been raised from #90 to #85, above VOID and below Trueffet.' },
+  { date: '2025-10-13', detail: 'Tidal Wave has been raised from #6 to #4, above Nullscapes and below Flamewall.' },
+  { date: '2025-10-11', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos.' },
+  { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA.' },
+  { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40.' },
+  { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174.' },
+  { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155.' },
+  { date: '2025-10-09', detail: 'List Created.' }
 ];
 
 /* ===========================
@@ -1772,6 +1772,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
