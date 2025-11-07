@@ -450,21 +450,21 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "The Yangire",
-    creators: "Dorami, Alderite, JenkinsGD, Partition, matty2003, DavJT, JonathanGD, MaxyLAND, Spectex, Mulpan, genoxide, DHaner, Master X, Synd, Xaro, DeniPol, TheElectro, EnZore, Astraa, Buragoz, Zafkiel7, iIBonIi, Mercury, Viwi",
-    verifier: "Dorami",
-    publisher: "Dorami",
-    video: "https://www.youtube.com/embed/V3FjIorIfWg",
-    id: "110500920",
-    password: "Free to Copy"
-  },
-  {
     name: "SARYYX NEVER CLEAR",
     creators: "aartos, Axxorz, Voltex, Realvet, Deadlox, spcreat, Graded, Pla, Indra",
     verifier: "skzyl",
     publisher: "aartos",
     video: "https://www.youtube.com/embed/rRlyvmjcz_4",
     id: "95998005",
+    password: "Free to Copy"
+  },
+  {
+    name: "The Yangire",
+    creators: "Dorami, Alderite, JenkinsGD, Partition, matty2003, DavJT, JonathanGD, MaxyLAND, Spectex, Mulpan, genoxide, DHaner, Master X, Synd, Xaro, DeniPol, TheElectro, EnZore, Astraa, Buragoz, Zafkiel7, iIBonIi, Mercury, Viwi",
+    verifier: "Dorami",
+    publisher: "Dorami",
+    video: "https://www.youtube.com/embed/V3FjIorIfWg",
+    id: "110500920",
     password: "Free to Copy"
   },
   {
@@ -1600,6 +1600,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-07', detail: 'The Yangire and SARYYX NEVER CLEAR have been swapped, with SARYYX NEVER CLEAR now sitting above, at #51.' },
   { date: '2025-11-07', detail: 'Omega Interface has been raised from #153 to #148, above Amalgam and below SUPERHATEMEWORLD. This pushes Sides Of My Mind to the legacy list.' },
   { date: '2025-11-06', detail: 'Subterminal Point and KOCMOC have been swapped, with KOCMOC now sitting above, at #20.' },
   { date: '2025-11-06', detail: 'Sonic Wave Infinity has been lowered from #58 to #61, above Tartarus and below Crystal Crusher.' },
@@ -1772,6 +1773,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
