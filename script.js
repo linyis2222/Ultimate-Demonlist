@@ -1323,6 +1323,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Omega Interface",
+    creators: "이름만 등록해놓음 나중에 수정함",
+    verifier: "이름만 등록해놓음 나중에 수정함",
+    publisher: "Platnuu",
+    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    id: "68654380",
+    password: "Free to Copy"
+  },
+  {
     name: "Amalgam",
     creators: "이름만 등록해놓음 나중에 수정함",
     verifier: "이름만 등록해놓음 나중에 수정함",
@@ -1365,15 +1374,6 @@ const demons = [
     publisher: "NineDice",
     video: "https://www.youtube.com/embed/bgZ85rCaEGY",
     id: "82172844",
-    password: "Free to Copy"
-  },
-  {
-    name: "Omega Interface",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
-    publisher: "Platnuu",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
-    id: "68654380",
     password: "Free to Copy"
   },
   {
@@ -1600,6 +1600,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-07', detail: 'Omega Interface has been raised from #153 to #148, above Amalgam and below SUPERHATEMEWORLD' },
   { date: '2025-11-06', detail: 'Subterminal Point and KOCMOC have been swapped, with KOCMOC now sitting above, at #20' },
   { date: '2025-11-06', detail: 'Sonic Wave Infinity has been lowered from #58 to #61, above Tartarus and below Crystal Crusher' },
   { date: '2025-11-05', detail: 'andromeda and Every End have been swapped, with Every End now sitting above, at #7' },
@@ -1771,6 +1772,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
