@@ -1607,7 +1607,7 @@ const changeLog = [
   { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space. This pushes Horros to the legacy list.' },
   { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37.' },
   { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine.' },
-  { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water. This pushes Cobwebs to the legacy list.' },
+  { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water. This pushes Verdant Landscape to the extended list, and Cobwebs to the legacy list.' },
   { date: '2025-11-02', detail: 'Defeated Circles has been placed at #17, above Kyouki and below Tunnel of Despair. This pushes UNKNOWN to the extended list, and Omega Interface to the legacy list.' },
   { date: '2025-10-26', detail: 'Starlit Stroll has been lowered from #68 to #72, above Natural Disaster and below The Golden.' },
   { date: '2025-10-26', detail: 'KOSETSU has been raised from #25 to #23, above Sakupen Circles and below The Lightning Rod.' },
@@ -1772,6 +1772,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
