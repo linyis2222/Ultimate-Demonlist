@@ -550,7 +550,7 @@ const demons = [
   },
   {
     name: "Tartarus",
-    creators: "Riot, Vermillion, Aurorus, Rek3dge, Aquatias, Komp, Cyclic, EndLevel, Azuler, Hinds1324, Salaxium",
+    creators: "Riot, Vermillion, Aurorus, Rek3dge, Aquatias, Komp, Cyclic, EndLevel, Azuler, -, Salaxium",
     verifier: "ItzDolphy",
     publisher: "ItzDolphy",
     video: "https://www.youtube.com/embed/9YYQBbrsV5Y",
@@ -1090,46 +1090,46 @@ const demons = [
   },
   {
     name: "Calculator Core",
-    creators: "이름만 등록해놓음 나중에 수정함",
+    creators: "CairoX, CrankytheHuman, Sheep, Helpegasus, Cytokinesis, Zero, Sedgehog, Isane, Chuckgamer1, RealVet, Spectex, Yoonsrdynamix, Xaren, Walroose, tolstyh, Brittank88, Zest, Voltrix, Zylenox, StarkytheSalad, Cryo, Acnologia",
     verifier: "-",
     publisher: "Walroose",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/VrgNFsF2NGw",
     id: "58355141",
     password: "Free to Copy"
   },
   {
     name: "Trotil",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Ani, Inex, CHILLI, eggephant, postcodeFF, Val'GO, SpritZ, Feron, Lit, Vonxi",
+    verifier: "ItzTayfun",
     publisher: "cherryteam",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/kblnO7LfQn4",
     id: "94578424",
-    password: "Free to Copy"
+    password: "001441"
   },
   {
     name: "shimmer",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "amplitron",
+    verifier: "amplitron",
     publisher: "amplitron",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/J89j-_l7ezg",
     id: "94156085",
     password: "Free to Copy"
   },
   {
     name: "Crimson Planet",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "TrueOmega, YakobNugget, Dz3ser, Terron, AimTheSame, TrusTa, Metalface221, MrPPs, surreki, nikroplays, Zimnior12, EndLevel",
+    verifier: "Wooshi",
     publisher: "TrueOmega",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/euMInLjyG6k",
     id: "45866767",
     password: "Free to Copy"
   },
   {
     name: "DIRECTIONS",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Nightning, wokecat",
+    verifier: "SwordBx",
     publisher: "wokecat",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/-SEgSgxpRxo",
     id: "88233955",
     password: "Free to Copy"
   },
@@ -1387,10 +1387,10 @@ const demons = [
   },
   {
     name: "Ykds1479ymdppr",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Kapycta999",
+    verifier: "BONN GD",
     publisher: "Kapycta999",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/t7w2HNfD0eI",
     id: "104464785",
     password: "Free to Copy"
   },
@@ -1405,10 +1405,10 @@ const demons = [
   },
   {
     name: "me when machine gang",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Akunakunn",
+    verifier: "Motor8",
     publisher: "Akunakunn",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/C8uSFs01qwc",
     id: "93281587",
     password: "Free to Copy"
   },
@@ -1450,19 +1450,19 @@ const demons = [
   },
   {
     name: "Deep Bass",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Wespdx, Spectruh",
+    verifier: "WatchPiggy",
     publisher: "Wespdx",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/5uu8xXgz_4s",
     id: "96383663",
     password: "Free to Copy"
   },
   {
     name: "The Rupture",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Ka1ns",
+    verifier: "ItzDolphy",
     publisher: "Ka1ns",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/SaU454afkKY",
     id: "57828784",
     password: "Free to Copy"
   },
@@ -1783,6 +1783,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
