@@ -1018,7 +1018,7 @@ const demons = [
   },
   {
     name: "Cold Sweat",
-    creators: "para, REDACTED, Wulzy",
+    creators: "para, -, Wulzy",
     verifier: "Kapinapi",
     publisher: "para",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
@@ -1081,17 +1081,17 @@ const demons = [
   },
   {
     name: "Sky Shredder",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "dorvict",
+    verifier: "dorvict",
     publisher: "dorvict",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/Z-69-4RKRgk",
     id: "88136707",
-    password: "Free to Copy"
+    password: "No Copy"
   },
   {
     name: "Calculator Core",
     creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    verifier: "-",
     publisher: "Walroose",
     video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
     id: "58355141",
@@ -1468,10 +1468,10 @@ const demons = [
   },
   {
     name: "Jupiter My Favourite",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Akunakunn",
+    verifier: "Brian_Fromage",
     publisher: "Akunakunn",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/hdp-u-NpFYI",
     id: "92466083",
     password: "Free to Copy"
   },
@@ -1577,7 +1577,7 @@ const demons = [
   {
     name: "Moving Forward",
     creators: "crohn44",
-    verifier: "REDACTED",
+    verifier: "-",
     publisher: "crohn44",
     video: "https://www.youtube.com/embed/2wYnXim6TYY",
     id: "99692910",
@@ -1783,6 +1783,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
