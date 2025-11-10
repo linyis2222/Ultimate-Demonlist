@@ -819,15 +819,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Judgement Knights",
-    creators: "HangerLord, fusion425, Farlayy, Insxne97, kngstn",
-    verifier: "fusion425",
-    publisher: "HangerLord",
-    video: "https://www.youtube.com/embed/MzzY8nWfxnk",
-    id: "110913375",
-    password: "Free to Copy"
-  },
-  {
     name: "Henken",
     creators: "PLoLek, Yozyo",
     verifier: "Gokill",
@@ -906,6 +897,15 @@ const demons = [
     publisher: "ivyteal",
     video: "https://www.youtube.com/embed/IfFser-f9c0",
     id: "108141323",
+    password: "Free to Copy"
+  },
+  {
+    name: "Judgement Knights",
+    creators: "HangerLord, fusion425, Farlayy, Insxne97, kngstn",
+    verifier: "fusion425",
+    publisher: "HangerLord",
+    video: "https://www.youtube.com/embed/MzzY8nWfxnk",
+    id: "110913375",
     password: "Free to Copy"
   },
   {
@@ -1609,7 +1609,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-11-05', detail: 'Henken has been placed at #93, above Zodiac and below Judgement Knights. This pushes Tenkai to the legacy list.' },
+  { date: '2025-11-10', detail: 'Judgement Knights has been lowered from #92 to #102, above Lithium and below DISSONANCE.' },
+  { date: '2025-11-07', detail: 'Henken has been placed at #93, above Zodiac and below Judgement Knights. This pushes Tenkai to the legacy list.' },
   { date: '2025-11-07', detail: 'The Yangire and SARYYX NEVER CLEAR have been swapped, with SARYYX NEVER CLEAR now sitting above, at #51.' },
   { date: '2025-11-07', detail: 'Omega Interface has been raised from #153 to #148, above Amalgam and below SUPERHATEMEWORLD. This pushes Sides Of My Mind to the legacy list.' },
   { date: '2025-11-06', detail: 'Subterminal Point and KOCMOC have been swapped, with KOCMOC now sitting above, at #20.' },
@@ -1783,6 +1784,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
