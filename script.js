@@ -244,7 +244,7 @@ const demons = [
   },
   {
     name: "Saul Goodman",
-    creators: "Renn241, Quacduc, Joojmiguel, loltad, DreamTide, GhostVandalf, MercuryDT, NukeIIX",
+    creators: "Renn241, Quacduc, Joojmiguel, loltad, DreamTide, GhostVandalf, Mercury6779, NukeIIX",
     verifier: "Jori",
     publisher: "Renn241",
     video: "https://www.youtube.com/embed/hjs5PjUaw9k",
@@ -559,7 +559,7 @@ const demons = [
   },
   {
     name: "Delta",
-    creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, Loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, MercuryDT, Novaach, Tamori",
+    creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, Loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, Mercury6779, Novaach, Tamori",
     verifier: "Doggie",
     publisher: "Drakosa",
     video: "https://www.youtube.com/embed/_rr3J8DkIm4",
@@ -1135,55 +1135,55 @@ const demons = [
   },
   {
     name: "Disconnected Descent",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Magmeta, Waffl3x, EndLevel, WatchPiggy, wokecat, Galaxxyss, PeroXide01, Xolarzz, s3batr0nic, OddMod, Unerve, Slijee, Blitzer, gBen, AlerxX, tenzk, StarkytheSalad, Tygrysek, valentine, Mercury6779",
+    verifier: "Lia",
     publisher: "TheSkeletonGMD",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/TP7OAAVH-uA",
     id: "118664383",
     password: "Free to Copy"
   },
   {
     name: "Axiom Asterism",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Filqh, fusion425",
+    verifier: "fusion425",
     publisher: "Filqh",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/LnFdka3HekA",
     id: "114340057",
     password: "Free to Copy"
   },
   {
     name: "Cognition",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "EndLevel, benji8080",
+    verifier: "nSwish",
     publisher: "EndLevel",
-    video: "https://www.youtube.com/embed/57600307",
-    id: "이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/enl0GOyskPs",
+    id: "57600307",
     password: "Free to Copy"
   },
   {
     name: "ATOMIC CANNON Mk II",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "lieb, Giron, BIANOX, Zeronium",
+    verifier: "Zeronium",
     publisher: "lieb",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/4-lOnZsfhNQ",
     id: "91180835",
     password: "Free to Copy"
   },
   {
     name: "Indivine",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Blankb, Xolarzz, Walroose, wokecat, Mercury6779, AlrexX",
+    verifier: "Bigthunder556",
     publisher: "Mercury6779",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/g2CVts-tX70",
     id: "112586799",
     password: "Free to Copy"
   },
   {
     name: "CORRODERE",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "FrostBurn, lieb, Blitzer, Moosh, xSmokes, Deadlox, Giron, Awedsy, Licen, Starbom, Skrypto, Goob, Vlacc, Neoraptor, -, ewop, TheZinkYT, GrenadeofTacos, silver, ItzKiba",
+    verifier: "Gzeee",
     publisher: "Moosh",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/-V87Bh44lAU",
     id: "90597202",
     password: "Free to Copy"
   },
@@ -1784,6 +1784,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
