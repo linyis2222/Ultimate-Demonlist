@@ -189,7 +189,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Deimos",
+    name: "Deimos (ItsHybrid)",
     creators: "ItsHybrid & more(27 people)",
     verifier: "Doggie",
     publisher: "ItsHybrid",
@@ -523,7 +523,7 @@ const demons = [
   },
   {
     name: "Coalescence",
-    creators: "amplitron, Slayerkirb, notesxd, Pixll, Amza",
+    creators: "amplitron, slayerkirb, notesxd, Pixll, Amza",
     verifier: "amplitron",
     publisher: "amplitron",
     video: "https://www.youtube.com/embed/do-a2EzZ4R8",
@@ -1487,7 +1487,7 @@ const demons = [
   {
     name: "Escape Room",
     creators: "SleyGD",
-    verifier: "Slayer",
+    verifier: "slayerkirb",
     publisher: "SleyGD",
     video: "https://www.youtube.com/embed/aVL2VvnFgL8",
     id: "90420966",
@@ -1600,6 +1600,105 @@ const demons = [
     video: "https://www.youtube.com/embed/fYcBtp4X8GA",
     id: "79918576",
     password: "Free to Copy"
+  },
+  {
+    name: "Excruciation Chamber",
+    creators: "spcreat, UFWM",
+    verifier: "spcreat",
+    publisher: "spcreat",
+    video: "https://www.youtube.com/embed/BdkuNdFfY-o",
+    id: "93020424",
+    password: "No Copy"
+  },
+  {
+    name: "Terminux",
+    creators: "Rainstorm, 1374, Aerae, SyQual, TheCdPre, ZenthicAlpha, Inex, iEstia, Flosia, Mintjelly",
+    verifier: "Laniakea",
+    publisher: "Aerae",
+    video: "https://www.youtube.com/embed/-UgocJ3WYn4",
+    id: "76865589",
+    password: "271828"
+  },
+  {
+    name: "Twilight",
+    creators: "MadisonYuko",
+    verifier: "nei",
+    publisher: "MadisonYuko",
+    video: "https://www.youtube.com/embed/5bZ3RQP7fjs",
+    id: "90193093",
+    password: "Free to Copy"
+  },
+  {
+    name: "CITRA",
+    creators: "autechregd",
+    verifier: "autechregd",
+    publisher: "autechregd",
+    video: "https://www.youtube.com/embed/XDmH_vsSirA",
+    id: "80966089",
+    password: "Free to Copy"
+  },
+  {
+    name: "IthacropoliX",
+    creators: "Duke, Cyo2, LCelestia, Bentai, Cersia, XLSpiral, Mythryll, Acidius, Titoalper, Rhys, 00Zero, Poobah, WalGhani, Chuck, Joltic, Sledge, Connot, bigmac77",
+    verifier: "CobraBlitz",
+    publisher: "bigmac77",
+    video: "https://www.youtube.com/embed/n4nbu_fZcf4",
+    id: "80293947",
+    password: "Free to Copy"
+  },
+  {
+    name: "Awedsy",
+    creators: "sink, SleyGD",
+    verifier: "Zeronium",
+    publisher: "sink",
+    video: "https://www.youtube.com/embed/hx5ebE8e6Eo",
+    id: "92132505",
+    password: "Free to Copy"
+  },
+  {
+    name: "TORN",
+    creators: "para, voltex, Kyhros, TheCdPre, Sauzzeth, Woom, Splinter25, expa, iBoop, tygrixon, KarolBomba, deactive",
+    verifier: "DiamondSplash",
+    publisher: "Kyhros",
+    video: "https://www.youtube.com/embed/QUpzux7AoTI",
+    id: "91816388",
+    password: "Free to Copy"
+  },
+  {
+    name: "Fog",
+    creators: "pixll1, slayerkirb, notesxd",
+    verifier: "slayerkirb",
+    publisher: "notesxd",
+    video: "https://www.youtube.com/embed/n3dIaFHT-fI",
+    id: "90853661",
+    password: "Free to Copy"
+  },
+  {
+    name: "MewneI",
+    creators: "LightINovel",
+    verifier: "Magmeta",
+    publisher: "LightINovel",
+    video: "https://www.youtube.com/embed/yWfbbEbTK9w",
+    id: "109447394",
+    password: "Free to Copy"
+  },
+  {
+    name: "Gracefully",
+    creators: "NindyBK & more(24 people)",
+    verifier: "noxium",
+    publisher: "NindyBK",
+    video: "https://www.youtube.com/embed/5RBn1nk5wb4",
+    id: "88226064",
+    password: "Free to Copy"
+  },
+  {
+    name: "Deimos (EndLevel)",
+    creators: "EndLevel, Cypher, sqrl, Straw, Splash, IIKugelBlitZII, BoldStep, Zenith, Eggnog, TrueOmega, Hexhammer, Metalface221, EternaswipVMAX, Jihn",
+    verifier: "npesta",
+    publisher: "EndLevel",
+    video: "https://www.youtube.com/embed/FgxsNzQnF5o",
+    id: "52955167",
+    password: "789123"
   }
 ];
 
@@ -1609,6 +1708,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-11', detail: 'Excruciation Chamber ~ Deimos (EndLevel) were placed at #179 ~ #189.' },
   { date: '2025-11-10', detail: 'Judgement Knights has been lowered from #92 to #102, above Lithium and below DISSONANCE.' },
   { date: '2025-11-07', detail: 'Henken has been placed at #93, above Zodiac and below Judgement Knights. This pushes Tenkai to the legacy list.' },
   { date: '2025-11-07', detail: 'The Yangire and SARYYX NEVER CLEAR have been swapped, with SARYYX NEVER CLEAR now sitting above, at #51.' },
@@ -1634,7 +1734,7 @@ const changeLog = [
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40.' },
   { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174.' },
   { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155.' },
-  { date: '2025-10-09', detail: 'List Created.' }
+  { date: '2025-10-09', detail: 'List Created' }
 ];
 
 /* ===========================
@@ -1784,6 +1884,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
