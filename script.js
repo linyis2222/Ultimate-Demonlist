@@ -1189,64 +1189,64 @@ const demons = [
   },
   {
     name: "Cosmic Cyclone",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Cyclic & APTeamOfficial(22 people)",
+    verifier: "DoSh7t",
     publisher: "APTeamOfficial",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/0I9xCfTOpXg",
     id: "76159410",
     password: "Free to Copy"
   },
   {
     name: "qoUEO",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "GhostVandalf",
+    verifier: "Franzy",
     publisher: "GhostVandalf",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/PJbfroH0sok",
     id: "81721025",
-    password: "Free to Copy"
+    password: "886988"
   },
   {
     name: "Gloxinia",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "solarion, Cyclic, Aeidux, cleangame, Graded, Ryan LC, Isane, Yonaka, GDHand, valentine, Motu, Mulpan, minus786",
+    verifier: "rosewa",
     publisher: "solarion",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/MJh_6Z5v6bM",
     id: "110038200",
     password: "Free to Copy"
   },
   {
     name: "ta1LSD0ll",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "MIRugene, Galliard, robtobfreak, ekzels, AngaraRiver, spkgmd, Antobyy, Kcool, Madterz, rivverr, Classic10, rply, PastelPink, 2003devin",
+    verifier: "Arshadow",
     publisher: "ta1lsdoll",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/w-NH14vgMb8",
     id: "115151904",
     password: "Free to Copy"
   },
   {
     name: "SARY NEVER CLEAR",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Optic Sunflow, IIKugelBlitZII, xNorth, Eyeris, Cypher",
+    verifier: "Spamdrew128",
     publisher: "IIKugelBlitZII",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/23u3SlwrOMw",
     id: "33498127",
     password: "Free to Copy"
   },
   {
     name: "Rigel",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Dan2D",
+    verifier: "TrueInverse",
     publisher: "Dan2D",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/liJFeLHcW_Q",
     id: "93155813",
     password: "Free to Copy"
   },
   {
     name: "Scrubbabingo force",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Akunakunn, Shubhy",
+    verifier: "Popsi",
     publisher: "Akunakunn",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/eT_izuCxGUU",
     id: "111193316",
     password: "Free to Copy"
   },
@@ -1351,30 +1351,30 @@ const demons = [
   },
   {
     name: "Tenkai",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "HidekiX",
+    verifier: "Motor8",
     publisher: "HidekiX",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/AM2KHSZkjcc",
     id: "64100176",
     password: "Free to Copy"
   },
   {
     name: "Sides Of My Mind",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "MaxxoRMeN",
+    verifier: "Rqd",
     publisher: "MaxxoRMeN",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/d3d2KPVgCAk",
     id: "91042484",
     password: "Free to Copy"
   },
   {
     name: "Horros",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Shrc",
+    verifier: "Ryclix",
     publisher: "Shrc",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/OS46C-zvqDA",
     id: "85670310",
-    password: "Free to Copy"
+    password: "No Copy"
   },
   {
     name: "Cobwebs",
@@ -1414,10 +1414,10 @@ const demons = [
   },
   {
     name: "Pandemonium",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "Cersia, robotchief, zmx, Nezopi, Awedsy, Magmeta, KydeR, burgz, Rulls, Zylsia, Xeinth, WackoBazacko, declan, Peton, aubreygoose, j2ko, Great",
+    verifier: "TGM05",
     publisher: "Cersia",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/OKEHsJPaeQY",
     id: "92583725",
     password: "Free to Copy"
   },
@@ -1432,21 +1432,21 @@ const demons = [
   },
   {
     name: "The Art of the Blade",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "mbed, sink, kr1t, Toomis, Subwoofer, Zoroa, SpKale, talia",
+    verifier: "kyoto",
     publisher: "mbed",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/KSJl4A9eUW4",
     id: "82606722",
-    password: "Free to Copy"
+    password: "No Copy"
   },
   {
     name: "Descent Into Exile",
-    creators: "이름만 등록해놓음 나중에 수정함",
-    verifier: "이름만 등록해놓음 나중에 수정함",
+    creators: "GrenadeofTacos, Riot, IcEDCave, ViPriN, Vermillion, spcreat, Theorical, Awedsy, Cersia, maxfs, ewop, Loogiah, Deadlox, Pokechatt, weoweoteo, Artos, RealVet",
+    verifier: "BunnyGram",
     publisher: "GrenadeofTacos",
-    video: "https://www.youtube.com/embed/이름만 등록해놓음 나중에 수정함",
+    video: "https://www.youtube.com/embed/whtt_WkG_20",
     id: "77518059",
-    password: "Free to Copy"
+    password: "111111"
   },
   {
     name: "Deep Bass",
@@ -1784,6 +1784,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
