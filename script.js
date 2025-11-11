@@ -1162,9 +1162,9 @@ const demons = [
   },
   {
     name: "ATOMIC CANNON Mk II",
-    creators: "lieb, Giron, BIANOX, Zeronium",
+    creators: "LIEB, Giron, BIANOX, Zeronium",
     verifier: "Zeronium",
-    publisher: "lieb",
+    publisher: "LIEB",
     video: "https://www.youtube.com/embed/4-lOnZsfhNQ",
     id: "91180835",
     password: "Free to Copy"
@@ -1180,7 +1180,7 @@ const demons = [
   },
   {
     name: "CORRODERE",
-    creators: "FrostBurn, lieb, Blitzer, Moosh, xSmokes, Deadlox, Giron, Awedsy, Licen, Starbom, Skrypto, Goob, Vlacc, Neoraptor, -, ewop, TheZinkYT, GrenadeofTacos, silver, ItzKiba",
+    creators: "FrostBurn, LIEB, Blitzer, Moosh, xSmokes, Deadlox, Giron, Awedsy, Licen, Starbom, Skrypto, Goob, Vlacc, Neoraptor, -, ewop, TheZinkYT, GrenadeofTacos, silver, ItzKiba",
     verifier: "Gzeee",
     publisher: "Moosh",
     video: "https://www.youtube.com/embed/-V87Bh44lAU",
@@ -1699,6 +1699,132 @@ const demons = [
     video: "https://www.youtube.com/embed/FgxsNzQnF5o",
     id: "52955167",
     password: "789123"
+  },
+  {
+    name: "Sazerix",
+    creators: "Zeptrus",
+    verifier: "skycrab",
+    publisher: "Zeptrus",
+    video: "https://www.youtube.com/embed/l8aBStUgYOs",
+    id: "86787878",
+    password: "Free to Copy"
+  },
+  {
+    name: "Congregation",
+    creators: "Presta",
+    verifier: "Floofle",
+    publisher: "Presta",
+    video: "https://www.youtube.com/embed/KVlcdvGYcj0",
+    id: "68668045",
+    password: "Free to Copy"
+  },
+  {
+    name: "Sigma",
+    creators: "MindCap & more(26 people)",
+    verifier: "Technical",
+    publisher: "MindCap",
+    video: "https://www.youtube.com/embed/3INdO0esQRw",
+    id: "51657783",
+    password: "Free to Copy"
+  },
+  {
+    name: "Pootis Engage XTREME",
+    creators: "AAAAAlex",
+    verifier: "Falloostic",
+    publisher: "AAAAAlex",
+    video: "https://www.youtube.com/embed/2SqKRRphIVI",
+    id: "102243781",
+    password: "Free to Copy"
+  },
+  {
+    name: "Aronia",
+    creators: "Exen, Isane, Bird, DBlade, Dimonkyky, Synd, Pineapple Cat, GrayRain, ettery, Greenevsky, ZmL",
+    verifier: "Kotamon",
+    publisher: "Exen",
+    video: "https://www.youtube.com/embed/eJe3i5KyKOk",
+    id: "60564010",
+    password: "Free to Copy"
+  },
+  {
+    name: "untitled unmastered",
+    creators: "para",
+    verifier: "vinny",
+    publisher: "para",
+    video: "https://www.youtube.com/embed/zzPsYgyU4n4",
+    id: "82217720",
+    password: "Free to Copy"
+  },
+  {
+    name: "Pagoda",
+    creators: "Seturan, Xiko, AnGyung, Yonaka, Lebi06, Gyro, SyQual",
+    verifier: "Seturan",
+    publisher: "Seturan",
+    video: "https://www.youtube.com/embed/KVomsNjGalQ",
+    id: "77669659",
+    password: "Free to Copy"
+  },
+  {
+    name: "DsinK",
+    creators: "stanstanmansan, crohn44, Nightning",
+    verifier: "fusion425",
+    publisher: "stanstanmansan",
+    video: "https://www.youtube.com/embed/EsQAFvKqo3U",
+    id: "98284764",
+    password: "Free to Copy"
+  },
+  {
+    name: "Knights of Thunder",
+    creators: "HangerLord",
+    verifier: "Helix",
+    publisher: "HangerLord",
+    video: "https://www.youtube.com/embed/npIZ8TGMDvk",
+    id: "86412942",
+    password: "Free to Copy"
+  },
+  {
+    name: "ATOMIC CANNON",
+    creators: "LIEB",
+    verifier: "Zeronium",
+    publisher: "LIEB",
+    video: "https://www.youtube.com/embed/VZS5Yn9Y-OI",
+    id: "77681476",
+    password: "Free to Copy"
+  },
+  {
+    name: "Cicatrize",
+    creators: "Wintter, Wodka, OrhiD, AlaskaFX",
+    verifier: "Bleamer",
+    publisher: "Wintter",
+    video: "https://www.youtube.com/embed/QfF3jgPQZk0",
+    id: "93941971",
+    password: "Free to Copy"
+  },
+  {
+    name: "Dust Bowl",
+    creators: "GDikonic",
+    verifier: "ProudGiraffe311",
+    publisher: "GDikonic",
+    video: "https://www.youtube.com/embed/EXuxHOAAVrI",
+    id: "94120931",
+    password: "Free to Copy"
+  },
+  {
+    name: "Ploink",
+    creators: "Goobfrudla",
+    verifier: "Wooshi",
+    publisher: "Goobfrudla",
+    video: "https://www.youtube.com/embed/BV19Dg09LN0",
+    id: "96590328",
+    password: "Free to Copy"
+  },
+  {
+    name: "Nhelv",
+    creators: "SrGuillerster, Dienid, notlsa",
+    verifier: "SrGuillerster",
+    publisher: "SrGuillester",
+    video: "https://www.youtube.com/embed/k117h9HUt6s",
+    id: "68353244",
+    password: "Free to Copy"
   }
 ];
 
@@ -1708,6 +1834,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-11', detail: 'Sazerix ~ Nhelv were placed at #190 ~ #203.' },
   { date: '2025-11-11', detail: 'Excruciation Chamber ~ Deimos (EndLevel) were placed at #179 ~ #189.' },
   { date: '2025-11-10', detail: 'Judgement Knights has been lowered from #92 to #102, above Lithium and below DISSONANCE.' },
   { date: '2025-11-07', detail: 'Henken has been placed at #93, above Zodiac and below Judgement Knights. This pushes Tenkai to the legacy list.' },
@@ -1884,6 +2011,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
