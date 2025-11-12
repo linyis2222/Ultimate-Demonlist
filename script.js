@@ -242,13 +242,13 @@ const demons = [
     id: "85133223",
     password: "Free to Copy"
   },
-  {
-    name: "Saul Goodman",
-    creators: "Renn241, Quacduc, Joojmiguel, loltad, DreamTide, GhostVandalf, Mercury6779, NukeIIX",
-    verifier: "Jori",
-    publisher: "Renn241",
-    video: "https://www.youtube.com/embed/hjs5PjUaw9k",
-    id: "90477539",
+    {
+    name: "Apocalyptic Trilogy",
+    creators: "APTeamOfficial(36 people)",
+    verifier: "polterghast",
+    publisher: "APTeamOfficial",
+    video: "https://www.youtube.com/embed/RUBbpsTR5eU",
+    id: "113443235",
     password: "Free to Copy"
   },
   {
@@ -260,6 +260,15 @@ const demons = [
     id: "95851008",
     password: "Free to Copy"
   },
+  {
+    name: "Saul Goodman",
+    creators: "Renn241, Quacduc, Joojmiguel, loltad, DreamTide, GhostVandalf, Mercury6779, NukeIIX",
+    verifier: "Jori",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/hjs5PjUaw9k",
+    id: "90477539",
+    password: "Free to Copy"
+  },
     {
     name: "CONVULSION",
     creators: "femboy",
@@ -267,15 +276,6 @@ const demons = [
     publisher: "femboy",
     video: "https://www.youtube.com/embed/qeRKuyU3eGI",
     id: "113322063",
-    password: "Free to Copy"
-  },
-    {
-    name: "Apocalyptic Trilogy",
-    creators: "APTeamOfficial(36 people)",
-    verifier: "polterghast",
-    publisher: "APTeamOfficial",
-    video: "https://www.youtube.com/embed/RUBbpsTR5eU",
-    id: "113443235",
     password: "Free to Copy"
   },
   {
@@ -474,6 +474,15 @@ const demons = [
     publisher: "vit12",
     video: "https://www.youtube.com/embed/UD91cce4iKE",
     id: "105593215",
+    password: "Free to Copy"
+  },
+  {
+    name: "Loops of Fury",
+    creators: "Enfur",
+    verifier: "Cork",
+    publisher: "Enfur",
+    video: "https://www.youtube.com/embed/9HBG3i5zbw8",
+    id: "126571887",
     password: "Free to Copy"
   },
   {
@@ -1834,6 +1843,9 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-12', detail: 'Loops of Fury has been placed at #54, above Midnight and below ORDINARY. This pushes Natural Disaster to the extended list, and Amalgam to the legacy list.' },
+  { date: '2025-11-12', detail: 'Saul Goodman and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #29.' },
+  { date: '2025-11-12', detail: 'Apocalyptic Trilogy has been raised from #31 to #28, above Saul Goodman and below poocubed.' },
   { date: '2025-11-11', detail: 'Sazerix ~ Nhelv were placed at #190 ~ #203.' },
   { date: '2025-11-11', detail: 'Excruciation Chamber ~ Deimos (EndLevel) were placed at #179 ~ #189.' },
   { date: '2025-11-10', detail: 'Judgement Knights has been lowered from #92 to #102, above Lithium and below DISSONANCE.' },
@@ -2011,6 +2023,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
