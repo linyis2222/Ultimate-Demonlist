@@ -1719,6 +1719,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "DsinK",
+    creators: "stanstanmansan, crohn44, Nightning",
+    verifier: "fusion425",
+    publisher: "stanstanmansan",
+    video: "https://www.youtube.com/embed/EsQAFvKqo3U",
+    id: "98284764",
+    password: "Free to Copy"
+  },
+  {
     name: "Congregation",
     creators: "Presta",
     verifier: "Floofle",
@@ -1770,15 +1779,6 @@ const demons = [
     publisher: "Seturan",
     video: "https://www.youtube.com/embed/KVomsNjGalQ",
     id: "77669659",
-    password: "Free to Copy"
-  },
-  {
-    name: "DsinK",
-    creators: "stanstanmansan, crohn44, Nightning",
-    verifier: "fusion425",
-    publisher: "stanstanmansan",
-    video: "https://www.youtube.com/embed/EsQAFvKqo3U",
-    id: "98284764",
     password: "Free to Copy"
   },
   {
@@ -1843,6 +1843,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-12', detail: 'DsinK has been raised from #198 to #192, above Congregation and below Sazerix.' },
   { date: '2025-11-12', detail: 'Loops of Fury has been placed at #54, above Midnight and below ORDINARY. This pushes Natural Disaster to the extended list, and Amalgam to the legacy list.' },
   { date: '2025-11-12', detail: 'Saul Goodman and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #29.' },
   { date: '2025-11-12', detail: 'Apocalyptic Trilogy has been raised from #31 to #28, above Saul Goodman and below poocubed.' },
@@ -2023,6 +2024,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
