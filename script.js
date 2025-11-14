@@ -288,15 +288,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Belladonna",
-    creators: "Vernam, itami",
-    verifier: "exsii",
-    publisher: "cherryteam",
-    video: "https://www.youtube.com/embed/saHSgoU1JQQ",
-    id: "94969889",
-    password: "001441"
-  },
-  {
     name: "COMBUSTION",
     creators: "Cersia, Slithium",
     verifier: "Slithium",
@@ -394,6 +385,15 @@ const demons = [
     video: "https://www.youtube.com/embed/kXYMbaMVOZg",
     id: "86084399",
     password: "Free to Copy"
+  },
+  {
+    name: "Belladonna",
+    creators: "Vernam, itami",
+    verifier: "exsii",
+    publisher: "cherryteam",
+    video: "https://www.youtube.com/embed/saHSgoU1JQQ",
+    id: "94969889",
+    password: "001441"
   },
   {
     name: "Codependence",
@@ -1843,6 +1843,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-14', detail: 'Belladonna has been lowered from #33 to #44, above Codependence and below LIMBO.' },
   { date: '2025-11-12', detail: 'DsinK has been raised from #198 to #192, above Congregation and below Sazerix.' },
   { date: '2025-11-12', detail: 'Loops of Fury has been placed at #54, above Midnight and below ORDINARY. This pushes Natural Disaster to the extended list, and Amalgam to the legacy list.' },
   { date: '2025-11-12', detail: 'Saul Goodman and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #29.' },
@@ -2024,6 +2025,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
