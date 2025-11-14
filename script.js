@@ -215,6 +215,15 @@ const demons = [
     id: "109439644",
     password: "Free to Copy"
   },
+  {
+    name: "Silentlocked",
+    creators: "GDSkele, Versus, Megantwoo, Irosie, Connot, Donmor, Erisethsp, Kazia, Dehznik, JakeDogGD, xSmokes, paqoe, Lqtxinim, TheTrueEclipse, Skzyl, Rynoxious, Camsoverhere, Varctic, spcreat, Light",
+    verifier: "TFIBB",
+    publisher: "GDSkele",
+    video: "https://www.youtube.com/embed/O-IQeUdEGvI",
+    id: "113959291",
+    password: "Free to Copy"
+  },
     {
     name: "Sakupen Circles",
     creators: "Nick24, DrCuber, Korewa, Renn241, Muffy450, endevvor, Mzero, NineDice, GhostVandalf",
@@ -555,15 +564,6 @@ const demons = [
     publisher: "APTeamOffical",
     video: "https://www.youtube.com/embed/C3-l_fFikpQ",
     id: "69685815",
-    password: "Free to Copy"
-  },
-  {
-    name: "Silentlocked",
-    creators: "GDSkele, Versus, Megantwoo, Irosie, Connot, Donmor, Erisethsp, Kazia, Dehznik, JakeDogGD, xSmokes, paqoe, Lqtxinim, TheTrueEclipse, Skzyl, Rynoxious, Camsoverhere, Varctic, spcreat, Light",
-    verifier: "TFIBB",
-    publisher: "GDSkele",
-    video: "https://www.youtube.com/embed/O-IQeUdEGvI",
-    id: "113959291",
     password: "Free to Copy"
   },
   {
@@ -2070,7 +2070,7 @@ const demons = [
 const changeLog = [
   { date: '2025-11-14', detail: 'PROTON LAUNCHER has been lowered from #180 to #224, above Frozen Cave and below Arctic Lights.' },
   { date: '2025-11-14', detail: 'Gustavo Fring ~ Plasma Pulse Finale were placed at #207 ~ #229.' },
-  { date: '2025-11-14', detail: 'Silentlocked has been placed at #63, above Tartarus and below Sonic Wave Infinity. This pushes Starlit Stroll into the extended list, and SUPERHATEMEWORLD into the legacy list.' },
+  { date: '2025-11-14', detail: 'Silentlocked has been placed at #25, above Sakupen Circles and below KOSETSU. This pushes Starlit Stroll into the extended list, and SUPERHATEMEWORLD into the legacy list.' },
   { date: '2025-11-14', detail: 'meow hard has been placed at #144, above Lucid Nightmares and below Akashic Records. This pushes Omega Interface into the legacy list.' },
   { date: '2025-11-14', detail: 'Belladonna has been lowered from #33 to #44, above Codependence and below LIMBO.' },
   { date: '2025-11-12', detail: 'DsinK has been raised from #198 to #192, above Congregation and below Sazerix.' },
@@ -2254,6 +2254,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
