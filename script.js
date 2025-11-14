@@ -55,7 +55,7 @@ const demons = [
   },
   {
     name: "Every End",
-    creators: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, Cobrablitz",
+    creators: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, CobraBlitz",
     verifier: "Hqmy",
     publisher: "MindCap",
     video: "https://www.youtube.com/embed/AO--mVVFtKI",
@@ -416,7 +416,7 @@ const demons = [
   {
     name: "Operation Evolution",
     creators: "Halzion, Graded, PhantomX, Cylyrii, Parallax, AubreyGoose, Saziur, Manu, Tygrysek, AlrexX, RealVet, Solarion, Knali, Wespdx, AnonIIExt, Iris, Samu, Limit, Nezopi, Zipixbox, Silver, Connected, Fitatfi, Nab, zmx",
-    verifier: "cobrablitz",
+    verifier: "CobraBlitz",
     publisher: "Halzion",
     video: "https://www.youtube.com/embed/WsVF-ayipvY",
     id: "114999625",
@@ -1852,6 +1852,213 @@ const demons = [
     video: "https://www.youtube.com/embed/k117h9HUt6s",
     id: "68353244",
     password: "Free to Copy"
+  },
+  {
+    name: "Gustavo Fring",
+    creators: "Renn241",
+    verifier: "Acratic",
+    publisher: "Renn241, Kutsu",
+    video: "https://www.youtube.com/embed/OB0YiqyEp2E",
+    id: "80585951",
+    password: "Free to Copy"
+  },
+  {
+    name: "FRIDAY",
+    creators: "Metalface221",
+    verifier: "Metalface221",
+    publisher: "Metalface221",
+    video: "https://www.youtube.com/embed/YUoFhrN3aKw",
+    id: "94107500",
+    password: "Free to Copy"
+  },
+  {
+    name: "Farthest Outpost",
+    creators: "Jghost",
+    verifier: "kyoto",
+    publisher: "Jghost",
+    video: "https://www.youtube.com/embed/HvQJB1SgEvo",
+    id: "95138230",
+    password: "Free to Copy"
+  },
+  {
+    name: "Ouroboros",
+    creators: "ViPriN, Osiris GD, Loserchik67, G4lvatron, FerdeFunky, Rustam, Darwin, DesTicY, AbstractDark, TheDevon, ChaSe, TrusTa, Terron",
+    verifier: "Technical",
+    publisher: "ViPriN",
+    video: "https://www.youtube.com/embed/hLTnewDC2Hs",
+    id: "56703691",
+    password: "072619"
+  },
+  {
+    name: "CONNECT",
+    creators: "MCres",
+    verifier: "mac",
+    publisher: "MCres",
+    video: "https://www.youtube.com/embed/oo_PqnEHZvo",
+    id: "95089240",
+    password: "Free to Copy"
+  },
+  {
+    name: "Exosphere",
+    creators: "Doggie & more(26 people)",
+    verifier: "DijonGD",
+    publisher: "Doggie",
+    video: "https://www.youtube.com/embed/HRbBub341W4",
+    id: "93247638",
+    password: "Free to Copy"
+  },
+  {
+    name: "Ourwa",
+    creators: "Demishio",
+    verifier: "Masa1017",
+    publisher: "Demishio",
+    video: "https://www.youtube.com/embed/Q2o_btgo6bg",
+    id: "61598653",
+    password: "Free to Copy"
+  },
+  {
+    name: "Visible Ray",
+    creators: "KrampuX, Maybee, Nonamed, Vismuth, C4rpediem, Dister K, Hobbyboat, 1234, DarkBoshy, Spica, Ekko4, Mulpan, KeiAs, Renovatio, Soulsand, DEMN, Senousia, MoonlightEVE, HaNavi, Ticky, LioLeo, Dominator, ThorMode",
+    verifier: "Seturan",
+    publisher: "KrampuX",
+    video: "https://www.youtube.com/embed/hHpaB752peM",
+    id: "48267315",
+    password: "147963"
+  },
+  {
+    name: "XRAY",
+    creators: "GDSkele & more(28 people)",
+    verifier: "GMDElite",
+    publisher: "GDSkele",
+    video: "https://www.youtube.com/embed/zk1G8Spw1hg",
+    id: "99465112",
+    password: "Free to Copy"
+  },
+  {
+    name: "the wiener",
+    creators: "Rynoxiouss, Lin, AlrexX, CDMusic",
+    verifier: "taiago",
+    publisher: "Rynoxiouss",
+    video: "https://www.youtube.com/embed/rgMruLorH1c",
+    id: "91019161",
+    password: "Free to Copy"
+  },
+  {
+    name: "Hardry",
+    creators: "KuraiYonaka",
+    verifier: "IcaroX",
+    publisher: "KuraiYonaka",
+    video: "https://www.youtube.com/embed/59JlNpDlhH8",
+    id: "94928487",
+    password: "001478"
+  },
+  {
+    name: "Ghoul",
+    creators: "XavT",
+    verifier: "XavT",
+    publisher: "XavT",
+    video: "https://www.youtube.com/embed/W1kgdxV_8E0",
+    id: "111751101",
+    password: "Free to Copy"
+  },
+  {
+    name: "kowareta",
+    creators: "Gablor, EndLevel, Minaxa",
+    verifier: "Gablor",
+    publisher: "Gablor",
+    video: "https://www.youtube.com/embed/wxWBFaZYHPM",
+    id: "46763581",
+    password: "474969"
+  },
+  {
+    name: "Dump",
+    creators: "GiggsRH, Koopazu",
+    verifier: "ZeusGD",
+    publisher: "GiggsRH",
+    video: "https://www.youtube.com/embed/UDrCb0rzuQo",
+    id: "89513590",
+    password: "Free to Copy"
+  },
+  {
+    name: "SZYSLAK",
+    creators: "Zeniux, ZeusGD",
+    verifier: "maxis044",
+    publisher: "Zeniux",
+    video: "https://www.youtube.com/embed/CUov9IB5wjg",
+    id: "84114885",
+    password: "Free to Copy"
+  },
+  {
+    name: "Th3Dev0n",
+    creators: "Zeptoz",
+    verifier: "xSmokes",
+    publisher: "Zeptoz",
+    video: "https://www.youtube.com/embed/f7s6i0M1n-g",
+    id: "95929957",
+    password: "Free to Copy"
+  },
+  {
+    name: "The Yandere",
+    creators: "Dorami, Partition, CastriX, DavJT, DanZmeN, Alderite, MrLorenzo, Elisione, Jghost, MikeWheelerFan, Bransilver, Mulpan, -, Mazl, Spectex, FarDreamer, YunHaSeu14, Osiris GD, alkali, JonathanGD, I'm Master X",
+    verifier: "Dorami",
+    publisher: "Dorami",
+    video: "https://www.youtube.com/embed/MN6Dra6yAys",
+    id: "54615662",
+    password: "300000"
+  },
+  {
+    name: "Arctic Lights",
+    creators: "iIiViRuZiIi, EndLevel, Hantein",
+    verifier: "Metalface221",
+    publisher: "Metalface221",
+    video: "https://www.youtube.com/embed/yd5cH9nvDvg",
+    id: "52919433",
+    password: "Free to Copy"
+  },
+  {
+    name: "Frozen Cave",
+    creators: "TyakyoFyai, Aqualime, Vornickon, AlexOris, DimaCrut, Sleynt, Quicklen, FlashWings576",
+    verifier: "khrizmass",
+    publisher: "TrueParadoxTeam",
+    video: "https://www.youtube.com/embed/BFaqgkw-Hg0",
+    id: "68908396",
+    password: "060521"
+  },
+  {
+    name: "EGO KILLING",
+    creators: "Derenowo, XWOUNDX, Asan4ik, Pluggy, Purple, Goroch, Crash75, Maxgreenevsky",
+    verifier: "Wolvez",
+    publisher: "exactteam",
+    video: "https://www.youtube.com/embed/xnCsfVFygC4",
+    id: "90463207",
+    password: "444445"
+  },
+  {
+    name: "Alpha",
+    creators: "SirWafel",
+    verifier: "CobraBlitz",
+    publisher: "SirWafel",
+    video: "https://www.youtube.com/embed/x9s3nSRUM7A",
+    id: "106362836",
+    password: "Free to Copy"
+  },
+  {
+    name: "Dedohexdragon",
+    creators: "Awedsy",
+    verifier: "royen",
+    publisher: "royen",
+    video: "https://www.youtube.com/embed/z_zegPqfqr4",
+    id: "81998680",
+    password: "Free to Copy"
+  },
+  {
+    name: "Plasma Pulse Finale",
+    creators: "xSmokes, Giron",
+    verifier: "xSmokes",
+    publisher: "xSmokes",
+    video: "https://www.youtube.com/embed/xqzx9cu6XoA",
+    id: "38655495",
+    password: "356987"
   }
 ];
 
@@ -1861,6 +2068,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-14', detail: 'Gustavo Fring ~ Plasma Pulse Finale were placed at #207 ~ #229.' },
   { date: '2025-11-14', detail: 'Silentlocked has been placed at #63, above Tartarus and below Sonic Wave Infinity. This pushes Starlit Stroll into the extended list, and SUPERHATEMEWORLD into the legacy list.' },
   { date: '2025-11-14', detail: 'meow hard has been placed at #144, above Lucid Nightmares and below Akashic Records. This pushes Omega Interface into the legacy list.' },
   { date: '2025-11-14', detail: 'Belladonna has been lowered from #33 to #44, above Codependence and below LIMBO.' },
@@ -2045,6 +2253,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
