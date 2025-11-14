@@ -1287,6 +1287,15 @@ const demons = [
     password: "002224"
   },
   {
+    name: "meow hard",
+    creators: "meowdead, royen, Metalface221, Azelice, solarion, KydeR, arca",
+    verifier: "Jenath",
+    publisher: "meowdead",
+    video: "https://www.youtube.com/embed/jOhGH2TckDA",
+    id: "111862459",
+    password: "Free to Copy"
+  },
+  {
     name: "Lucid Nightmares",
     creators: "CairoX, DonutTV",
     verifier: "Wooshi",
@@ -1843,25 +1852,26 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-14', detail: 'meow hard has been placed at #144, above Lucid Nightmares and below Akashic Records. This pushes Omega Interface into the legacy list.' },
   { date: '2025-11-14', detail: 'Belladonna has been lowered from #33 to #44, above Codependence and below LIMBO.' },
   { date: '2025-11-12', detail: 'DsinK has been raised from #198 to #192, above Congregation and below Sazerix.' },
-  { date: '2025-11-12', detail: 'Loops of Fury has been placed at #54, above Midnight and below ORDINARY. This pushes Natural Disaster to the extended list, and Amalgam to the legacy list.' },
+  { date: '2025-11-12', detail: 'Loops of Fury has been placed at #54, above Midnight and below ORDINARY. This pushes Natural Disaster into the extended list, and Amalgam into the legacy list.' },
   { date: '2025-11-12', detail: 'Saul Goodman and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #29.' },
   { date: '2025-11-12', detail: 'Apocalyptic Trilogy has been raised from #31 to #28, above Saul Goodman and below poocubed.' },
   { date: '2025-11-11', detail: 'Sazerix ~ Nhelv were placed at #190 ~ #203.' },
   { date: '2025-11-11', detail: 'Excruciation Chamber ~ Deimos (EndLevel) were placed at #179 ~ #189.' },
   { date: '2025-11-10', detail: 'Judgement Knights has been lowered from #92 to #102, above Lithium and below DISSONANCE.' },
-  { date: '2025-11-07', detail: 'Henken has been placed at #93, above Zodiac and below Judgement Knights. This pushes Tenkai to the legacy list.' },
+  { date: '2025-11-07', detail: 'Henken has been placed at #93, above Zodiac and below Judgement Knights. This pushes Tenkai into the legacy list.' },
   { date: '2025-11-07', detail: 'The Yangire and SARYYX NEVER CLEAR have been swapped, with SARYYX NEVER CLEAR now sitting above, at #51.' },
-  { date: '2025-11-07', detail: 'Omega Interface has been raised from #153 to #148, above Amalgam and below SUPERHATEMEWORLD. This pushes Sides Of My Mind to the legacy list.' },
+  { date: '2025-11-07', detail: 'Omega Interface has been raised from #153 to #148, above Amalgam and below SUPERHATEMEWORLD. This pushes Sides Of My Mind into the legacy list.' },
   { date: '2025-11-06', detail: 'Subterminal Point and KOCMOC have been swapped, with KOCMOC now sitting above, at #20.' },
   { date: '2025-11-06', detail: 'Sonic Wave Infinity has been lowered from #58 to #61, above Tartarus and below Crystal Crusher.' },
   { date: '2025-11-05', detail: 'andromeda and Every End have been swapped, with Every End now sitting above, at #7.' },
-  { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space. This pushes Horros to the legacy list.' },
+  { date: '2025-11-05', detail: 'azure blast has been placed at #115, above Renevant and below Thinking Space. This pushes Horros into the legacy list.' },
   { date: '2025-11-05', detail: 'Gaggatrondra and Edge of Destiny have been swapped, with Edge of Destiny now sitting above, at #37.' },
   { date: '2025-11-02', detail: 'CORRODERE has been raised from #138 to #130, above Cosmic Cyclone and below Indivine.' },
-  { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water. This pushes Verdant Landscape to the extended list, and Cobwebs to the legacy list.' },
-  { date: '2025-11-02', detail: 'Defeated Circles has been placed at #17, above Kyouki and below Tunnel of Despair. This pushes UNKNOWN to the extended list, and Omega Interface to the legacy list.' },
+  { date: '2025-11-02', detail: 'CONVULSION has been placed at #30, above Apocalyptic Trilogy and below Eyes in the Water. This pushes Verdant Landscape into the extended list, and Cobwebs into the legacy list.' },
+  { date: '2025-11-02', detail: 'Defeated Circles has been placed at #17, above Kyouki and below Tunnel of Despair. This pushes UNKNOWN into the extended list, and Omega Interface into the legacy list.' },
   { date: '2025-10-26', detail: 'Starlit Stroll has been lowered from #68 to #72, above Natural Disaster and below The Golden.' },
   { date: '2025-10-26', detail: 'KOSETSU has been raised from #25 to #23, above Sakupen Circles and below The Lightning Rod.' },
   { date: '2025-10-26', detail: 'Operation Evolution has been lowered from #30 to #45, above Damascus and below Mayhem.' },
@@ -2025,6 +2035,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
