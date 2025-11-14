@@ -2068,7 +2068,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-11-14', detail: 'PROTON LAUNCHER has been lowered from #180 to #, above Frozen Cave and below Arctic Lights.' },
+  { date: '2025-11-14', detail: 'PROTON LAUNCHER has been lowered from #180 to #224, above Frozen Cave and below Arctic Lights.' },
   { date: '2025-11-14', detail: 'Gustavo Fring ~ Plasma Pulse Finale were placed at #207 ~ #229.' },
   { date: '2025-11-14', detail: 'Silentlocked has been placed at #63, above Tartarus and below Sonic Wave Infinity. This pushes Starlit Stroll into the extended list, and SUPERHATEMEWORLD into the legacy list.' },
   { date: '2025-11-14', detail: 'meow hard has been placed at #144, above Lucid Nightmares and below Akashic Records. This pushes Omega Interface into the legacy list.' },
@@ -2254,6 +2254,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
