@@ -648,6 +648,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Natural Disaster",
+    creators: "GammaReXx, TheRealPeng, FreddyDash, XeNith, CairoX, Nyoom, AVRG, Szilu, Isem, PugDomination, feijoa, awesomeme, Cantis, Dreamlight, Dutchiee",
+    verifier: "iIiLaSeRiIi",
+    publisher: "iIiLaSeRiIi",
+    video: "https://www.youtube.com/embed/_0GqdSFmG_8",
+    id: "107741051",
+    password: "Free to Copy"
+  },
+  {
     name: "Terminal Rampancy",
     creators: "Xyriak",
     verifier: "Bigthunder556",
@@ -672,15 +681,6 @@ const demons = [
     publisher: "Enfur",
     video: "https://www.youtube.com/embed/U7MM74dTXuI",
     id: "115380769",
-    password: "Free to Copy"
-  },
-  {
-    name: "Natural Disaster",
-    creators: "GammaReXx, TheRealPeng, FreddyDash, XeNith, CairoX, Nyoom, AVRG, Szilu, Isem, PugDomination, feijoa, awesomeme, Cantis, Dreamlight, Dutchiee",
-    verifier: "iIiLaSeRiIi",
-    publisher: "iIiLaSeRiIi",
-    video: "https://www.youtube.com/embed/_0GqdSFmG_8",
-    id: "107741051",
     password: "Free to Copy"
   },
   {
@@ -2068,6 +2068,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-16', detail: 'Natural Disaster has been raised from #76 to #73, above Terminal Rampancy and below Cimmerian Shade. This pushes Starlit Stroll into the Extended List.' },
   { date: '2025-11-16', detail: 'Viprin UFO has been lowered from #73 to #78, above Verdant Landscape and below Natural Disaster. This pushes Starlit Stroll back into the Main List.' },
   { date: '2025-11-16', detail: 'Cold Sweat has been raised from #116 to #113, above Frost Spirit and below Lotus Flower.' },
   { date: '2025-11-14', detail: 'PROTON LAUNCHER has been lowered from #180 to #224, above Frozen Cave and below Arctic Lights.' },
@@ -2256,6 +2257,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
