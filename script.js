@@ -242,15 +242,6 @@ const demons = [
     id: "75296202",
     password: "234000"
   },
-  {
-    name: "poocubed",
-    creators: "Liisp, Earthum, Aespha, Faraoax, Arandamiguel123, TypicalGMD, Ph0bic",
-    verifier: "Kyasshukodo",
-    publisher: "Liisp",
-    video: "https://www.youtube.com/embed/VdVQkK3G234",
-    id: "85133223",
-    password: "Free to Copy"
-  },
     {
     name: "Apocalyptic Trilogy",
     creators: "APTeamOfficial(36 people)",
@@ -267,6 +258,15 @@ const demons = [
     publisher: "nothawkyre",
     video: "https://www.youtube.com/embed/yvLwiOy3KEA",
     id: "95851008",
+    password: "Free to Copy"
+  },
+  {
+    name: "poocubed",
+    creators: "Liisp, Earthum, Aespha, Faraoax, Arandamiguel123, TypicalGMD, Ph0bic",
+    verifier: "Kyasshukodo",
+    publisher: "Liisp",
+    video: "https://www.youtube.com/embed/VdVQkK3G234",
+    id: "85133223",
     password: "Free to Copy"
   },
   {
@@ -2068,6 +2068,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-19', detail: 'poocubed has been lowered from #28 to #30, above Saul Goodman and below Eyes in the Water.' },
   { date: '2025-11-19', detail: 'PSYCHOPATH has been lowered from #50 to #57, above BEELINE and below Sinister Silence.' },
   { date: '2025-11-16', detail: 'Natural Disaster has been raised from #76 to #73, above Terminal Rampancy and below Cimmerian Shade. This pushes Starlit Stroll into the Extended List.' },
   { date: '2025-11-16', detail: 'Viprin UFO has been lowered from #73 to #78, above Verdant Landscape and below Natural Disaster. This pushes Starlit Stroll back into the Main List.' },
@@ -2258,6 +2259,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
