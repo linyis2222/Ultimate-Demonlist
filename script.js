@@ -441,15 +441,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "PSYCHOPATH",
-    creators: "DeniPol",
-    verifier: "BONN GD",
-    publisher: "DeniPol",
-    video: "https://www.youtube.com/embed/1luL7tTE8p8",
-    id: "103925676",
-    password: "Free to Copy"
-  },
-  {
     name: "Collapse",
     creators: "rnexel",
     verifier: "rnexel",
@@ -510,6 +501,15 @@ const demons = [
     publisher: "Wahffle",
     video: "https://www.youtube.com/embed/6N8u_byYoZo",
     id: "82249742",
+    password: "Free to Copy"
+  },
+  {
+    name: "PSYCHOPATH",
+    creators: "DeniPol",
+    verifier: "BONN GD",
+    publisher: "DeniPol",
+    video: "https://www.youtube.com/embed/1luL7tTE8p8",
+    id: "103925676",
     password: "Free to Copy"
   },
     {
@@ -2068,6 +2068,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-19', detail: 'PSYCHOPATH has been lowered from #50 to #57, above BEELINE and below Sinister Silence.' },
   { date: '2025-11-16', detail: 'Natural Disaster has been raised from #76 to #73, above Terminal Rampancy and below Cimmerian Shade. This pushes Starlit Stroll into the Extended List.' },
   { date: '2025-11-16', detail: 'Viprin UFO has been lowered from #73 to #78, above Verdant Landscape and below Natural Disaster. This pushes Starlit Stroll back into the Main List.' },
   { date: '2025-11-16', detail: 'Cold Sweat has been raised from #116 to #113, above Frost Spirit and below Lotus Flower.' },
@@ -2257,6 +2258,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
