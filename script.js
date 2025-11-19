@@ -54,6 +54,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Subsuming Vortex",
+    creators: "SeptaGon7, Renn241",
+    verifier: "CursedZ",
+    publisher: "CursedZ",
+    video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
+    id: "127997391",
+    password: "Free to Copy"
+  },
+  {
     name: "Every End",
     creators: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, CobraBlitz",
     verifier: "Hqmy",
@@ -128,7 +137,7 @@ const demons = [
   {
     name: "Abyss of Darkness",
     creators: "Exen, CDMusic, Megaskill, DigitalZero, Masterman, maxfs, Xolarzz, Waffle, ZmL(XDiamondX), GrenadeofTacos, Fenrrig, AlrexX, rynoxious, RealVet, GD Iris, GrayRain, celestia",
-    verifier: "Cursed",
+    verifier: "CursedZ",
     publisher: "Exen",
     video: "https://www.youtube.com/embed/ejJkpqcMMCY",
     id: "49896559",
@@ -1352,7 +1361,7 @@ const demons = [
   {
     name: "SUPERHATEMEWORLD",
     creators: "IcEDCave, Loogiah, EndLevel, RealVet, River, Doop",
-    verifier: "Cursed",
+    verifier: "CursedZ",
     publisher: "IcEDCave",
     video: "https://www.youtube.com/embed/fhmgZYCJ29M",
     id: "57571983",
@@ -1406,7 +1415,7 @@ const demons = [
   {
     name: "Cobwebs",
     creators: "NineDice",
-    verifier: "Cursed",
+    verifier: "CursedZ",
     publisher: "NineDice",
     video: "https://www.youtube.com/embed/bgZ85rCaEGY",
     id: "82172844",
@@ -2068,6 +2077,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-19', detail: 'Subsuming Vortex has been placed at #7, above Every End and below BOOBAWAMBA. This pushes The Golden into the Extended List, and Launchpad Labyrinth into the Legacy List.' },
   { date: '2025-11-19', detail: 'poocubed has been lowered from #28 to #30, above Saul Goodman and below Eyes in the Water.' },
   { date: '2025-11-19', detail: 'PSYCHOPATH has been lowered from #50 to #57, above BEELINE and below Sinister Silence.' },
   { date: '2025-11-16', detail: 'Natural Disaster has been raised from #76 to #73, above Terminal Rampancy and below Cimmerian Shade. This pushes Starlit Stroll into the Extended List.' },
@@ -2259,6 +2269,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
