@@ -846,15 +846,6 @@ const demons = [
     password: "002115"
   },
   {
-    name: "Zodiac",
-    creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
-    verifier: "Technical",
-    publisher: "RicoLP",
-    video: "https://www.youtube.com/embed/N4QjElo58_o",
-    id: "52374843",
-    password: "005875"
-  },
-  {
     name: "WOBBLING MACHINE",
     creators: "Smarted",
     verifier: "conski",
@@ -889,6 +880,15 @@ const demons = [
     video: "https://www.youtube.com/embed/0fNBFwNS1qg",
     id: "88611404",
     password: "Free to Copy"
+  },
+  {
+    name: "Zodiac",
+    creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
+    verifier: "Technical",
+    publisher: "RicoLP",
+    video: "https://www.youtube.com/embed/N4QjElo58_o",
+    id: "52374843",
+    password: "005875"
   },
   {
     name: "Swing Swing",
@@ -2077,6 +2077,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-22', detail: 'Zodiac has been lowered from #95 to #99, above Swing Swing and below NEUTRA.' },
   { date: '2025-11-22', detail: 'RUST has been lowered from #71 to #118, above azure blast and below Thinking Space. This pushes The Golden back into the Main List.' },
   { date: '2025-11-22', detail: 'Cognition has been lowered from #132 to #134, above CORRODERE and below Indivine.' },
   { date: '2025-11-19', detail: 'Subsuming Vortex has been placed at #7, above Every End and below BOOBAWAMBA. This pushes The Golden into the Extended List, and Launchpad Labyrinth into the Legacy List.' },
@@ -2271,6 +2272,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
