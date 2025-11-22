@@ -1179,15 +1179,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Cognition",
-    creators: "EndLevel, benji8080",
-    verifier: "nSwish",
-    publisher: "EndLevel",
-    video: "https://www.youtube.com/embed/enl0GOyskPs",
-    id: "57600307",
-    password: "Free to Copy"
-  },
-  {
     name: "ATOMIC CANNON Mk II",
     creators: "LIEB, Giron, BIANOX, Zeronium",
     verifier: "Zeronium",
@@ -1203,6 +1194,15 @@ const demons = [
     publisher: "Mercury6779",
     video: "https://www.youtube.com/embed/g2CVts-tX70",
     id: "112586799",
+    password: "Free to Copy"
+  },
+  {
+    name: "Cognition",
+    creators: "EndLevel, benji8080",
+    verifier: "nSwish",
+    publisher: "EndLevel",
+    video: "https://www.youtube.com/embed/enl0GOyskPs",
+    id: "57600307",
     password: "Free to Copy"
   },
   {
@@ -2077,6 +2077,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-22', detail: 'Cognition has been lowered from #132 to #134, above CORRODERE and below Indivine.' },
   { date: '2025-11-19', detail: 'Subsuming Vortex has been placed at #7, above Every End and below BOOBAWAMBA. This pushes The Golden into the Extended List, and Launchpad Labyrinth into the Legacy List.' },
   { date: '2025-11-19', detail: 'poocubed has been lowered from #28 to #30, above Saul Goodman and below Eyes in the Water.' },
   { date: '2025-11-19', detail: 'PSYCHOPATH has been lowered from #50 to #57, above BEELINE and below Sinister Silence.' },
@@ -2269,6 +2270,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
