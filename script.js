@@ -629,15 +629,6 @@ const demons = [
     id: "95031870",
     password: "Free to Copy"
   },
-   {
-    name: "RUST",
-    creators: "neigefeu",
-    verifier: "Keir",
-    publisher: "neigefeu",
-    video: "https://www.youtube.com/embed/mEXGlrNMyR4",
-    id: "71912451",
-    password: "Free to Copy"
-  },
   {
     name: "Checked Steam",
     creators: "gruzyGD",
@@ -1060,6 +1051,15 @@ const demons = [
     video: "https://www.youtube.com/embed/iHf2nanWjvE",
     id: "54953085",
     password: "235236"
+  },
+   {
+    name: "RUST",
+    creators: "neigefeu",
+    verifier: "Keir",
+    publisher: "neigefeu",
+    video: "https://www.youtube.com/embed/mEXGlrNMyR4",
+    id: "71912451",
+    password: "Free to Copy"
   },
   {
     name: "azure blast",
@@ -2077,6 +2077,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-22', detail: 'RUST has been lowered from #71 to #118, above azure blast and below Thinking Space.' },
   { date: '2025-11-22', detail: 'Cognition has been lowered from #132 to #134, above CORRODERE and below Indivine.' },
   { date: '2025-11-19', detail: 'Subsuming Vortex has been placed at #7, above Every End and below BOOBAWAMBA. This pushes The Golden into the Extended List, and Launchpad Labyrinth into the Legacy List.' },
   { date: '2025-11-19', detail: 'poocubed has been lowered from #28 to #30, above Saul Goodman and below Eyes in the Water.' },
@@ -2270,6 +2271,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
