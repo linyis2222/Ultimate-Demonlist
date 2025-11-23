@@ -469,7 +469,7 @@ const demons = [
   },
   {
     name: "The Yangire",
-    creators: "Dorami, Alderite, JenkinsGD, Partition, matty2003, DavJT, JonathanGD, MaxyLAND, Spectex, Mulpan, genoxide, DHaner, Master X, Synd, Xaro, DeniPol, TheElectro, EnZore, Astraa, Buragoz, Zafkiel7, iIBonIi, Mercury, Viwi",
+    creators: "Dorami, Alderite, JenkinsGD, Partition, matty2003, DavJT, JonathanGD, MaxyLAND, Spectex, Mulpan, genoxide, DHaner, Master X, Synd, Xaro, DeniPol, TheElectro, EnZore, Astraa, Buragoz, Zafkiel7, iIBonIi, Mercury6779, Viwi",
     verifier: "Dorami",
     publisher: "Dorami",
     video: "https://www.youtube.com/embed/V3FjIorIfWg",
@@ -784,7 +784,7 @@ const demons = [
   },
   {
     name: "Trueffet",
-    creators: "SyQual, Rainstorm",
+    creators: "SyQual, iRainstorm",
     verifier: "Baeru",
     publisher: "SyQual",
     video: "https://www.youtube.com/embed/yHESkazVD4Q",
@@ -1018,7 +1018,7 @@ const demons = [
   },
   {
     name: "Frost Spirit",
-    creators: "DrayTM, Halzion, Reda, Zipixbox, Realvet, River, silver, AlrexX, Valentine, Linear, Pla, Mercury, InfiniteStyles, GDIris, ConnectedGD, Manu",
+    creators: "DrayTM, Halzion, Reda, Zipixbox, Realvet, River, silver, AlrexX, Valentine, Linear, Pla, Mercury6779, InfiniteStyles, GDIris, ConnectedGD, Manu",
     verifier: "Varium",
     publisher: "Quaybus",
     video: "https://www.youtube.com/embed/KXbaRnRpm58",
@@ -1099,7 +1099,7 @@ const demons = [
   },
   {
     name: "Instinct",
-    creators: "KrmaL, Pennutoh, Zendayo, Kugelblitz, talia, Lqah, recillia, dysbelief, SleyGD, pocke, Nightning, krisking, DogGoesWoof, S3rios, wokecat, valentine",
+    creators: "KrmaL, Pennutoh, Zendayo, Kugelblitz, talia, Lqah, recillia, dysbelief, SleyGD, pocke, Nightning, krisking, DogGoesWoof, S3rios, wokecat, Valentine",
     verifier: "Blitzer",
     publisher: "Krazyman50",
     video: "https://www.youtube.com/embed/6W3Gvi9ft0w",
@@ -1162,7 +1162,7 @@ const demons = [
   },
   {
     name: "Disconnected Descent",
-    creators: "Magmeta, Waffl3x, EndLevel, WatchPiggy, wokecat, Galaxxyss, PeroXide01, Xolarzz, s3batr0nic, OddMod, Unerve, Slijee, Blitzer, gBen, AlerxX, tenzk, StarkytheSalad, Tygrysek, valentine, Mercury6779",
+    creators: "Magmeta, Waffl3x, EndLevel, WatchPiggy, wokecat, Galaxxyss, PeroXide01, Xolarzz, s3batr0nic, OddMod, Unerve, Slijee, Blitzer, gBen, AlerxX, tenzk, StarkytheSalad, Tygrysek, Valentine, Mercury6779",
     verifier: "Lia",
     publisher: "TheSkeletonGMD",
     video: "https://www.youtube.com/embed/TP7OAAVH-uA",
@@ -1234,7 +1234,7 @@ const demons = [
   },
   {
     name: "Gloxinia",
-    creators: "solarion, Cyclic, Aeidux, cleangame, Graded, Ryan LC, Isane, Yonaka, GDHand, valentine, Motu, Mulpan, minus786",
+    creators: "solarion, Cyclic, Aeidux, cleangame, Graded, Ryan LC, Isane, Yonaka, GDHand, Valentine, Motu, Mulpan, minus786",
     verifier: "rosewa",
     publisher: "solarion",
     video: "https://www.youtube.com/embed/MJh_6Z5v6bM",
@@ -1639,7 +1639,7 @@ const demons = [
   },
   {
     name: "Terminux",
-    creators: "Rainstorm, 1374, Aerae, SyQual, TheCdPre, ZenthicAlpha, Inex, iEstia, Flosia, Mintjelly",
+    creators: "iRainstorm, 1374, Aerae, SyQual, TheCdPre, ZenthicAlpha, Inex, iEstia, Flosia, Mintjelly",
     verifier: "Laniakea",
     publisher: "Aerae",
     video: "https://www.youtube.com/embed/-UgocJ3WYn4",
@@ -2239,6 +2239,105 @@ const demons = [
     video: "https://www.youtube.com/embed/0KtPsPVpj78",
     id: "59157630",
     password: "016422"
+  },
+  {
+    name: "Iris of a Puppteer",
+    creators: "EternaswipVMAX",
+    verifier: "paqoe",
+    publisher: "EternaswipVMAX",
+    video: "https://www.youtube.com/embed/DK3BShj1zYc",
+    id: "89243963",
+    password: "Free to Copy"
+  },
+  {
+    name: "Requiem",
+    creators: "Lithifusion",
+    verifier: "Zylenox",
+    publisher: "Zylenox",
+    video: "https://www.youtube.com/embed/sRCQ1JjhBq4",
+    id: "52303420",
+    password: "No Copy"
+  },
+  {
+    name: "Eternal Moment",
+    creators: "iRainstorm, iEstia, TheCdPre, ZelLink",
+    verifier: "nSwish",
+    publisher: "iRainstorm",
+    video: "https://www.youtube.com/embed/FbPJ2fclXHQ",
+    id: "59539361",
+    password: "086400"
+  },
+  {
+    name: "Edge of the World",
+    creators: "Ultimxte, ked, Flaksy, XinpA, Manheadrambo, Novaach, L4TeZk, Lumihiutale, DreamZoneGD, Jiikoo, Custi, Luska, Miikkem, LapoGD, WhitePythor, At424",
+    verifier: "L4TeZk",
+    publisher: "L4TeZk",
+    video: "https://www.youtube.com/embed/QWy1RnPDCWk",
+    id: "83697006",
+    password: "Free to Copy"
+  },
+  {
+    name: "RANDOM ACCESS MEMORY",
+    creators: "AAAAAlex, Krisz, Trunith, zKreno, oleki, SleyGD, OliSW, Valentine, Acute144, Zeronium",
+    verifier: "Zeronium",
+    publisher: "Acute144",
+    video: "https://www.youtube.com/embed/6_pYfJKKpRY",
+    id: "81372683",
+    password: "Free to Copy"
+  },
+  {
+    name: "ADOMANIA",
+    creators: "Swib",
+    verifier: "Swib",
+    publisher: "Swib",
+    video: "https://www.youtube.com/embed/rPDa8gtdK_E",
+    id: "97183213",
+    password: "Free to Copy"
+  },
+  {
+    name: "SisuSonic",
+    creators: "RpgRaketti & more(30 people)",
+    verifier: "JHdash77",
+    publisher: "RpgRaketti",
+    video: "https://www.youtube.com/embed/epTEemVtIqY",
+    id: "103035376",
+    password: "Free to Copy"
+  },
+  {
+    name: "Beyond Hell",
+    creators: "Enzeux, idiocy, DiamondSkull, maxfs, p0ki, nazerr, trickyb89, rRaddie, Enzolex, Mercury6779, fakeblast",
+    verifier: "fakeblast",
+    publisher: "fakeblast",
+    video: "https://www.youtube.com/embed/Q6GCkukQabQ",
+    id: "77016475",
+    password: "Free to Copy"
+  },
+  {
+    name: "ConTroller",
+    creators: "DreamZoneGD",
+    verifier: "DreamZoneGD",
+    publisher: "DreamZoneGD",
+    video: "https://www.youtube.com/embed/kXLBuSDagOE",
+    id: "79619086",
+    password: "Free to Copy"
+  },
+  {
+    name: "Omega",
+    creators: "MindCap & more(30 people)",
+    verifier: "Duhpowah",
+    publisher: "MindCap",
+    video: "https://www.youtube.com/embed/spYufsgr3NU",
+    id: "59706883",
+    password: "Free to Copy"
+  },
+  {
+    name: "Gamma",
+    creators: "MindCap, Lemons, Metalface221, Pennutoh, Mactanow, Lithifusion, Djoxy, HequinoX, MichealH, iNighti, Ferox242, AngryBoy0644",
+    verifier: "Technical",
+    publisher: "MindCap",
+    video: "https://www.youtube.com/embed/HTXRWzS2aw8",
+    id: "39832454",
+    password: "Free to Copy"
   }
 ];
 
@@ -2248,7 +2347,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-11-23', detail: 'CHROMA FINALE ~ Mirrored Calamity were placed at #231 ~ #249.' },
+  { date: '2025-11-23', detail: 'CHROMA FINALE ~ Gamma were placed at #231 ~ #260.' },
   { date: '2025-11-22', detail: 'Zodiac has been lowered from #95 to #99, above Swing Swing and below NEUTRA.' },
   { date: '2025-11-22', detail: 'RUST has been lowered from #71 to #118, above azure blast and below Thinking Space. This pushes The Golden back into the Main List.' },
   { date: '2025-11-22', detail: 'Cognition has been lowered from #132 to #134, above CORRODERE and below Indivine.' },
@@ -2444,6 +2543,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
