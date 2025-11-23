@@ -885,7 +885,7 @@ const demons = [
     name: "Zodiac",
     creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
     verifier: "Technical",
-    publisher: "RicoLP",
+    publisher: "BIANOX",
     video: "https://www.youtube.com/embed/N4QjElo58_o",
     id: "52374843",
     password: "005875"
