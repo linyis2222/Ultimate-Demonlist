@@ -91,7 +91,7 @@ const demons = [
   },
   {
     name: "Anathema",
-    creators: "nikroplays, Iris, Zipixboxs, Eternaswip, ItsHybrid, TMco",
+    creators: "nikroplays, Iris, Zipixbox, Eternaswip, ItsHybrid, TMco",
     verifier: "Whizkid05",
     publisher: "nikroplays",
     video: "https://www.youtube.com/embed/_uKwmjHmySI",
@@ -118,7 +118,7 @@ const demons = [
   },
   {
     name: "Acheron",
-    creators: "GrenadeofTacos, ryamu, Riot, icedcave, silver, Deadlox, Komp, AZuLer4, ewop, Metalface221, Cersia, LimeTime313, goob, Endlevel",
+    creators: "GrenadeofTacos, ryamu, Riot, icedcave, silver, zDeadlox, Komp, AZuLer4, ewop, Metalface221, Cersia, LimeTime313, goob, Endlevel",
     verifier: "zZoink",
     publisher: "ryamu",
     video: "https://www.youtube.com/embed/sBKR6aUorzA",
@@ -181,7 +181,7 @@ const demons = [
   },
   {
     name: "KOCMOC",
-    creators: "Vernam, Spk, Synd, Vinty, Sauzzeth, Bli, Kivvvi, Xatz, ZDeadlox, Cuaer",
+    creators: "Vernam, Spk, Synd, Vinty, Sauzzeth, Bli, Kivvvi, Xatz, zDeadlox, Cuaer",
     verifier: "zZoink",
     publisher: "cherryteam",
     video: "https://www.youtube.com/embed/2CxE-UWCIG4",
@@ -460,7 +460,7 @@ const demons = [
   },
   {
     name: "SARYYX NEVER CLEAR",
-    creators: "aartos, Axxorz, Voltex, Realvet, Deadlox, spcreat, Graded, Pla, Indra",
+    creators: "aartos, Axxorz, Voltex, Realvet, zDeadlox, spcreat, Graded, Pla, Indra",
     verifier: "skzyl",
     publisher: "aartos",
     video: "https://www.youtube.com/embed/rRlyvmjcz_4",
@@ -802,7 +802,7 @@ const demons = [
   },
   {
     name: "Fragile",
-    creators: "iIiViRuZiIi, EndLevel, Gablor, zYuko, XLSpiral, deadlox, Artumanka, Minaxa",
+    creators: "iIiViRuZiIi, EndLevel, Gablor, zYuko, XLSpiral, zDeadlox, Artumanka, Minaxa",
     verifier: "vaen",
     publisher: "EndLevel",
     video: "https://www.youtube.com/embed/XfXzGv0oALw",
@@ -1207,7 +1207,7 @@ const demons = [
   },
   {
     name: "CORRODERE",
-    creators: "FrostBurn, LIEB, Blitzer, Moosh, xSmokes, Deadlox, Giron, Awedsy, Licen, Starbom, Skrypto, Goob, Vlacc, Neoraptor, -, ewop, TheZinkYT, GrenadeofTacos, silver, ItzKiba",
+    creators: "FrostBurn, LIEB, Blitzer, Moosh, xSmokes, zDeadlox, Giron, Awedsy, Licen, Starbom, Skrypto, Goob, Vlacc, Neoraptor, -, ewop, TheZinkYT, GrenadeofTacos, silver, ItzKiba",
     verifier: "Gzeee",
     publisher: "Moosh",
     video: "https://www.youtube.com/embed/-V87Bh44lAU",
@@ -1477,7 +1477,7 @@ const demons = [
   },
   {
     name: "Descent Into Exile",
-    creators: "GrenadeofTacos, Riot, IcEDCave, ViPriN, Vermillion, spcreat, Theorical, Awedsy, Cersia, maxfs, ewop, Loogiah, Deadlox, Pokechatt, weoweoteo, Artos, RealVet",
+    creators: "GrenadeofTacos, Riot, IcEDCave, ViPriN, Vermillion, spcreat, Theorical, Awedsy, Cersia, maxfs, ewop, Loogiah, zDeadlox, PokeChatt, weoweoteo, Artos, RealVet",
     verifier: "BunnyGram",
     publisher: "GrenadeofTacos",
     video: "https://www.youtube.com/embed/whtt_WkG_20",
@@ -2068,6 +2068,177 @@ const demons = [
     video: "https://www.youtube.com/embed/xqzx9cu6XoA",
     id: "38655495",
     password: "356987"
+  },
+  {
+    name: "CHROMA FINALE",
+    creators: "Renn241",
+    verifier: "waturn",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/ByJ9rz4-WUI",
+    id: "72570152",
+    password: "Free to Copy"
+  },
+  {
+    name: "Spectrum Cyclone",
+    creators: "lTemp",
+    verifier: "lTemp",
+    publisher: "lTemp",
+    video: "https://www.youtube.com/embed/IN0XeMo2SmM",
+    id: "59209010",
+    password: "Free to Copy"
+  },
+  {
+    name: "CRIDIUM",
+    creators: "Superioxx, Stotch, Arax, Octane, CTRX, yarle, Synage, Galvam, Mitho, Khelado, Galliard, Mag",
+    verifier: "teraaa",
+    publisher: "4yoet",
+    video: "https://www.youtube.com/embed/IS3AcckWUT8",
+    id: "94390380",
+    password: "No Copy"
+  },
+  {
+    name: "REPENTLESS",
+    creators: "Renn241",
+    verifier: "Blankb",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/-lexD6huBlg",
+    id: "87666648",
+    password: "Free to Copy"
+  },
+  {
+    name: "Specthys",
+    creators: "gBen",
+    verifier: "gBen",
+    publisher: "gBen",
+    video: "https://www.youtube.com/embed/QEhqvQvEfNM",
+    id: "123501215",
+    password: "Free to Copy"
+  },
+  {
+    name: "Fever Dream",
+    creators: "IcEDCave",
+    verifier: "BGram",
+    publisher: "IcEDCave",
+    video: "https://www.youtube.com/embed/Mc3vZeM_VYw",
+    id: "57571964",
+    password: "No Copy"
+  },
+  {
+    name: "Shutdown",
+    creators: "OliSW",
+    verifier: "MiniShoey",
+    publisher: "OliSW",
+    video: "https://www.youtube.com/embed/A-A6_ybDY2I",
+    id: "78164953",
+    password: "Free to Copy"
+  },
+  {
+    name: "Aquatic Auroras",
+    creators: "EndLevel, El3ctr0, LimeTime313",
+    verifier: "kyoto",
+    publisher: "EndLevel",
+    video: "https://www.youtube.com/embed/cD0zZ9OJkBE",
+    id: "60740290",
+    password: "789123"
+  },
+  {
+    name: "Cersia Madness",
+    creators: "Cersia",
+    verifier: "Cersia",
+    publisher: "Cersia",
+    video: "https://www.youtube.com/embed/vGHOD8OWgdY",
+    id: "83969616",
+    password: "Free to Copy"
+  },
+  {
+    name: "Storming Summit",
+    creators: "IINimbusII & more(25 people)",
+    verifier: "Ozzy",
+    publisher: "IINimbusII",
+    video: "https://www.youtube.com/embed/ymmMnZLpfQU",
+    id: "76653933",
+    password: "Free to Copy"
+  },
+  {
+    name: "Calamity",
+    creators: "Awedsy",
+    verifier: "royen",
+    publisher: "Awedsy",
+    video: "https://www.youtube.com/embed/PwOPRxp6KjY",
+    id: "64766514",
+    password: "Free to Copy"
+  },
+  {
+    name: "RAM",
+    creators: "James, Kyhros, KWWS, Grax, Loltad, gdParallax, para, LIEB, Giron, PokeChatt, xSmokes, ZeroSR, zDeadlox, victorinoxX, Zeptoz, linus02, Woom, ilnm, zipi",
+    verifier: "zipi",
+    publisher: "James",
+    video: "https://www.youtube.com/embed/5cl7WAQJKdY",
+    id: "95440955",
+    password: "Free to Copy"
+  },
+  {
+    name: "nevermore",
+    creators: "OnlyTryingYT, BrutalSword107, Etheriall, gooseunderscore, VladAAA, Revv, jokys, OliXor, VicDash78, bellox",
+    verifier: "kovosrutek",
+    publisher: "eimiie",
+    video: "https://www.youtube.com/embed/",
+    id: "94761797",
+    password: "Free to Copy"
+  },
+  {
+    name: "WORSTBRAINMAP",
+    creators: "Bimms",
+    verifier: "Bimms",
+    publisher: "Bimms",
+    video: "https://www.youtube.com/embed/GWjIIFktU04",
+    id: "102144924",
+    password: "Free to Copy"
+  },
+  {
+    name: "AKIRA",
+    creators: "Eridani, Denni",
+    verifier: "Solus",
+    publisher: "Eridani",
+    video: "https://www.youtube.com/embed/RHCCZkf4UFM",
+    id: "88421468",
+    password: "Free to Copy"
+  },
+  {
+    name: "Midnight Tokyo",
+    creators: "irsdorkage",
+    verifier: "fusion425",
+    publisher: "irsdorkage",
+    video: "https://www.youtube.com/embed/ALeB-Svv0BQ",
+    id: "124249691",
+    password: "Free to Copy"
+  },
+  {
+    name: "Sparkling",
+    creators: "MzeroGD, Snikz, Surge, PokeChatt, GaidenHertuny",
+    verifier: "Johnfree",
+    publisher: "MzeroGD",
+    video: "https://www.youtube.com/embed/4r9hkMxpiQw",
+    id: "77765367",
+    password: "Free to Copy"
+  },
+  {
+    name: "of Ambrosia",
+    creators: "Renn241",
+    verifier: "pi guy",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/0KtPsPVpj78",
+    id: "81583127",
+    password: "Free to Copy"
+  },
+  {
+    name: "Mirrored Calamity",
+    creators: "Chuckgamer1, nothawkyre, Kusa, blastblock, StarkytheSalad, Moosh, Amidon, senk, Konsi, Acnologia, steverman, RealVet, Loltad, Yoonsrdynamix, Molds, para, DemonDasher, InterChange, Morin, Sequex, Davphla",
+    verifier: "IINimbusII",
+    publisher: "IINimbusII",
+    video: "https://www.youtube.com/embed/0KtPsPVpj78",
+    id: "59157630",
+    password: "016422"
   }
 ];
 
@@ -2077,6 +2248,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-23', detail: 'CHROMA FINALE ~ Mirrored Calamity were placed at #231 ~ #249.' },
   { date: '2025-11-22', detail: 'Zodiac has been lowered from #95 to #99, above Swing Swing and below NEUTRA.' },
   { date: '2025-11-22', detail: 'RUST has been lowered from #71 to #118, above azure blast and below Thinking Space. This pushes The Golden back into the Main List.' },
   { date: '2025-11-22', detail: 'Cognition has been lowered from #132 to #134, above CORRODERE and below Indivine.' },
@@ -2272,6 +2444,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
