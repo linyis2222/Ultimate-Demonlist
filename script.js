@@ -1854,6 +1854,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Fragmented",
+    creators: "Cersia, sink",
+    verifier: "TGM05",
+    publisher: "Cersia",
+    video: "https://www.youtube.com/embed/RnLoliyy4k0",
+    id: "71571300",
+    password: "Free to Copy"
+  },
+  {
     name: "Gustavo Fring",
     creators: "Renn241",
     verifier: "Acratic",
@@ -2347,6 +2356,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-24', detail: 'Fragmented has been placed at #207, above Gustavo Fring and below Nhelv.' },
   { date: '2025-11-24', detail: 'Firework has been lowered from #28 to #30, above poocubed and below Eyes in the Water.' },
   { date: '2025-11-23', detail: 'CHROMA FINALE ~ Gamma were placed at #231 ~ #260.' },
   { date: '2025-11-22', detail: 'Zodiac has been lowered from #95 to #99, above Swing Swing and below NEUTRA.' },
@@ -2544,6 +2554,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
