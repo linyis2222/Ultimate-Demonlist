@@ -242,15 +242,6 @@ const demons = [
     id: "76962930",
     password: "Free to Copy"
   },
-  {
-    name: "Firework",
-    creators: "Vernam, lillium, 00Zero, Konsi, Realvet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
-    verifier: "TrickGMD",
-    publisher: "TrickGMD",
-    video: "https://www.youtube.com/embed/QBe5x2o9v2w",
-    id: "75296202",
-    password: "234000"
-  },
     {
     name: "Apocalyptic Trilogy",
     creators: "APTeamOfficial(36 people)",
@@ -268,6 +259,15 @@ const demons = [
     video: "https://www.youtube.com/embed/yvLwiOy3KEA",
     id: "95851008",
     password: "Free to Copy"
+  },
+  {
+    name: "Firework",
+    creators: "Vernam, lillium, 00Zero, Konsi, Realvet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
+    verifier: "TrickGMD",
+    publisher: "TrickGMD",
+    video: "https://www.youtube.com/embed/QBe5x2o9v2w",
+    id: "75296202",
+    password: "234000"
   },
   {
     name: "poocubed",
@@ -2347,6 +2347,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-24', detail: 'Firework has been lowered from #28 to #30, above poocubed and below Eyes in the Water.' },
   { date: '2025-11-23', detail: 'CHROMA FINALE ~ Gamma were placed at #231 ~ #260.' },
   { date: '2025-11-22', detail: 'Zodiac has been lowered from #95 to #99, above Swing Swing and below NEUTRA.' },
   { date: '2025-11-22', detail: 'RUST has been lowered from #71 to #118, above azure blast and below Thinking Space. This pushes The Golden back into the Main List.' },
@@ -2543,6 +2544,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
