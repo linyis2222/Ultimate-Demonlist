@@ -270,6 +270,15 @@ const demons = [
     password: "234000"
   },
   {
+    name: "Edge of Destiny",
+    creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
+    verifier: " Polterghast",
+    publisher: "CDMusic",
+    video: "https://www.youtube.com/embed/rUphe3H59yU",
+    id: "89187968",
+    password: "Free to Copy"
+  },
+  {
     name: "poocubed",
     creators: "Liisp, Earthum, Aespha, Faraoax, Arandamiguel123, TypicalGMD, Ph0bic",
     verifier: "Kyasshukodo",
@@ -330,15 +339,6 @@ const demons = [
     publisher: "herozombie80",
     video: "https://www.youtube.com/embed/eRhgaF0r5Q0",
     id: "96314787",
-    password: "Free to Copy"
-  },
-  {
-    name: "Edge of Destiny",
-    creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
-    verifier: " Polterghast",
-    publisher: "CDMusic",
-    video: "https://www.youtube.com/embed/rUphe3H59yU",
-    id: "89187968",
     password: "Free to Copy"
   },
   {
@@ -2356,6 +2356,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-25', detail: 'Edge of Destiny has been raised from #38 to #31, above poocubed and below Firework.' },
   { date: '2025-11-24', detail: 'Fragmented has been placed at #207, above Gustavo Fring and below Nhelv.' },
   { date: '2025-11-24', detail: 'Firework has been lowered from #28 to #30, above poocubed and below Eyes in the Water.' },
   { date: '2025-11-23', detail: 'CHROMA FINALE ~ Gamma were placed at #231 ~ #260.' },
@@ -2554,6 +2555,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
