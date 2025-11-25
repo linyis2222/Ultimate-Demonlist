@@ -306,6 +306,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Gaggatrondra",
+    creators: "JCMoon",
+    verifier: "Zeronium",
+    publisher: "JCMoon",
+    video: "https://www.youtube.com/embed/A4G41vw6Cf0",
+    id: "114990369",
+    password: "Free to Copy"
+  },
+  {
     name: "The Hallucination",
     creators: "SyQual, Votchi",
     verifier: "Votchi",
@@ -339,15 +348,6 @@ const demons = [
     publisher: "herozombie80",
     video: "https://www.youtube.com/embed/eRhgaF0r5Q0",
     id: "96314787",
-    password: "Free to Copy"
-  },
-  {
-    name: "Gaggatrondra",
-    creators: "JCMoon",
-    verifier: "Zeronium",
-    publisher: "JCMoon",
-    video: "https://www.youtube.com/embed/A4G41vw6Cf0",
-    id: "114990369",
     password: "Free to Copy"
   },
   {
@@ -2356,6 +2356,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-25', detail: 'Gaggatrondra has been raised from #39 to #35, above The Hallucination and below CONVULSION.' },
   { date: '2025-11-25', detail: 'Edge of Destiny has been raised from #38 to #31, above poocubed and below Firework.' },
   { date: '2025-11-24', detail: 'Fragmented has been placed at #207, above Gustavo Fring and below Nhelv.' },
   { date: '2025-11-24', detail: 'Firework has been lowered from #28 to #30, above poocubed and below Eyes in the Water.' },
@@ -2555,6 +2556,7 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // 초기 부트
 // ===========================
 buildLeftList();
+
 
 
 
