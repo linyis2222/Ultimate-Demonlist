@@ -223,13 +223,14 @@ html, body {
   .change-log-entry .log-date { display: block; font-weight: 700; margin-bottom: 6px; }
   .change-log-entry .log-detail { display: block; margin-left: 0; }
 
-  /* 모바일용 검색창 폭 고정 */
+  /* 모바일용 검색창 폭 패널 안쪽에 맞게 고정 */
   #search-box {
-    width: 100%;
-    max-width: 100%;
+    width: calc(100% - 16px); /* #left-panel padding 8px 고려 */
+    max-width: calc(100% - 16px);
     box-sizing: border-box;
   }
 }
+
 #search-box {
   width: 100%;
   padding: 8px 10px;
