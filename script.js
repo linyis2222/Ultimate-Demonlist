@@ -2412,7 +2412,6 @@ const changeLog = [
 /* ===========================
     DOM references (전역 변수로 선언)
     =========================== */
-// 모든 요소는 HTML 로드 후 접근 가능하도록 'let'으로 전역 선언합니다.
 let mapList;
 let mapDetailsDiv;
 let changeLogDiv;
@@ -2554,14 +2553,6 @@ function renderChangeLog() {
 }
 
 // ===========================
-// 버튼 이벤트 (이벤트 리스너가 HTML 요소에 잘 붙도록 DOMContentLoaded 이후에 정의)
-// ===========================
-// *주의: btnList와 btnChangelog는 이제 DOMContentLoaded 내부에서 값을 할당받습니다.*
-
-// 이 부분은 DOMContentLoaded 내부로 이동하여 HTML 로드 후 실행되도록 해야 하지만, 
-// 기존 코드 구조 유지를 위해 이 부분을 남겨두고 DOMContentLoaded에서 값을 할당받도록 합니다.
-
-// ===========================
 // 초기 부트 (최종 수정)
 // ===========================
 
@@ -2583,7 +2574,8 @@ document.addEventListener('DOMContentLoaded', () => {
     mapId = document.getElementById('map-id');
     mapPassword = document.getElementById('map-password');
     
-    searchInput = document.getElementById('search-box');
+    // ⭐️ 최종 수정: HTML ID ('search-input')와 일치하도록 수정
+    searchInput = document.getElementById('search-input'); 
 
     // 요소가 정상적으로 찾아졌는지 확인합니다. (HTML 구조 문제 진단용)
     if (!mapList) {
@@ -2622,12 +2614,11 @@ document.addEventListener('DOMContentLoaded', () => {
         selectMap(demons[0], firstLi); 
     }
 
-    // 💡 2. 검색창 입력 이벤트 리스너 추가 (buildLeftList가 이제 검색 기능을 처리함)
+    // 💡 2. 검색창 입력 이벤트 리스너 추가
     if (searchInput) {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
-
 
 
 
