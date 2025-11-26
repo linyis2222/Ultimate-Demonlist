@@ -2557,9 +2557,6 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // ===========================
 
 // 필요한 요소 정의
-const mapList = document.getElementById('map-list');
-const searchInput = document.getElementById('search-box');
-
 buildLeftList();
 function buildLeftList() {
   mapList.innerHTML = '';
@@ -2576,6 +2573,7 @@ function buildLeftList() {
       // (나머지 원래 있던 내용 그대로)
   });
 }
+
 
 
 
