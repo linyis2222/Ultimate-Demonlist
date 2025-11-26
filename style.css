@@ -223,3 +223,13 @@ html, body {
   .change-log-entry .log-date { display: block; font-weight: 700; margin-bottom: 6px; }
   .change-log-entry .log-detail { display: block; margin-left: 0; }
 }
+#search-box {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
