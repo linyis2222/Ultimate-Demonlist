@@ -2557,22 +2557,47 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // ===========================
 
 // 필요한 요소 정의
+const mapList = document.getElementById('map-list');
+const searchInput = document.getElementById('search-box');
+
+// 초기 부트
 buildLeftList();
+
 function buildLeftList() {
   mapList.innerHTML = '';
 
   // 🔍 검색창 입력값 추출
-  const keyword = searchInput.value.trim().toLowerCase();
+  const keyword = searchInput ? searchInput.value.trim().toLowerCase() : '';
 
   // 🔎 검색어 있으면 필터링
   const filteredDemons = keyword
     ? demonsFiltered.filter(d => d.name.toLowerCase().includes(keyword))
     : demonsFiltered;
 
+  // 리스트 생성
   filteredDemons.forEach((d, index) => {
-      // (나머지 원래 있던 내용 그대로)
+    const li = document.createElement('li');
+
+    const rankSpan = document.createElement('span');
+    rankSpan.textContent = `#${index + 1} `;
+    rankSpan.style.fontWeight = 'bold';
+    rankSpan.style.marginRight = '6px';
+
+    const nameSpan = document.createElement('span');
+    nameSpan.textContent = d.name;
+    nameSpan.classList.add('name');
+    nameSpan.addEventListener('click', () => selectMap(d, li));
+
+    li.appendChild(rankSpan);
+    li.appendChild(nameSpan);
+    mapList.appendChild(li);
   });
+
+  // 첫 번째 요소 선택
+  if (filteredDemons.length > 0) selectMap(filteredDemons[0], mapList.querySelector('li'));
 }
+
+
 
 
 
