@@ -223,12 +223,10 @@ html, body {
   .change-log-entry .log-date { display: block; font-weight: 700; margin-bottom: 6px; }
   .change-log-entry .log-detail { display: block; margin-left: 0; }
 }
-
-/* ⭐️ 검색창 스타일 수정: #search-box를 #search-input으로 변경하고 크기 문제 해결 */
-#search-input {
-  width: 100%; /* 부모 너비에 맞춥니다. */
-  box-sizing: border-box; /* 패딩과 보더가 너비를 넘지 않도록 합니다. */
+#search-box {
+  width: 100%;
   padding: 8px 10px;
+  box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 6px;
   margin-bottom: 10px;
