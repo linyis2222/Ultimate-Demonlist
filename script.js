@@ -2554,6 +2554,78 @@ const demons = [
     video: "https://www.youtube.com/embed/wXxPNaqTZKU",
     id: "68688849",
     password: "Free to Copy"
+  },
+  {
+    name: "Icotact",
+    creators: "IcEDCave, Akira Kurisu, Ozpectro",
+    verifier: "Spamdrew",
+    publisher: "IcEDCave",
+    video: "https://www.youtube.com/embed/dd1rG5DLdc4",
+    id: "66203074",
+    password: "No Copy"
+  },
+  {
+    name: "Shmarley Ville",
+    creators: "GhostVandalf, DrCuber, Renn241",
+    verifier: "Zipi",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/",
+    id: "81535535",
+    password: "Free to Copy"
+  },
+  {
+    name: "Cersia Difficult",
+    creators: "Cersia, KydeR",
+    verifier: "Cersia",
+    publisher: "Cersia",
+    video: "https://www.youtube.com/embed/8Vi_wD2wp-w",
+    id: "74840882",
+    password: "Free to Copy"
+  },
+  {
+    name: "LUMINA",
+    creators: "Hechie, R3XX3R, VARSE, Ultimxte, Splinter25, Z3nithGD, ThunderDarkness, kubuwu",
+    verifier: "Lia",
+    publisher: "Hechie",
+    video: "https://www.youtube.com/embed/ug9mjzRT7Ao",
+    id: "89488413",
+    password: "Free to Copy"
+  },
+  {
+    name: "Sephiroth",
+    creators: "iRainstorm, SyQual, KireiMirai, Kant, Temp, xoen, Yonaka, Sikatsuka, Isane, Mulpan, Molds, Zeta, Rainspade, BeCruX, iEstia, Ticky, Uriun, Xiko, Quitora",
+    verifier: "iRainstorm",
+    publisher: "iRainstorm",
+    video: "https://www.youtube.com/embed/",
+    id: "60620063",
+    password: "170000"
+  },
+  {
+    name: "The Fog",
+    creators: "Renn241, R3XX3R, Cyanide, Lupo, Jinnans, MaxxoRMeN, rply, mango77, ivyteal, Kcool, Wyntaee, iMinaY, ItzKiba",
+    verifier: "Lia",
+    publisher: "Hechie",
+    video: "https://www.youtube.com/embed/",
+    id: "114867361",
+    password: "Free to Copy"
+  },
+  {
+    name: "Cosmic Ray",
+    creators: "Aquatias & more(40 people)",
+    verifier: "BrianTheBurger",
+    publisher: "Aquatias",
+    video: "https://www.youtube.com/embed/Zd-tcHisn9E",
+    id: "95831600",
+    password: "Free to Copy"
+  },
+  {
+    name: "Yatagarasu",
+    creators: "ViPriN, Giron, Imanubis, Jeyzor, WOOGI1411, Findexi, Rek3dge, weoweoteo, Anthrax, AbstractDark, Aeidux, Vermillion, Zelda, Michigun, Luneth, -, Evasium, Csx42gaming, Funnygame, Riot, xcy7, Loogiah",
+    verifier: "Dragoon",
+    publisher: "TrusTa",
+    video: "https://www.youtube.com/embed/GrGFFPhtAFc",
+    id: "28220417",
+    password: "Free to Copy"
   }
 ];
 
@@ -2563,7 +2635,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-11-26', detail: 'Golden Club ~ Sonic Wave Rebirth were placed at #262 ~ #284.' },
+  { date: '2025-11-26', detail: 'Golden Club ~ Yatagarasu were placed at #262 ~ #292.' },
   { date: '2025-11-25', detail: 'Gaggatrondra has been raised from #39 to #35, above The Hallucination and below CONVULSION.' },
   { date: '2025-11-25', detail: 'Edge of Destiny has been raised from #38 to #31, above poocubed and below Firework.' },
   { date: '2025-11-24', detail: 'Fragmented has been placed at #207, above Gustavo Fring and below Nhelv.' },
@@ -2828,6 +2900,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
