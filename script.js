@@ -2409,181 +2409,238 @@ const changeLog = [
   { date: '2025-10-09', detail: 'List Created' }
 ];
 
+사이트 검색 기능을 작동하게 하기 위해, 변수 스코프 문제와 실제 검색 필터링 로직을 수정해야 합니다.
+
+제공해주신 코드를 기반으로 검색창이 완벽하게 작동하도록 수정한 스크립트 파일 전체를 보내드립니다.
+
+✅ 수정된 script.js (전체 덮어쓰기용)
+아래 코드를 복사하여 기존 script.js 파일 전체에 덮어쓰시면 됩니다. (데이터 배열은 그대로 두었습니다.)
+
+JavaScript
+
+// ⚠️ 주의: demons와 changeLog 데이터 배열은 이 코드 위에 존재한다고 가정합니다.
+//          (예: const demons = [...]; const changeLog = [...];)
+//          덮어쓰기 전, 이 배열들이 스크립트 파일 맨 위에 있는지 확인해 주세요.
+
 /* ===========================
-   DOM references (요소 ID는 index.html에서 정의된 것과 일치)
-   =========================== */
-const mapList = document.getElementById('map-list');
-const mapDetailsDiv = document.getElementById('map-details');
-const changeLogDiv = document.getElementById('change-log');
+    DOM references (전역 변수로 선언)
+    =========================== */
+// 모든 요소는 HTML 로드 후 접근 가능하도록 'let'으로 전역 선언합니다.
+let mapList;
+let mapDetailsDiv;
+let changeLogDiv;
 
-const btnList = document.getElementById('btn-list');
-const btnChangelog = document.getElementById('btn-changelog');
+let btnList;
+let btnChangelog;
 
-const mapName = document.getElementById('map-name');
-const mapCreators = document.getElementById('map-creators');
-const mapVerifier = document.getElementById('map-verifier');
-const mapPublisher = document.getElementById('map-publisher');
-const mapVideo = document.getElementById('map-video');
-const mapId = document.getElementById('map-id');
-const mapPassword = document.getElementById('map-password');
+let mapName;
+let mapCreators;
+let mapVerifier;
+let mapPublisher;
+let mapVideo;
+let mapId;
+let mapPassword;
+
+// 💡 검색창 요소를 전역 변수로 추가
+let searchInput; 
 
 function escapeHtml(str) {
-  return String(str || '').replace(/[&<>"']/g, function(m) {
-    return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m];
-  });
+    return String(str || '').replace(/[&<>"']/g, function(m) {
+        return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m];
+    });
 }
 
 // ===========================
-// 좌측 리스트 생성 (구분 라벨 포함)
+// 좌측 리스트 생성 (검색 기능 추가됨)
 // ===========================
 function buildLeftList() {
-  mapList.innerHTML = '';
+    // 💡 안전 장치: mapList가 정의되지 않았으면 중단
+    if (!mapList) return;
 
-  demons.forEach((d, index) => {
-    // rank 계산 (index + 1)
-    const rank = index + 1;
+    mapList.innerHTML = '';
+    
+    // 🔍 검색창 입력값 추출 (searchInput 전역 변수 사용)
+    const keyword = searchInput ? searchInput.value.trim().toLowerCase() : '';
+    
+    // 🔎 검색어에 따라 demons 배열 필터링
+    const filteredDemons = keyword
+        ? demons.filter(d => d.name.toLowerCase().includes(keyword))
+        : demons; // 검색어가 없으면 전체 리스트 사용
 
-    // 구분 라벨 자동 계산
-    let separator = null;
-    if (index === 0) separator = "Main List (#1 ~ #75)";
-    else if (index === 75) separator = "Extended List (#76 ~ #150)";
-    else if (index === 150) separator = "Legacy List (#151 ~)";
+    filteredDemons.forEach((d, index) => {
+        // rank 계산 (index + 1)
+        const rank = index + 1;
 
-    if (separator) {
-      const sepLi = document.createElement('li');
-      sepLi.textContent = separator;
-      sepLi.classList.add('separator'); // CSS에서 style 정의
-      mapList.appendChild(sepLi);
-    }
+        // 구분 라벨 자동 계산 (검색 중일 때는 구분선 표시 안 함)
+        let separator = null;
+        if (!keyword) { 
+            if (index === 0) separator = "Main List (#1 ~ #75)";
+            else if (index === 75) separator = "Extended List (#76 ~ #150)";
+            else if (index === 150) separator = "Legacy List (#151 ~)";
+        }
 
-    // 기존 li 생성
-    const li = document.createElement('li');
+        if (separator) {
+            const sepLi = document.createElement('li');
+            sepLi.textContent = separator;
+            sepLi.classList.add('separator'); // CSS에서 style 정의
+            mapList.appendChild(sepLi);
+        }
 
-    const rankSpan = document.createElement('span');
-    rankSpan.textContent = `#${rank} `;
-    rankSpan.style.fontWeight = 'bold';
-    rankSpan.style.marginRight = '6px';
+        // 기존 li 생성
+        const li = document.createElement('li');
 
-    const nameSpan = document.createElement('span');
-    nameSpan.textContent = d.name;
-    nameSpan.classList.add('name');
-    nameSpan.addEventListener('click', () => selectMap(d, li));
+        const rankSpan = document.createElement('span');
+        rankSpan.textContent = `#${rank} `;
+        rankSpan.style.fontWeight = 'bold';
+        rankSpan.style.marginRight = '6px';
 
-    li.appendChild(rankSpan);
-    li.appendChild(nameSpan);
-    mapList.appendChild(li);
+        const nameSpan = document.createElement('span');
+        nameSpan.textContent = d.name;
+        nameSpan.classList.add('name');
+        nameSpan.addEventListener('click', () => selectMap(d, li));
 
-    if (index === 0) selectMap(d, li);
-  });
+        li.appendChild(rankSpan);
+        li.appendChild(nameSpan);
+        mapList.appendChild(li);
+
+        // ❌ 초기 선택 로직 제거 (DOMContentLoaded에서 처리)
+        // if (index === 0) selectMap(d, li);
+    });
 }
 
 // ===========================
 // map 상세 표시 (기존 selectMap 함수 그대로 유지)
 // ===========================
 function selectMap(demon, liElement) {
-  if (mapDetailsDiv) mapDetailsDiv.style.display = '';
-  if (changeLogDiv) changeLogDiv.style.display = 'none';
+    if (mapDetailsDiv) mapDetailsDiv.style.display = '';
+    if (changeLogDiv) changeLogDiv.style.display = 'none';
 
-  mapName.textContent = demon.name;
-  mapCreators.innerHTML = `<span class="tag">CREATORS</span><span class="value">${escapeHtml(demon.creators)}</span>`;
-  mapVerifier.innerHTML = `<span class="tag">VERIFIER</span><span class="value">${escapeHtml(demon.verifier)}</span>`;
-  mapPublisher.innerHTML = `<span class="tag">PUBLISHER</span><span class="value">${escapeHtml(demon.publisher)}</span>`;
-  mapVideo.innerHTML = `<iframe src="${escapeHtml(demon.video)}" allowfullscreen></iframe>`;
-  mapId.innerHTML = `<span class="tag">ID</span><span class="value">${escapeHtml(demon.id)}</span>`;
-  mapPassword.innerHTML = `<span class="tag">PASSWORD</span><span class="value">${escapeHtml(demon.password)}</span>`;
+    mapName.textContent = demon.name;
+    mapCreators.innerHTML = `<span class="tag">CREATORS</span><span class="value">${escapeHtml(demon.creators)}</span>`;
+    mapVerifier.innerHTML = `<span class="tag">VERIFIER</span><span class="value">${escapeHtml(demon.verifier)}</span>`;
+    mapPublisher.innerHTML = `<span class="tag">PUBLISHER</span><span class="value">${escapeHtml(demon.publisher)}</span>`;
+    mapVideo.innerHTML = `<iframe src="${escapeHtml(demon.video)}" allowfullscreen></iframe>`;
+    mapId.innerHTML = `<span class="tag">ID</span><span class="value">${escapeHtml(demon.id)}</span>`;
+    mapPassword.innerHTML = `<span class="tag">PASSWORD</span><span class="value">${escapeHtml(demon.password)}</span>`;
 
-  document.querySelectorAll('#map-list li').forEach(el => el.classList.remove('active'));
-  if (liElement) liElement.classList.add('active');
+    document.querySelectorAll('#map-list li').forEach(el => el.classList.remove('active'));
+    if (liElement) liElement.classList.add('active');
 
-  btnList.classList.add('active');
-  btnChangelog.classList.remove('active');
-  btnList.setAttribute('aria-pressed', 'true');
-  btnChangelog.setAttribute('aria-pressed', 'false');
+    btnList.classList.add('active');
+    btnChangelog.classList.remove('active');
+    btnList.setAttribute('aria-pressed', 'true');
+    btnChangelog.setAttribute('aria-pressed', 'false');
 }
 
 // ===========================
 // changeLog 표시
 // ===========================
 function renderChangeLog() {
-  if (!changeLogDiv) return;
+    if (!changeLogDiv) return;
 
-  changeLogDiv.innerHTML = '';
+    changeLogDiv.innerHTML = '';
 
-  changeLog.forEach((entry) => {
-    const row = document.createElement('div');
-    row.className = 'change-log-entry';
+    changeLog.forEach((entry) => {
+        const row = document.createElement('div');
+        row.className = 'change-log-entry';
 
-    const d = document.createElement('div');
-    d.className = 'log-date';
-    d.textContent = entry.date;
+        const d = document.createElement('div');
+        d.className = 'log-date';
+        d.textContent = entry.date;
 
-    const detail = document.createElement('div');
-    detail.className = 'log-detail';
-    detail.textContent = entry.detail;
+        const detail = document.createElement('div');
+        detail.className = 'log-detail';
+        detail.textContent = entry.detail;
 
-    row.appendChild(d);
-    row.appendChild(detail);
-    changeLogDiv.appendChild(row);
-  });
+        row.appendChild(d);
+        row.appendChild(detail);
+        changeLogDiv.appendChild(row);
+    });
 
-  changeLogDiv.style.display = 'block';
-  if (mapDetailsDiv) mapDetailsDiv.style.display = 'none';
+    changeLogDiv.style.display = 'block';
+    if (mapDetailsDiv) mapDetailsDiv.style.display = 'none';
 
-  btnChangelog.classList.add('active');
-  btnList.classList.remove('active');
-  btnChangelog.setAttribute('aria-pressed', 'true');
-  btnList.setAttribute('aria-pressed', 'false');
+    btnChangelog.classList.add('active');
+    btnList.classList.remove('active');
+    btnChangelog.setAttribute('aria-pressed', 'true');
+    btnList.setAttribute('aria-pressed', 'false');
 }
 
 // ===========================
-// 버튼 이벤트
+// 버튼 이벤트 (이벤트 리스너가 HTML 요소에 잘 붙도록 DOMContentLoaded 이후에 정의)
 // ===========================
-btnList.addEventListener('click', () => {
-  btnList.classList.add('active');
-  btnChangelog.classList.remove('active');
-  btnList.setAttribute('aria-pressed', 'true');
-  btnChangelog.setAttribute('aria-pressed', 'false');
+// *주의: btnList와 btnChangelog는 이제 DOMContentLoaded 내부에서 값을 할당받습니다.*
 
-  const firstLi = document.querySelector('#map-list li:not(.separator)');
-  if (demons.length > 0 && firstLi) {
-    selectMap(demons[0], firstLi);
-  }
-});
-
-btnChangelog.addEventListener('click', () => renderChangeLog());
+// 이 부분은 DOMContentLoaded 내부로 이동하여 HTML 로드 후 실행되도록 해야 하지만, 
+// 기존 코드 구조 유지를 위해 이 부분을 남겨두고 DOMContentLoaded에서 값을 할당받도록 합니다.
 
 // ===========================
-// 초기 부트 (수정됨)
+// 초기 부트 (최종 수정)
 // ===========================
 
 // HTML 문서의 모든 요소가 완전히 로드된 후 실행되도록 보장합니다.
 document.addEventListener('DOMContentLoaded', () => {
-    // 필요한 요소 정의
-    // (⚠️ 주의: mapList와 searchInput이 전역 스코프에서 'const'로 선언되어 있다면, 
-    //         스크립트 맨 위에서 'let'으로 변경하거나, 이 블록 밖에서 재정의할 필요가 있을 수 있습니다.)
-    const mapList = document.getElementById('map-list');
-    const searchInput = document.getElementById('search-box');
+    // 💡 1. 전역 변수에 HTML 요소 할당 (const/let 제거)
+    mapList = document.getElementById('map-list');
+    mapDetailsDiv = document.getElementById('map-details');
+    changeLogDiv = document.getElementById('change-log');
+
+    btnList = document.getElementById('btn-list');
+    btnChangelog = document.getElementById('btn-changelog');
+    
+    mapName = document.getElementById('map-name');
+    mapCreators = document.getElementById('map-creators');
+    mapVerifier = document.getElementById('map-verifier');
+    mapPublisher = document.getElementById('map-publisher');
+    mapVideo = document.getElementById('map-video');
+    mapId = document.getElementById('map-id');
+    mapPassword = document.getElementById('map-password');
+    
+    searchInput = document.getElementById('search-box');
 
     // 요소가 정상적으로 찾아졌는지 확인합니다. (HTML 구조 문제 진단용)
     if (!mapList) {
         console.error("Error: 'map-list' ID를 가진 HTML 요소를 찾을 수 없습니다. index.html을 확인해주세요.");
         return; 
     }
+    
+    // 버튼 이벤트 리스너를 DOMContentLoaded 내부에서 정의하여 안전하게 연결합니다.
+    if (btnList) {
+        btnList.addEventListener('click', () => {
+            btnList.classList.add('active');
+            btnChangelog.classList.remove('active');
+            btnList.setAttribute('aria-pressed', 'true');
+            btnChangelog.setAttribute('aria-pressed', 'false');
+
+            // 리스트 탭 클릭 시 리스트를 다시 만들고 첫 번째 맵 선택
+            buildLeftList(); 
+            const firstLi = document.querySelector('#map-list li:not(.separator)');
+            if (demons.length > 0 && firstLi) {
+                selectMap(demons[0], firstLi);
+            }
+        });
+    }
+
+    if (btnChangelog) {
+        btnChangelog.addEventListener('click', () => renderChangeLog());
+    }
 
     // 맵 리스트 초기 생성
     buildLeftList();
 
     // 초기 맵 선택 및 화면 표시 (buildLeftList() 호출 후)
-    const firstLi = mapList.querySelector('li');
+    const firstLi = mapList.querySelector('li:not(.separator)');
     if (demons.length > 0 && firstLi) {
-        selectMap(demons[0], firstLi);
+        // 첫 번째 맵 데이터로 초기 선택
+        selectMap(demons[0], firstLi); 
     }
 
-    // 검색창 입력 이벤트 리스너 추가
+    // 💡 2. 검색창 입력 이벤트 리스너 추가 (buildLeftList가 이제 검색 기능을 처리함)
     if (searchInput) {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
