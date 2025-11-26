@@ -2191,7 +2191,7 @@ const demons = [
     creators: "OnlyTryingYT, BrutalSword107, Etheriall, gooseunderscore, VladAAA, Revv, jokys, OliXor, VicDash78, bellox",
     verifier: "kovosrutek",
     publisher: "eimiie",
-    video: "https://www.youtube.com/embed/",
+    video: "https://www.youtube.com/embed/VSxu7YnyGsQ",
     id: "94761797",
     password: "Free to Copy"
   },
@@ -2407,7 +2407,7 @@ const demons = [
     creators: "Rynoxiouss, AlrexX",
     verifier: "swiborg",
     publisher: "Rynoxiouss",
-    video: "https://www.youtube.com/embed/",
+    video: "https://www.youtube.com/embed/NArTpUWoOQ0",
     id: "93122250",
     password: "Free to Copy"
   },
@@ -2479,7 +2479,7 @@ const demons = [
     creators: "SubStra, DivideNick, DavoBoss, Homeboye, TropoGD, lundshurk, ZiTron, Plexa, Mebbo",
     verifier: "Kaza",
     publisher: "SubStra",
-    video: "https://www.youtube.com/embed/",
+    video: "https://www.youtube.com/embed/v45Ei-punX4",
     id: "81372788",
     password: "007023"
   },
@@ -2828,6 +2828,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
