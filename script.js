@@ -2409,19 +2409,6 @@ const changeLog = [
   { date: '2025-10-09', detail: 'List Created' }
 ];
 
-사이트 검색 기능을 작동하게 하기 위해, 변수 스코프 문제와 실제 검색 필터링 로직을 수정해야 합니다.
-
-제공해주신 코드를 기반으로 검색창이 완벽하게 작동하도록 수정한 스크립트 파일 전체를 보내드립니다.
-
-✅ 수정된 script.js (전체 덮어쓰기용)
-아래 코드를 복사하여 기존 script.js 파일 전체에 덮어쓰시면 됩니다. (데이터 배열은 그대로 두었습니다.)
-
-JavaScript
-
-// ⚠️ 주의: demons와 changeLog 데이터 배열은 이 코드 위에 존재한다고 가정합니다.
-//          (예: const demons = [...]; const changeLog = [...];)
-//          덮어쓰기 전, 이 배열들이 스크립트 파일 맨 위에 있는지 확인해 주세요.
-
 /* ===========================
     DOM references (전역 변수로 선언)
     =========================== */
@@ -2640,6 +2627,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
