@@ -2555,6 +2555,11 @@ btnChangelog.addEventListener('click', () => renderChangeLog());
 // ===========================
 // 초기 부트
 // ===========================
+
+// 필요한 요소 정의
+const mapList = document.getElementById('map-list');
+const searchInput = document.getElementById('search-box');
+
 buildLeftList();
 function buildLeftList() {
   mapList.innerHTML = '';
@@ -2571,55 +2576,6 @@ function buildLeftList() {
       // (나머지 원래 있던 내용 그대로)
   });
 }
-// ===========================
-// 검색 기능
-// ===========================
-
-// 검색창 reference
-const searchBox = document.getElementById('search-box');
-
-// 입력될 때마다 필터 실행
-if (searchBox) {
-  searchBox.addEventListener('input', () => {
-    const keyword = searchBox.value.trim().toLowerCase();
-
-    // 필터링된 demon 리스트 생성
-    const filtered = demons.filter(d => d.name.toLowerCase().includes(keyword));
-
-    buildFilteredList(filtered);
-  });
-}
-
-// 기존 buildLeftList()와 거의 같지만, 필터된 데이터만 사용
-function buildFilteredList(filteredDemons) {
-  mapList.innerHTML = '';
-
-  filteredDemons.forEach((d, index) => {
-    const li = document.createElement('li');
-
-    const rankSpan = document.createElement('span');
-    rankSpan.textContent = `#${d.rank} `;
-    rankSpan.style.fontWeight = 'bold';
-    rankSpan.style.marginRight = '6px';
-
-    const nameSpan = document.createElement('span');
-    nameSpan.textContent = d.name;
-    nameSpan.classList.add('name');
-    nameSpan.addEventListener('click', () => {
-      selectMap(d, li);
-
-      // 검색 중이더라도 선택하면 선택 표시
-      document.querySelectorAll('#map-list li').forEach(el => el.classList.remove('active'));
-      li.classList.add('active');
-    });
-
-    li.appendChild(rankSpan);
-    li.appendChild(nameSpan);
-    mapList.appendChild(li);
-  });
-}
-
-
 
 
 
