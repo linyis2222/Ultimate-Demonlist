@@ -2553,49 +2553,37 @@ btnList.addEventListener('click', () => {
 btnChangelog.addEventListener('click', () => renderChangeLog());
 
 // ===========================
-// 초기 부트
+// 초기 부트 (수정됨)
 // ===========================
 
-// 필요한 요소 정의
-const mapList = document.getElementById('map-list');
-const searchInput = document.getElementById('search-box');
+// HTML 문서의 모든 요소가 완전히 로드된 후 실행되도록 보장합니다.
+document.addEventListener('DOMContentLoaded', () => {
+    // 필요한 요소 정의
+    // (⚠️ 주의: mapList와 searchInput이 전역 스코프에서 'const'로 선언되어 있다면, 
+    //         스크립트 맨 위에서 'let'으로 변경하거나, 이 블록 밖에서 재정의할 필요가 있을 수 있습니다.)
+    const mapList = document.getElementById('map-list');
+    const searchInput = document.getElementById('search-box');
 
-// 초기 부트
-buildLeftList();
+    // 요소가 정상적으로 찾아졌는지 확인합니다. (HTML 구조 문제 진단용)
+    if (!mapList) {
+        console.error("Error: 'map-list' ID를 가진 HTML 요소를 찾을 수 없습니다. index.html을 확인해주세요.");
+        return; 
+    }
 
-function buildLeftList() {
-  mapList.innerHTML = '';
+    // 맵 리스트 초기 생성
+    buildLeftList();
 
-  // 🔍 검색창 입력값 추출
-  const keyword = searchInput ? searchInput.value.trim().toLowerCase() : '';
+    // 초기 맵 선택 및 화면 표시 (buildLeftList() 호출 후)
+    const firstLi = mapList.querySelector('li');
+    if (demons.length > 0 && firstLi) {
+        selectMap(demons[0], firstLi);
+    }
 
-  // 🔎 검색어 있으면 필터링
-  const filteredDemons = keyword
-    ? demonsFiltered.filter(d => d.name.toLowerCase().includes(keyword))
-    : demonsFiltered;
-
-  // 리스트 생성
-  filteredDemons.forEach((d, index) => {
-    const li = document.createElement('li');
-
-    const rankSpan = document.createElement('span');
-    rankSpan.textContent = `#${index + 1} `;
-    rankSpan.style.fontWeight = 'bold';
-    rankSpan.style.marginRight = '6px';
-
-    const nameSpan = document.createElement('span');
-    nameSpan.textContent = d.name;
-    nameSpan.classList.add('name');
-    nameSpan.addEventListener('click', () => selectMap(d, li));
-
-    li.appendChild(rankSpan);
-    li.appendChild(nameSpan);
-    mapList.appendChild(li);
-  });
-
-  // 첫 번째 요소 선택
-  if (filteredDemons.length > 0) selectMap(filteredDemons[0], mapList.querySelector('li'));
-}
+    // 검색창 입력 이벤트 리스너 추가
+    if (searchInput) {
+        searchInput.addEventListener('input', () => buildLeftList());
+    }
+});
 
 
 
