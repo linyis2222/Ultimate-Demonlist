@@ -2437,7 +2437,7 @@ function escapeHtml(str) {
 }
 
 // ===========================
-// 좌측 리스트 생성 (검색 기능 추가됨)
+// 좌측 리스트 생성 (검색 기능 추가됨 - 순위 수정)
 // ===========================
 function buildLeftList() {
     // 💡 안전 장치: mapList가 정의되지 않았으면 중단
@@ -2454,15 +2454,20 @@ function buildLeftList() {
         : demons; // 검색어가 없으면 전체 리스트 사용
 
     filteredDemons.forEach((d, index) => {
-        // rank 계산 (index + 1)
-        const rank = index + 1;
+        // ⭐️ 수정된 부분 1: 원본 demons 배열에서 현재 아이템의 인덱스를 찾습니다.
+        const originalIndex = demons.findIndex(item => item.name === d.name); 
+        
+        // ⭐️ 수정된 부분 2: 원래 인덱스를 기반으로 순위(rank)를 계산합니다.
+        // findIndex 결과가 -1이 아닐 경우(찾았을 경우)에만 사용하고, 못 찾았을 경우 안전하게 필터링된 인덱스 사용
+        const rank = originalIndex !== -1 ? originalIndex + 1 : index + 1;
 
         // 구분 라벨 자동 계산 (검색 중일 때는 구분선 표시 안 함)
         let separator = null;
         if (!keyword) { 
-            if (index === 0) separator = "Main List (#1 ~ #75)";
-            else if (index === 75) separator = "Extended List (#76 ~ #150)";
-            else if (index === 150) separator = "Legacy List (#151 ~)";
+            // rank가 1-based 순위이므로, 75와 150 위치의 구분선을 표시합니다.
+            if (rank === 1) separator = "Main List (#1 ~ #75)";
+            else if (rank === 76) separator = "Extended List (#76 ~ #150)";
+            else if (rank === 151) separator = "Legacy List (#151 ~)";
         }
 
         if (separator) {
@@ -2492,64 +2497,6 @@ function buildLeftList() {
         // ❌ 초기 선택 로직 제거 (DOMContentLoaded에서 처리)
         // if (index === 0) selectMap(d, li);
     });
-}
-
-// ===========================
-// map 상세 표시 (기존 selectMap 함수 그대로 유지)
-// ===========================
-function selectMap(demon, liElement) {
-    if (mapDetailsDiv) mapDetailsDiv.style.display = '';
-    if (changeLogDiv) changeLogDiv.style.display = 'none';
-
-    mapName.textContent = demon.name;
-    mapCreators.innerHTML = `<span class="tag">CREATORS</span><span class="value">${escapeHtml(demon.creators)}</span>`;
-    mapVerifier.innerHTML = `<span class="tag">VERIFIER</span><span class="value">${escapeHtml(demon.verifier)}</span>`;
-    mapPublisher.innerHTML = `<span class="tag">PUBLISHER</span><span class="value">${escapeHtml(demon.publisher)}</span>`;
-    mapVideo.innerHTML = `<iframe src="${escapeHtml(demon.video)}" allowfullscreen></iframe>`;
-    mapId.innerHTML = `<span class="tag">ID</span><span class="value">${escapeHtml(demon.id)}</span>`;
-    mapPassword.innerHTML = `<span class="tag">PASSWORD</span><span class="value">${escapeHtml(demon.password)}</span>`;
-
-    document.querySelectorAll('#map-list li').forEach(el => el.classList.remove('active'));
-    if (liElement) liElement.classList.add('active');
-
-    btnList.classList.add('active');
-    btnChangelog.classList.remove('active');
-    btnList.setAttribute('aria-pressed', 'true');
-    btnChangelog.setAttribute('aria-pressed', 'false');
-}
-
-// ===========================
-// changeLog 표시
-// ===========================
-function renderChangeLog() {
-    if (!changeLogDiv) return;
-
-    changeLogDiv.innerHTML = '';
-
-    changeLog.forEach((entry) => {
-        const row = document.createElement('div');
-        row.className = 'change-log-entry';
-
-        const d = document.createElement('div');
-        d.className = 'log-date';
-        d.textContent = entry.date;
-
-        const detail = document.createElement('div');
-        detail.className = 'log-detail';
-        detail.textContent = entry.detail;
-
-        row.appendChild(d);
-        row.appendChild(detail);
-        changeLogDiv.appendChild(row);
-    });
-
-    changeLogDiv.style.display = 'block';
-    if (mapDetailsDiv) mapDetailsDiv.style.display = 'none';
-
-    btnChangelog.classList.add('active');
-    btnList.classList.remove('active');
-    btnChangelog.setAttribute('aria-pressed', 'true');
-    btnList.setAttribute('aria-pressed', 'false');
 }
 
 // ===========================
@@ -2619,6 +2566,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
