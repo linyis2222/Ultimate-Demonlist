@@ -594,7 +594,7 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    name: "NETWORK",
+    name: "NETWORK (Agat3)",
     creators: "Agat3, Amza, theworldofme",
     verifier: "vulcanium4",
     publisher: "Agat3",
@@ -2347,6 +2347,213 @@ const demons = [
     video: "https://www.youtube.com/embed/HTXRWzS2aw8",
     id: "39832454",
     password: "Free to Copy"
+  },
+  {
+    name: "Golden Club",
+    creators: "Zenmuron",
+    verifier: "skycrab",
+    publisher: "GDZenmuron",
+    video: "https://www.youtube.com/embed/YBs04o1ZVQY",
+    id: "89490128",
+    password: "Free to Copy"
+  },
+  {
+    name: "Dance of the Violins",
+    creators: "DrayTM, Cyclic, Koreaqwer, Funnygame, Wabbit, nikroplays, Zipixbox, Wesp, GD Iris, pla, Fastbear",
+    verifier: "WatchPiggy",
+    publisher: "DrayTM",
+    video: "https://www.youtube.com/embed/PYwI_ODrrlw",
+    id: "91595507",
+    password: "Free to Copy"
+  },
+  {
+    name: "network (VanDerVals)",
+    creators: "VanDerVals",
+    verifier: "VanDerVals",
+    publisher: "VanDerVals",
+    video: "https://www.youtube.com/embed/uA5i_jBW2hY",
+    id: "90400834",
+    password: "Free to Copy"
+  },
+  {
+    name: "Molten Gear",
+    creators: "Knobbelboy & more(22 people)",
+    verifier: "Knobbelboy",
+    publisher: "Knobbelboy",
+    video: "https://www.youtube.com/embed/NMRaJu5BiAI",
+    id: "62138313",
+    password: "000117"
+  },
+  {
+    name: "Spacial Rend",
+    creators: "Eclipsed, Tsukifuto, Vapen, 123ev4n, Lqah, Cyber, YakobNugget, Nahuel2998, Spade, CreatorSruj, SlimJim, MaxiKD, Splash, Nemphis, WHErwin, BananaMuffin, AlexPG, Logic",
+    verifier: "DiamondSplash",
+    publisher: "Eclipsed",
+    video: "https://www.youtube.com/embed/VgiRJRBzacM",
+    id: "40292513",
+    password: "417236"
+  },
+  {
+    name: "Hyper Paracosm",
+    creators: "iIiViRuZiIi, TheRealSneaky",
+    verifier: "joe",
+    publisher: "iIiViRuZiIi",
+    video: "https://www.youtube.com/embed/zQbU_2To0bg",
+    id: "42117203",
+    password: "789123"
+  },
+  {
+    name: "Collect All Pets",
+    creators: "Rynoxiouss, AlrexX",
+    verifier: "swiborg",
+    publisher: "Rynoxiouss",
+    video: "https://www.youtube.com/embed/",
+    id: "93122250",
+    password: "Free to Copy"
+  },
+  {
+    name: "GBS",
+    creators: "Kapinapi, verticallity, para, CuLuC, Jenkins, ViralDL",
+    verifier: "Luqualizer",
+    publisher: "Kapinapi",
+    video: "https://www.youtube.com/embed/zBmIYg2dpk4",
+    id: "95294285",
+    password: "Free to Copy"
+  },
+  {
+    name: "Wasureta",
+    creators: "-, LimeTime313, zDeadlox, HelpegasuS, augi, Isane, XLSpiral, Splash, BelonziK, El3ctr0",
+    verifier: "VaporWubz",
+    publisher: "HelpegasuS",
+    video: "https://www.youtube.com/embed/9jkCtNDbDt0",
+    id: "64658786",
+    password: "Free to Copy"
+  },
+  {
+    name: "Ryft",
+    creators: "DreamLightGD & more(45 people)",
+    verifier: "DreamLightGD",
+    publisher: "DreamLightGD",
+    video: "https://www.youtube.com/embed/Wxjk0A09XNU",
+    id: "87565954",
+    password: "Free to Copy"
+  },
+  {
+    name: "Macabre",
+    creators: "ZephiroX, Requiem",
+    verifier: "MrSpaghetti",
+    publisher: "ZephiroX",
+    video: "https://www.youtube.com/embed/b2kGqEY8E1Q",
+    id: "56782662",
+    password: "Free to Copy"
+  },
+  {
+    name: "OVERKILL",
+    creators: "Jinnans, nothawkyre",
+    verifier: "Galaxxyss",
+    publisher: "Jinnans",
+    video: "https://www.youtube.com/embed/aBDP_9-Sm-w",
+    id: "104027821",
+    password: "Free to Copy"
+  },
+  {
+    name: "Cybernetic Crescent",
+    creators: "ViPriN, Codex, Shocksidian, Rustam, FerdeFunky, G4lvatron, nasgubb, Enzore, Samifying, Vlacc, TheDevon, Serponge, -, Terron, Floppy, FirsGD, zalspr",
+    verifier: "Technical",
+    publisher: "ViPriN",
+    video: "https://www.youtube.com/embed/0yKtq1PJeDQ",
+    id: "66291197",
+    password: "010721"
+  },
+  {
+    name: "ELLIPSISM",
+    creators: "Swib",
+    verifier: "Bibu",
+    publisher: "Swib",
+    video: "https://www.youtube.com/embed/tp6-hpqtnWk",
+    id: "83914474",
+    password: "Free to Copy"
+  },
+  {
+    name: "reeses potentially",
+    creators: "SubStra, DivideNick, DavoBoss, Homeboye, TropoGD, lundshurk, ZiTron, Plexa, Mebbo",
+    verifier: "Kaza",
+    publisher: "SubStra",
+    video: "https://www.youtube.com/embed/",
+    id: "81372788",
+    password: "007023"
+  },
+  {
+    name: "Sewers",
+    creators: "JAVP",
+    verifier: "luxer",
+    publisher: "JAVP",
+    video: "https://www.youtube.com/embed/YBWx2Dm10Ag",
+    id: "95564658",
+    password: "Free to Copy"
+  },
+  {
+    name: "Sink",
+    creators: "Awedsy",
+    verifier: "nac",
+    publisher: "Awedsy",
+    video: "https://www.youtube.com/embed/qX6yzZey9Ng",
+    id: "77255632",
+    password: "No Copy"
+  },
+  {
+    name: "FIFTY THREE",
+    creators: "Vlacc",
+    verifier: "Vlacc",
+    publisher: "Vlacc",
+    video: "https://www.youtube.com/embed/JF4vQZC4rBI",
+    id: "90539291",
+    password: "Free to Copy"
+  },
+  {
+    name: "ASHES",
+    creators: "xHeiDaX",
+    verifier: "xHeiDaX",
+    publisher: "xHeiDaX",
+    video: "https://www.youtube.com/embed/cmYjLL1k5Z0",
+    id: "86196054",
+    password: "Free to Copy"
+  },
+  {
+    name: "Necromancer",
+    creators: "Riot, Stormfly, Deovise, Zimnior12, zHyper, Platnuu, Splash, Sequex",
+    verifier: "T G I",
+    publisher: "T G I",
+    video: "https://www.youtube.com/embed/y-NwRnHqaJI",
+    id: "53443974",
+    password: "555555"
+  },
+  {
+    name: "Kjdf8314jlfssf",
+    creators: "Kapycta999",
+    verifier: "BONN GD",
+    publisher: "Kapycta999",
+    video: "https://www.youtube.com/embed/FgOR1jwsXww",
+    id: "96470224",
+    password: "Free to Copy"
+  },
+  {
+    name: "Sonic Wave",
+    creators: "Cyclic",
+    verifier: "lSunix",
+    publisher: "lSunix",
+    video: "https://www.youtube.com/embed/GpXTwPgweAk",
+    id: "26681070",
+    password: "112516"
+  },
+  {
+    name: "Sonic Wave Rebirth",
+    creators: "Cyclic, Serponge, Funnygame",
+    verifier: "Moosh",
+    publisher: "Serponge",
+    video: "https://www.youtube.com/embed/wXxPNaqTZKU",
+    id: "68688849",
+    password: "Free to Copy"
   }
 ];
 
@@ -2356,6 +2563,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-26', detail: 'Golden Club ~ Sonic Wave Rebirth were placed at #262 ~ #284.' },
   { date: '2025-11-25', detail: 'Gaggatrondra has been raised from #39 to #35, above The Hallucination and below CONVULSION.' },
   { date: '2025-11-25', detail: 'Edge of Destiny has been raised from #38 to #31, above poocubed and below Firework.' },
   { date: '2025-11-24', detail: 'Fragmented has been placed at #207, above Gustavo Fring and below Nhelv.' },
@@ -2620,6 +2828,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
