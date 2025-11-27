@@ -882,6 +882,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Dark Dimension",
+    creators: "ThePurgatory(28 people)",
+    verifier: "TheNixuzGD200",
+    publisher: "ThePurgatory",
+    video: "https://www.youtube.com/embed/g2DrT9bHjOI",
+    id: "125617849",
+    password: "Free to Copy"
+  },
+  {
     name: "Zodiac",
     creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
     verifier: "Technical",
@@ -2635,6 +2644,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-27', detail: 'Dark Dimension has been placed at #99, above Zodiac and below NEUTRA. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-11-26', detail: 'Golden Club ~ Yatagarasu were placed at #262 ~ #292.' },
   { date: '2025-11-25', detail: 'Gaggatrondra has been raised from #39 to #35, above The Hallucination and below CONVULSION.' },
   { date: '2025-11-25', detail: 'Edge of Destiny has been raised from #38 to #31, above poocubed and below Firework.' },
@@ -2900,6 +2910,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
