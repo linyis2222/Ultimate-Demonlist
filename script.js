@@ -1377,6 +1377,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Tenkai",
+    creators: "HidekiX",
+    verifier: "Motor8",
+    publisher: "HidekiX",
+    video: "https://www.youtube.com/embed/AM2KHSZkjcc",
+    id: "64100176",
+    password: "Free to Copy"
+  },
+  {
     name: "Omega Interface",
     creators: "Platnuu, Zipixbox",
     verifier: "RG",
@@ -1392,15 +1401,6 @@ const demons = [
     publisher: "XLSpiral",
     video: "https://www.youtube.com/embed/82DDR2BjXSI",
     id: "95675702",
-    password: "Free to Copy"
-  },
-  {
-    name: "Tenkai",
-    creators: "HidekiX",
-    verifier: "Motor8",
-    publisher: "HidekiX",
-    video: "https://www.youtube.com/embed/AM2KHSZkjcc",
-    id: "64100176",
     password: "Free to Copy"
   },
   {
@@ -2644,6 +2644,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-28', detail: 'Tenkai has been raised from #156 to #154, above Omega Interface and below SUPERHATEMEWORLD.' },
   { date: '2025-11-27', detail: 'Dark Dimension has been placed at #99, above Zodiac and below NEUTRA. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-11-26', detail: 'Golden Club ~ Yatagarasu were placed at #262 ~ #292.' },
   { date: '2025-11-25', detail: 'Gaggatrondra has been raised from #39 to #35, above The Hallucination and below CONVULSION.' },
@@ -2910,6 +2911,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
