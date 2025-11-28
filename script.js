@@ -2716,7 +2716,7 @@ const demons = [
     video: "https://www.youtube.com/embed/vcAdWah55Z4",
     id: "58825144",
     password: "000007"
-  }0
+  }
 ];
 
 /* ===========================
