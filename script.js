@@ -649,7 +649,7 @@ const demons = [
   },
   {
     name: "Natural Disaster",
-    creators: "GammaReXx, TheRealPeng, FreddyDash, XeNith, CairoX, Nyoom, AVRG, Szilu, Isem, PugDomination, feijoa, awesomeme, Cantis, Dreamlight, Dutchiee",
+    creators: "GammaReXx, TheRealPeng, FreddyDash, XeNith, CairoX, Nyoom, AVRG, Szilu, Isem, PugDomination, feijoa, awesomeme, Cantis, DreamLightGD, Dutchiee",
     verifier: "iIiLaSeRiIi",
     publisher: "iIiLaSeRiIi",
     video: "https://www.youtube.com/embed/_0GqdSFmG_8",
@@ -1126,7 +1126,7 @@ const demons = [
   },
   {
     name: "Calculator Core",
-    creators: "CairoX, CrankytheHuman, Sheep, Helpegasus, Cytokinesis, Zero, Sedgehog, Isane, Chuckgamer1, RealVet, Spectex, Yoonsrdynamix, Xaren, Walroose, tolstyh, Brittank88, Zest, Voltrix, Zylenox, StarkytheSalad, Cryo, Acnologia",
+    creators: "CairoX, CrankytheHuman, Sheep, HelpegasuS, Cytokinesis, Zero, Sedgehog, Isane, Chuckgamer1, RealVet, Spectex, Yoonsrdynamix, Xaren, Walroose, tolstyh, Brittank88, Zest, Voltrix, Zylenox, StarkytheSalad, Cryo, Acnologia",
     verifier: "-",
     publisher: "Walroose",
     video: "https://www.youtube.com/embed/VrgNFsF2NGw",
@@ -1469,7 +1469,7 @@ const demons = [
   {
     name: "Shardscapes",
     creators: "ItzKiba",
-    verifier: "kiseta",
+    verifier: "eiruni",
     publisher: "ItzKiba",
     video: "https://www.youtube.com/embed/tme4Mvm0Mf8",
     id: "79997992",
@@ -2635,7 +2635,88 @@ const demons = [
     video: "https://www.youtube.com/embed/GrGFFPhtAFc",
     id: "28220417",
     password: "Free to Copy"
-  }
+  },
+  {
+    name: "Cobalt hell",
+    creators: "RubrumP",
+    verifier: "RedMatrix",
+    publisher: "RubrumP",
+    video: "https://www.youtube.com/embed/Xe-O9eGH5Yk",
+    id: "122060729",
+    password: "Free to Copy"
+  },
+  {
+    name: "Rage",
+    creators: "StarkytheSalad, Yoonsrdynamix, Morin, Spectral, RealVet, nothawkyre",
+    verifier: "nSwish",
+    publisher: "nSwish",
+    video: "https://www.youtube.com/embed/RW_i0Kx3gDA",
+    id: "53878361",
+    password: "Free to Copy"
+  },
+  {
+    name: "Infinite Iniquity",
+    creators: "Flukester, Jood, DreamTide, Stamina, Victorinox, Nico99, Jghost, Waffl3x, Kookie Monster, MrMeurick, HelpegasuS, MrPPs, DrSlurrp, Hyenaedon, Enzore, xStar7, Pleoslim, SirZaiss, nampac, Zoroa GD, PrivateChaos, CreatorDino",
+    verifier: "-",
+    publisher: "Flukester",
+    video: "https://www.youtube.com/embed/mL_An0vv8T0",
+    id: "59331091",
+    password: "200356"
+  },
+  {
+    name: "Kuzureta",
+    creators: "RealVet, River, DrCuber, Renn241, GhostVandalf, DiamondSkull, Zetalock, cxli, Genoxide, augi, SrKiwi, El3ctr0, Mystic, nicor77, Kyhros, ARWooly, zGod, Teno, Cybertron, Flamongo",
+    verifier: "Cursed",
+    publisher: "Teno",
+    video: "https://www.youtube.com/embed/Q5LqZ9aKn78",
+    id: "71216292",
+    password: "Free to Copy"
+  },
+  {
+    name: "X0",
+    creators: "Mulpan, InterChange",
+    verifier: "MinYong",
+    publisher: "Mulpan",
+    video: "https://www.youtube.com/embed/zIcbuseHUlY",
+    id: "86795510",
+    password: "Free to Copy"
+  },
+  {
+    name: "Edge of the Blade",
+    creators: "Metalface221, Findexi, Uneskladovae, ChaSe, RpgRaketti, TehTactiq, Edge, Knobbelboy, Juhou, Onnikonna, Ryder, Vlacc, Rustam, SlimJim, Zeroya, Terron, Jaipes, Masa, GDSpeed",
+    verifier: "eiruni",
+    publisher: "eiruni",
+    video: "https://www.youtube.com/embed/YhT4_FgeAbk",
+    id: "61366470",
+    password: "Free to Copy"
+  },
+  {
+    name: "Silentium Clavas",
+    creators: "zYuko",
+    verifier: "DreamLightGD",
+    publisher: "Xolarzz",
+    video: "https://www.youtube.com/embed/qW0M7w8RwMk",
+    id: "90129239",
+    password: "No Copy"
+  },
+  {
+    name: "The Hell Nutz",
+    creators: "Isane, Theorical, unnn, henry500, Awedsy, Artos, burgz, arca, Temp, hsam, aroo, TheLasaga",
+    verifier: "nac",
+    publisher: "TheLasaga",
+    video: "https://www.youtube.com/embed/jYfrX_JRo0o",
+    id: "80146646",
+    password: "Free to Copy"
+  },
+  {
+    name: "xo",
+    creators: "KrmaL",
+    verifier: "KrmaL",
+    publisher: "KrmaL",
+    video: "https://www.youtube.com/embed/vcAdWah55Z4",
+    id: "58825144",
+    password: "000007"
+  }0
 ];
 
 /* ===========================
@@ -2644,6 +2725,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-26', detail: 'Cobalt hell ~ xo were placed at #294 ~ #302.' },
   { date: '2025-11-28', detail: 'Tenkai has been raised from #156 to #154, above Omega Interface and below SUPERHATEMEWORLD.' },
   { date: '2025-11-27', detail: 'Dark Dimension has been placed at #99, above Zodiac and below NEUTRA. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-11-26', detail: 'Golden Club ~ Yatagarasu were placed at #262 ~ #292.' },
@@ -2911,6 +2993,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
