@@ -2547,6 +2547,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "IMMORTALIY",
+    creators: "Sedgehog, GMDJaxxn, Stellar",
+    verifier: "Crisis",
+    publisher: "Sedgehog",
+    video: "https://www.youtube.com/embed/tl4trfW1JSo",
+    id: "75870303",
+    password: "123456"
+  },
+  {
     name: "Sonic Wave",
     creators: "Cyclic",
     verifier: "lSunix",
@@ -2725,7 +2734,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-11-26', detail: 'Cobalt hell ~ xo were placed at #294 ~ #302.' },
+  { date: '2025-11-29', detail: 'IMMORTALITY has been placed at #284, above Sonic Wave and below Kjdf8314jlfssf.' },
+  { date: '2025-11-28', detail: 'Cobalt hell ~ xo were placed at #294 ~ #302.' },
   { date: '2025-11-28', detail: 'Tenkai has been raised from #156 to #154, above Omega Interface and below SUPERHATEMEWORLD.' },
   { date: '2025-11-27', detail: 'Dark Dimension has been placed at #99, above Zodiac and below NEUTRA. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-11-26', detail: 'Golden Club ~ Yatagarasu were placed at #262 ~ #292.' },
@@ -2993,6 +3003,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
