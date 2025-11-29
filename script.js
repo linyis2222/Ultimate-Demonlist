@@ -1215,6 +1215,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Rigel",
+    creators: "Dan2D",
+    verifier: "TrueInverse",
+    publisher: "Dan2D",
+    video: "https://www.youtube.com/embed/liJFeLHcW_Q",
+    id: "93155813",
+    password: "Free to Copy"
+  },
+  {
     name: "CORRODERE",
     creators: "FrostBurn, LIEB, Blitzer, Moosh, xSmokes, zDeadlox, Giron, Awedsy, Licen, Starbom, Skrypto, Goob, Vlacc, Neoraptor, -, ewop, TheZinkYT, GrenadeofTacos, silver, ItzKiba",
     verifier: "Gzeee",
@@ -1275,15 +1284,6 @@ const demons = [
     publisher: "IIKugelBlitZII",
     video: "https://www.youtube.com/embed/23u3SlwrOMw",
     id: "33498127",
-    password: "Free to Copy"
-  },
-  {
-    name: "Rigel",
-    creators: "Dan2D",
-    verifier: "TrueInverse",
-    publisher: "Dan2D",
-    video: "https://www.youtube.com/embed/liJFeLHcW_Q",
-    id: "93155813",
     password: "Free to Copy"
   },
   {
@@ -2941,6 +2941,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-29', detail: 'Rigel has been raised from #143 to #136, above CORRODERE and below Cognition.' },
   { date: '2025-11-29', detail: 'Neon Skyline has been raised from #150 to #141, above SARY NEVER CLEAR and below ta1LSD0ll.' },
   { date: '2025-11-29', detail: 'Sinister Silence has been raised from #57 to #49, above Operation Evolution and below Mayhem.' },
   { date: '2025-11-29', detail: 'Sakupen Circles has been lowered from #27 to #30, above Edge of Destiny and below Firework.' },
@@ -3215,6 +3216,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
