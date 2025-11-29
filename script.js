@@ -2124,6 +2124,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Violet Illusions",
+    creators: "Enfur, Jedwint",
+    verifier: "RG18gd",
+    publisher: "Enfur",
+    video: "https://www.youtube.com/embed/A73-pvewH5I",
+    id: "96345801",
+    password: "Free to Copy"
+  },
+  {
     name: "Specthys",
     creators: "gBen",
     verifier: "gBen",
@@ -2754,15 +2763,6 @@ const demons = [
     password: "772439"
   },
   {
-    name: "Violet Illusions",
-    creators: "Enfur, Jedwint",
-    verifier: "RG18gd",
-    publisher: "Enfur",
-    video: "https://www.youtube.com/embed/A73-pvewH5I",
-    id: "96345801",
-    password: "Free to Copy"
-  },
-  {
     name: "Molten Core",
     creators: "Janucha",
     verifier: "Lucidium",
@@ -2941,6 +2941,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-29', detail: 'Violet Illusions has been raised from #307 to #237, above Specthys and below REPENTLESS.' },
   { date: '2025-11-29', detail: 'Controlled Chaos ~ Erebus were placed at #304 ~ #326.' },
   { date: '2025-11-29', detail: 'IMMORTALITY has been placed at #284, above Sonic Wave and below Kjdf8314jlfssf.' },
   { date: '2025-11-28', detail: 'Cobalt hell ~ xo were placed at #294 ~ #302.' },
@@ -3211,6 +3212,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
