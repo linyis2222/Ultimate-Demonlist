@@ -1107,7 +1107,7 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Instinct",
+    name: "Instinct (Krazyman50)",
     creators: "KrmaL, Pennutoh, Zendayo, Kugelblitz, talia, Lqah, recillia, dysbelief, SleyGD, pocke, Nightning, krisking, DogGoesWoof, S3rios, wokecat, Valentine",
     verifier: "Blitzer",
     publisher: "Krazyman50",
@@ -1361,7 +1361,7 @@ const demons = [
   {
     name: "Launchpad Labyrinth",
     creators: "Moffe",
-    verifier: "Wolvez",
+    verifier: "WolvezW",
     publisher: "Moffe",
     video: "https://www.youtube.com/embed/3J0UUmHGWaM",
     id: "85426437",
@@ -1675,9 +1675,9 @@ const demons = [
   },
   {
     name: "IthacropoliX",
-    creators: "Duke, Cyo2, LCelestia, Bentai, Cersia, XLSpiral, Mythryll, Acidius, Titoalper, Rhys, 00Zero, Poobah, WalGhani, Chuck, Joltic, Sledge, Connot, bigmac77",
+    creators: "Duke, Cyo2, LCelestia, Bentai, Cersia, XLSpiral, Mythryll, Acidius, Titoalper, Rhys, 00Zero, Poobah, WalGhani, Chuck, Joltic, Sledge, Connot, BIGMAC77",
     verifier: "CobraBlitz",
-    publisher: "bigmac77",
+    publisher: "BIGMAC77",
     video: "https://www.youtube.com/embed/n4nbu_fZcf4",
     id: "80293947",
     password: "Free to Copy"
@@ -2054,7 +2054,7 @@ const demons = [
   {
     name: "EGO KILLING",
     creators: "Derenowo, XWOUNDX, Asan4ik, Pluggy, Purple, Goroch, Crash75, Maxgreenevsky",
-    verifier: "Wolvez",
+    verifier: "WolvezW",
     publisher: "exactteam",
     video: "https://www.youtube.com/embed/xnCsfVFygC4",
     id: "90463207",
@@ -2725,6 +2725,213 @@ const demons = [
     video: "https://www.youtube.com/embed/vcAdWah55Z4",
     id: "58825144",
     password: "000007"
+  },
+  {
+    name: "Controlled Chaos",
+    creators: "Zipixbox",
+    verifier: "spcreat",
+    publisher: "Zipixbox",
+    video: "https://www.youtube.com/embed/ASYqlLTDg8o",
+    id: "115650566",
+    password: "Free to Copy"
+  },
+  {
+    name: "Altered Ascent",
+    creators: "Prism, Genericqueso, xNocturne, Shocksidian, Juhou, Ryder, Gs Craig, Drak, Eclipsed, Nico99, Pennutoh, Eggnog, Th04, Straw, -, BIANOX, voltex, Logic, LIEB",
+    verifier: "Doggie",
+    publisher: "Prism",
+    video: "https://www.youtube.com/embed/A5Q7u2EDVe0",
+    id: "60698989",
+    password: "Free to Copy"
+  },
+  {
+    name: "super probably level",
+    creators: "alkali",
+    verifier: "Luqualizer",
+    publisher: "alkali",
+    video: "https://www.youtube.com/embed/FkFU7JHyO5g",
+    id: "51584312",
+    password: "772439"
+  },
+  {
+    name: "Violet Illusions",
+    creators: "Enfur, Jedwint",
+    verifier: "RG18gd",
+    publisher: "Enfur",
+    video: "https://www.youtube.com/embed/A73-pvewH5I",
+    id: "96345801",
+    password: "Free to Copy"
+  },
+  {
+    name: "Molten Core",
+    creators: "Janucha",
+    verifier: "Lucidium",
+    publisher: "Janucha",
+    video: "https://www.youtube.com/embed/kWCiW7ovnWw",
+    id: "68414488",
+    password: "No Copy"
+  },
+  {
+    name: "Friday Vortex",
+    creators: "Cersia, declan, GrenadeofTacos",
+    verifier: "Cersia",
+    publisher: "Cersia",
+    video: "https://www.youtube.com/embed/AvMvICz-gJo",
+    id: "69871779",
+    password: "Free to Copy"
+  },
+  {
+    name: "GONER",
+    creators: "Nightning",
+    verifier: "Matter",
+    publisher: "Nightning",
+    video: "https://www.youtube.com/embed/X4H9MgtUrc8",
+    id: "77310650",
+    password: "Free to Copy"
+  },
+  {
+    name: "Generic Wave",
+    creators: "Cyclic, Pennutoh, Enlex",
+    verifier: "Mullsy",
+    publisher: "Pennutoh",
+    video: "https://www.youtube.com/embed/RL-c3PM4uhk",
+    id: "49576382",
+    password: "Free to Copy"
+  },
+  {
+    name: "Thunderzone",
+    creators: "henry500, Inside, awedy, fruitsalad, TheLasaga",
+    verifier: "Slithium",
+    publisher: "Cersia",
+    video: "https://www.youtube.com/embed/bfo2atUb5aY",
+    id: "63858842",
+    password: "Free to Copy"
+  },
+  {
+    name: "Titan Complex",
+    creators: "TCTeam(28 people)",
+    verifier: "MrDashGD",
+    publisher: "TCTeam",
+    video: "https://www.youtube.com/embed/nI7AvT0qUks",
+    id: "44022701",
+    password: "666666"
+  },
+  {
+    name: "Nunri",
+    creators: "Szilu",
+    verifier: "WolvezW",
+    publisher: "Szilu",
+    video: "https://www.youtube.com/embed/b8NfSjCT-E8",
+    id: "81107735",
+    password: "111111"
+  },
+  {
+    name: "Loochiverse",
+    creators: "Nerhy, twister, DTDom, Hypno, Koopazu, Wahffle, Azuvy, GiggsRH, Looch",
+    verifier: "Labirios",
+    publisher: "Nerhy",
+    video: "https://www.youtube.com/embed/zkqBqdhLFSY",
+    id: "81373023",
+    password: "Free to Copy"
+  },
+  {
+    name: "BuZzKiLl",
+    creators: "waru",
+    verifier: "Gablor",
+    publisher: "Gablor",
+    video: "https://www.youtube.com/embed/-khZ5xFDMg0",
+    id: "93450782",
+    password: "071769"
+  },
+  {
+    name: "Atmos",
+    creators: "Marwec, Luqualizer, overdefo, BelonziK, WerewolfGD, Cuaer7, DesTicY, victorinoxX, Thomartin, Jenkins, Xender Game, DavJT, Buragoz, Cdpre, wiktord, melX0exe, OpteX, Hann, bli, Tob24",
+    verifier: "Luqualizer",
+    publisher: "Marwec",
+    video: "https://www.youtube.com/embed/ezwJKYKsqX0",
+    id: "96265352",
+    password: "Free to Copy"
+  },
+  {
+    name: "Quantum Theory",
+    creators: "herozombie80, RobTop",
+    verifier: "zSkipper",
+    publisher: "herozombie80",
+    video: "https://www.youtube.com/embed/JU5ElrbHkaI",
+    id: "78232736",
+    password: "Free to Copy"
+  },
+  {
+    name: "BRKMGB8GJCZ",
+    creators: "robotchief, 8BitFudge, KydeR, bunch, Matobia, Graded, Brighty, j2ko, C034Thing, iZeo, Great",
+    verifier: "Prolix",
+    publisher: "robotchief",
+    video: "https://www.youtube.com/embed/PtAn8xfwK5w",
+    id: "85153230",
+    password: "693145"
+  },
+  {
+    name: "Instinct (ItsHybrid)",
+    creators: "ItsHybrid & more(25 people)",
+    verifier: "Varium",
+    publisher: "ItsHybrid",
+    video: "https://www.youtube.com/embed/sZjl8rIfMjE",
+    id: "92538968",
+    password: "251326"
+  },
+  {
+    name: "Basil",
+    creators: "ZeroSR",
+    verifier: "Deactive",
+    publisher: "ZeroSR",
+    video: "https://www.youtube.com/embed/dovHsq1oyAs",
+    id: "98950709",
+    password: "Free to Copy"
+  },
+  {
+    name: "Maniamatic",
+    creators: "BIGMAC77",
+    verifier: "BIGMAC77",
+    publisher: "BIGMAC77",
+    video: "https://www.youtube.com/embed/E_RkfT1yyhQ",
+    id: "111158134",
+    password: "Free to Copy"
+  },
+  {
+    name: "Sunset Sandstorm",
+    creators: "crohn44",
+    verifier: "crohn44",
+    publisher: "crohn44",
+    video: "https://www.youtube.com/embed/5ary4apA0WA",
+    id: "55547703",
+    password: "Free to Copy"
+  },
+  {
+    name: "In the Generator",
+    creators: "Gelforce",
+    verifier: "Gelforce",
+    publisher: "Gelforce",
+    video: "https://www.youtube.com/embed/M0kNz36MRnA",
+    id: "116053545",
+    password: "Free to Copy"
+  },
+  {
+    name: "Freedom08",
+    creators: "Pennutoh & more(25 people)",
+    verifier: "Golden",
+    publisher: "Pennutoh",
+    video: "https://www.youtube.com/embed/b1DE6OTFS4U",
+    id: "55274070",
+    password: "Free to Copy"
+  },
+  {
+    name: "Erebus",
+    creators: "Rustam, Ilrell",
+    verifier: "BoldStep",
+    publisher: "BoldStep",
+    video: "https://www.youtube.com/embed/8csWDx6C2YI",
+    id: "31462941",
+    password: "Free to Copy"
   }
 ];
 
@@ -2734,6 +2941,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-29', detail: 'Controlled Chaos ~ Erebus were placed at #304 ~ #326.' },
   { date: '2025-11-29', detail: 'IMMORTALITY has been placed at #284, above Sonic Wave and below Kjdf8314jlfssf.' },
   { date: '2025-11-28', detail: 'Cobalt hell ~ xo were placed at #294 ~ #302.' },
   { date: '2025-11-28', detail: 'Tenkai has been raised from #156 to #154, above Omega Interface and below SUPERHATEMEWORLD.' },
@@ -3003,6 +3211,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
