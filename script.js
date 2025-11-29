@@ -234,15 +234,6 @@ const demons = [
     password: "Free to Copy"
   },
     {
-    name: "Sakupen Circles",
-    creators: "Nick24, DrCuber, Korewa, Renn241, Muffy450, endevvor, Mzero, NineDice, GhostVandalf",
-    verifier: "TheDiamondPizza",
-    publisher: "TheDiamondPizza",
-    video: "https://www.youtube.com/embed/ofG2mJi9kEA",
-    id: "76962930",
-    password: "Free to Copy"
-  },
-    {
     name: "Apocalyptic Trilogy",
     creators: "APTeamOfficial(36 people)",
     verifier: "polterghast",
@@ -268,6 +259,15 @@ const demons = [
     video: "https://www.youtube.com/embed/QBe5x2o9v2w",
     id: "75296202",
     password: "234000"
+  },
+    {
+    name: "Sakupen Circles",
+    creators: "Nick24, DrCuber, Korewa, Renn241, Muffy450, endevvor, Mzero, NineDice, GhostVandalf",
+    verifier: "TheDiamondPizza",
+    publisher: "TheDiamondPizza",
+    video: "https://www.youtube.com/embed/ofG2mJi9kEA",
+    id: "76962930",
+    password: "Free to Copy"
   },
   {
     name: "Edge of Destiny",
@@ -2941,6 +2941,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-29', detail: 'Sakupen Circles has been lowered from #27 to #30, above Edge of Destiny and below Firework.' },
   { date: '2025-11-29', detail: 'Violet Illusions has been raised from #307 to #237, above Specthys and below REPENTLESS.' },
   { date: '2025-11-29', detail: 'Controlled Chaos ~ Erebus were placed at #304 ~ #326.' },
   { date: '2025-11-29', detail: 'IMMORTALITY has been placed at #284, above Sonic Wave and below Kjdf8314jlfssf.' },
@@ -3212,6 +3213,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
