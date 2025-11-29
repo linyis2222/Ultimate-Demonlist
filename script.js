@@ -432,6 +432,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Sinister Silence",
+    creators: "Wahffle & more(101 people)",
+    verifier: "wwdonut",
+    publisher: "Wahffle",
+    video: "https://www.youtube.com/embed/6N8u_byYoZo",
+    id: "82249742",
+    password: "Free to Copy"
+  },
+  {
     name: "Operation Evolution",
     creators: "Halzion, Graded, PhantomX, Cylyrii, Parallax, AubreyGoose, Saziur, Manu, Tygrysek, AlrexX, RealVet, Solarion, Knali, Wespdx, AnonIIExt, Iris, Samu, Limit, Nezopi, Zipixbox, Silver, Connected, Fitatfi, Nab, zmx",
     verifier: "CobraBlitz",
@@ -501,15 +510,6 @@ const demons = [
     publisher: "MadisonYuko",
     video: "https://www.youtube.com/embed/NhkN_a9cNi8",
     id: "96083028",
-    password: "Free to Copy"
-  },
-  {
-    name: "Sinister Silence",
-    creators: "Wahffle & more(101 people)",
-    verifier: "wwdonut",
-    publisher: "Wahffle",
-    video: "https://www.youtube.com/embed/6N8u_byYoZo",
-    id: "82249742",
     password: "Free to Copy"
   },
   {
@@ -2941,6 +2941,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-29', detail: 'Sinister Silence has been raised from #57 to #49, above Operation Evolution and below Mayhem.' },
   { date: '2025-11-29', detail: 'Sakupen Circles has been lowered from #27 to #30, above Edge of Destiny and below Firework.' },
   { date: '2025-11-29', detail: 'Violet Illusions has been raised from #307 to #237, above Specthys and below REPENTLESS.' },
   { date: '2025-11-29', detail: 'Controlled Chaos ~ Erebus were placed at #304 ~ #326.' },
@@ -3213,6 +3214,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
