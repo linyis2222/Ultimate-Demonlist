@@ -490,7 +490,7 @@ const demons = [
     creators: "vit12, Birds, GustavoV3, Hugo",
     verifier: "wPopoff",
     publisher: "vit12",
-    video: "https://www.youtube.com/embed/UD91cce4iKE",
+    video: "https://www.youtube.com/embed/4QiHP3jpGnk",
     id: "105593215",
     password: "Free to Copy"
   },
@@ -823,7 +823,7 @@ const demons = [
     creators: "bosjoker",
     verifier: "razsta4ax",
     publisher: "bosjoker",
-    video: "https://www.youtube.com/embed/bosjoker",
+    video: "https://www.youtube.com/embed/UUyzGg_4mqs",
     id: "99495619",
     password: "Free to Copy"
   },
@@ -938,9 +938,9 @@ const demons = [
   {
     name: "Lithium",
     creators: "L4TeZk, RpgRaketti, xVainaja, DreamZoneGD, At424, Copc, Kekis, LapoGD, ManHeadRambo, Ked, Aleph, Valentine, ArtsiBurn, Cookieszs, Darksive, Novaach, TrueInverse, goob, Lepuska, kloone, Xenote, Flaksy",
-    verifier: "kloone",
+    verifier: "kloone(Original), Bamvie(Update)",
     publisher: "L4TeZk",
-    video: "https://www.youtube.com/embed/IfVM56qNVdA",
+    video: "https://www.youtube.com/embed/mvBPeefG-a0",
     id: "97364686",
     password: "Free to Copy"
   },
@@ -1217,9 +1217,9 @@ const demons = [
   {
     name: "Rigel",
     creators: "Dan2D",
-    verifier: "TrueInverse",
+    verifier: "Dan2D(Original), TrueInverse(Update)",
     publisher: "Dan2D",
-    video: "https://www.youtube.com/embed/liJFeLHcW_Q",
+    video: "https://www.youtube.com/embed/CkDTr84FEpI",
     id: "93155813",
     password: "Free to Copy"
   },
@@ -1343,9 +1343,9 @@ const demons = [
   {
     name: "RUTHLESS",
     creators: "Viper Arctarus, nCylix, SurJaco, Titoalper, Boii, BeClan, Destriv, Aranda, Vitrial, Bli, MothEye, lGenoxide, Roselyne",
-    verifier: "vaen",
+    verifier: "LordVadercraft(Original), vaen(Update)",
     publisher: "SurJaco",
-    video: "https://www.youtube.com/embed/9jwVeYtc6H4",
+    video: "https://www.youtube.com/embed/RmItPs84OOk",
     id: "85612571",
     password: "Free to Copy"
   },
@@ -1532,9 +1532,9 @@ const demons = [
   {
     name: "Escape Room",
     creators: "SleyGD",
-    verifier: "slayerkirb",
+    verifier: "MiniShoey(Original), slayerkirb(Update)",
     publisher: "SleyGD",
-    video: "https://www.youtube.com/embed/aVL2VvnFgL8",
+    video: "https://www.youtube.com/embed/2Z-7Yscs62c",
     id: "90420966",
     password: "Free to Copy"
   },
@@ -1694,9 +1694,9 @@ const demons = [
   {
     name: "TORN",
     creators: "para, voltex, Kyhros, TheCdPre, Sauzzeth, Woom, Splinter25, expa, iBoop, tygrixon, KarolBomba, deactive",
-    verifier: "DiamondSplash",
+    verifier: "DiamondSplash(Original), Slijee(Update)",
     publisher: "Kyhros",
-    video: "https://www.youtube.com/embed/QUpzux7AoTI",
+    video: "https://www.youtube.com/embed/QzntDPHSBro",
     id: "91816388",
     password: "Free to Copy"
   },
@@ -1721,9 +1721,9 @@ const demons = [
   {
     name: "Gracefully",
     creators: "NindyBK & more(24 people)",
-    verifier: "noxium",
+    verifier: "vaen(Original), noxium(Update)",
     publisher: "NindyBK",
-    video: "https://www.youtube.com/embed/5RBn1nk5wb4",
+    video: "https://www.youtube.com/embed/Y_UMQfmEHm8",
     id: "88226064",
     password: "Free to Copy"
   },
@@ -1748,9 +1748,9 @@ const demons = [
   {
     name: "DsinK",
     creators: "stanstanmansan, crohn44, Nightning",
-    verifier: "fusion425",
+    verifier: "Laurendi(Original), fusion425(Update)",
     publisher: "stanstanmansan",
-    video: "https://www.youtube.com/embed/EsQAFvKqo3U",
+    video: "https://www.youtube.com/embed/kYGpxnuyysk",
     id: "98284764",
     password: "Free to Copy"
   },
@@ -1928,9 +1928,9 @@ const demons = [
   {
     name: "Ourwa",
     creators: "Demishio",
-    verifier: "Masa1017",
+    verifier: "Demishio(Original), Masa1017(Update)",
     publisher: "Demishio",
-    video: "https://www.youtube.com/embed/Q2o_btgo6bg",
+    video: "https://www.youtube.com/embed/BImzHJnr5Ks",
     id: "61598653",
     password: "Free to Copy"
   },
@@ -2036,9 +2036,9 @@ const demons = [
   {
     name: "PROTON LAUNCHER",
     creators: "Multiverse55, TysonGD",
-    verifier: "MrOozer",
+    verifier: "TysonGD(Original), MrOozer(Update)",
     publisher: "Multiverse55",
-    video: "https://www.youtube.com/embed/8stjtuvzfyk",
+    video: "https://www.youtube.com/embed/Zps2ejald5g",
     id: "108514663",
     password: "Free to Copy"
   },
@@ -2225,9 +2225,9 @@ const demons = [
   {
     name: "AKIRA",
     creators: "Eridani, Denni",
-    verifier: "Solus",
+    verifier: "Denni(Original), Solus(Update)",
     publisher: "Eridani",
-    video: "https://www.youtube.com/embed/RHCCZkf4UFM",
+    video: "https://www.youtube.com/embed/lAgPh86coPQ",
     id: "88421468",
     password: "Free to Copy"
   },
@@ -2441,9 +2441,9 @@ const demons = [
   {
     name: "Wasureta",
     creators: "-, LimeTime313, zDeadlox, HelpegasuS, augi, Isane, XLSpiral, Splash, BelonziK, El3ctr0",
-    verifier: "VaporWubz",
+    verifier: "gubo(Original), VaporWubz(Update)",
     publisher: "HelpegasuS",
-    video: "https://www.youtube.com/embed/9jkCtNDbDt0",
+    video: "https://www.youtube.com/embed/5tZ30LPJM8c",
     id: "64658786",
     password: "Free to Copy"
   },
@@ -2596,7 +2596,7 @@ const demons = [
     creators: "GhostVandalf, DrCuber, Renn241",
     verifier: "Zipi",
     publisher: "Renn241",
-    video: "https://www.youtube.com/embed/",
+    video: "https://www.youtube.com/embed/a2SMT-dapYE",
     id: "81535535",
     password: "Free to Copy"
   },
@@ -2612,9 +2612,9 @@ const demons = [
   {
     name: "LUMINA",
     creators: "Hechie, R3XX3R, VARSE, Ultimxte, Splinter25, Z3nithGD, ThunderDarkness, kubuwu",
-    verifier: "Lia",
+    verifier: "LunarSpark(Original), Lia(Update)",
     publisher: "Hechie",
-    video: "https://www.youtube.com/embed/ug9mjzRT7Ao",
+    video: "https://www.youtube.com/embed/cTevFsTeS-Y",
     id: "89488413",
     password: "Free to Copy"
   },
@@ -2632,7 +2632,7 @@ const demons = [
     creators: "Renn241, R3XX3R, Cyanide, Lupo, Jinnans, MaxxoRMeN, rply, mango77, ivyteal, Kcool, Wyntaee, iMinaY, ItzKiba",
     verifier: "Lia",
     publisher: "Hechie",
-    video: "https://www.youtube.com/embed/",
+    video: "https://www.youtube.com/embed/IHXcmu7XrxQ",
     id: "114867361",
     password: "Free to Copy"
   },
@@ -2648,18 +2648,18 @@ const demons = [
   {
     name: "Yatagarasu",
     creators: "ViPriN, Giron, Imanubis, Jeyzor, WOOGI1411, Findexi, Rek3dge, weoweoteo, Anthrax, AbstractDark, Aeidux, Vermillion, Zelda, Michigun, Luneth, -, Evasium, Csx42gaming, Funnygame, Riot, xcy7, Loogiah",
-    verifier: "Dragoon",
+    verifier: "TrusTa(Original), Dragoon(Update)",
     publisher: "TrusTa",
-    video: "https://www.youtube.com/embed/GrGFFPhtAFc",
+    video: "https://www.youtube.com/embed/KgGKx0pk_wo",
     id: "28220417",
     password: "Free to Copy"
   },
   {
     name: "Cobalt hell",
     creators: "RubrumP",
-    verifier: "RedMatrix",
+    verifier: "JesseGamingGD(Original), RedMatrix(Update)",
     publisher: "RubrumP",
-    video: "https://www.youtube.com/embed/Xe-O9eGH5Yk",
+    video: "https://www.youtube.com/embed/GzY2tXBo6fg",
     id: "122060729",
     password: "Free to Copy"
   },
@@ -2684,9 +2684,9 @@ const demons = [
   {
     name: "Kuzureta",
     creators: "RealVet, River, DrCuber, Renn241, GhostVandalf, DiamondSkull, Zetalock, cxli, Genoxide, augi, SrKiwi, El3ctr0, Mystic, nicor77, Kyhros, ARWooly, zGod, Teno, Cybertron, Flamongo",
-    verifier: "Cursed",
+    verifier: "Teno(Original), CursedZ(Update)",
     publisher: "Teno",
-    video: "https://www.youtube.com/embed/Q5LqZ9aKn78",
+    video: "https://www.youtube.com/embed/Z7NLOIyjbhU",
     id: "71216292",
     password: "Free to Copy"
   },
@@ -2765,9 +2765,9 @@ const demons = [
   {
     name: "Molten Core",
     creators: "Janucha",
-    verifier: "Lucidium",
+    verifier: "ViewSonic(Original), Lucidium(Update)",
     publisher: "Janucha",
-    video: "https://www.youtube.com/embed/kWCiW7ovnWw",
+    video: "https://www.youtube.com/embed/mFTDRAZxs9U",
     id: "68414488",
     password: "No Copy"
   },
@@ -2828,9 +2828,9 @@ const demons = [
   {
     name: "Loochiverse",
     creators: "Nerhy, twister, DTDom, Hypno, Koopazu, Wahffle, Azuvy, GiggsRH, Looch",
-    verifier: "Labirios",
+    verifier: "gubo(Original), Labirios(Update)",
     publisher: "Nerhy",
-    video: "https://www.youtube.com/embed/zkqBqdhLFSY",
+    video: "https://www.youtube.com/embed/WvENMWaO98w",
     id: "81373023",
     password: "Free to Copy"
   },
@@ -2848,7 +2848,7 @@ const demons = [
     creators: "Marwec, Luqualizer, overdefo, BelonziK, WerewolfGD, Cuaer7, DesTicY, victorinoxX, Thomartin, Jenkins, Xender Game, DavJT, Buragoz, Cdpre, wiktord, melX0exe, OpteX, Hann, bli, Tob24",
     verifier: "Luqualizer",
     publisher: "Marwec",
-    video: "https://www.youtube.com/embed/ezwJKYKsqX0",
+    video: "https://www.youtube.com/embed/iEClE6oqsDs",
     id: "96265352",
     password: "Free to Copy"
   },
@@ -3217,6 +3217,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
