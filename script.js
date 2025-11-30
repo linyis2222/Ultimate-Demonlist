@@ -2998,7 +2998,7 @@ const demons = [
   },
   {
     name: "Chromatic Haze",
-    creators: "Gizbro",
+    creators: "Gizbro, Cirtrax",
     verifier: "Gizbro(Original), RevoltZy(Update)",
     publisher: "Cirtrax",
     video: "https://www.youtube.com/embed/QZf8vX4DF0A",
@@ -3317,6 +3317,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
