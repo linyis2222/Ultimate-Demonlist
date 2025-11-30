@@ -3040,24 +3040,24 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-11-30', detail: 'Delebit Oblivio ~ Celestial Force were placed at #327 ~ #337.' },
+  { date: '2025-11-30', detail: 'Delebit Oblivio ~ Celestial Force have been placed at #327 ~ #337.' },
   { date: '2025-11-30', detail: 'Deimos (ItsHybrid) and The Lightning Rod have been swapped, with The Lightning Rod now sitting above, at #23.' },
   { date: '2025-11-29', detail: 'Rigel has been raised from #143 to #136, above CORRODERE and below Cognition.' },
   { date: '2025-11-29', detail: 'Neon Skyline has been raised from #150 to #141, above SARY NEVER CLEAR and below ta1LSD0ll.' },
   { date: '2025-11-29', detail: 'Sinister Silence has been raised from #57 to #49, above Operation Evolution and below Mayhem.' },
   { date: '2025-11-29', detail: 'Sakupen Circles has been lowered from #27 to #30, above Edge of Destiny and below Firework.' },
   { date: '2025-11-29', detail: 'Violet Illusions has been raised from #307 to #237, above Specthys and below REPENTLESS.' },
-  { date: '2025-11-29', detail: 'Controlled Chaos ~ Erebus were placed at #304 ~ #326.' },
+  { date: '2025-11-29', detail: 'Controlled Chaos ~ Erebus have been placed at #304 ~ #326.' },
   { date: '2025-11-29', detail: 'IMMORTALITY has been placed at #284, above Sonic Wave and below Kjdf8314jlfssf.' },
-  { date: '2025-11-28', detail: 'Cobalt hell ~ xo were placed at #294 ~ #302.' },
+  { date: '2025-11-28', detail: 'Cobalt hell ~ xo have been placed at #294 ~ #302.' },
   { date: '2025-11-28', detail: 'Tenkai has been raised from #156 to #154, above Omega Interface and below SUPERHATEMEWORLD.' },
   { date: '2025-11-27', detail: 'Dark Dimension has been placed at #99, above Zodiac and below NEUTRA. This pushes Coral Cave into the Legacy List.' },
-  { date: '2025-11-26', detail: 'Golden Club ~ Yatagarasu were placed at #262 ~ #292.' },
+  { date: '2025-11-26', detail: 'Golden Club ~ Yatagarasu have been placed at #262 ~ #292.' },
   { date: '2025-11-25', detail: 'Gaggatrondra has been raised from #39 to #35, above The Hallucination and below CONVULSION.' },
   { date: '2025-11-25', detail: 'Edge of Destiny has been raised from #38 to #31, above poocubed and below Firework.' },
   { date: '2025-11-24', detail: 'Fragmented has been placed at #207, above Gustavo Fring and below Nhelv.' },
   { date: '2025-11-24', detail: 'Firework has been lowered from #28 to #30, above poocubed and below Eyes in the Water.' },
-  { date: '2025-11-23', detail: 'CHROMA FINALE ~ Gamma were placed at #231 ~ #260.' },
+  { date: '2025-11-23', detail: 'CHROMA FINALE ~ Gamma have been placed at #231 ~ #260.' },
   { date: '2025-11-22', detail: 'Zodiac has been lowered from #95 to #99, above Swing Swing and below NEUTRA.' },
   { date: '2025-11-22', detail: 'RUST has been lowered from #71 to #118, above azure blast and below Thinking Space. This pushes The Golden back into the Main List.' },
   { date: '2025-11-22', detail: 'Cognition has been lowered from #132 to #134, above CORRODERE and below Indivine.' },
@@ -3068,7 +3068,7 @@ const changeLog = [
   { date: '2025-11-16', detail: 'Viprin UFO has been lowered from #73 to #78, above Verdant Landscape and below Natural Disaster. This pushes Starlit Stroll back into the Main List.' },
   { date: '2025-11-16', detail: 'Cold Sweat has been raised from #116 to #113, above Frost Spirit and below Lotus Flower.' },
   { date: '2025-11-14', detail: 'PROTON LAUNCHER has been lowered from #180 to #224, above Frozen Cave and below Arctic Lights.' },
-  { date: '2025-11-14', detail: 'Gustavo Fring ~ Plasma Pulse Finale were placed at #207 ~ #229.' },
+  { date: '2025-11-14', detail: 'Gustavo Fring ~ Plasma Pulse Finale have been placed at #207 ~ #229.' },
   { date: '2025-11-14', detail: 'Silentlocked has been placed at #25, above Sakupen Circles and below KOSETSU. This pushes Starlit Stroll into the Extended List, and SUPERHATEMEWORLD into the Legacy List.' },
   { date: '2025-11-14', detail: 'meow hard has been placed at #144, above Lucid Nightmares and below Akashic Records. This pushes Omega Interface into the Legacy List.' },
   { date: '2025-11-14', detail: 'Belladonna has been lowered from #33 to #44, above Codependence and below LIMBO.' },
@@ -3076,8 +3076,8 @@ const changeLog = [
   { date: '2025-11-12', detail: 'Loops of Fury has been placed at #54, above Midnight and below ORDINARY. This pushes Natural Disaster into the Extended List, and Amalgam into the Legacy List.' },
   { date: '2025-11-12', detail: 'Saul Goodman and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #29.' },
   { date: '2025-11-12', detail: 'Apocalyptic Trilogy has been raised from #31 to #28, above Saul Goodman and below poocubed.' },
-  { date: '2025-11-11', detail: 'Sazerix ~ Nhelv were placed at #190 ~ #203.' },
-  { date: '2025-11-11', detail: 'Excruciation Chamber ~ Deimos (EndLevel) were placed at #179 ~ #189.' },
+  { date: '2025-11-11', detail: 'Sazerix ~ Nhelv have been placed at #190 ~ #203.' },
+  { date: '2025-11-11', detail: 'Excruciation Chamber ~ Deimos (EndLevel) have been placed at #179 ~ #189.' },
   { date: '2025-11-10', detail: 'Judgement Knights has been lowered from #92 to #102, above Lithium and below DISSONANCE.' },
   { date: '2025-11-07', detail: 'Henken has been placed at #93, above Zodiac and below Judgement Knights. This pushes Tenkai into the Legacy List.' },
   { date: '2025-11-07', detail: 'The Yangire and SARYYX NEVER CLEAR have been swapped, with SARYYX NEVER CLEAR now sitting above, at #51.' },
@@ -3101,8 +3101,8 @@ const changeLog = [
   { date: '2025-10-11', detail: 'Zodiac has been raised from #95 to #91, above WOBBLING MACHINE and below Kenos.' },
   { date: '2025-10-10', detail: 'THE JET ENGINE has been lowered from #62 to #64, above Jigsaw and below BPATA MPAKA.' },
   { date: '2025-10-10', detail: 'MINUSdry and Solar Flare have been swapped, with Solar Flare now sitting above, at #40.' },
-  { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman were placed at #156 ~ #174.' },
-  { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes were placed at #1 ~ #155.' },
+  { date: '2025-10-09', detail: 'The Art of the Blade ~ Jesse Pinkman have been placed at #156 ~ #174.' },
+  { date: '2025-10-09', detail: 'Thinking Space II ~ Shardscapes have been at #1 ~ #155.' },
   { date: '2025-10-09', detail: 'List Created' }
 ];
 
@@ -3317,6 +3317,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
