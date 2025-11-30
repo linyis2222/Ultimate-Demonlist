@@ -2623,7 +2623,7 @@ const demons = [
     creators: "iRainstorm, SyQual, KireiMirai, Kant, Temp, xoen, Yonaka, Sikatsuka, Isane, Mulpan, Molds, Zeta, Rainspade, BeCruX, iEstia, Ticky, Uriun, Xiko, Quitora",
     verifier: "iRainstorm",
     publisher: "iRainstorm",
-    video: "https://www.youtube.com/embed/",
+    video: "https://www.youtube.com/embed/VZThVeKm7lI",
     id: "60620063",
     password: "170000"
   },
@@ -3217,6 +3217,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
