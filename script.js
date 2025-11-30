@@ -10,7 +10,7 @@ const demons = [
   },
   {
     name: "Amethyst",
-    creators: "iMist, IvashkaUA, NoobyPro27, iMinaY, BeClaNin0, Titoalper, Roselyne, ItsxEcho, GamerKnight750, Uriun112, 3DADronX, SnomGMD, Bedrock",
+    creators: "iMist, IvashkaUA, NoobyPro27, MinAY, BeClaNin0, Titoalper, Roselyne, ItsxEcho, GamerKnight750, Uriun112, 3DADronX, SnomGMD, Bedrock",
     verifier: "wPopoff",
     publisher: "iMist",
     video: "https://www.youtube.com/embed/4lfkzz1VCbA",
@@ -308,7 +308,7 @@ const demons = [
   {
     name: "Gaggatrondra",
     creators: "JCMoon",
-    verifier: "Zeronium",
+    verifier: "Zeroniumm",
     publisher: "JCMoon",
     video: "https://www.youtube.com/embed/A4G41vw6Cf0",
     id: "114990369",
@@ -713,7 +713,7 @@ const demons = [
   {
     name: "ATOMIC CANNON Mk III",
     creators: "LIEB, Giron, FrostBurn, ZeroSR",
-    verifier: "Zeronium",
+    verifier: "Zeroniumm",
     publisher: "LIEB",
     video: "https://www.youtube.com/embed/5nM4hlnLDyM",
     id: "104672501",
@@ -1189,8 +1189,8 @@ const demons = [
   },
   {
     name: "ATOMIC CANNON Mk II",
-    creators: "LIEB, Giron, BIANOX, Zeronium",
-    verifier: "Zeronium",
+    creators: "LIEB, Giron, BIANOX, Zeroniumm",
+    verifier: "Zeroniumm",
     publisher: "LIEB",
     video: "https://www.youtube.com/embed/4-lOnZsfhNQ",
     id: "91180835",
@@ -1550,7 +1550,7 @@ const demons = [
   {
     name: "no jokes",
     creators: "TyakyoFyai, Nexi, Quicklen, Aqualime, FlashWings576",
-    verifier: "Zeronium",
+    verifier: "Zeroniumm",
     publisher: "theParadoxTeam",
     video: "https://www.youtube.com/embed/oVhGYiQ8fBc",
     id: "84507862",
@@ -1685,7 +1685,7 @@ const demons = [
   {
     name: "Awedsy",
     creators: "sink, SleyGD",
-    verifier: "Zeronium",
+    verifier: "Zeroniumm",
     publisher: "sink",
     video: "https://www.youtube.com/embed/hx5ebE8e6Eo",
     id: "92132505",
@@ -1820,7 +1820,7 @@ const demons = [
   {
     name: "ATOMIC CANNON",
     creators: "LIEB",
-    verifier: "Zeronium",
+    verifier: "Zeroniumm",
     publisher: "LIEB",
     video: "https://www.youtube.com/embed/VZS5Yn9Y-OI",
     id: "77681476",
@@ -2305,8 +2305,8 @@ const demons = [
   },
   {
     name: "RANDOM ACCESS MEMORY",
-    creators: "AAAAAlex, Krisz, Trunith, zKreno, oleki, SleyGD, OliSW, Valentine, Acute144, Zeronium",
-    verifier: "Zeronium",
+    creators: "AAAAAlex, Krisz, Trunith, zKreno, oleki, SleyGD, OliSW, Valentine, Acute144, Zeroniumm",
+    verifier: "Zeroniumm",
     publisher: "Acute144",
     video: "https://www.youtube.com/embed/6_pYfJKKpRY",
     id: "81372683",
@@ -2629,7 +2629,7 @@ const demons = [
   },
   {
     name: "The Fog",
-    creators: "Renn241, R3XX3R, Cyanide, Lupo, Jinnans, MaxxoRMeN, rply, mango77, ivyteal, Kcool, Wyntaee, iMinaY, ItzKiba",
+    creators: "Renn241, R3XX3R, Cyanide, Lupo, Jinnans, MaxxoRMeN, rply, mango77, ivyteal, Kcool, Wyntaee, MinAY, ItzKiba",
     verifier: "Lia",
     publisher: "Hechie",
     video: "https://www.youtube.com/embed/IHXcmu7XrxQ",
@@ -2932,6 +2932,105 @@ const demons = [
     video: "https://www.youtube.com/embed/8csWDx6C2YI",
     id: "31462941",
     password: "Free to Copy"
+  },
+  {
+    name: "Delebit Oblivio",
+    creators: "Olympic, Stubbypinata, G4lvatron, Soulsand, SpadeKilla17, Ticky, chaosxstream, K4ruta, Systile, KeiAs, Zhander, Mulpan, Sogogi, LioLeo, MDGFroid, Quitora",
+    verifier: "Dorami",
+    publisher: "TeamSmokeWeed",
+    video: "https://www.youtube.com/embed/0qQkhSNIIaY",
+    id: "59134257",
+    password: "697469"
+  },
+  {
+    name: "Echoes of Neon",
+    creators: "MinAY, Sardina, kyotosenkai, meloni, Electro543, ballisticGMD, Vizitek, WarningGoat, winchester, Xenith, iGrimes, FawksGD, LiLiuM, ViperArctarus, TheDolb1natoR, Xolarzz, DangerKat, Apstrom, onVoyo, ItzAdrift, 7Rodo",
+    verifier: "Sardina",
+    publisher: "MinAY",
+    video: "https://www.youtube.com/embed/W-Lm3XtrDac",
+    id: "125548376",
+    password: "Free to Copy"
+  },
+  {
+    name: "Trxpping Eyebxlls",
+    creators: "Waffllee",
+    verifier: "Zeroniumm",
+    publisher: "Waffllee",
+    video: "https://www.youtube.com/embed/4BATUKTP1aY",
+    id: "111451617",
+    password: "Free to Copy"
+  },
+  {
+    name: "The Reaper",
+    creators: "Kyhros, xoanon, nPyro, Dirinoc, iBrah78, Kyuu, Vinty, Zetalock, Jayy, AirSavage, Kakemancool, NASHII, BySelling, Netaren, Sauzzeth, CuaeR, Dilw0nk, cxli, Bentai, RealVet, zDeadlox, Doop, River",
+    verifier: "Doggie(Original), Teno(Update)",
+    publisher: "Kyhros",
+    video: "https://www.youtube.com/embed/XzQbq375SRs",
+    id: "68894921",
+    password: "030607"
+  },
+  {
+    name: "Nightshade",
+    creators: "YakobNugget & more(25 people)",
+    verifier: "YakobNugget",
+    publisher: "YakobNugget",
+    video: "https://www.youtube.com/embed/1RiB0qmwE4A",
+    id: "83107375",
+    password: "Free to Copy"
+  },
+  {
+    name: "Dark Flare",
+    creators: "KeiAs & more(24 people)",
+    verifier: "plusxenon",
+    publisher: "KeiAs",
+    video: "https://www.youtube.com/embed/Pb8GVDjiiQQ",
+    id: "48942548",
+    password: "Free to Copy"
+  },
+  {
+    name: "The Hell Tribute",
+    creators: "fakeblast, Varium, Iconic, Xylitol, trickyb89, Knali2001, Allan, Luqualizer, VidashGD, SuPaH AnT, Prometheus, Valentine, ItsMeGeoGD",
+    verifier: "fakeblast",
+    publisher: "fakeblast",
+    video: "https://www.youtube.com/embed/pepzgCz8TMs",
+    id: "108426292",
+    password: "Free to Copy"
+  },
+  {
+    name: "Chromatic Haze",
+    creators: "Gizbro",
+    verifier: "Gizbro(Original), RevoltZy(Update)",
+    publisher: "Cirtrax",
+    video: "https://www.youtube.com/embed/QZf8vX4DF0A",
+    id: "62869408",
+    password: "Free to Copy"
+  },
+  {
+    name: "Ddiamond",
+    creators: "Lfritz, iITesseractIi",
+    verifier: "lamp86",
+    publisher: "Lfritz",
+    video: "https://www.youtube.com/embed/_kDZq4Z7zFE",
+    id: "74034217",
+    password: "Free to Copy"
+  },
+  {
+    name: "The Mainframe",
+    creators: "notlsa",
+    verifier: "notlsa",
+    publisher: "notlsa",
+    video: "https://www.youtube.com/embed/D4J9PJnQMe0",
+    id: "86050887",
+    password: "314120"
+  },
+  {
+    name: "Celestial Force",
+    creators: "MindCap, GaidenHertuny, HelpegasuS, GeometryTom, MrLorenzo, JustBasic, Auntex, Xyriak, Soulax, Djoxy, Elayad, Manheadrambo, Stormy97, Hoshikido, Wless, Jihn, Zafkiel",
+    verifier: "Dagger(Original), supahant(Update)",
+    publisher: "MindCap",
+    video: "https://www.youtube.com/embed/onX__Q7bh8A",
+    id: "47237400",
+    password: "Free to Copy"
   }
 ];
 
@@ -2941,6 +3040,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-30', detail: 'Delebit Oblivio ~ Celestial Force were placed at #327 ~ #337.' },
   { date: '2025-11-30', detail: 'Deimos (ItsHybrid) and The Lightning Rod have been swapped, with The Lightning Rod now sitting above, at #23.' },
   { date: '2025-11-29', detail: 'Rigel has been raised from #143 to #136, above CORRODERE and below Cognition.' },
   { date: '2025-11-29', detail: 'Neon Skyline has been raised from #150 to #141, above SARY NEVER CLEAR and below ta1LSD0ll.' },
@@ -3217,6 +3317,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
