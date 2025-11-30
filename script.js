@@ -198,21 +198,21 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Deimos (ItsHybrid)",
-    creators: "ItsHybrid & more(27 people)",
-    verifier: "Doggie",
-    publisher: "ItsHybrid",
-    video: "https://www.youtube.com/embed/b2yHaIk5zio",
-    id: "93091893",
-    password: "Free to Copy"
-  },
-  {
     name: "The Lightning Rod",
     creators: "Lavatrex",
     verifier: "Lavatrex",
     publisher: "Lavatrex",
     video: "https://www.youtube.com/embed/nQDTi077O6M",
     id: "93917076",
+    password: "Free to Copy"
+  },
+  {
+    name: "Deimos (ItsHybrid)",
+    creators: "ItsHybrid & more(27 people)",
+    verifier: "Doggie",
+    publisher: "ItsHybrid",
+    video: "https://www.youtube.com/embed/b2yHaIk5zio",
+    id: "93091893",
     password: "Free to Copy"
   },
     {
@@ -2941,6 +2941,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-11-30', detail: 'Deimos (ItsHybrid) and The Lightning Rod have been swapped, with The Lightning Rod now sitting above, at #23.' },
   { date: '2025-11-29', detail: 'Rigel has been raised from #143 to #136, above CORRODERE and below Cognition.' },
   { date: '2025-11-29', detail: 'Neon Skyline has been raised from #150 to #141, above SARY NEVER CLEAR and below ta1LSD0ll.' },
   { date: '2025-11-29', detail: 'Sinister Silence has been raised from #57 to #49, above Operation Evolution and below Mayhem.' },
@@ -3216,6 +3217,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
