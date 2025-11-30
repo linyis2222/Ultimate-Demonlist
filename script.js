@@ -1435,7 +1435,7 @@ const demons = [
     creators: "Kapycta999",
     verifier: "BONN GD",
     publisher: "Kapycta999",
-    video: "https://www.youtube.com/embed/t7w2HNfD0eI",
+    video: "https://www.youtube.com/embed/Wom_gMcauUI",
     id: "104464785",
     password: "Free to Copy"
   },
@@ -3217,6 +3217,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
