@@ -54,15 +54,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Subsuming Vortex",
-    creators: "SeptaGon7, Renn241",
-    verifier: "CursedZ",
-    publisher: "CursedZ",
-    video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
-    id: "127997391",
-    password: "Free to Copy"
-  },
-  {
     name: "Every End",
     creators: "Pennutoh, MindCap, LeftUnknown, Blitzer, Djoxy, npesta, Koreaqwer, KrmaL, StarkyTheSalad, Surv, lolwut7, CobraBlitz",
     verifier: "Hqmy",
@@ -3040,6 +3031,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-02', detail: 'Subsuming Vortex has been removed from the list due to lack of reliable opinions. This pushes Starlit Stroll back into the Main List, Coral Cave into the Extended List.' },
   { date: '2025-11-30', detail: 'Delebit Oblivio ~ Celestial Force have been placed at #327 ~ #337.' },
   { date: '2025-11-30', detail: 'Deimos (ItsHybrid) and The Lightning Rod have been swapped, with The Lightning Rod now sitting above, at #23.' },
   { date: '2025-11-29', detail: 'Rigel has been raised from #143 to #136, above CORRODERE and below Cognition.' },
