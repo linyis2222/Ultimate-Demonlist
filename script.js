@@ -1341,6 +1341,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "obsession",
+    creators: "jbooster",
+    verifier: "Zeroniumm",
+    publisher: "jbooster",
+    video: "https://www.youtube.com/embed/OjXKjQXnhjA",
+    id: "127336234",
+    password: "Free to Copy"
+  },
+  {
     name: "Coral Cave",
     creators: "awesome360, Gnamolor",
     verifier: "Gnamolor",
@@ -2508,7 +2517,7 @@ const demons = [
     publisher: "Awedsy",
     video: "https://www.youtube.com/embed/qX6yzZey9Ng",
     id: "77255632",
-    password: "No Copy"
+    password: "Free to Copy"
   },
   {
     name: "FIFTY THREE",
@@ -2706,7 +2715,7 @@ const demons = [
     publisher: "Xolarzz",
     video: "https://www.youtube.com/embed/qW0M7w8RwMk",
     id: "90129239",
-    password: "No Copy"
+    password: "090210"
   },
   {
     name: "The Hell Nutz",
@@ -2760,7 +2769,7 @@ const demons = [
     publisher: "Janucha",
     video: "https://www.youtube.com/embed/mFTDRAZxs9U",
     id: "68414488",
-    password: "No Copy"
+    password: "Free to Copy"
   },
   {
     name: "Friday Vortex",
@@ -3031,6 +3040,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-03', detail: 'obsession has been placed at #150, above Coral Cave and below RUTHLESS. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-12-02', detail: 'Subsuming Vortex has been removed from the list due to lack of reliable opinions. This pushes Starlit Stroll back into the Main List, Coral Cave back into the Extended List.' },
   { date: '2025-11-30', detail: 'Delebit Oblivio ~ Celestial Force have been placed at #327 ~ #337.' },
   { date: '2025-11-30', detail: 'Deimos (ItsHybrid) and The Lightning Rod have been swapped, with The Lightning Rod now sitting above, at #23.' },
@@ -3309,6 +3319,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
