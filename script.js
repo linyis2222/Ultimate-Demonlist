@@ -1467,15 +1467,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Shardscapes",
-    creators: "ItzKiba",
-    verifier: "eiruni",
-    publisher: "ItzKiba",
-    video: "https://www.youtube.com/embed/tme4Mvm0Mf8",
-    id: "79997992",
-    password: "Free to Copy"
-  },
-  {
     name: "The Art of the Blade",
     creators: "mbed, sink, kr1t, Toomis, Subwoofer, Zoroa, SpKale, talia",
     verifier: "kyoto",
@@ -1599,6 +1590,15 @@ const demons = [
     publisher: "Waterbound",
     video: "https://www.youtube.com/embed/6ZuEWp1dJ0c",
     id: "112351854",
+    password: "Free to Copy"
+  },
+  {
+    name: "Shardscapes",
+    creators: "ItzKiba",
+    verifier: "eiruni",
+    publisher: "ItzKiba",
+    video: "https://www.youtube.com/embed/tme4Mvm0Mf8",
+    id: "79997992",
     password: "Free to Copy"
   },
   {
@@ -2556,15 +2556,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "IMMORTALIY",
-    creators: "Sedgehog, GMDJaxxn, Stellar",
-    verifier: "Crisis",
-    publisher: "Sedgehog",
-    video: "https://www.youtube.com/embed/tl4trfW1JSo",
-    id: "75870303",
-    password: "123456"
-  },
-  {
     name: "Sonic Wave",
     creators: "Cyclic",
     verifier: "lSunix",
@@ -2581,6 +2572,15 @@ const demons = [
     video: "https://www.youtube.com/embed/wXxPNaqTZKU",
     id: "68688849",
     password: "Free to Copy"
+  },
+  {
+    name: "IMMORTALITY",
+    creators: "Sedgehog, GMDJaxxn, Stellar",
+    verifier: "Crisis",
+    publisher: "Sedgehog",
+    video: "https://www.youtube.com/embed/tl4trfW1JSo",
+    id: "75870303",
+    password: "123456"
   },
   {
     name: "Icotact",
@@ -3040,6 +3040,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-04', detail: 'Shardscapes has been lowered from #164 to #178, above Asterios and below Sank.' },
+  { date: '2025-12-04', detail: 'IMMORTALITY has been lowered from #285 to #287, above Icotact and below Sonic Wave Rebirth.' },
   { date: '2025-12-03', detail: 'obsession has been placed at #150, above Coral Cave and below RUTHLESS. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-12-02', detail: 'Subsuming Vortex has been removed from the list due to lack of reliable opinions. This pushes Starlit Stroll back into the Main List, Coral Cave back into the Extended List.' },
   { date: '2025-11-30', detail: 'Delebit Oblivio ~ Celestial Force have been placed at #327 ~ #337.' },
@@ -3319,6 +3321,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
