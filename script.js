@@ -1341,15 +1341,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "obsession",
-    creators: "jbooster",
-    verifier: "Zeroniumm",
-    publisher: "jbooster",
-    video: "https://www.youtube.com/embed/OjXKjQXnhjA",
-    id: "127336234",
-    password: "Free to Copy"
-  },
-  {
     name: "Coral Cave",
     creators: "awesome360, Gnamolor",
     verifier: "Gnamolor",
@@ -1374,6 +1365,15 @@ const demons = [
     publisher: "IcEDCave",
     video: "https://www.youtube.com/embed/fhmgZYCJ29M",
     id: "57571983",
+    password: "Free to Copy"
+  },
+  {
+    name: "obsession",
+    creators: "jbooster",
+    verifier: "Zeroniumm",
+    publisher: "jbooster",
+    video: "https://www.youtube.com/embed/OjXKjQXnhjA",
+    id: "127336234",
     password: "Free to Copy"
   },
   {
@@ -3040,6 +3040,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-06', detail: 'obsession has been lowered from #150 to #153, above Tenkai and below SUPERHATEMEWORLD. This pushes Coral Cave back into the Extended List.' },
   { date: '2025-12-04', detail: 'Shardscapes has been lowered from #164 to #178, above Asterios and below Sank.' },
   { date: '2025-12-04', detail: 'IMMORTALITY has been lowered from #285 to #287, above Icotact and below Sonic Wave Rebirth.' },
   { date: '2025-12-03', detail: 'obsession has been placed at #150, above Coral Cave and below RUTHLESS. This pushes Coral Cave into the Legacy List.' },
@@ -3321,6 +3322,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
