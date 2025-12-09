@@ -2223,15 +2223,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "AKIRA",
-    creators: "Eridani, Denni",
-    verifier: "Denni(Original), Solus(Update)",
-    publisher: "Eridani",
-    video: "https://www.youtube.com/embed/lAgPh86coPQ",
-    id: "88421468",
-    password: "Free to Copy"
-  },
-  {
     name: "Midnight Tokyo",
     creators: "irsdorkage",
     verifier: "fusion425",
@@ -2346,6 +2337,15 @@ const demons = [
     publisher: "DreamZoneGD",
     video: "https://www.youtube.com/embed/kXLBuSDagOE",
     id: "79619086",
+    password: "Free to Copy"
+  },
+  {
+    name: "AKIRA",
+    creators: "Eridani, Denni",
+    verifier: "Denni(Original), Solus(Update)",
+    publisher: "Eridani",
+    video: "https://www.youtube.com/embed/lAgPh86coPQ",
+    id: "88421468",
     password: "Free to Copy"
   },
   {
@@ -3024,6 +3024,15 @@ const demons = [
     password: "314120"
   },
   {
+    name: "Time Extreme",
+    creators: "DiamondSkull, vortrox, FunkyFries, galofuf, RobTop",
+    verifier: "vortrox",
+    publisher: "vortrox",
+    video: "https://www.youtube.com/embed/gzqeoJK_UvM",
+    id: "116730903",
+    password: "Free to Copy"
+  },
+  {
     name: "Celestial Force",
     creators: "MindCap, GaidenHertuny, HelpegasuS, GeometryTom, MrLorenzo, JustBasic, Auntex, Xyriak, Soulax, Djoxy, Elayad, Manheadrambo, Stormy97, Hoshikido, Wless, Jihn, Zafkiel",
     verifier: "Dagger(Original), supahant(Update)",
@@ -3040,11 +3049,13 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-09', detail: 'AKIRA has been lowered from #248 to #261, above Omega and below ConTroller.' },
+  { date: '2025-12-09', detail: 'Time Extreme has been placed at #337, above Celestial Force and below The Mainframe.' },
   { date: '2025-12-06', detail: 'obsession has been lowered from #150 to #153, above Tenkai and below SUPERHATEMEWORLD. This pushes Coral Cave back into the Extended List.' },
   { date: '2025-12-04', detail: 'Shardscapes has been lowered from #164 to #178, above Asterios and below Sank.' },
   { date: '2025-12-04', detail: 'IMMORTALITY has been lowered from #285 to #287, above Icotact and below Sonic Wave Rebirth.' },
   { date: '2025-12-03', detail: 'obsession has been placed at #150, above Coral Cave and below RUTHLESS. This pushes Coral Cave into the Legacy List.' },
-  { date: '2025-12-02', detail: 'Subsuming Vortex has been removed from the list due to lack of reliable opinions. This pushes Starlit Stroll back into the Main List, Coral Cave back into the Extended List.' },
+  { date: '2025-12-02', detail: 'Subsuming Vortex has been removed from the list due to a lack of reliable opinions. This pushes Starlit Stroll back into the Main List, Coral Cave back into the Extended List.' },
   { date: '2025-11-30', detail: 'Delebit Oblivio ~ Celestial Force have been placed at #327 ~ #337.' },
   { date: '2025-11-30', detail: 'Deimos (ItsHybrid) and The Lightning Rod have been swapped, with The Lightning Rod now sitting above, at #23.' },
   { date: '2025-11-29', detail: 'Rigel has been raised from #143 to #136, above CORRODERE and below Cognition.' },
@@ -3322,6 +3333,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
