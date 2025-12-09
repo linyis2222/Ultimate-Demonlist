@@ -2628,6 +2628,15 @@ const demons = [
     password: "170000"
   },
   {
+    name: "BRKMGB8GJCZ",
+    creators: "robotchief, 8BitFudge, KydeR, bunch, Matobia, Graded, Brighty, j2ko, C034Thing, iZeo, Great",
+    verifier: "Prolix",
+    publisher: "robotchief",
+    video: "https://www.youtube.com/embed/PtAn8xfwK5w",
+    id: "85153230",
+    password: "693145"
+  },
+  {
     name: "The Fog",
     creators: "Renn241, R3XX3R, Cyanide, Lupo, Jinnans, MaxxoRMeN, rply, mango77, ivyteal, Kcool, Wyntaee, MinAY, ItzKiba",
     verifier: "Lia",
@@ -2862,15 +2871,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "BRKMGB8GJCZ",
-    creators: "robotchief, 8BitFudge, KydeR, bunch, Matobia, Graded, Brighty, j2ko, C034Thing, iZeo, Great",
-    verifier: "Prolix",
-    publisher: "robotchief",
-    video: "https://www.youtube.com/embed/PtAn8xfwK5w",
-    id: "85153230",
-    password: "693145"
-  },
-  {
     name: "Instinct (ItsHybrid)",
     creators: "ItsHybrid & more(25 people)",
     verifier: "Varium",
@@ -3049,6 +3049,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-09', detail: 'BRKMGB8GJCZ has been raised from #319 to #293, above The Fog and below Sephiroth.' },
   { date: '2025-12-09', detail: 'AKIRA has been lowered from #248 to #261, above Omega and below ConTroller.' },
   { date: '2025-12-09', detail: 'Time Extreme has been placed at #337, above Celestial Force and below The Mainframe.' },
   { date: '2025-12-06', detail: 'obsession has been lowered from #150 to #153, above Tenkai and below SUPERHATEMEWORLD. This pushes Coral Cave back into the Extended List.' },
@@ -3333,6 +3334,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
