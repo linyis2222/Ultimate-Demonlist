@@ -1521,15 +1521,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Escape Room",
-    creators: "SleyGD",
-    verifier: "MiniShoey(Original), slayerkirb(Update)",
-    publisher: "SleyGD",
-    video: "https://www.youtube.com/embed/2Z-7Yscs62c",
-    id: "90420966",
-    password: "Free to Copy"
-  },
-  {
     name: "Kappa",
     creators: "Armadeus, nwolc, maxmur, Spectex, Yoonsrdynamix, Isane, Ferox, crumche, Levin, Vyu, ilp, XLSpiral, El3ctr0, Lime0037, tolstyh, Walroose, Extravagon, EyeOfTheStorm, Davphla",
     verifier: "nSwish",
@@ -1618,6 +1609,15 @@ const demons = [
     video: "https://www.youtube.com/embed/5SzKetF2btw",
     id: "42584142",
     password: "121296"
+  },
+  {
+    name: "Escape Room",
+    creators: "SleyGD",
+    verifier: "MiniShoey(Original), slayerkirb(Update)",
+    publisher: "SleyGD",
+    video: "https://www.youtube.com/embed/2Z-7Yscs62c",
+    id: "90420966",
+    password: "Free to Copy"
   },
   {
     name: "Moving Forward",
@@ -3049,6 +3049,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-09', detail: 'Escape Room has been lowered from #170 to #180, above Moving Forward and below Bloodlust.' },
   { date: '2025-12-09', detail: 'Alpha has been lowered from #230 to #238, above Fever Dream and below Specthys.' },
   { date: '2025-12-09', detail: 'BRKMGB8GJCZ has been raised from #319 to #293, above The Fog and below Sephiroth.' },
   { date: '2025-12-09', detail: 'AKIRA has been lowered from #248 to #261, above Omega and below ConTroller.' },
@@ -3335,6 +3336,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
