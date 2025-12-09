@@ -2061,15 +2061,6 @@ const demons = [
     password: "444445"
   },
   {
-    name: "Alpha",
-    creators: "SirWafel",
-    verifier: "CobraBlitz",
-    publisher: "SirWafel",
-    video: "https://www.youtube.com/embed/x9s3nSRUM7A",
-    id: "106362836",
-    password: "Free to Copy"
-  },
-  {
     name: "Dedohexdragon",
     creators: "Awedsy",
     verifier: "royen",
@@ -2139,6 +2130,15 @@ const demons = [
     publisher: "gBen",
     video: "https://www.youtube.com/embed/QEhqvQvEfNM",
     id: "123501215",
+    password: "Free to Copy"
+  },
+  {
+    name: "Alpha",
+    creators: "SirWafel",
+    verifier: "CobraBlitz",
+    publisher: "SirWafel",
+    video: "https://www.youtube.com/embed/x9s3nSRUM7A",
+    id: "106362836",
     password: "Free to Copy"
   },
   {
@@ -3049,6 +3049,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-09', detail: 'Alpha has been lowered from #230 to #238, above Fever Dream and below Specthys.' },
   { date: '2025-12-09', detail: 'BRKMGB8GJCZ has been raised from #319 to #293, above The Fog and below Sephiroth.' },
   { date: '2025-12-09', detail: 'AKIRA has been lowered from #248 to #261, above Omega and below ConTroller.' },
   { date: '2025-12-09', detail: 'Time Extreme has been placed at #337, above Celestial Force and below The Mainframe.' },
@@ -3334,6 +3335,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
