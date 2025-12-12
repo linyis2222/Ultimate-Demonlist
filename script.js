@@ -3058,6 +3058,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-12', detail: 'Piano Woman will not be placed instantly because its difficulty cannot be measured.' },
   { date: '2025-12-12', detail: 'in this has been placed at #113, above Cold Sweat and below Lotus Flower. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-12-12', detail: 'Neon Skyline has been raised from #141 to #135, above Rigel and below Cognition.' },
   { date: '2025-12-12', detail: 'Aerial Gleam and Blood Echo have been swapped, with Blood Echo now sitting above, at #85.' },
@@ -3348,6 +3349,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
