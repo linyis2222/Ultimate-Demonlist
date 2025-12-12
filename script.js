@@ -414,6 +414,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Wavterminal",
+    creators: "Skyavoxii",
+    verifier: "FriceGMD",
+    publisher: "Skyavoxii",
+    video: "https://www.youtube.com/embed/dlvsCE3xYkQ",
+    id: "128093374",
+    password: "Free to Copy"
+  },
+  {
     name: "Mayhem",
     creators: "Vernam, vit12, Synd, Konsi, DMSD, Sauzzeth, Enely, Thrasher, Vitchrose",
     verifier: "LordVadercraft",
@@ -1010,7 +1019,7 @@ const demons = [
   {
     name: "in this",
     creators: "EnciGD",
-    verifier: "Xplode",
+    verifier: "Xplode09",
     publisher: "EnciGD",
     video: "https://www.youtube.com/embed/gQiOdxOyNGg",
     id: "122389640",
@@ -3058,6 +3067,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-12', detail: 'Wavterminal has been placed at #47, above Mayhem and below Codependence. This pushes Starlit Stroll into the Extended List, RUTHLESS into the Legacy List.' },
   { date: '2025-12-12', detail: 'Piano Woman will not be placed instantly because its difficulty cannot be measured.' },
   { date: '2025-12-12', detail: 'in this has been placed at #113, above Cold Sweat and below Lotus Flower. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-12-12', detail: 'Neon Skyline has been raised from #141 to #135, above Rigel and below Cognition.' },
@@ -3349,6 +3359,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
