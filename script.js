@@ -756,15 +756,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Aerial Gleam",
-    creators: "EndLevel, CuLuC, Antares, zDeadlox, El3cTr0",
-    verifier: "Doggie",
-    publisher: "EndLevel",
-    video: "https://www.youtube.com/embed/eyZjKtrGVYw",
-    id: "79771070",
-    password: "789123"
-  },
-  {
     name: "Blood Echo",
     creators: "Farva, Goobfrudla, LimeTime03, snapNK, clodsire",
     verifier: "swiborg",
@@ -772,6 +763,15 @@ const demons = [
     video: "https://www.youtube.com/embed/fSvk4tLlQzQ",
     id: "112242564",
     password: "Free to Copy"
+  },
+  {
+    name: "Aerial Gleam",
+    creators: "EndLevel, CuLuC, Antares, zDeadlox, El3cTr0",
+    verifier: "Doggie",
+    publisher: "EndLevel",
+    video: "https://www.youtube.com/embed/eyZjKtrGVYw",
+    id: "79771070",
+    password: "789123"
   },
   {
     name: "Trueffet",
@@ -1206,6 +1206,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Neon Skyline",
+    creators: "reshiria",
+    verifier: "joe",
+    publisher: "reshiria",
+    video: "https://www.youtube.com/embed/HvGjIAeLv_8",
+    id: "88822041",
+    password: "Free to Copy"
+  },
+  {
     name: "Rigel",
     creators: "Dan2D",
     verifier: "Dan2D(Original), TrueInverse(Update)",
@@ -1257,15 +1266,6 @@ const demons = [
     publisher: "ta1lsdoll",
     video: "https://www.youtube.com/embed/w-NH14vgMb8",
     id: "115151904",
-    password: "Free to Copy"
-  },
-  {
-    name: "Neon Skyline",
-    creators: "reshiria",
-    verifier: "joe",
-    publisher: "reshiria",
-    video: "https://www.youtube.com/embed/HvGjIAeLv_8",
-    id: "88822041",
     password: "Free to Copy"
   },
   {
@@ -3049,6 +3049,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-12', detail: 'Neon Skyline has been raised from #141 to #135, above Rigel and below Cognition.' },
+  { date: '2025-12-12', detail: 'Aerial Gleam and Blood Echo have been swapped, with Blood Echo now sitting above, at #85.' },
   { date: '2025-12-09', detail: 'Escape Room has been lowered from #170 to #180, above Moving Forward and below Bloodlust.' },
   { date: '2025-12-09', detail: 'Alpha has been lowered from #230 to #238, above Fever Dream and below Specthys.' },
   { date: '2025-12-09', detail: 'BRKMGB8GJCZ has been raised from #319 to #293, above The Fog and below Sephiroth.' },
@@ -3336,6 +3338,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
