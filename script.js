@@ -1008,6 +1008,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "in this",
+    creators: "EnciGD",
+    verifier: "Xplode",
+    publisher: "EnciGD",
+    video: "https://www.youtube.com/embed/gQiOdxOyNGg",
+    id: "122389640",
+    password: "Free to Copy"
+  },
+  {
     name: "Cold Sweat",
     creators: "para, -, Wulzy",
     verifier: "Kapinapi",
@@ -3049,6 +3058,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-12', detail: 'in this has been placed at #113, above Cold Sweat and below Lotus Flower. This pushes Coral Cave into the Legacy List.' },
   { date: '2025-12-12', detail: 'Neon Skyline has been raised from #141 to #135, above Rigel and below Cognition.' },
   { date: '2025-12-12', detail: 'Aerial Gleam and Blood Echo have been swapped, with Blood Echo now sitting above, at #85.' },
   { date: '2025-12-09', detail: 'Escape Room has been lowered from #170 to #180, above Moving Forward and below Bloodlust.' },
@@ -3338,6 +3348,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
