@@ -810,6 +810,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "azure blast",
+    creators: "AlbinoSnail, C4rin, Yonaka, K911unA, Cadooo, Wain, Neogul, ihotdog, MaLiaN, blanc, Flosia, Inishia, BNDL",
+    verifier: "DNM121",
+    publisher: "AlbinoSnail",
+    video: "https://www.youtube.com/embed/TN0FQ3KBv4w",
+    id: "120060187",
+    password: "Free to Copy"
+  },
+  {
     name: "VOID",
     creators: "nikoberry",
     verifier: "Whizkid05",
@@ -1077,15 +1086,6 @@ const demons = [
     publisher: "neigefeu",
     video: "https://www.youtube.com/embed/mEXGlrNMyR4",
     id: "71912451",
-    password: "Free to Copy"
-  },
-  {
-    name: "azure blast",
-    creators: "AlbinoSnail, C4rin, Yonaka, K911unA, Cadooo, Wain, Neogul, ihotdog, MaLiaN, blanc, Flosia, Inishia, BNDL",
-    verifier: "DNM121",
-    publisher: "AlbinoSnail",
-    video: "https://www.youtube.com/embed/TN0FQ3KBv4w",
-    id: "120060187",
     password: "Free to Copy"
   },
   {
@@ -3067,6 +3067,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-13', detail: 'azure blast has been raised from #121 to #91, above VOID and below Fragile.' },
   { date: '2025-12-12', detail: 'Wavterminal has been placed at #47, above Mayhem and below Codependence. This pushes Starlit Stroll into the Extended List, RUTHLESS into the Legacy List.' },
   { date: '2025-12-12', detail: 'Piano Woman will not be placed instantly because its difficulty cannot be measured.' },
   { date: '2025-12-12', detail: 'in this has been placed at #113, above Cold Sweat and below Lotus Flower. This pushes Coral Cave into the Legacy List.' },
@@ -3359,6 +3360,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
