@@ -1989,6 +1989,15 @@ const demons = [
     password: "001478"
   },
   {
+    name: "Apotheosis",
+    creators: "XavT",
+    verifier: "XavT",
+    publisher: "XavT",
+    video: "https://www.youtube.com/embed/X261xjwc3HQ",
+    id: "123730441",
+    password: "Free to Copy"
+  },
+  {
     name: "Ghoul",
     creators: "XavT",
     verifier: "XavT",
@@ -3067,6 +3076,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-14', detail: 'Apotheosis has been placed at #222, above Ghoul and below Hardry.' },
   { date: '2025-12-13', detail: 'azure blast has been raised from #121 to #91, above VOID and below Fragile.' },
   { date: '2025-12-12', detail: 'Wavterminal has been placed at #47, above Mayhem and below Codependence. This pushes Starlit Stroll into the Extended List, RUTHLESS into the Legacy List.' },
   { date: '2025-12-12', detail: 'Piano Woman will not be placed instantly because its difficulty cannot be measured.' },
@@ -3360,6 +3370,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
