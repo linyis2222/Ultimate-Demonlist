@@ -958,7 +958,7 @@ const demons = [
     creators: "komp, nikroplays",
     verifier: "Varium",
     publisher: "komp",
-    video: "https://www.youtube.com/embed/z3grmsqAaas",
+    video: "https://www.youtube.com/embed/5SCDmPwPsa0",
     id: "72744364",
     password: "Free to Copy"
   },
@@ -3370,6 +3370,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
