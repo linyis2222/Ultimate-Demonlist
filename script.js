@@ -3124,7 +3124,7 @@ const changeLog = [
   { date: '2025-11-22', detail: 'Zodiac has been lowered from #95 to #99, above Swing Swing and below NEUTRA.' },
   { date: '2025-11-22', detail: 'RUST has been lowered from #71 to #118, above azure blast and below Thinking Space. This pushes The Golden back into the Main List.' },
   { date: '2025-11-22', detail: 'Cognition has been lowered from #132 to #134, above CORRODERE and below Indivine.' },
-  { date: '2025-11-19', detail: 'Subsuming Vortex has been placed at #7, above Every End and below BOOBAWAMBA. This pushes The Golden into the Extended List, and Launchpad Labyrinth into the Legacy List.' },
+  { date: '2025-11-19', detail: 'Subsuming Vortex has been placed at #7, above Every End and below BOOBAWAMBA. This pushes Anathema out of the top 10, The Golden into the Extended List, and Launchpad Labyrinth into the Legacy List.' },
   { date: '2025-11-19', detail: 'poocubed has been lowered from #28 to #30, above Saul Goodman and below Eyes in the Water.' },
   { date: '2025-11-19', detail: 'PSYCHOPATH has been lowered from #50 to #57, above BEELINE and below Sinister Silence.' },
   { date: '2025-11-16', detail: 'Natural Disaster has been raised from #76 to #73, above Terminal Rampancy and below Cimmerian Shade. This pushes Starlit Stroll into the Extended List.' },
@@ -3380,6 +3380,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
