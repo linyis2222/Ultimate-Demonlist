@@ -72,6 +72,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Subsuming Vortex",
+    creators: "SeptaGon7, Renn241",
+    verifier: "CursedZ",
+    publisher: "CursedZ",
+    video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
+    id: "127997391",
+    password: "Free to Copy"
+  },
+  {
     name: "Silent clubstep",
     creators: "TheRealSailent",
     verifier: "paqoe",
@@ -3076,6 +3085,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-16', detail: 'Subsuming Vortex has been placed at #9, above Silent clubstep and below andromeda. This pushes Anathema out of the top 10, The Golden into the Extended List, and Lucid Nightmares into the Legacy List.' },
   { date: '2025-12-14', detail: 'Apotheosis has been placed at #222, above Ghoul and below Hardry.' },
   { date: '2025-12-13', detail: 'azure blast has been raised from #121 to #91, above VOID and below Fragile.' },
   { date: '2025-12-12', detail: 'Wavterminal has been placed at #47, above Mayhem and below Codependence. This pushes Starlit Stroll into the Extended List, RUTHLESS into the Legacy List.' },
@@ -3370,6 +3380,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
