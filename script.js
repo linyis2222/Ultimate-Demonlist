@@ -2612,6 +2612,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Ocular Miracle [Unrated]",
+    creators: "Peroxoide01, Isane, Sh4rkyGD, iMasu, Mactanow, Reunomi, TrusTa, Manix648, Scrumpy, Deso, ZeroSR, HelPegasus, Metalface221, Tide, Angryboy, Koolboom, Zimnoir12, Xyl, Sequex, Jhreen, Salaxium, Surge, JonathanGD, Brittank88, HJFod, Ilrell, Adelx, Makaron, Lucasyecla99, Pennutoh, Ownbit, SrGuillester, Zafkiel, Xaro, GaidenHertuny, Delta, Unerve, BionicPenguin, Ji, iNeo, Firsvii",
+    verifier: "Technical",
+    publisher: "Davphla",
+    video: "https://www.youtube.com/embed/hOwAx1Mn6o8",
+    id: "62152040",
+    password: "Free to Copy",
+    tag: "Unrated, Formerly Rated, Over 5 min"
+  },
+  {
     name: "Sonic Wave",
     creators: "Cyclic",
     verifier: "lSunix",
@@ -3105,6 +3115,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-21', detail: 'Ocular Miracle has been placed at #290, above Sonic Wave and below Kjdf8314jlfssf.' },
   { date: '2025-12-20', detail: 'Quanteuse processing has been placed at #7, above Every End and below BOOBAWAMBA. This pushes Silent clubstep out of the top 10, Terminal Rampancy into the Extended List, and meow hard into the Legacy List.' },
   { date: '2025-12-20', detail: 'Fog has been lowered from #193 to #205, above ATOMIC CANNON and below Knights of Thunder.' },
   { date: '2025-12-16', detail: 'Subsuming Vortex has been placed at #9, above Silent clubstep and below andromeda. This pushes Anathema out of the top 10, The Golden into the Extended List, and Lucid Nightmares into the Legacy List.' },
@@ -3407,6 +3418,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
