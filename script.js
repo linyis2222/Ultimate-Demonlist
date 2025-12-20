@@ -87,7 +87,7 @@ const demons = [
     video: "https://www.youtube.com/embed/mk3TDemdkC0",
     id: "114283297",
     password: "Free to Copy",
-    tag: "NONG, Chokepoints, Learny, Timings"
+    tag: "NONG, Learny, Timings"
   },
   {
     name: "Subsuming Vortex",
@@ -3407,6 +3407,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
