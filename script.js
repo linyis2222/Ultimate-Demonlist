@@ -3197,6 +3197,7 @@ let mapPublisher;
 let mapVideo;
 let mapId;
 let mapPassword;
+let mapTag;
 
 // 💡 검색창 요소 ID: index.html의 'search-input'과 일치하도록 수정되었습니다.
 let searchInput; 
@@ -3290,6 +3291,8 @@ function selectMap(demon, liElement) {
     mapVideo.innerHTML = `<iframe src="${escapeHtml(demon.video)}" allowfullscreen></iframe>`;
     mapId.innerHTML = `<span class="tag">ID</span><span class="value">${escapeHtml(demon.id)}</span>`;
     mapPassword.innerHTML = `<span class="tag">PASSWORD</span><span class="value">${escapeHtml(demon.password)}</span>`;
+    mapTag.innerHTML = `<span class="tag">TAGS</span><span class="value">${escapeHtml(demon.tag)}</span>`;
+  
 
     document.querySelectorAll('#map-list li').forEach(el => el.classList.remove('active'));
     if (liElement) liElement.classList.add('active');
@@ -3356,6 +3359,8 @@ document.addEventListener('DOMContentLoaded', () => {
     mapVideo = document.getElementById('map-video');
     mapId = document.getElementById('map-id');
     mapPassword = document.getElementById('map-password');
+    mapTag = document.getElementById('map-tag');
+  
     
     // ⭐️ HTML ID와 일치하도록 수정
     searchInput = document.getElementById('search-input'); 
@@ -3391,6 +3396,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
