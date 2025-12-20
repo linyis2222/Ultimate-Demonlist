@@ -16,7 +16,7 @@ const demons = [
     video: "https://www.youtube.com/embed/4lfkzz1VCbA",
     id: "119550490",
     password: "Free to Copy",
-    tag: "Former Top 1, Wave"
+    tag: "Former Top 1, Wave, CBF Blocker"
   },
   {
     name: "Flamewall",
@@ -34,7 +34,8 @@ const demons = [
     publisher: "OniLinkGD",
     video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, NONG, Wave"
   },
   {
     name: "Nullscapes",
@@ -43,7 +44,8 @@ const demons = [
     publisher: "ItzKiba",
     video: "https://www.youtube.com/embed/EztneTPp5CU",
     id: "109780665",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "One-mode, Robot, CBF Blocker"
   },
   {
     name: "BOOBAWAMBA",
@@ -3397,6 +3399,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
