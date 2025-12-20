@@ -1728,15 +1728,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Fog",
-    creators: "pixll1, slayerkirb, notesxd",
-    verifier: "slayerkirb",
-    publisher: "notesxd",
-    video: "https://www.youtube.com/embed/n3dIaFHT-fI",
-    id: "90853661",
-    password: "Free to Copy"
-  },
-  {
     name: "MewneI",
     creators: "LightINovel",
     verifier: "Magmeta",
@@ -1842,6 +1833,15 @@ const demons = [
     publisher: "HangerLord",
     video: "https://www.youtube.com/embed/npIZ8TGMDvk",
     id: "86412942",
+    password: "Free to Copy"
+  },
+  {
+    name: "Fog",
+    creators: "pixll1, slayerkirb, notesxd",
+    verifier: "slayerkirb",
+    publisher: "notesxd",
+    video: "https://www.youtube.com/embed/n3dIaFHT-fI",
+    id: "90853661",
     password: "Free to Copy"
   },
   {
@@ -3085,6 +3085,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-13', detail: 'Fog has been lowered from #193 to #205, above ATOMIC CANNON and below Knights of Thunder.' },
   { date: '2025-12-16', detail: 'Subsuming Vortex has been placed at #9, above Silent clubstep and below andromeda. This pushes Anathema out of the top 10, The Golden into the Extended List, and Lucid Nightmares into the Legacy List.' },
   { date: '2025-12-14', detail: 'Apotheosis has been placed at #222, above Ghoul and below Hardry.' },
   { date: '2025-12-13', detail: 'azure blast has been raised from #121 to #91, above VOID and below Fragile.' },
@@ -3380,6 +3381,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
