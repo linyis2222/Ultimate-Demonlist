@@ -15,7 +15,8 @@ const demons = [
     publisher: "iMist",
     video: "https://www.youtube.com/embed/4lfkzz1VCbA",
     id: "119550490",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top1, Wave"
   },
   {
     name: "Flamewall",
@@ -3396,6 +3397,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
