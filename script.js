@@ -6,7 +6,8 @@ const demons = [
     publisher: "CairoX",
     video: "https://www.youtube.com/embed/CELNmHwln_c",
     id: "119544028",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Chokepoints, Ship, Wave, CBF Blocker, Timings"
   },
   {
     name: "Amethyst",
@@ -25,7 +26,8 @@ const demons = [
     publisher: "UNarwall",
     video: "https://www.youtube.com/embed/x4Io4zkWVRw",
     id: "126242564",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Over 6 min"
   },
   {
     name: "Tidal Wave",
@@ -45,7 +47,7 @@ const demons = [
     video: "https://www.youtube.com/embed/EztneTPp5CU",
     id: "109780665",
     password: "Free to Copy",
-    tag: "One-mode, Robot, CBF Blocker"
+    tag: "One-mode, Robot, CBF Blocker, Timings"
   },
   {
     name: "BOOBAWAMBA",
@@ -54,7 +56,8 @@ const demons = [
     publisher: "Akunakunn",
     video: "https://www.youtube.com/embed/20fYiqLAo_E",
     id: "110816181",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Memory"
   },
   {
     name: "Quanteuse processing",
@@ -63,7 +66,8 @@ const demons = [
     publisher: "Renn241",
     video: "https://www.youtube.com/embed/j5NC0u1Q91Q",
     id: "117692518",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "CBF Blocker"
   },
   {
     name: "Every End",
@@ -72,7 +76,8 @@ const demons = [
     publisher: "MindCap",
     video: "https://www.youtube.com/embed/AO--mVVFtKI",
     id: "116174063",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "One-mode, Cube, Timings, Over 7 min"
   },
   {
     name: "andromeda",
@@ -81,7 +86,8 @@ const demons = [
     publisher: "Insxne97",
     video: "https://www.youtube.com/embed/mk3TDemdkC0",
     id: "114283297",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "NONG, Chokepoints, Learny, Timings"
   },
   {
     name: "Subsuming Vortex",
@@ -90,7 +96,8 @@ const demons = [
     publisher: "CursedZ",
     video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
     id: "127997391",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Chokepoints, Wave"
   },
   {
     name: "Silent clubstep",
@@ -99,7 +106,8 @@ const demons = [
     publisher: "TheRealSailent",
     video: "https://www.youtube.com/embed/GR4OMkS3SN8",
     id: "4125776",
-    password: "No Copy"
+    password: "No Copy",
+    tag: "Timings, Duals"
   },
   {
     name: "Anathema",
@@ -3399,6 +3407,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
