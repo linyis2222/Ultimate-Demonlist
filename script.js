@@ -389,6 +389,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Battle of the Shades [Unrated]",
+    creators: "GD virus",
+    verifier: "KrNati",
+    publisher: "KrNati",
+    video: "https://www.youtube.com/embed/jsrqMqs1-Ao",
+    id: "79166683",
+    password: "Free to Copy",
+    tag: "Unrated, Formerly Rated, Old Impossible Level, Layout"
+  },
+  {
     name: "Solar Flare",
     creators: "Linear2, Rynoxious",
     verifier: "swiborg",
@@ -3115,6 +3125,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-21', detail: 'Battle of the Shades has been placed at #43, above Solar Flare and below The Plunge. This pushes Natural Disaster into the Extended List, and Akashic Records into the Legacy List.' },
   { date: '2025-12-21', detail: 'Ocular Miracle has been placed at #290, above Sonic Wave and below Kjdf8314jlfssf.' },
   { date: '2025-12-20', detail: 'Quanteuse processing has been placed at #7, above Every End and below BOOBAWAMBA. This pushes Silent clubstep out of the top 10, Terminal Rampancy into the Extended List, and meow hard into the Legacy List.' },
   { date: '2025-12-20', detail: 'Fog has been lowered from #193 to #205, above ATOMIC CANNON and below Knights of Thunder.' },
@@ -3418,6 +3429,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
