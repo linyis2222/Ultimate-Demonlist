@@ -97,7 +97,7 @@ const demons = [
     video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
     id: "127997391",
     password: "Free to Copy",
-    tag: "Chokepoints, Wave"
+    tag: "Old Impossible Level, Chokepoints, Wave"
   },
   {
     name: "Silent clubstep",
@@ -3407,6 +3407,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
