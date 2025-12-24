@@ -27,7 +27,7 @@ const demons = [
     video: "https://www.youtube.com/embed/x4Io4zkWVRw",
     id: "126242564",
     password: "Free to Copy",
-    tag: "Over 6 min"
+    tag: "Over 6 min, Fast-Paced"
   },
   {
     name: "Tidal Wave",
@@ -47,7 +47,7 @@ const demons = [
     video: "https://www.youtube.com/embed/EztneTPp5CU",
     id: "109780665",
     password: "Free to Copy",
-    tag: "One-mode, Robot, CBF Blocker, Timings"
+    tag: "One-Mode, Robot, CBF Blocker, Timings"
   },
   {
     name: "BOOBAWAMBA",
@@ -77,7 +77,7 @@ const demons = [
     video: "https://www.youtube.com/embed/AO--mVVFtKI",
     id: "116174063",
     password: "Free to Copy",
-    tag: "One-mode, Cube, Timings, Over 7 min"
+    tag: "One-Mode, Cube, Timings, Over 7 min, Slow-Paced"
   },
   {
     name: "andromeda",
@@ -87,7 +87,7 @@ const demons = [
     video: "https://www.youtube.com/embed/mk3TDemdkC0",
     id: "114283297",
     password: "Free to Copy",
-    tag: "NONG, Learny, Timings"
+    tag: "NONG, Learny, Timings, Fast-Paced"
   },
   {
     name: "Subsuming Vortex",
@@ -97,7 +97,7 @@ const demons = [
     video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
     id: "127997391",
     password: "Free to Copy",
-    tag: "Old Impossible Level, Chokepoints, Wave"
+    tag: "Old Impossible Level, Chokepoints, Wave, Nine Circles Level"
   },
   {
     name: "Silent clubstep",
@@ -107,7 +107,7 @@ const demons = [
     video: "https://www.youtube.com/embed/GR4OMkS3SN8",
     id: "4125776",
     password: "No Copy",
-    tag: "Timings, Duals"
+    tag: "Old Impossible Level, Timings, Duals"
   },
   {
     name: "Anathema",
@@ -116,16 +116,18 @@ const demons = [
     publisher: "nikroplays",
     video: "https://www.youtube.com/embed/_uKwmjHmySI",
     id: "112313819",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Learny, Fast-Paced"
   },
   {
     name: "Menace",
-    creators: "MannyHeffley",
+    creators: "ArraegenGD",
     verifier: "Whizkid05",
-    publisher: "MannyHeffley",
+    publisher: "ArraegenGD",
     video: "https://www.youtube.com/embed/nnkgghxxsEE",
     id: "107805281",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Learny, Timings, Duals, Gimmicky"
   },
   {
     name: "Avernus",
@@ -134,7 +136,8 @@ const demons = [
     publisher: "Pockewindfish",
     video: "https://www.youtube.com/embed/16Zh8jssanc",
     id: "89496627",
-    password: "030607"
+    password: "030607",
+    tag: "Former Top 1, Ship, Wave, Fast-Paced"
   },
   {
     name: "Acheron",
@@ -143,7 +146,8 @@ const demons = [
     publisher: "ryamu",
     video: "https://www.youtube.com/embed/sBKR6aUorzA",
     id: "73667628",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, Fast-Paced, Timings, Ship, Wave, Chokepoints"
   },
   {
     name: "Spectre",
@@ -802,7 +806,7 @@ const demons = [
     video: "https://www.youtube.com/embed/5kOD37vQHKE",
     id: "71885708",
     password: "Free to Copy",
-    tag: "Over 2 min, Duals"
+    tag: "Duals"
   },
   {
     name: "The Paroxysm of Rage",
@@ -3443,6 +3447,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
