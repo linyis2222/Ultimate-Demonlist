@@ -1308,6 +1308,15 @@ const demons = [
     password: "886988"
   },
   {
+    name: "SARY NEVER CLEAR",
+    creators: "Optic Sunflow, IIKugelBlitZII, xNorth, Eyeris, Cypher",
+    verifier: "Spamdrew128",
+    publisher: "IIKugelBlitZII",
+    video: "https://www.youtube.com/embed/23u3SlwrOMw",
+    id: "33498127",
+    password: "Free to Copy"
+  },
+  {
     name: "Gloxinia",
     creators: "solarion, Cyclic, Aeidux, cleangame, Graded, Ryan LC, Isane, Yonaka, GDHand, Valentine, Motu, Mulpan, minus786",
     verifier: "rosewa",
@@ -1323,15 +1332,6 @@ const demons = [
     publisher: "ta1lsdoll",
     video: "https://www.youtube.com/embed/w-NH14vgMb8",
     id: "115151904",
-    password: "Free to Copy"
-  },
-  {
-    name: "SARY NEVER CLEAR",
-    creators: "Optic Sunflow, IIKugelBlitZII, xNorth, Eyeris, Cypher",
-    verifier: "Spamdrew128",
-    publisher: "IIKugelBlitZII",
-    video: "https://www.youtube.com/embed/23u3SlwrOMw",
-    id: "33498127",
     password: "Free to Copy"
   },
   {
@@ -3125,6 +3125,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-24', detail: 'SARY NEVER CLEAR has been raised from #147 to #145, above Gloxinia and below qoUEO.' },
   { date: '2025-12-24', detail: 'Shmarley Ville has been lowered from #296 to #307, above X0 and below Kuzureta.' },
   { date: '2025-12-24', detail: 'GBS has been raised from #277 to #252, above nevermore and below RAM.' },
   { date: '2025-12-21', detail: 'Battle of the Shades has been placed at #43, above Solar Flare and below The Plunge. This pushes Natural Disaster into the Extended List, and Akashic Records into the Legacy List.' },
@@ -3431,6 +3432,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
