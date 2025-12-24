@@ -795,6 +795,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Graceful",
+    creators: "robotchief, Crescent, Ardolf, Ragle, zenn, Knots, eXomin, Reunomi, Galaxxyss, Zentraa, AgSilver, swiborg, gmdpandakun, Fss",
+    verifier: "DaGYT",
+    publisher: "DaGYT",
+    video: "https://www.youtube.com/embed/5kOD37vQHKE",
+    id: "71885708",
+    password: "Free to Copy",
+    tag: "Over 2 min, Duals"
+  },
+  {
     name: "The Paroxysm of Rage",
     creators: "Zacanaii, Evil Buds",
     verifier: "turtle",
@@ -3125,6 +3135,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-24', detail: 'Graceful has been placed at #88, above The Paroxysm of Rage and below limbo but uwu ig idk. This pushes SAND SAILOR into the Legacy List.' },
   { date: '2025-12-24', detail: 'SARY NEVER CLEAR has been raised from #147 to #145, above Gloxinia and below qoUEO.' },
   { date: '2025-12-24', detail: 'Shmarley Ville has been lowered from #296 to #307, above X0 and below Kuzureta.' },
   { date: '2025-12-24', detail: 'GBS has been raised from #277 to #252, above nevermore and below RAM.' },
@@ -3432,6 +3443,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
