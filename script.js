@@ -120,6 +120,16 @@ const demons = [
     tag: "Learny, Fast-Paced"
   },
   {
+    name: "Aquamarine [Unrated]",
+    creators: "sincos, CursedZ, Taika, Scorpion",
+    verifier: "seels55",
+    publisher: "sincos",
+    video: "https://www.youtube.com/embed/Q__EnRojGt4",
+    id: "77331805",
+    password: "Free to Copy",
+    tag: "Unrated, CBF Verified, Old Impossible Level, Nine Circles Level, Wave"
+  },
+  {
     name: "Menace",
     creators: "ArraegenGD",
     verifier: "Whizkid05",
@@ -3139,6 +3149,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-20', detail: 'Aquamarine has been placed at #13, above Menace and below Anathema. This pushes Cimmerian Shade into the Extended List, and Call Me Maybe into the Legacy List.' },
   { date: '2025-12-24', detail: 'Graceful has been placed at #88, above The Paroxysm of Rage and below limbo but uwu ig idk. This pushes SAND SAILOR into the Legacy List.' },
   { date: '2025-12-24', detail: 'SARY NEVER CLEAR has been raised from #147 to #145, above Gloxinia and below qoUEO.' },
   { date: '2025-12-24', detail: 'Shmarley Ville has been lowered from #296 to #307, above X0 and below Kuzureta.' },
@@ -3447,6 +3458,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
