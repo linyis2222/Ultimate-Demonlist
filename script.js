@@ -3220,8 +3220,8 @@ const demons = [
    =========================== */
 const changeLog = [
   { date: '2025-12-25', detail: 'Centipede has been placed at #40, above Edge of Destiny and below poocubed. This pushes Tartarus into the Extended List, and CORRODERE into the Legacy List.' },
-  { date: '2025-12-24', detail: 'Edge of Destiny and poocubed have been swapped, with poocubed now sitting above, at #39.' },
-  { date: '2025-12-24', detail: 'NOMAD has been placed at #38, above Edge of Destiny and below Sakupen Circles. This pushes Delta into the Extended List, and Cosmic Cyclone into the Legacy List.' },
+  { date: '2025-12-24', detail: 'NOMAD has been placed at #38, above poocubed and below Sakupen Circles. This pushes Delta into the Extended List, and Cosmic Cyclone into the Legacy List.' },
+  { date: '2025-12-24', detail: 'Edge of Destiny and poocubed have been swapped, with poocubed now sitting above, at #38.' },
   { date: '2025-12-24', detail: 'Element 111 Rg has been placed at #35, above Firework and below Eyes in the Water. This pushes NETWORK (Agat3) into the Extended List, and qoUEO into the Legacy List.' },
   { date: '2025-12-24', detail: 'Through The Gates has been placed at #33, above Eyes in the Water and below Apocalyptic Trilogy. This pushes BPATA MPAKA into the Extended List, and SARY NEVER CLEAR into the Legacy List.' },
   { date: '2025-12-24', detail: 'Silent poltergeist has been placed at #30, above Silentlocked and below KOSETSU. This pushes THE JET ENGINE into the Extended List, and Gloxinia into the Legacy List.' },
@@ -3536,6 +3536,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
