@@ -306,6 +306,16 @@ const demons = [
     id: "113443235",
     password: "Free to Copy"
   },
+    {
+    name: "Through The Gates [Unrated]",
+    creators: "TeamTheDashers",
+    verifier: "zZoink",
+    publisher: "TeamTheDashers",
+    video: "https://www.youtube.com/embed/4yHA6jux5UI",
+    id: "49072489",
+    password: "Free to Copy",
+    tag: "Unrated, Old Impossible Level"
+  },
   {
     name: "Eyes in the Water",
     creators: "nothawkyre, ImMaxX1, Bli, skywalker14, darksteelflame, Arithean",
@@ -314,6 +324,16 @@ const demons = [
     video: "https://www.youtube.com/embed/yvLwiOy3KEA",
     id: "95851008",
     password: "Free to Copy"
+  },
+  {
+    name: "Element 111 Rg [Unrated]",
+    creators: "DarkX, Restoration Union",
+    verifier: "paqoe",
+    publisher: "Compendium",
+    video: "https://www.youtube.com/embed/ZcdiTGuIJ1k",
+    id: "61775814",
+    password: "Free to Copy",
+    tag: "Unrated, CBF Verified, Old Impossible Level"
   },
   {
     name: "Firework",
@@ -332,16 +352,6 @@ const demons = [
     video: "https://www.youtube.com/embed/ofG2mJi9kEA",
     id: "76962930",
     password: "Free to Copy"
-  },
-    {
-    name: "Through The Gates [Unrated]",
-    creators: "TeamTheDashers",
-    verifier: "zZoink",
-    publisher: "TeamTheDashers",
-    video: "https://www.youtube.com/embed/4yHA6jux5UI",
-    id: "49072489",
-    password: "Free to Copy",
-    tag: "Unrated, Old Impossible Level"
   },
   {
     name: "Edge of Destiny",
@@ -3189,7 +3199,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-12-24', detail: 'Through The Gates has been placed at #36, above Edge of Destiny and below Sakupen Circles. This pushes BPATA MPAKA into the Extended List, and SARY NEVER CLEAR into the Legacy List.' },
+  { date: '2025-12-24', detail: 'Through The Gates has been placed at #33, above Eyes in the Water and below Apocalyptic Trilogy. This pushes BPATA MPAKA into the Extended List, and SARY NEVER CLEAR into the Legacy List.' },
   { date: '2025-12-24', detail: 'Silent poltergeist has been placed at #30, above Silentlocked and below KOSETSU. This pushes THE JET ENGINE into the Extended List, and Gloxinia into the Legacy List.' },
   { date: '2025-12-24', detail: 'Based After Based has been placed at #26, above The Lightning Rod and below Subterminal Point. This pushes Jigsaw into the Extended List, and ta1LSD0ll into the Legacy List.' },
   { date: '2025-12-24', detail: 'Ashley Wave Trials has been placed at #19, above Tunnel of Despair and below Abyss of Darkness. This pushes Checked Steam into the Extended List, and Scrubbabingo force into the Legacy List.' },
@@ -3502,6 +3512,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
