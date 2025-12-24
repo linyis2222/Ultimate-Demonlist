@@ -2668,15 +2668,6 @@ const demons = [
     password: "No Copy"
   },
   {
-    name: "Shmarley Ville",
-    creators: "GhostVandalf, DrCuber, Renn241",
-    verifier: "Zipi",
-    publisher: "Renn241",
-    video: "https://www.youtube.com/embed/a2SMT-dapYE",
-    id: "81535535",
-    password: "Free to Copy"
-  },
-  {
     name: "Cersia Difficult",
     creators: "Cersia, KydeR",
     verifier: "Cersia",
@@ -2773,6 +2764,15 @@ const demons = [
     publisher: "Teno",
     video: "https://www.youtube.com/embed/Z7NLOIyjbhU",
     id: "71216292",
+    password: "Free to Copy"
+  },
+  {
+    name: "Shmarley Ville",
+    creators: "GhostVandalf, DrCuber, Renn241",
+    verifier: "Zipi",
+    publisher: "Renn241",
+    video: "https://www.youtube.com/embed/a2SMT-dapYE",
+    id: "81535535",
     password: "Free to Copy"
   },
   {
@@ -3125,6 +3125,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-24', detail: 'Shmarley Ville has been lowered from #296 to #307, above X0 and below Kuzureta.' },
   { date: '2025-12-24', detail: 'GBS has been raised from #277 to #252, above nevermore and below RAM.' },
   { date: '2025-12-21', detail: 'Battle of the Shades has been placed at #43, above Solar Flare and below The Plunge. This pushes Natural Disaster into the Extended List, and Akashic Records into the Legacy List.' },
   { date: '2025-12-21', detail: 'Ocular Miracle has been placed at #290, above Sonic Wave and below Kjdf8314jlfssf.' },
@@ -3430,6 +3431,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
