@@ -278,6 +278,16 @@ const demons = [
     id: "109439644",
     password: "Free to Copy"
   },
+    {
+    name: "Silent poltergeist [Unrated]",
+    creators: "TheRealSailent, MaxPower GD, Nautilus2K",
+    verifier: "Whizkid05",
+    publisher: "TheRealSailent",
+    video: "https://www.youtube.com/embed/XQ_TZc7cnPs",
+    id: "13586257",
+    password: "Free to Copy",
+    tag: "Unrated, Old Impossible Level, Nine Circles Level, Wave"
+  },
   {
     name: "Silentlocked",
     creators: "GDSkele, Versus, Megantwoo, Irosie, Connot, Donmor, Erisethsp, Kazia, Dehznik, JakeDogGD, xSmokes, paqoe, Lqtxinim, TheTrueEclipse, Skzyl, Rynoxious, Camsoverhere, Varctic, spcreat, Light",
@@ -3169,6 +3179,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-24', detail: 'Silent poltergeist has been placed at #30, above Silentlocked and below KOSETSU. This pushes THE JET ENGINE into the Extended List, and Gloxinia into the Legacy List.' },
   { date: '2025-12-24', detail: 'Based After Based has been placed at #26, above The Lightning Rod and below Subterminal Point. This pushes Jigsaw into the Extended List, and ta1LSD0ll into the Legacy List.' },
   { date: '2025-12-24', detail: 'Ashley Wave Trials has been placed at #19, above Tunnel of Despair and below Abyss of Darkness. This pushes Checked Steam into the Extended List, and Scrubbabingo force into the Legacy List.' },
   { date: '2025-12-24', detail: 'Aquamarine has been placed at #13, above Menace and below Anathema. This pushes Cimmerian Shade into the Extended List, and Call Me Maybe into the Legacy List.' },
@@ -3480,6 +3491,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
