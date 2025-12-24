@@ -256,7 +256,7 @@ const demons = [
     {
     name: "Apocalyptic Trilogy",
     creators: "APTeamOfficial(36 people)",
-    verifier: "polterghast",
+    verifier: "PoLterGhast",
     publisher: "APTeamOfficial",
     video: "https://www.youtube.com/embed/RUBbpsTR5eU",
     id: "113443235",
@@ -292,7 +292,7 @@ const demons = [
   {
     name: "Edge of Destiny",
     creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
-    verifier: " Polterghast",
+    verifier: " PoLterGhast",
     publisher: "CDMusic",
     video: "https://www.youtube.com/embed/rUphe3H59yU",
     id: "89187968",
@@ -336,8 +336,8 @@ const demons = [
   },
   {
     name: "The Hallucination",
-    creators: "SyQual, Votchi",
-    verifier: "Votchi",
+    creators: "SyQual, VotcHi",
+    verifier: "VotcHi",
     publisher: "SyQual",
     video: "https://www.youtube.com/embed/tYbXsNkO9HE",
     id: "81139702",
@@ -3431,6 +3431,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
