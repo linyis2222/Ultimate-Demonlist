@@ -360,7 +360,8 @@ const demons = [
     publisher: "ReeseVT",
     video: "https://www.youtube.com/embed/H2TkHbEX__A",
     id: "115077305",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Unrated"
   },
   {
     name: "poocubed",
@@ -370,6 +371,16 @@ const demons = [
     video: "https://www.youtube.com/embed/VdVQkK3G234",
     id: "85133223",
     password: "Free to Copy"
+  },
+  {
+    name: "Centipede [Unrated]",
+    creators: "Arsid, FONRAY, Qwazar, KeDDaR, Tomc4t, MrRedux, Skuns, Potoskun, Derozer, Synd, Itztech, Harte, RUNDAI1, Vinty, Rexonics, Rimexon, Creeperus, Tuzzoshi",
+    verifier: "Kyasshukodo",
+    publisher: "zander12",
+    video: "https://www.youtube.com/embed/eLGr383CmyM",
+    id: "106646765",
+    password: "Free to Copy",
+    tag: "Unrated, Nine Circles Level, Wave"
   },
   {
     name: "Edge of Destiny",
@@ -3208,6 +3219,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-25', detail: 'Centipede has been placed at #40, above Edge of Destiny and below poocubed. This pushes Tartarus into the Extended List, and CORRODERE into the Legacy List.' },
   { date: '2025-12-24', detail: 'Edge of Destiny and poocubed have been swapped, with poocubed now sitting above, at #39.' },
   { date: '2025-12-24', detail: 'NOMAD has been placed at #38, above Edge of Destiny and below Sakupen Circles. This pushes Delta into the Extended List, and Cosmic Cyclone into the Legacy List.' },
   { date: '2025-12-24', detail: 'Element 111 Rg has been placed at #35, above Firework and below Eyes in the Water. This pushes NETWORK (Agat3) into the Extended List, and qoUEO into the Legacy List.' },
@@ -3524,6 +3536,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
