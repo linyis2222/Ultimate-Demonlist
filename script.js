@@ -178,6 +178,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Ashley Wave Trials [Unrated]",
+    creators: "xBlizzardGD (OddMod)",
+    verifier: "zZoink",
+    publisher: "xBlizzardGD (OddMod)",
+    video: "https://www.youtube.com/embed/aTxt76U3e2Q",
+    id: "123119196",
+    password: "Free to Copy",
+    tag: "Unrated, CBF Verified, Old Impossible Level, One-Mode, Wave"
+  },
+  {
     name: "Tunnel of Despair",
     creators: "Exen, ImMaxX1",
     verifier: "zZoink",
@@ -3149,7 +3159,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2025-12-20', detail: 'Aquamarine has been placed at #13, above Menace and below Anathema. This pushes Cimmerian Shade into the Extended List, and Call Me Maybe into the Legacy List.' },
+  { date: '2025-12-24', detail: 'Ashley Wave Trials has been placed at #19, above Tunnel of Despair and below Abyss of Darkness. This pushes Checked Steam into the Extended List, and Scrubbabingo force into the Legacy List.' },
+  { date: '2025-12-24', detail: 'Aquamarine has been placed at #13, above Menace and below Anathema. This pushes Cimmerian Shade into the Extended List, and Call Me Maybe into the Legacy List.' },
   { date: '2025-12-24', detail: 'Graceful has been placed at #88, above The Paroxysm of Rage and below limbo but uwu ig idk. This pushes SAND SAILOR into the Legacy List.' },
   { date: '2025-12-24', detail: 'SARY NEVER CLEAR has been raised from #147 to #145, above Gloxinia and below qoUEO.' },
   { date: '2025-12-24', detail: 'Shmarley Ville has been lowered from #296 to #307, above X0 and below Kuzureta.' },
@@ -3458,6 +3469,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
