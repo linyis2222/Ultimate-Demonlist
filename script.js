@@ -353,6 +353,15 @@ const demons = [
     id: "76962930",
     password: "Free to Copy"
   },
+    {
+    name: "NOMAD",
+    creators: "ReeseVT, danielsbadkarma",
+    verifier: "Laniakea",
+    publisher: "ReeseVT",
+    video: "https://www.youtube.com/embed/H2TkHbEX__A",
+    id: "115077305",
+    password: "Free to Copy"
+  },
   {
     name: "Edge of Destiny",
     creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
@@ -3199,6 +3208,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-24', detail: 'NOMAD has been placed at #38, above Edge of Destiny and below Sakupen Circles. This pushes Delta into the Extended List, and Cosmic Cyclone into the Legacy List.' },
   { date: '2025-12-24', detail: 'Element 111 Rg has been placed at #35, above Firework and below Eyes in the Water. This pushes NETWORK (Agat3) into the Extended List, and qoUEO into the Legacy List.' },
   { date: '2025-12-24', detail: 'Through The Gates has been placed at #33, above Eyes in the Water and below Apocalyptic Trilogy. This pushes BPATA MPAKA into the Extended List, and SARY NEVER CLEAR into the Legacy List.' },
   { date: '2025-12-24', detail: 'Silent poltergeist has been placed at #30, above Silentlocked and below KOSETSU. This pushes THE JET ENGINE into the Extended List, and Gloxinia into the Legacy List.' },
@@ -3513,6 +3523,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
