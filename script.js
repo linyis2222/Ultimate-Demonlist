@@ -356,7 +356,7 @@ const demons = [
     {
     name: "NOMAD [Unrated]",
     creators: "ReeseVT, danielsbadkarma",
-    verifier: "Laniakea",
+    verifier: "iiLaniakea",
     publisher: "ReeseVT",
     video: "https://www.youtube.com/embed/H2TkHbEX__A",
     id: "115077305",
@@ -1800,7 +1800,7 @@ const demons = [
   {
     name: "Terminux",
     creators: "iRainstorm, 1374, Aerae, SyQual, TheCdPre, ZenthicAlpha, Inex, iEstia, Flosia, Mintjelly",
-    verifier: "Laniakea",
+    verifier: "iiLaniakea",
     publisher: "Aerae",
     video: "https://www.youtube.com/embed/-UgocJ3WYn4",
     id: "76865589",
@@ -3209,7 +3209,168 @@ const demons = [
     publisher: "MindCap",
     video: "https://www.youtube.com/embed/onX__Q7bh8A",
     id: "47237400",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Fast-Paced, Duals, Wave"
+  },
+  {
+    name: "Timor",
+    creators: "ColorBolt, Maxie25",
+    verifier: "Doggie",
+    publisher: "ColorBolt",
+    video: "https://www.youtube.com/embed/kwI2TIwbFsg",
+    id: "65969451",
+    password: "Free to Copy",
+    tag: "Timings, Wave, Ship, Chokepoints"
+  },
+  {
+    name: "Tapwreck",
+    creators: "MrLorenzo",
+    verifier: "Kapinapi",
+    publisher: "MrLorenzo",
+    video: "https://www.youtube.com/embed/w5qI2iukPzI",
+    id: "58306889",
+    password: "Free to Copy",
+    tag: "NONG, Chokepoints, Slow-Paced, Wave"
+  },
+  {
+    name: "RELENTLESS",
+    creators: "SurJaco, Boii, nCylix, Shebam, Handexx, Rall, Spezix, Titoalper, Septa, Crowley",
+    verifier: "FieRcE7",
+    publisher: "SurJaco",
+    video: "https://www.youtube.com/embed/8qQZ0n_R7Ec",
+    id: "74361921",
+    password: "Free to Copy",
+    tag: "Fast-Paced, Chokepoints, Wave"
+  },
+  {
+    name: "WOW",
+    creators: "TrusTa, Pennutoh, ChaSe, SlimJim, Disp, Marwec, Splash, Eggnog",
+    verifier: "npesta(Original), Dragoon(Update)",
+    publisher: "TrusTa",
+    video: "https://www.youtube.com/embed/CbUVw7p0Ebg",
+    id: "49291867",
+    password: "Free to Copy",
+    tag: "NONG, Fast-Paced, Clicksync"
+  },
+  {
+    name: "Quantum Dynamix",
+    creators: "IcEDCave, GrenadeofTacos, Riot, nikroplays, Aurorus, xSmokes, Luckyy, CuLuC, Awedsy, Komp, G-Force, silver, Genoxide, RobTop",
+    verifier: "Cersia",
+    publisher: "GrenadeofTacos",
+    video: "https://www.youtube.com/embed/SjQV6uJOtyQ",
+    id: "79244693",
+    password: "Free to Copy",
+    tag: "Chokepoints, Ship"
+  },
+  {
+    name: "the DEADLANDS",
+    creators: "handsomeorange",
+    verifier: "handsomeorange",
+    publisher: "handsomeorange",
+    video: "https://www.youtube.com/embed/pC-rUt9Z5dI",
+    id: "104409280",
+    password: "Free to Copy",
+    tag: "Memory, Wave"
+  },
+  {
+    name: "Ascension",
+    creators: "Kolros716",
+    verifier: "Kolros716",
+    publisher: "Kolros716",
+    video: "https://www.youtube.com/embed/mPnzlOVsBnw",
+    id: "107743292",
+    password: "Free to Copy",
+    tag: "NONG, Chokepoints"
+  },
+  {
+    name: "Devotion",
+    creators: "AVRG, Bletzee, Oreate, Kingcy2, BlaZe, FarBn, zYuko, EtVil, Solanine, Sp4rky, Duke, domi77, Proto",
+    verifier: "GMDomy",
+    publisher: "domi77",
+    video: "https://www.youtube.com/embed/YX9RfSfyAWs",
+    id: "81598025",
+    password: "Free to Copy",
+    tag: "NONG, Fast-Paced"
+  },
+  {
+    name: "Stygian Machinery",
+    creators: "SyQual, Sikatsuka, Gau, iRainstorm, An Gyung, Mapo, JJin, Apostolus, Dreaming, Sepalum, Uriun, Molds, Temp, gvyjjjh, 3niv, Ticky",
+    verifier: "iiLaniakea",
+    publisher: "TeamE12",
+    video: "https://www.youtube.com/embed/jUVsWYYeFpY",
+    id: "64554339",
+    password: "Free to Copy",
+    tag: "Learny, Wave, Ship"
+  },
+  {
+    name: "Jamboree",
+    creators: "JustJohn",
+    verifier: "JustJohn",
+    publisher: "JustJohn",
+    video: "https://www.youtube.com/embed/tmI-MljFcmA",
+    id: "74821587",
+    password: "Free to Copy",
+    tag: "Fast-Paced, Chokepoints, Wave"
+  },
+  {
+    name: "Come to Daddy",
+    creators: "Kapycta999",
+    verifier: "exsii",
+    publisher: "Kapycta999",
+    video: "https://www.youtube.com/embed/CxwFAl60SCY",
+    id: "115238970",
+    password: "Free to Copy",
+    tag: "NONG, Over 6 min"
+  },
+  {
+    name: "Lucid Chaos",
+    creators: "HelpegasuS, SleyGD, EndLevel, Dorami, creoa, Moosh, zDeadlox, CairoX, iNubble, TriplasH, Jaowan",
+    verifier: "ColorBolt",
+    publisher: "CairoX",
+    video: "https://www.youtube.com/embed/lsZ8okUy_tk",
+    id: "62817170",
+    password: "Free to Copy",
+    tag: "Timings"
+  },
+  {
+    name: "Catalyze",
+    creators: "ZephiroX",
+    verifier: "MrSpaghetti",
+    publisher: "ZephiroX",
+    video: "https://www.youtube.com/embed/hF-TVX8wakc",
+    id: "50333567",
+    password: "Free to Copy",
+    tag: "Fast-Paced, Timings, Wave"
+  },
+  {
+    name: "Twisted Titanium",
+    creators: "ToastedPleb, function, Optation, voltex, vit12, curxe, Temp, ItsHybrid, CuLuC, iEstia, BlasterRobotz, Zipixbox, Parallax",
+    verifier: "spcreat",
+    publisher: "ItsHybrid",
+    video: "https://www.youtube.com/embed/ueBAKyJONmg",
+    id: "121267216",
+    password: "Free to Copy",
+    tag: "Duals, Wave, Ship"
+  },
+  {
+    name: "Framework",
+    creators: "Agat3, Kaza",
+    verifier: "theworldofme",
+    publisher: "Agat3",
+    video: "https://www.youtube.com/embed/jVo0g6DXAAg",
+    id: "82748921",
+    password: "Free to Copy",
+    tag: "Fast-Paced, Gimmicky, Ship, Wave, Spider, Duals"
+  },
+  {
+    name: "Devil Vortex",
+    creators: "Rustam",
+    verifier: "Mycrafted",
+    publisher: "Rustam",
+    video: "https://www.youtube.com/embed/Xvx01BYPgXE",
+    id: "32969607",
+    password: "Free to Copy",
+    tag: "Chokepoints, Wave, Old Swing"
   }
 ];
 
@@ -3219,6 +3380,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-25', detail: 'Timor ~ Devil Vortex have been placed at #355 ~ #370.' },
   { date: '2025-12-25', detail: 'Centipede has been placed at #40, above Edge of Destiny and below poocubed. This pushes Tartarus into the Extended List, and CORRODERE into the Legacy List.' },
   { date: '2025-12-24', detail: 'NOMAD has been placed at #38, above poocubed and below Sakupen Circles. This pushes Delta into the Extended List, and Cosmic Cyclone into the Legacy List.' },
   { date: '2025-12-24', detail: 'Edge of Destiny and poocubed have been swapped, with poocubed now sitting above, at #38.' },
@@ -3536,6 +3698,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
