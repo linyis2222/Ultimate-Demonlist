@@ -834,6 +834,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "The Paroxysm of Rage",
+    creators: "Zacanaii, Evil Buds",
+    verifier: "turtle",
+    publisher: "Zacanaii",
+    video: "https://www.youtube.com/embed/nq3i1qJQeEk",
+    id: "87071894",
+    password: "Free to Copy"
+  },
+  {
     name: "ATOMIC CANNON Mk III",
     creators: "LIEB, Giron, FrostBurn, ZeroSR",
     verifier: "Zeroniumm",
@@ -887,15 +896,6 @@ const demons = [
     id: "71885708",
     password: "Free to Copy",
     tag: "Duals"
-  },
-  {
-    name: "The Paroxysm of Rage",
-    creators: "Zacanaii, Evil Buds",
-    verifier: "turtle",
-    publisher: "Zacanaii",
-    video: "https://www.youtube.com/embed/nq3i1qJQeEk",
-    id: "87071894",
-    password: "Free to Copy"
   },
   {
     name: "Blood Echo",
@@ -3380,6 +3380,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-25', detail: 'The Paroxysm of Rage has been raised from #97 to #91, above ATOMIC CANNON Mk III and below UNKNOWN.' },
   { date: '2025-12-25', detail: 'Timor ~ Devil Vortex have been placed at #355 ~ #370.' },
   { date: '2025-12-25', detail: 'Centipede has been placed at #40, above Edge of Destiny and below poocubed. This pushes Tartarus into the Extended List, and CORRODERE into the Legacy List.' },
   { date: '2025-12-24', detail: 'NOMAD has been placed at #38, above poocubed and below Sakupen Circles. This pushes Delta into the Extended List, and Cosmic Cyclone into the Legacy List.' },
@@ -3698,6 +3699,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
