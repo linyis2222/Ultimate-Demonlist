@@ -261,6 +261,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "CHIL",
+    creators: "McCoco",
+    verifier: "McCoco",
+    publisher: "McCoco",
+    video: "https://www.youtube.com/embed/DROMiCc2ZRM",
+    id: "114281093",
+    password: "Free to Copy",
+    tag: "Fast-Paced
+  },
+  {
     name: "Deimos (ItsHybrid)",
     creators: "ItsHybrid & more(27 people)",
     verifier: "Doggie",
@@ -3380,6 +3390,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-27', detail: 'CHIL has been placed at #28, above Deimos (ItsHybrid) and below The Lightning Rod. This pushes Sonic Wave Infinity into the Extended List, and Rigel into the Legacy List.' },
   { date: '2025-12-25', detail: 'The Paroxysm of Rage has been raised from #97 to #91, above ATOMIC CANNON Mk III and below UNKNOWN.' },
   { date: '2025-12-25', detail: 'Timor ~ Devil Vortex have been placed at #355 ~ #370.' },
   { date: '2025-12-25', detail: 'Centipede has been placed at #40, above Edge of Destiny and below poocubed. This pushes Tartarus into the Extended List, and CORRODERE into the Legacy List.' },
@@ -3699,6 +3710,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
