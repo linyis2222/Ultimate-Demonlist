@@ -268,7 +268,7 @@ const demons = [
     video: "https://www.youtube.com/embed/DROMiCc2ZRM",
     id: "114281093",
     password: "Free to Copy",
-    tag: "Fast-Paced
+    tag: "Fast-Paced"
   },
   {
     name: "Deimos (ItsHybrid)",
