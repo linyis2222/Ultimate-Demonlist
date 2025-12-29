@@ -141,7 +141,7 @@ const demons = [
   },
   {
     name: "Avernus",
-    creators: "BoBoBoBoBoBoBo, TriplasH, Zipixbox, kyhros, Woom, Zenntraa, El3cTr0, SyQual, Nidro, zDeadlox, GD Iris, Realvet, Looycat",
+    creators: "BoBoBoBoBoBoBo, TriplasH, Zipixbox, kyhros, Woom, Zenntraa, El3cTr0, SyQual, Nidro, zDeadlox, GD Iris, RealVet, Looycat",
     verifier: "zZoink",
     publisher: "Pockewindfish",
     video: "https://www.youtube.com/embed/16Zh8jssanc",
@@ -347,7 +347,7 @@ const demons = [
   },
   {
     name: "Firework",
-    creators: "Vernam, lillium, 00Zero, Konsi, Realvet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
+    creators: "Vernam, lillium, 00Zero, Konsi, RealVet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
     verifier: "TrickGMD",
     publisher: "TrickGMD",
     video: "https://www.youtube.com/embed/QBe5x2o9v2w",
@@ -457,7 +457,7 @@ const demons = [
   },
   {
     name: "Deadlier Clubstep",
-    creators: "herozombie80, Realvet, Solarion, Valentine, Pla, X2K, nab, CloverPhoenix, caro, SnapNK",
+    creators: "herozombie80, RealVet, Solarion, Valentine, Pla, X2K, nab, CloverPhoenix, caro, SnapNK",
     verifier: "Jenath",
     publisher: "herozombie80",
     video: "https://www.youtube.com/embed/eRhgaF0r5Q0",
@@ -602,7 +602,7 @@ const demons = [
   },
   {
     name: "SARYYX NEVER CLEAR",
-    creators: "aartos, Axxorz, Voltex, Realvet, zDeadlox, spcreat, Graded, Pla, Indra",
+    creators: "aartos, Axxorz, Voltex, RealVet, zDeadlox, spcreat, Graded, Pla, Indra",
     verifier: "skzyl",
     publisher: "aartos",
     video: "https://www.youtube.com/embed/rRlyvmjcz_4",
@@ -1134,7 +1134,7 @@ const demons = [
   },
   {
     name: "Scream Machine",
-    creators: "TMco, HelpegasuS, nikroplays, Zipixbox, ItsHybrid, Realvet, Wesp, Siv, Connected, Culuc, GD Iris, rynoxious, SwagMasta001",
+    creators: "TMco, HelpegasuS, nikroplays, Zipixbox, ItsHybrid, RealVet, Wesp, Siv, Connected, Culuc, GD Iris, rynoxious, SwagMasta001",
     verifier: "WatchPiggy",
     publisher: "TMco",
     video: "https://www.youtube.com/embed/n-KeSGEX7Jg",
@@ -1188,7 +1188,7 @@ const demons = [
   },
   {
     name: "Frost Spirit",
-    creators: "DrayTM, Halzion, Reda, Zipixbox, Realvet, River, silver, AlrexX, Valentine, Linear, Pla, Mercury6779, InfiniteStyles, GDIris, ConnectedGD, Manu",
+    creators: "DrayTM, Halzion, Reda, Zipixbox, RealVet, River, silver, AlrexX, Valentine, Linear, Pla, Mercury6779, InfiniteStyles, GDIris, ConnectedGD, Manu",
     verifier: "Varium",
     publisher: "Quaybus",
     video: "https://www.youtube.com/embed/KXbaRnRpm58",
@@ -3710,6 +3710,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
