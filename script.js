@@ -3303,6 +3303,16 @@ const demons = [
     tag: "NONG, Fast-Paced"
   },
   {
+    name: "Glory",
+    creators: "endevvor, Shyyo, GiggsRH, Hypno, SmitN, Tom163, EntiqueGD, ByCherk, Ducknorriss, WeirdoKid, Taco Dave, Azuvy, KoDTIFF, Nosef, PreeZee, minty, Zypheriox",
+    verifier: "Gokill",
+    publisher: "EntiqueGD",
+    video: "https://www.youtube.com/embed/-ZdAkAG7Fvw",
+    id: "97063869",
+    password: "Free to Copy",
+    tag: "Fast-Paced"
+  },
+  {
     name: "Stygian Machinery",
     creators: "SyQual, Sikatsuka, Gau, iRainstorm, An Gyung, Mapo, JJin, Apostolus, Dreaming, Sepalum, Uriun, Molds, Temp, gvyjjjh, 3niv, Ticky",
     verifier: "iiLaniakea",
@@ -3390,6 +3400,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-30', detail: 'Glory has been placed at #364, above Stygian Machinery and below Devotion.' },
   { date: '2025-12-30', detail: 'Storming Summit has been raised from #259 to #250, above CRIDIUM and below Spectrum Cyclone.' },
   { date: '2025-12-27', detail: 'CHIL has been placed at #28, above Deimos (ItsHybrid) and below The Lightning Rod. This pushes Sonic Wave Infinity into the Extended List, and Rigel into the Legacy List.' },
   { date: '2025-12-25', detail: 'The Paroxysm of Rage has been raised from #97 to #91, above ATOMIC CANNON Mk III and below UNKNOWN.' },
@@ -3711,6 +3722,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
