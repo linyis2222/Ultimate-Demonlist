@@ -719,7 +719,7 @@ const demons = [
   },
   {
     name: "Delta",
-    creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, Loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, Mercury6779, Novaach, Tamori",
+    creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, Mercury6779, Novaach, Tamori",
     verifier: "Doggie",
     publisher: "Drakosa",
     video: "https://www.youtube.com/embed/_rr3J8DkIm4",
@@ -1521,7 +1521,7 @@ const demons = [
   },
   {
     name: "SUPERHATEMEWORLD",
-    creators: "IcEDCave, Loogiah, EndLevel, RealVet, River, Doop",
+    creators: "IcEDCave, loogiah, EndLevel, RealVet, River, Doop",
     verifier: "CursedZ",
     publisher: "IcEDCave",
     video: "https://www.youtube.com/embed/fhmgZYCJ29M",
@@ -1638,7 +1638,7 @@ const demons = [
   },
   {
     name: "Descent Into Exile",
-    creators: "GrenadeofTacos, Riot, IcEDCave, ViPriN, Vermillion, spcreat, Theorical, Awedsy, Cersia, maxfs, ewop, Loogiah, zDeadlox, PokeChatt, weoweoteo, Artos, RealVet",
+    creators: "GrenadeofTacos, Riot, IcEDCave, ViPriN, Vermillion, spcreat, Theorical, Awedsy, Cersia, maxfs, ewop, loogiah, zDeadlox, PokeChatt, weoweoteo, Artos, RealVet",
     verifier: "BunnyGram",
     publisher: "GrenadeofTacos",
     video: "https://www.youtube.com/embed/whtt_WkG_20",
@@ -2827,7 +2827,7 @@ const demons = [
   },
   {
     name: "Yatagarasu",
-    creators: "ViPriN, Giron, Imanubis, Jeyzor, WOOGI1411, Findexi, Rek3dge, weoweoteo, Anthrax, AbstractDark, Aeidux, Vermillion, Zelda, Michigun, Luneth, -, Evasium, Csx42gaming, Funnygame, Riot, xcy7, Loogiah",
+    creators: "ViPriN, Giron, Imanubis, Jeyzor, WOOGI1411, Findexi, Rek3dge, weoweoteo, Anthrax, AbstractDark, Aeidux, Vermillion, Zelda, Michigun, Luneth, -, Evasium, Csx42gaming, Funnygame, Riot, xcy7, loogiah",
     verifier: "TrusTa(Original), Dragoon(Update)",
     publisher: "TrusTa",
     video: "https://www.youtube.com/embed/KgGKx0pk_wo",
@@ -3391,6 +3391,236 @@ const demons = [
     id: "32969607",
     password: "Free to Copy",
     tag: "Chokepoints, Wave, Old Swing"
+  },
+  {
+    name: "Dole Damos",
+    creators: "Jeyzor",
+    verifier: "Jeyzor",
+    publisher: "Jeyzor",
+    video: "https://www.youtube.com/embed/3Q7zPpGKsc0",
+    id: "79922944",
+    password: "Free to Copy",
+    tag: "Learny, Duals"
+  },
+  {
+    name: "Dreams",
+    creators: "Kapycta999",
+    verifier: "Almohadaless",
+    publisher: "Kapycta999",
+    video: "https://www.youtube.com/embed/ekBKOmjk0E4",
+    id: "85052828",
+    password: "Free to Copy",
+    tag: "Timings, Cube"
+  },
+  {
+    name: "Factory Realm X",
+    creators: "HelpegasuS",
+    verifier: "Enzeux",
+    publisher: "HelpegasuS",
+    video: "https://www.youtube.com/embed/bkreo_jag3E",
+    id: "37792861",
+    password: "No Copy",
+    tag: "Fast-Paced, Learny, Duals"
+  },
+  {
+    name: "DubKore X",
+    creators: "loogiah",
+    verifier: "Blankb",
+    publisher: "loogiah",
+    video: "https://www.youtube.com/embed/roz31nm3_nY",
+    id: "75455769",
+    password: "Free to Copy",
+    tag: "Timings, Slow-Paced, Cube, Ship, Wave"
+  },
+  {
+    name: "ConFusion",
+    creators: "DreamZoneGD",
+    verifier: "DreamZoneGD",
+    publisher: "DreamZoneGD",
+    video: "https://www.youtube.com/embed/Zxef8FIepYc",
+    id: "84960998",
+    password: "Free to Copy",
+    tag: "Timings, Memory"
+  },
+  {
+    name: "Paroxysm",
+    creators: "Lemons",
+    verifier: "mix991",
+    publisher: "Lemons",
+    video: "https://www.youtube.com/embed/JVlHUROeEnc",
+    id: "42631377",
+    password: "Free to Copy",
+    tag: "Timings"
+  },
+  {
+    name: "Photovoltaic II",
+    creators: "YakobNugget, Pennutoh, Vlacc, Luisluigi, Frotzn, ChaSe, MrLorenzo, AbstractDark, Mew, Zober, Fillipsmen, MaxiKD, JacobRoso, Mezzo, DreamEater, Skitten, UserMatt18, Lemons, Uneskladovae, Mazl",
+    verifier: "Technical(Original), Gzeee(Update)",
+    publisher: "Mazl",
+    video: "https://www.youtube.com/embed/Kc1V9lInj3E",
+    id: "49588510",
+    password: "Free to Copy",
+    tag: "Ship"
+  },
+  {
+    name: "Retention Rush",
+    creators: "TheBlackHell",
+    verifier: "DarkAngel088",
+    publisher: "TheBlackHell",
+    video: "https://www.youtube.com/embed/SPn1wsc9J9M",
+    id: "81906166",
+    password: "Free to Copy",
+    tag: "Fast-Paced, Timings, Memory, Cube, Wave"
+  },
+  {
+    name: "Raisins",
+    creators: "Airz",
+    verifier: "5shine",
+    publisher: "Airz",
+    video: "https://www.youtube.com/embed/c3-ee3fTVtA",
+    id: "81429222",
+    password: "No Copy",
+    tag: "Timings, Ship, Ball"
+  },
+  {
+    name: "Infinite Highway",
+    creators: "iITesseractIi, pocke, twigxcabaret",
+    verifier: "Floofle",
+    publisher: "iITesseractIi",
+    video: "https://www.youtube.com/embed/huS1-PzIhlc",
+    id: "107577349",
+    password: "Free to Copy",
+    tag: "Timings, Learny"
+  },
+  {
+    name: "Lateral Myst",
+    creators: "Bedrock, Extravagon",
+    verifier: "Extravagon",
+    publisher: "Bedrock",
+    video: "https://www.youtube.com/embed/BC3dFTJTRqc",
+    id: "63959337",
+    password: "Free to Copy",
+    tag: "Timings, Slow-Paced, Ship"
+  },
+  {
+    name: "Pingas21",
+    creators: "evilj0e, cxn, TheZinkYT",
+    verifier: "cxn",
+    publisher: "evilj0e",
+    video: "https://www.youtube.com/embed/hn894RT2Nfc",
+    id: "92844445",
+    password: "Free to Copy",
+    tag: "Clicksync, Timings"
+  },
+  {
+    name: "IMAPHONE",
+    creators: "Azuvy",
+    verifier: "Litoks",
+    publisher: "Azuvy",
+    video: "https://www.youtube.com/embed/53HY50zWZUE",
+    id: "81656376",
+    password: "Free to Copy",
+    tag: "Fast-Paced, Learny, Cube, Wave, Spider"
+  },
+  {
+    name: "Tenochtitlan",
+    creators: "Alpha rainbow",
+    verifier: "Astrala",
+    publisher: "Alpha rainbow",
+    video: "https://www.youtube.com/embed/3EWh6Ef9pvk",
+    id: "94464877",
+    password: "002012",
+    tag: "Timings, Chokepoints, Slow-Paced, Cube, Wave"
+  },
+  {
+    name: "Dimensional Breaking",
+    creators: "Davidayy, Riky2610, Sirius, AngryBoy0644, HelpegasuS, T4sty, Dublollo, Vexion, MaxiKD, Tagger, R3XX3R, ChiefWoof, Fiuxis, Laminer",
+    verifier: "Clara(Original), Zeroniumm(Reverified)",
+    publisher: "Davidayy",
+    video: "https://www.youtube.com/embed/LK0xhnip_6k",
+    id: "59868382",
+    password: "Free to Copy",
+    tag: "Chokepoints, Ship, Wave"
+  },
+  {
+    name: "FIREPOWER",
+    creators: "Sillow",
+    verifier: "Sillow",
+    publisher: "Sillow",
+    video: "https://www.youtube.com/embed/j8YmLk7KF1A",
+    id: "89876243",
+    password: "Free to Copy",
+    tag: "Nine Circles Level, Learny, Ship, Wave, Duals, Fast-Paced, Old Swing"
+  },
+  {
+    name: "Phantasma",
+    creators: "blakejm, ZingerX",
+    verifier: "blakejm",
+    publisher: "blakejm",
+    video: "https://www.youtube.com/embed/",
+    id: "97013293",
+    password: "Free to Copy",
+    tag: "Fast-Paced"
+  },
+  {
+    name: "inanimate INSANITY",
+    creators: "handsomeorange",
+    verifier: "handsomeorange(Original), Latko(Update)",
+    publisher: "handsomeorange",
+    video: "https://www.youtube.com/embed/IMk5aEi6iJc",
+    id: "82225395",
+    password: "Free to Copy",
+    tag: "Timings, Chokepoints, Gimmicky"
+  },
+  {
+    name: "Luxtra",
+    creators: "TheGalaxyCat",
+    verifier: "Zeroniumm",
+    publisher: "TheGalaxyCat",
+    video: "https://www.youtube.com/embed/Rs425dFUHZo",
+    id: "65332454",
+    password: "Free to Copy",
+    tag: "Learny, Chokepoints"
+  },
+  {
+    name: "Bitcrusher",
+    creators: "SleyGD",
+    verifier: "noxop",
+    publisher: "SleyGD",
+    video: "https://www.youtube.com/embed/mtdgSg1NhrM",
+    id: "84791108",
+    password: "852147",
+    tag: "Timings, Memory"
+  },
+  {
+    name: "POW",
+    creators: "rdeactive & more(39 people)",
+    verifier: "Technical",
+    publisher: "rdeactive",
+    video: "https://www.youtube.com/embed/dTqIr_BJ31Q",
+    id: "118515795",
+    password: "Free to Copy",
+    tag: "NONG, imings, Chokepoints, Fast-Paced, Clicksync"
+  },
+  {
+    name: "Apollo 11",
+    creators: "nasgubb",
+    verifier: "Floppy",
+    publisher: "nasgubb",
+    video: "https://www.youtube.com/embed/r9SkrrOecpY",
+    id: "83164497",
+    password: "Free to Copy",
+    tag: "Timings, Learny, Gimmicky, Ship, Duals"
+  },
+  {
+    name: "Digital Descent",
+    creators: "ViPriN, Vlacc, Serponge, nasgubb, Kips, Rustam, AbstractDark, LazerBlitz, Terron, Etzer, Codex, -, Manix648, loogiah, TheDevon, KrmaL, G4lvatron, Samifying",
+    verifier: "Combined",
+    publisher: "ViPriN",
+    video: "https://www.youtube.com/embed/mX8j8jG-Um8",
+    id: "37456092",
+    password: "Free to Copy",
+    tag: ""
   }
 ];
 
@@ -3400,6 +3630,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-31', detail: 'Dole Damos ~ Digital Descent have been placed at #373 ~ #395.' },
   { date: '2025-12-30', detail: 'Glory has been placed at #364, above Stygian Machinery and below Devotion.' },
   { date: '2025-12-30', detail: 'Storming Summit has been raised from #259 to #250, above CRIDIUM and below Spectrum Cyclone.' },
   { date: '2025-12-27', detail: 'CHIL has been placed at #28, above Deimos (ItsHybrid) and below The Lightning Rod. This pushes Sonic Wave Infinity into the Extended List, and Rigel into the Legacy List.' },
@@ -3722,6 +3953,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
