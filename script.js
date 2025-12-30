@@ -2267,6 +2267,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Storming Summit",
+    creators: "IINimbusII & more(25 people)",
+    verifier: "Ozzy",
+    publisher: "IINimbusII",
+    video: "https://www.youtube.com/embed/ymmMnZLpfQU",
+    id: "76653933",
+    password: "Free to Copy"
+  },
+  {
     name: "CRIDIUM",
     creators: "Superioxx, Stotch, Arax, Octane, CTRX, yarle, Synage, Galvam, Mitho, Khelado, Galliard, Mag",
     verifier: "teraaa",
@@ -2345,15 +2354,6 @@ const demons = [
     publisher: "Cersia",
     video: "https://www.youtube.com/embed/vGHOD8OWgdY",
     id: "83969616",
-    password: "Free to Copy"
-  },
-  {
-    name: "Storming Summit",
-    creators: "IINimbusII & more(25 people)",
-    verifier: "Ozzy",
-    publisher: "IINimbusII",
-    video: "https://www.youtube.com/embed/ymmMnZLpfQU",
-    id: "76653933",
     password: "Free to Copy"
   },
   {
@@ -3390,6 +3390,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2025-12-30', detail: 'Storming Summit has been raised from #259 to #250, above CRIDIUM and below Spectrum Cyclone.' },
   { date: '2025-12-27', detail: 'CHIL has been placed at #28, above Deimos (ItsHybrid) and below The Lightning Rod. This pushes Sonic Wave Infinity into the Extended List, and Rigel into the Legacy List.' },
   { date: '2025-12-25', detail: 'The Paroxysm of Rage has been raised from #97 to #91, above ATOMIC CANNON Mk III and below UNKNOWN.' },
   { date: '2025-12-25', detail: 'Timor ~ Devil Vortex have been placed at #355 ~ #370.' },
@@ -3710,6 +3711,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
