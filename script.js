@@ -3630,6 +3630,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-01', detail: 'Happy new year everyone!' },
   { date: '2025-12-31', detail: 'Dole Damos ~ Digital Descent have been placed at #373 ~ #395.' },
   { date: '2025-12-30', detail: 'Glory has been placed at #364, above Stygian Machinery and below Devotion.' },
   { date: '2025-12-30', detail: 'Storming Summit has been raised from #259 to #250, above CRIDIUM and below Spectrum Cyclone.' },
@@ -3953,6 +3954,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
