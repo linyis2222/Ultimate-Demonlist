@@ -179,9 +179,9 @@ const demons = [
   },
   {
     name: "Ashley Wave Trials [Unrated]",
-    creators: "xBlizzardGD (OddMod)",
+    creators: "OddMod",
     verifier: "zZoink",
-    publisher: "xBlizzardGD (OddMod)",
+    publisher: "xBlizzardGD",
     video: "https://www.youtube.com/embed/aTxt76U3e2Q",
     id: "123119196",
     password: "Free to Copy",
@@ -2665,7 +2665,7 @@ const demons = [
   {
     name: "reeses potentially",
     creators: "SubStra, DivideNick, DavoBoss, Homeboye, TropoGD, lundshurk, ZiTron, Plexa, Mebbo",
-    verifier: "Kaza",
+    verifier: "KazaGD",
     publisher: "SubStra",
     video: "https://www.youtube.com/embed/v45Ei-punX4",
     id: "81372788",
@@ -3374,7 +3374,7 @@ const demons = [
   },
   {
     name: "Framework",
-    creators: "Agat3, Kaza",
+    creators: "Agat3, KazaGD",
     verifier: "theworldofme",
     publisher: "Agat3",
     video: "https://www.youtube.com/embed/jVo0g6DXAAg",
@@ -3953,6 +3953,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
