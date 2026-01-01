@@ -107,7 +107,7 @@ const demons = [
     video: "https://www.youtube.com/embed/GR4OMkS3SN8",
     id: "4125776",
     password: "No Copy",
-    tag: "Old Impossible Level, Timings, Duals"
+    tag: "Old Impossible Level, Former Legit Hardest Level, Timings, Duals"
   },
   {
     name: "Anathema",
@@ -346,7 +346,8 @@ const demons = [
     publisher: "nothawkyre",
     video: "https://www.youtube.com/embed/yvLwiOy3KEA",
     id: "95851008",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Timings, Learny, Memory, Ship"
   },
   {
     name: "Element 111 Rg [Unrated]",
@@ -375,7 +376,8 @@ const demons = [
     publisher: "TheDiamondPizza",
     video: "https://www.youtube.com/embed/ofG2mJi9kEA",
     id: "76962930",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, Former Legit Hardest Level, Fast-Paced, Nine Circles Level, Wave"
   },
     {
     name: "NOMAD [Unrated]",
@@ -3969,6 +3971,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
