@@ -2339,6 +2339,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Calamity",
+    creators: "Awedsy",
+    verifier: "royen",
+    publisher: "Awedsy",
+    video: "https://www.youtube.com/embed/PwOPRxp6KjY",
+    id: "64766514",
+    password: "Free to Copy"
+  },
+  {
     name: "Aquatic Auroras",
     creators: "EndLevel, El3ctr0, LimeTime313",
     verifier: "kyoto",
@@ -2354,15 +2363,6 @@ const demons = [
     publisher: "Cersia",
     video: "https://www.youtube.com/embed/vGHOD8OWgdY",
     id: "83969616",
-    password: "Free to Copy"
-  },
-  {
-    name: "Calamity",
-    creators: "Awedsy",
-    verifier: "royen",
-    publisher: "Awedsy",
-    video: "https://www.youtube.com/embed/PwOPRxp6KjY",
-    id: "64766514",
     password: "Free to Copy"
   },
   {
@@ -3630,6 +3630,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-01', detail: 'Calamity has been raised from #260 to #258, above Aquatic Auroras and below Shutdown.' },
   { date: '2026-01-01', detail: 'Happy new year everyone!' },
   { date: '2025-12-31', detail: 'Dole Damos ~ Digital Descent have been placed at #373 ~ #395.' },
   { date: '2025-12-30', detail: 'Glory has been placed at #364, above Stygian Machinery and below Devotion.' },
@@ -3954,6 +3955,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
