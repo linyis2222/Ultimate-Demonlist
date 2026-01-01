@@ -166,7 +166,8 @@ const demons = [
     publisher: "xander556",
     video: "https://www.youtube.com/embed/MzsSLKJrLSI",
     id: "110815379",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Timings, Chokepoints"
   },
   {
     name: "Abyss of Darkness",
@@ -175,7 +176,8 @@ const demons = [
     publisher: "Exen",
     video: "https://www.youtube.com/embed/ejJkpqcMMCY",
     id: "49896559",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, Slow-Paced, Timings, Wave, Chokepoints"
   },
   {
     name: "Ashley Wave Trials [Unrated]",
@@ -194,7 +196,8 @@ const demons = [
     publisher: "Exen",
     video: "https://www.youtube.com/embed/LpS4JREhW98",
     id: "91351939",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Timings, Learny, Wave"
   },
   {
     name: "Defeated Circles",
@@ -203,7 +206,8 @@ const demons = [
     publisher: "GXQ",
     video: "https://www.youtube.com/embed/nU5AQPzd2YA",
     id: "120012581",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "NONG, Old Impossible Level, Nine Circles Level, Timings, Wave"
   },
   {
     name: "Kyouki",
@@ -212,7 +216,8 @@ const demons = [
     publisher: "Demishio",
     video: "https://www.youtube.com/embed/KDa5c0CJTHs",
     id: "86018142",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Fast-Paced, Clicksync"
   },
   {
     name: "Slaughterhouse",
@@ -221,7 +226,8 @@ const demons = [
     publisher: "IcEDCave",
     video: "https://www.youtube.com/embed/kpcF1-QAHQc",
     id: "27690100",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "NONG, Former Top 1, Fast-Paced, Wave, Cube"
   },
   {
     name: "KOCMOC",
@@ -230,7 +236,8 @@ const demons = [
     publisher: "cherryteam",
     video: "https://www.youtube.com/embed/2CxE-UWCIG4",
     id: "87665224",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Fast-Paced, Wave, Cube"
   },
   {
     name: "Subterminal Point",
@@ -239,7 +246,8 @@ const demons = [
     publisher: "SyQual",
     video: "https://www.youtube.com/embed/h2wmRMgACH4",
     id: "113599729",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Timings, Chokepoints, Wave"
   },
     {
     name: "Based After Based [Unrated]",
@@ -258,7 +266,8 @@ const demons = [
     publisher: "Lavatrex",
     video: "https://www.youtube.com/embed/nQDTi077O6M",
     id: "93917076",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Learny"
   },
   {
     name: "CHIL",
@@ -277,7 +286,8 @@ const demons = [
     publisher: "ItsHybrid",
     video: "https://www.youtube.com/embed/b2yHaIk5zio",
     id: "93091893",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Timings"
   },
     {
     name: "KOSETSU",
@@ -286,7 +296,8 @@ const demons = [
     publisher: "fwwe",
     video: "https://www.youtube.com/embed/hZ8vFX8z_BU",
     id: "109439644",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Timings, Chokepoints, Slow-Paced, Ship, Wave"
   },
     {
     name: "Silent poltergeist [Unrated]",
@@ -305,7 +316,8 @@ const demons = [
     publisher: "GDSkele",
     video: "https://www.youtube.com/embed/O-IQeUdEGvI",
     id: "113959291",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Wave, Ship, Memory"
   },
     {
     name: "Apocalyptic Trilogy",
@@ -314,7 +326,8 @@ const demons = [
     publisher: "APTeamOfficial",
     video: "https://www.youtube.com/embed/RUBbpsTR5eU",
     id: "113443235",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Over 4 min"
   },
     {
     name: "Through The Gates [Unrated]",
@@ -3955,6 +3968,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
