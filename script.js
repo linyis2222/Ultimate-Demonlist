@@ -585,7 +585,7 @@ const demons = [
     creators: "CairoX, HelpegasuS, TriplasH, creoa, dutchiee, Renn241, Genoxide, DreamZoneGD, gruzy, Valentine, Mercury6779, Xenith, Insxne97, PlaEnterprise, Epdjip, humbjumb, william, Zephlin, AvaxLumino, Zronk",
     verifier: "Victurkey",
     publisher: "CairoX",
-    video: "https://www.youtube.com/embed/U6e6DD32noM",
+    video: "https://www.youtube.com/embed/wOMVERxU5IA",
     id: "119689515",
     password: "Free to Copy",
     tag: "Fast-Paced, Learny"
@@ -950,6 +950,16 @@ const demons = [
     video: "https://www.youtube.com/embed/eyZjKtrGVYw",
     id: "79771070",
     password: "789123"
+  },
+  {
+    name: "DISCONNECT",
+    creators: "MCres",
+    verifier: "elinore",
+    publisher: "MCres",
+    video: "https://www.youtube.com/embed/HxHo-LzwSao",
+    id: "127023313",
+    password: "Free to Copy",
+    tag: "Learny, Memory"
   },
   {
     name: "Trueffet",
@@ -3656,6 +3666,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-03', detail: 'DISCONNECT has been placed at #102, above Trueffet and below Aerial Gleam. This pushes Cognition into the Legacy List.' },
   { date: '2026-01-03', detail: 'Infinite Chaos has been placed at #61, above Sinister Silence and below Mayhem. This pushes Crystal Crusher into the Extended List, and Neon Skyline into the Legacy List.' },
   { date: '2026-01-03', detail: 'Hard Machine has been raised from #120 to #117, above DISSONANCE and below Guideless Goobering.' },
   { date: '2026-01-01', detail: 'Calamity has been raised from #260 to #258, above Aquatic Auroras and below Shutdown.' },
@@ -3983,6 +3994,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
