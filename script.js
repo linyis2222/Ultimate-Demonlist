@@ -27,7 +27,7 @@ const demons = [
     video: "https://www.youtube.com/embed/x4Io4zkWVRw",
     id: "126242564",
     password: "Free to Copy",
-    tag: "XL, Over 6 min, Fast-Paced"
+    tag: "CBF Blocker, XL, Over 6 min, Fast-Paced"
   },
   {
     name: "Tidal Wave",
@@ -4003,6 +4003,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
