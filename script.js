@@ -7,7 +7,7 @@ const demons = [
     video: "https://www.youtube.com/embed/CELNmHwln_c",
     id: "119544028",
     password: "Free to Copy",
-    tag: "Chokepoints, Ship, Wave, CBF Blocker, Timings"
+    tag: "Long, Chokepoints, Ship, Wave, CBF Blocker, Timings"
   },
   {
     name: "Amethyst",
@@ -17,7 +17,7 @@ const demons = [
     video: "https://www.youtube.com/embed/4lfkzz1VCbA",
     id: "119550490",
     password: "Free to Copy",
-    tag: "Former Top 1, Wave, CBF Blocker"
+    tag: "Former Top 1, Long, Wave, CBF Blocker"
   },
   {
     name: "Flamewall",
@@ -27,7 +27,7 @@ const demons = [
     video: "https://www.youtube.com/embed/x4Io4zkWVRw",
     id: "126242564",
     password: "Free to Copy",
-    tag: "Over 6 min, Fast-Paced"
+    tag: "XL, Over 6 min, Fast-Paced"
   },
   {
     name: "Tidal Wave",
@@ -37,7 +37,7 @@ const demons = [
     video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
     password: "Free to Copy",
-    tag: "Former Top 1, NONG, Wave"
+    tag: "Former Top 1, NONG, XL, Over 3 min, Wave"
   },
   {
     name: "Nullscapes",
@@ -47,7 +47,7 @@ const demons = [
     video: "https://www.youtube.com/embed/EztneTPp5CU",
     id: "109780665",
     password: "Free to Copy",
-    tag: "One-Mode, Robot, CBF Blocker, Timings"
+    tag: "Long, One-Mode, Robot, CBF Blocker, Timings"
   },
   {
     name: "BOOBAWAMBA",
@@ -57,7 +57,7 @@ const demons = [
     video: "https://www.youtube.com/embed/20fYiqLAo_E",
     id: "110816181",
     password: "Free to Copy",
-    tag: "Memory"
+    tag: "XL, Memory"
   },
   {
     name: "Quanteuse processing",
@@ -67,7 +67,7 @@ const demons = [
     video: "https://www.youtube.com/embed/j5NC0u1Q91Q",
     id: "117692518",
     password: "Free to Copy",
-    tag: "CBF Blocker"
+    tag: "CBF Blocker, Long"
   },
   {
     name: "Every End",
@@ -77,7 +77,7 @@ const demons = [
     video: "https://www.youtube.com/embed/AO--mVVFtKI",
     id: "116174063",
     password: "Free to Copy",
-    tag: "One-Mode, Cube, Timings, Over 7 min, Slow-Paced"
+    tag: "XL, Over 7 min, One-Mode, Cube, Timings, Slow-Paced"
   },
   {
     name: "andromeda",
@@ -87,7 +87,7 @@ const demons = [
     video: "https://www.youtube.com/embed/mk3TDemdkC0",
     id: "114283297",
     password: "Free to Copy",
-    tag: "NONG, Learny, Timings, Fast-Paced"
+    tag: "NONG, Long, Learny, Timings, Fast-Paced"
   },
   {
     name: "Subsuming Vortex",
@@ -97,7 +97,7 @@ const demons = [
     video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
     id: "127997391",
     password: "Free to Copy",
-    tag: "Old Impossible Level, Chokepoints, Wave, Nine Circles Level"
+    tag: "Old Impossible Level, Long, Chokepoints, Wave, Nine Circles Level"
   },
   {
     name: "Silent clubstep",
@@ -107,7 +107,7 @@ const demons = [
     video: "https://www.youtube.com/embed/GR4OMkS3SN8",
     id: "4125776",
     password: "No Copy",
-    tag: "Old Impossible Level, Timings, Duals"
+    tag: "Old Impossible Level, Long, Timings, Duals"
   },
   {
     name: "Anathema",
@@ -117,7 +117,7 @@ const demons = [
     video: "https://www.youtube.com/embed/_uKwmjHmySI",
     id: "112313819",
     password: "Free to Copy",
-    tag: "Learny, Fast-Paced"
+    tag: "XL, Learny, Fast-Paced"
   },
   {
     name: "Aquamarine [Unrated]",
@@ -127,7 +127,7 @@ const demons = [
     video: "https://www.youtube.com/embed/Q__EnRojGt4",
     id: "77331805",
     password: "Free to Copy",
-    tag: "Unrated, CBF Verified, Old Impossible Level, Nine Circles Level, Wave"
+    tag: "Unrated, CBF Verified, Old Impossible Level, Medium, Nine Circles Level, Wave"
   },
   {
     name: "Menace",
@@ -137,7 +137,7 @@ const demons = [
     video: "https://www.youtube.com/embed/nnkgghxxsEE",
     id: "107805281",
     password: "Free to Copy",
-    tag: "Learny, Timings, Duals, Gimmicky"
+    tag: "XL, Over 3 min, Learny, Timings, Duals, Gimmicky"
   },
   {
     name: "Avernus",
@@ -147,7 +147,7 @@ const demons = [
     video: "https://www.youtube.com/embed/16Zh8jssanc",
     id: "89496627",
     password: "030607",
-    tag: "Former Top 1, Ship, Wave, Fast-Paced"
+    tag: "Former Top 1, Long, Ship, Wave, Fast-Paced"
   },
   {
     name: "Acheron",
@@ -157,7 +157,7 @@ const demons = [
     video: "https://www.youtube.com/embed/sBKR6aUorzA",
     id: "73667628",
     password: "Free to Copy",
-    tag: "Former Top 1, Fast-Paced, Timings, Ship, Wave, Chokepoints"
+    tag: "Former Top 1, Long, Fast-Paced, Timings, Ship, Wave, Chokepoints"
   },
   {
     name: "Spectre",
@@ -167,7 +167,7 @@ const demons = [
     video: "https://www.youtube.com/embed/MzsSLKJrLSI",
     id: "110815379",
     password: "Free to Copy",
-    tag: "Timings, Chokepoints"
+    tag: "XL, Timings, Chokepoints"
   },
   {
     name: "Abyss of Darkness",
@@ -177,7 +177,7 @@ const demons = [
     video: "https://www.youtube.com/embed/ejJkpqcMMCY",
     id: "49896559",
     password: "Free to Copy",
-    tag: "Former Top 1, Slow-Paced, Timings, Wave, Chokepoints"
+    tag: "Former Top 1, XL, Slow-Paced, Timings, Wave, Chokepoints"
   },
   {
     name: "Ashley Wave Trials [Unrated]",
@@ -187,7 +187,7 @@ const demons = [
     video: "https://www.youtube.com/embed/aTxt76U3e2Q",
     id: "123119196",
     password: "Free to Copy",
-    tag: "Unrated, CBF Verified, Old Impossible Level, One-Mode, Wave"
+    tag: "Unrated, CBF Verified, Old Impossible Level, XL, One-Mode, Wave"
   },
   {
     name: "Tunnel of Despair",
@@ -197,7 +197,7 @@ const demons = [
     video: "https://www.youtube.com/embed/LpS4JREhW98",
     id: "91351939",
     password: "Free to Copy",
-    tag: "Timings, Learny, Wave"
+    tag: "Long, Timings, Learny, Wave"
   },
   {
     name: "Defeated Circles",
@@ -207,7 +207,7 @@ const demons = [
     video: "https://www.youtube.com/embed/nU5AQPzd2YA",
     id: "120012581",
     password: "Free to Copy",
-    tag: "NONG, Old Impossible Level, Nine Circles Level, Timings, Wave"
+    tag: "NONG, Old Impossible Level, Long, Nine Circles Level, Timings, Wave"
   },
   {
     name: "Kyouki",
@@ -217,7 +217,7 @@ const demons = [
     video: "https://www.youtube.com/embed/KDa5c0CJTHs",
     id: "86018142",
     password: "Free to Copy",
-    tag: "Fast-Paced, Clicksync"
+    tag: "Long, Fast-Paced, Clicksync"
   },
   {
     name: "Slaughterhouse",
@@ -227,7 +227,7 @@ const demons = [
     video: "https://www.youtube.com/embed/kpcF1-QAHQc",
     id: "27690100",
     password: "Free to Copy",
-    tag: "NONG, Former Top 1, Fast-Paced, Wave, Cube"
+    tag: "NONG, Former Top 1, Long, Fast-Paced, Wave, Cube"
   },
   {
     name: "KOCMOC",
@@ -237,7 +237,7 @@ const demons = [
     video: "https://www.youtube.com/embed/2CxE-UWCIG4",
     id: "87665224",
     password: "Free to Copy",
-    tag: "Fast-Paced, Wave, Cube"
+    tag: "Long, Fast-Paced, Wave, Cube"
   },
   {
     name: "Subterminal Point",
@@ -247,7 +247,7 @@ const demons = [
     video: "https://www.youtube.com/embed/h2wmRMgACH4",
     id: "113599729",
     password: "Free to Copy",
-    tag: "Timings, Chokepoints, Wave"
+    tag: "Long, Timings, Chokepoints, Wave"
   },
     {
     name: "Based After Based [Unrated]",
@@ -257,7 +257,7 @@ const demons = [
     video: "https://www.youtube.com/embed/yQBFyUvB3lY",
     id: "110534288",
     password: "Free to Copy",
-    tag: "Unrated, Duals, Timings, Learny"
+    tag: "Unrated, Long, Duals, Timings, Learny"
   },
   {
     name: "The Lightning Rod",
@@ -267,7 +267,7 @@ const demons = [
     video: "https://www.youtube.com/embed/nQDTi077O6M",
     id: "93917076",
     password: "Free to Copy",
-    tag: "Learny"
+    tag: "Long, Learny"
   },
   {
     name: "CHIL",
@@ -277,7 +277,7 @@ const demons = [
     video: "https://www.youtube.com/embed/DROMiCc2ZRM",
     id: "114281093",
     password: "Free to Copy",
-    tag: "Fast-Paced"
+    tag: "Long, Fast-Paced"
   },
   {
     name: "Deimos (ItsHybrid)",
@@ -287,7 +287,7 @@ const demons = [
     video: "https://www.youtube.com/embed/b2yHaIk5zio",
     id: "93091893",
     password: "Free to Copy",
-    tag: "Timings"
+    tag: "XL, Timings"
   },
     {
     name: "KOSETSU",
@@ -297,7 +297,7 @@ const demons = [
     video: "https://www.youtube.com/embed/hZ8vFX8z_BU",
     id: "109439644",
     password: "Free to Copy",
-    tag: "Timings, Chokepoints, Slow-Paced, Ship, Wave"
+    tag: "Long, Timings, Chokepoints, Slow-Paced, Ship, Wave"
   },
     {
     name: "Silent poltergeist [Unrated]",
@@ -307,7 +307,7 @@ const demons = [
     video: "https://www.youtube.com/embed/XQ_TZc7cnPs",
     id: "13586257",
     password: "Free to Copy",
-    tag: "Unrated, Old Impossible Level, Nine Circles Level, Wave"
+    tag: "Unrated, Old Impossible Level, Long, Nine Circles Level, Wave"
   },
   {
     name: "Silentlocked",
@@ -317,7 +317,7 @@ const demons = [
     video: "https://www.youtube.com/embed/O-IQeUdEGvI",
     id: "113959291",
     password: "Free to Copy",
-    tag: "Wave, Ship, Memory"
+    tag: "Long, Wave, Ship, Memory"
   },
     {
     name: "Apocalyptic Trilogy",
@@ -327,7 +327,7 @@ const demons = [
     video: "https://www.youtube.com/embed/RUBbpsTR5eU",
     id: "113443235",
     password: "Free to Copy",
-    tag: "Over 4 min"
+    tag: "XL, Over 4 min"
   },
     {
     name: "Through The Gates [Unrated]",
@@ -337,7 +337,7 @@ const demons = [
     video: "https://www.youtube.com/embed/4yHA6jux5UI",
     id: "49072489",
     password: "Free to Copy",
-    tag: "Unrated, Old Impossible Level"
+    tag: "Unrated, Old Impossible Level, Long"
   },
   {
     name: "Eyes in the Water",
@@ -347,7 +347,7 @@ const demons = [
     video: "https://www.youtube.com/embed/yvLwiOy3KEA",
     id: "95851008",
     password: "Free to Copy",
-    tag: "Timings, Learny, Memory, Ship"
+    tag: "Long, Timings, Learny, Memory, Ship"
   },
   {
     name: "Element 111 Rg [Unrated]",
@@ -357,7 +357,7 @@ const demons = [
     video: "https://www.youtube.com/embed/ZcdiTGuIJ1k",
     id: "61775814",
     password: "Free to Copy",
-    tag: "Unrated, CBF Verified, Old Impossible Level"
+    tag: "Unrated, CBF Verified, Old Impossible Level, Long"
   },
   {
     name: "Firework",
@@ -367,7 +367,7 @@ const demons = [
     video: "https://www.youtube.com/embed/QBe5x2o9v2w",
     id: "75296202",
     password: "234000",
-    tag: "Fast-Paced, Clicksync"
+    tag: "XL, Fast-Paced, Clicksync"
   },
     {
     name: "Sakupen Circles",
@@ -377,7 +377,7 @@ const demons = [
     video: "https://www.youtube.com/embed/ofG2mJi9kEA",
     id: "76962930",
     password: "Free to Copy",
-    tag: "Former Top 1, Fast-Paced, Nine Circles Level, Wave"
+    tag: "Former Top 1, Medium, Fast-Paced, Nine Circles Level, Wave"
   },
     {
     name: "NOMAD [Unrated]",
@@ -387,7 +387,7 @@ const demons = [
     video: "https://www.youtube.com/embed/H2TkHbEX__A",
     id: "115077305",
     password: "Free to Copy",
-    tag: "Unrated"
+    tag: "Unrated, Medium"
   },
   {
     name: "poocubed",
@@ -406,7 +406,7 @@ const demons = [
     video: "https://www.youtube.com/embed/eLGr383CmyM",
     id: "106646765",
     password: "Free to Copy",
-    tag: "Unrated, Nine Circles Level, Wave"
+    tag: "Unrated, Long, Nine Circles Level, Wave"
   },
   {
     name: "Edge of Destiny",
@@ -506,7 +506,7 @@ const demons = [
     video: "https://www.youtube.com/embed/jsrqMqs1-Ao",
     id: "79166683",
     password: "Free to Copy",
-    tag: "Unrated, Formerly Rated, Old Impossible Level, Layout"
+    tag: "Unrated, Formerly Rated, Old Impossible Level, XL, Layout"
   },
   {
     name: "Solar Flare",
@@ -588,7 +588,7 @@ const demons = [
     video: "https://www.youtube.com/embed/wOMVERxU5IA",
     id: "119689515",
     password: "Free to Copy",
-    tag: "Fast-Paced, Learny"
+    tag: "XL, Over 3 min, Fast-Paced, Learny"
   },
   {
     name: "Sinister Silence",
@@ -741,7 +741,8 @@ const demons = [
     publisher: "ItzDolphy",
     video: "https://www.youtube.com/embed/9YYQBbrsV5Y",
     id: "59075347",
-    password: "061742"
+    password: "061742",
+    tag: "Former Top 1, Long, Chokepoints, Ship"
   },
   {
     name: "Delta",
@@ -831,7 +832,8 @@ const demons = [
     publisher: "BoBoBoBoBoBoBo",
     video: "https://www.youtube.com/embed/wpS5PSHmji0",
     id: "60978746",
-    password: "886988"
+    password: "886988",
+    tag: "Former Top 1, Long, Fast-Paced, Wave, Ship"
   },
       {
     name: "Starlit Stroll",
@@ -931,7 +933,7 @@ const demons = [
     video: "https://www.youtube.com/embed/5kOD37vQHKE",
     id: "71885708",
     password: "Free to Copy",
-    tag: "Duals"
+    tag: "XL, Duals"
   },
   {
     name: "Blood Echo",
@@ -959,7 +961,7 @@ const demons = [
     video: "https://www.youtube.com/embed/HxHo-LzwSao",
     id: "127023313",
     password: "Free to Copy",
-    tag: "Learny, Memory"
+    tag: "XL, Learny, Memory"
   },
   {
     name: "Trueffet",
@@ -1085,7 +1087,8 @@ const demons = [
     publisher: "BIANOX",
     video: "https://www.youtube.com/embed/N4QjElo58_o",
     id: "52374843",
-    password: "005875"
+    password: "005875",
+    tag: "Former Top 1, XL, Over 3 min, Chokepoints, Timings"
   },
   {
     name: "Swing Swing",
@@ -1346,7 +1349,8 @@ const demons = [
     publisher: "TrueOmega",
     video: "https://www.youtube.com/embed/euMInLjyG6k",
     id: "45866767",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, Long, Wave"
   },
   {
     name: "DIRECTIONS",
@@ -1805,7 +1809,8 @@ const demons = [
     publisher: "Knobbelboy",
     video: "https://www.youtube.com/embed/5SzKetF2btw",
     id: "42584142",
-    password: "121296"
+    password: "121296",
+    tag: "Former Top 1, XL, Ship, Fast-Paced, Chokepoints"
   },
   {
     name: "Escape Room",
@@ -2282,7 +2287,8 @@ const demons = [
     publisher: "xSmokes",
     video: "https://www.youtube.com/embed/xqzx9cu6XoA",
     id: "38655495",
-    password: "356987"
+    password: "356987",
+    tag: "Former Top 1, XL, Timings, Learny, Chokepoints"
   },
   {
     name: "CHROMA FINALE",
@@ -2769,7 +2775,7 @@ const demons = [
     video: "https://www.youtube.com/embed/hOwAx1Mn6o8",
     id: "62152040",
     password: "Free to Copy",
-    tag: "Unrated, Formerly Rated, Over 5 min"
+    tag: "Unrated, Formerly Rated, XL, Over 5 min"
   },
   {
     name: "Sonic Wave",
@@ -2778,7 +2784,8 @@ const demons = [
     publisher: "lSunix",
     video: "https://www.youtube.com/embed/GpXTwPgweAk",
     id: "26681070",
-    password: "112516"
+    password: "112516",
+    tag: "Former Top 1, XL, Nine Circles Level, Wave, Chokepoints"
   },
   {
     name: "Sonic Wave Rebirth",
@@ -2868,7 +2875,8 @@ const demons = [
     publisher: "TrusTa",
     video: "https://www.youtube.com/embed/KgGKx0pk_wo",
     id: "28220417",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, XL, Timings, Chokepoints, Ship, Wave, Old Swing"
   },
   {
     name: "Cobalt hell",
@@ -3147,7 +3155,8 @@ const demons = [
     publisher: "BoldStep",
     video: "https://www.youtube.com/embed/8csWDx6C2YI",
     id: "31462941",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, Long, Chokepoints, Timings, Ship, Wave, Memory"
   },
   {
     name: "Delebit Oblivio",
@@ -3256,7 +3265,7 @@ const demons = [
     video: "https://www.youtube.com/embed/onX__Q7bh8A",
     id: "47237400",
     password: "Free to Copy",
-    tag: "Fast-Paced, Duals, Wave"
+    tag: "XL, Fast-Paced, Duals, Wave"
   },
   {
     name: "Timor",
@@ -3266,7 +3275,7 @@ const demons = [
     video: "https://www.youtube.com/embed/kwI2TIwbFsg",
     id: "65969451",
     password: "Free to Copy",
-    tag: "Timings, Wave, Ship, Chokepoints"
+    tag: "Long, Timings, Wave, Ship, Chokepoints"
   },
   {
     name: "Tapwreck",
@@ -3276,7 +3285,7 @@ const demons = [
     video: "https://www.youtube.com/embed/w5qI2iukPzI",
     id: "58306889",
     password: "Free to Copy",
-    tag: "NONG, Chokepoints, Slow-Paced, Wave"
+    tag: "NONG, Long, Chokepoints, Slow-Paced, Wave"
   },
   {
     name: "RELENTLESS",
@@ -3286,7 +3295,7 @@ const demons = [
     video: "https://www.youtube.com/embed/8qQZ0n_R7Ec",
     id: "74361921",
     password: "Free to Copy",
-    tag: "Fast-Paced, Chokepoints, Wave"
+    tag: "Long, Fast-Paced, Chokepoints, Wave"
   },
   {
     name: "WOW",
@@ -3296,7 +3305,7 @@ const demons = [
     video: "https://www.youtube.com/embed/CbUVw7p0Ebg",
     id: "49291867",
     password: "Free to Copy",
-    tag: "NONG, Fast-Paced, Clicksync"
+    tag: "NONG, XL, Fast-Paced, Clicksync"
   },
   {
     name: "Quantum Dynamix",
@@ -3306,7 +3315,7 @@ const demons = [
     video: "https://www.youtube.com/embed/SjQV6uJOtyQ",
     id: "79244693",
     password: "Free to Copy",
-    tag: "Chokepoints, Ship"
+    tag: "Long, Chokepoints, Ship"
   },
   {
     name: "the DEADLANDS",
@@ -3316,7 +3325,7 @@ const demons = [
     video: "https://www.youtube.com/embed/pC-rUt9Z5dI",
     id: "104409280",
     password: "Free to Copy",
-    tag: "Memory, Wave"
+    tag: "Long, Memory, Wave"
   },
   {
     name: "Ascension",
@@ -3326,7 +3335,7 @@ const demons = [
     video: "https://www.youtube.com/embed/mPnzlOVsBnw",
     id: "107743292",
     password: "Free to Copy",
-    tag: "NONG, Chokepoints"
+    tag: "NONG, XL, Over 4 min, Chokepoints"
   },
   {
     name: "Devotion",
@@ -3336,7 +3345,7 @@ const demons = [
     video: "https://www.youtube.com/embed/YX9RfSfyAWs",
     id: "81598025",
     password: "Free to Copy",
-    tag: "NONG, Fast-Paced"
+    tag: "NONG, Long, Fast-Paced"
   },
   {
     name: "Glory",
@@ -3346,7 +3355,7 @@ const demons = [
     video: "https://www.youtube.com/embed/-ZdAkAG7Fvw",
     id: "97063869",
     password: "Free to Copy",
-    tag: "Fast-Paced"
+    tag: "XL, Fast-Paced"
   },
   {
     name: "Stygian Machinery",
@@ -3356,7 +3365,7 @@ const demons = [
     video: "https://www.youtube.com/embed/jUVsWYYeFpY",
     id: "64554339",
     password: "Free to Copy",
-    tag: "Learny, Wave, Ship"
+    tag: "XL, Learny, Wave, Ship"
   },
   {
     name: "Jamboree",
@@ -3366,7 +3375,7 @@ const demons = [
     video: "https://www.youtube.com/embed/tmI-MljFcmA",
     id: "74821587",
     password: "Free to Copy",
-    tag: "Fast-Paced, Chokepoints, Wave"
+    tag: "Long, Fast-Paced, Chokepoints, Wave"
   },
   {
     name: "Come to Daddy",
@@ -3376,7 +3385,7 @@ const demons = [
     video: "https://www.youtube.com/embed/CxwFAl60SCY",
     id: "115238970",
     password: "Free to Copy",
-    tag: "NONG, Over 6 min"
+    tag: "NONG, XL, Over 6 min"
   },
   {
     name: "Lucid Chaos",
@@ -3386,7 +3395,7 @@ const demons = [
     video: "https://www.youtube.com/embed/lsZ8okUy_tk",
     id: "62817170",
     password: "Free to Copy",
-    tag: "Timings"
+    tag: "XL, Timings"
   },
   {
     name: "Catalyze",
@@ -3396,7 +3405,7 @@ const demons = [
     video: "https://www.youtube.com/embed/hF-TVX8wakc",
     id: "50333567",
     password: "Free to Copy",
-    tag: "Fast-Paced, Timings, Wave"
+    tag: "Long, Fast-Paced, Timings, Wave"
   },
   {
     name: "Twisted Titanium",
@@ -3406,7 +3415,7 @@ const demons = [
     video: "https://www.youtube.com/embed/ueBAKyJONmg",
     id: "121267216",
     password: "Free to Copy",
-    tag: "Duals, Wave, Ship"
+    tag: "Long, Duals, Wave, Ship"
   },
   {
     name: "Framework",
@@ -3416,7 +3425,7 @@ const demons = [
     video: "https://www.youtube.com/embed/jVo0g6DXAAg",
     id: "82748921",
     password: "Free to Copy",
-    tag: "Fast-Paced, Gimmicky, Ship, Wave, Spider, Duals"
+    tag: "Long, Fast-Paced, Gimmicky, Ship, Wave, Spider, Duals"
   },
   {
     name: "Devil Vortex",
@@ -3426,7 +3435,7 @@ const demons = [
     video: "https://www.youtube.com/embed/Xvx01BYPgXE",
     id: "32969607",
     password: "Free to Copy",
-    tag: "Chokepoints, Wave, Old Swing"
+    tag: "Long, Chokepoints, Wave, Old Swing"
   },
   {
     name: "Dole Damos",
@@ -3436,7 +3445,7 @@ const demons = [
     video: "https://www.youtube.com/embed/3Q7zPpGKsc0",
     id: "79922944",
     password: "Free to Copy",
-    tag: "Learny, Duals"
+    tag: "Long, Learny, Duals"
   },
   {
     name: "Dreams",
@@ -3446,7 +3455,7 @@ const demons = [
     video: "https://www.youtube.com/embed/ekBKOmjk0E4",
     id: "85052828",
     password: "Free to Copy",
-    tag: "Timings, Cube"
+    tag: "Long, Timings, Cube"
   },
   {
     name: "Factory Realm X",
@@ -3456,7 +3465,7 @@ const demons = [
     video: "https://www.youtube.com/embed/bkreo_jag3E",
     id: "37792861",
     password: "No Copy",
-    tag: "Fast-Paced, Learny, Duals"
+    tag: "Long, Fast-Paced, Learny, Duals"
   },
   {
     name: "DubKore X",
@@ -3466,7 +3475,7 @@ const demons = [
     video: "https://www.youtube.com/embed/roz31nm3_nY",
     id: "75455769",
     password: "Free to Copy",
-    tag: "Timings, Slow-Paced, Cube, Ship, Wave"
+    tag: "Long, Timings, Slow-Paced, Cube, Ship, Wave"
   },
   {
     name: "ConFusion",
@@ -3476,7 +3485,7 @@ const demons = [
     video: "https://www.youtube.com/embed/Zxef8FIepYc",
     id: "84960998",
     password: "Free to Copy",
-    tag: "Timings, Memory"
+    tag: "Long, Timings, Memory"
   },
   {
     name: "Paroxysm",
@@ -3486,7 +3495,7 @@ const demons = [
     video: "https://www.youtube.com/embed/JVlHUROeEnc",
     id: "42631377",
     password: "Free to Copy",
-    tag: "Timings"
+    tag: "Long, Timings"
   },
   {
     name: "Photovoltaic II",
@@ -3496,7 +3505,7 @@ const demons = [
     video: "https://www.youtube.com/embed/Kc1V9lInj3E",
     id: "49588510",
     password: "Free to Copy",
-    tag: "Ship"
+    tag: "XL, Ship"
   },
   {
     name: "Retention Rush",
@@ -3506,7 +3515,7 @@ const demons = [
     video: "https://www.youtube.com/embed/SPn1wsc9J9M",
     id: "81906166",
     password: "Free to Copy",
-    tag: "Fast-Paced, Timings, Memory, Cube, Wave"
+    tag: "Long, Fast-Paced, Timings, Memory, Cube, Wave"
   },
   {
     name: "Raisins",
@@ -3516,7 +3525,7 @@ const demons = [
     video: "https://www.youtube.com/embed/c3-ee3fTVtA",
     id: "81429222",
     password: "No Copy",
-    tag: "Timings, Ship, Ball"
+    tag: "Long, Timings, Ship, Ball"
   },
   {
     name: "Infinite Highway",
@@ -3526,7 +3535,7 @@ const demons = [
     video: "https://www.youtube.com/embed/huS1-PzIhlc",
     id: "107577349",
     password: "Free to Copy",
-    tag: "Timings, Learny"
+    tag: "XL, Timings, Learny"
   },
   {
     name: "Lateral Myst",
@@ -3536,7 +3545,7 @@ const demons = [
     video: "https://www.youtube.com/embed/BC3dFTJTRqc",
     id: "63959337",
     password: "Free to Copy",
-    tag: "Timings, Slow-Paced, Ship"
+    tag: "Long, Timings, Slow-Paced, Ship"
   },
   {
     name: "Pingas21",
@@ -3546,7 +3555,7 @@ const demons = [
     video: "https://www.youtube.com/embed/hn894RT2Nfc",
     id: "92844445",
     password: "Free to Copy",
-    tag: "Clicksync, Timings"
+    tag: "Long, Clicksync, Timings"
   },
   {
     name: "IMAPHONE",
@@ -3556,7 +3565,7 @@ const demons = [
     video: "https://www.youtube.com/embed/53HY50zWZUE",
     id: "81656376",
     password: "Free to Copy",
-    tag: "Fast-Paced, Learny, Cube, Wave, Spider"
+    tag: "Long, Fast-Paced, Learny, Cube, Wave, Spider"
   },
   {
     name: "Tenochtitlan",
@@ -3566,7 +3575,7 @@ const demons = [
     video: "https://www.youtube.com/embed/3EWh6Ef9pvk",
     id: "94464877",
     password: "002012",
-    tag: "Timings, Chokepoints, Slow-Paced, Cube, Wave"
+    tag: "Long, Timings, Chokepoints, Slow-Paced, Cube, Wave"
   },
   {
     name: "Dimensional Breaking",
@@ -3576,7 +3585,7 @@ const demons = [
     video: "https://www.youtube.com/embed/LK0xhnip_6k",
     id: "59868382",
     password: "Free to Copy",
-    tag: "Chokepoints, Ship, Wave"
+    tag: "XL, Chokepoints, Ship, Wave"
   },
   {
     name: "FIREPOWER",
@@ -3586,7 +3595,7 @@ const demons = [
     video: "https://www.youtube.com/embed/j8YmLk7KF1A",
     id: "89876243",
     password: "Free to Copy",
-    tag: "Nine Circles Level, Learny, Ship, Wave, Duals, Fast-Paced, Old Swing"
+    tag: "XL, Nine Circles Level, Learny, Ship, Wave, Duals, Fast-Paced, Old Swing"
   },
   {
     name: "Phantasma",
@@ -3596,7 +3605,7 @@ const demons = [
     video: "https://www.youtube.com/embed/",
     id: "97013293",
     password: "Free to Copy",
-    tag: "Fast-Paced"
+    tag: "XL, Fast-Paced"
   },
   {
     name: "inanimate INSANITY",
@@ -3606,7 +3615,7 @@ const demons = [
     video: "https://www.youtube.com/embed/IMk5aEi6iJc",
     id: "82225395",
     password: "Free to Copy",
-    tag: "Timings, Chokepoints, Gimmicky"
+    tag: "XL, Timings, Chokepoints, Gimmicky"
   },
   {
     name: "Luxtra",
@@ -3616,7 +3625,7 @@ const demons = [
     video: "https://www.youtube.com/embed/Rs425dFUHZo",
     id: "65332454",
     password: "Free to Copy",
-    tag: "Learny, Chokepoints"
+    tag: "Long, Learny, Chokepoints"
   },
   {
     name: "Bitcrusher",
@@ -3626,7 +3635,7 @@ const demons = [
     video: "https://www.youtube.com/embed/mtdgSg1NhrM",
     id: "84791108",
     password: "852147",
-    tag: "Timings, Memory"
+    tag: "Long, Timings, Memory"
   },
   {
     name: "POW",
@@ -3636,7 +3645,7 @@ const demons = [
     video: "https://www.youtube.com/embed/dTqIr_BJ31Q",
     id: "118515795",
     password: "Free to Copy",
-    tag: "NONG, imings, Chokepoints, Fast-Paced, Clicksync"
+    tag: "NONG, XL, imings, Chokepoints, Fast-Paced, Clicksync"
   },
   {
     name: "Apollo 11",
@@ -3646,7 +3655,7 @@ const demons = [
     video: "https://www.youtube.com/embed/r9SkrrOecpY",
     id: "83164497",
     password: "Free to Copy",
-    tag: "Timings, Learny, Gimmicky, Ship, Duals"
+    tag: "XL, Over 3 min, Timings, Learny, Gimmicky, Ship, Duals"
   },
   {
     name: "Digital Descent",
@@ -3656,7 +3665,7 @@ const demons = [
     video: "https://www.youtube.com/embed/mX8j8jG-Um8",
     id: "37456092",
     password: "Free to Copy",
-    tag: ""
+    tag: "Former Top 1, XL, Fast-Paced, Chokepoints, Gimmicky, Wave"
   }
 ];
 
@@ -3994,6 +4003,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
