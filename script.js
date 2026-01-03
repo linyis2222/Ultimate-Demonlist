@@ -7,7 +7,7 @@ const demons = [
     video: "https://www.youtube.com/embed/CELNmHwln_c",
     id: "119544028",
     password: "Free to Copy",
-    tag: "Long, Chokepoints, Ship, Wave, CBF Blocker, Timings"
+    tag: "CBF Blocker, Long, Chokepoints, Ship, Wave, Timings"
   },
   {
     name: "Amethyst",
@@ -17,7 +17,7 @@ const demons = [
     video: "https://www.youtube.com/embed/4lfkzz1VCbA",
     id: "119550490",
     password: "Free to Copy",
-    tag: "Former Top 1, Long, Wave, CBF Blocker"
+    tag: "Former Top 1, CBF Blocker, Long, Wave"
   },
   {
     name: "Flamewall",
@@ -47,7 +47,7 @@ const demons = [
     video: "https://www.youtube.com/embed/EztneTPp5CU",
     id: "109780665",
     password: "Free to Copy",
-    tag: "Long, One-Mode, Robot, CBF Blocker, Timings"
+    tag: "CBF Blocker, Long, One-Mode, Robot, Timings"
   },
   {
     name: "BOOBAWAMBA",
@@ -4003,6 +4003,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
