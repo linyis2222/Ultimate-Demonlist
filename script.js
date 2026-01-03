@@ -17,7 +17,7 @@ const demons = [
     video: "https://www.youtube.com/embed/4lfkzz1VCbA",
     id: "119550490",
     password: "Free to Copy",
-    tag: "Former Top 1, Former Legit Hardest Level, Wave, CBF Blocker"
+    tag: "Former Top 1, Wave, CBF Blocker"
   },
   {
     name: "Flamewall",
@@ -37,7 +37,7 @@ const demons = [
     video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
     password: "Free to Copy",
-    tag: "Former Top 1, Former Legit Hardest Level, NONG, Wave"
+    tag: "Former Top 1, NONG, Wave"
   },
   {
     name: "Nullscapes",
@@ -107,7 +107,7 @@ const demons = [
     video: "https://www.youtube.com/embed/GR4OMkS3SN8",
     id: "4125776",
     password: "No Copy",
-    tag: "Old Impossible Level, Former Legit Hardest Level, Timings, Duals"
+    tag: "Old Impossible Level, Timings, Duals"
   },
   {
     name: "Anathema",
@@ -147,7 +147,7 @@ const demons = [
     video: "https://www.youtube.com/embed/16Zh8jssanc",
     id: "89496627",
     password: "030607",
-    tag: "Former Top 1, Former Legit Hardest Level, Ship, Wave, Fast-Paced"
+    tag: "Former Top 1, Ship, Wave, Fast-Paced"
   },
   {
     name: "Acheron",
@@ -157,7 +157,7 @@ const demons = [
     video: "https://www.youtube.com/embed/sBKR6aUorzA",
     id: "73667628",
     password: "Free to Copy",
-    tag: "Former Top 1, Former Legit Hardest Level, Fast-Paced, Timings, Ship, Wave, Chokepoints"
+    tag: "Former Top 1, Fast-Paced, Timings, Ship, Wave, Chokepoints"
   },
   {
     name: "Spectre",
@@ -177,7 +177,7 @@ const demons = [
     video: "https://www.youtube.com/embed/ejJkpqcMMCY",
     id: "49896559",
     password: "Free to Copy",
-    tag: "Former Top 1, Former Legit Hardest Level, Slow-Paced, Timings, Wave, Chokepoints"
+    tag: "Former Top 1, Slow-Paced, Timings, Wave, Chokepoints"
   },
   {
     name: "Ashley Wave Trials [Unrated]",
@@ -227,7 +227,7 @@ const demons = [
     video: "https://www.youtube.com/embed/kpcF1-QAHQc",
     id: "27690100",
     password: "Free to Copy",
-    tag: "NONG, Former Top 1, Former Legit Hardest Level, Fast-Paced, Wave, Cube"
+    tag: "NONG, Former Top 1, Fast-Paced, Wave, Cube"
   },
   {
     name: "KOCMOC",
@@ -367,7 +367,7 @@ const demons = [
     video: "https://www.youtube.com/embed/QBe5x2o9v2w",
     id: "75296202",
     password: "234000",
-    tag: "Former Legit Hardest Level, Fast-Paced, Clicksync"
+    tag: "Fast-Paced, Clicksync"
   },
     {
     name: "Sakupen Circles",
@@ -377,7 +377,7 @@ const demons = [
     video: "https://www.youtube.com/embed/ofG2mJi9kEA",
     id: "76962930",
     password: "Free to Copy",
-    tag: "Former Top 1, Former Legit Hardest Level, Fast-Paced, Nine Circles Level, Wave"
+    tag: "Former Top 1, Fast-Paced, Nine Circles Level, Wave"
   },
     {
     name: "NOMAD [Unrated]",
@@ -3971,6 +3971,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
