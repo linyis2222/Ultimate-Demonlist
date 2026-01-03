@@ -1086,6 +1086,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Hard Machine",
+    creators: "komp, nikroplays",
+    verifier: "Varium",
+    publisher: "komp",
+    video: "https://www.youtube.com/embed/5SCDmPwPsa0",
+    id: "72744364",
+    password: "Free to Copy"
+  },
+  {
     name: "DISSONANCE",
     creators: "ivyteal",
     verifier: "zSquidKnight",
@@ -1110,15 +1119,6 @@ const demons = [
     publisher: "L4TeZk",
     video: "https://www.youtube.com/embed/mvBPeefG-a0",
     id: "97364686",
-    password: "Free to Copy"
-  },
-  {
-    name: "Hard Machine",
-    creators: "komp, nikroplays",
-    verifier: "Varium",
-    publisher: "komp",
-    video: "https://www.youtube.com/embed/5SCDmPwPsa0",
-    id: "72744364",
     password: "Free to Copy"
   },
   {
@@ -3646,6 +3646,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-03', detail: 'Hard Machine has been raised from #120 to #117, above DISSONANCE and below Guideless Goobering.' },
   { date: '2026-01-01', detail: 'Calamity has been raised from #260 to #258, above Aquatic Auroras and below Shutdown.' },
   { date: '2026-01-01', detail: 'Happy new year everyone!' },
   { date: '2025-12-31', detail: 'Dole Damos ~ Digital Descent have been placed at #373 ~ #395.' },
@@ -3971,6 +3972,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
