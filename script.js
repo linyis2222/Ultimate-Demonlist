@@ -599,6 +599,16 @@ const demons = [
     id: "82249742",
     password: "Free to Copy"
   },
+    {
+    name: "Decks Dark",
+    creators: "MadisonYuko",
+    verifier: "Whizkid05",
+    publisher: "MadisonYuko",
+    video: "https://www.youtube.com/embed/l52ApE4HWkY",
+    id: "95719795",
+    password: "Free to Copy",
+    tag: "NONG, Ship, UFO, Duals"
+  },
   {
     name: "Operation Evolution",
     creators: "Halzion, Graded, PhantomX, Cylyrii, Parallax, AubreyGoose, Saziur, Manu, Tygrysek, AlrexX, RealVet, Solarion, Knali, Wespdx, AnonIIExt, Iris, Samu, Limit, Nezopi, Zipixbox, Silver, Connected, Fitatfi, Nab, zmx",
@@ -3678,6 +3688,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-04', detail: 'Decks Dark has been placed at #63, above Operation Evolution and below Sinister Silence. This pushes Coalescence into the Extended List, and Indivine into the Legacy List.' },
   { date: '2026-01-03', detail: 'DISCONNECT has been placed at #102, above Trueffet and below Aerial Gleam. This pushes Cognition into the Legacy List.' },
   { date: '2026-01-03', detail: 'Infinite Chaos has been placed at #61, above Sinister Silence and below Mayhem. This pushes Crystal Crusher into the Extended List, and Neon Skyline into the Legacy List.' },
   { date: '2026-01-03', detail: 'Hard Machine has been raised from #120 to #117, above DISSONANCE and below Guideless Goobering.' },
@@ -4006,6 +4017,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
