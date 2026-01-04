@@ -1093,7 +1093,7 @@ const demons = [
   },
   {
     name: "Zodiac",
-    creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), TheTactiq",
+    creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), GdTheTactiq",
     verifier: "Technical",
     publisher: "BIANOX",
     video: "https://www.youtube.com/embed/N4QjElo58_o",
@@ -2947,7 +2947,7 @@ const demons = [
   },
   {
     name: "Edge of the Blade",
-    creators: "Metalface221, Findexi, Uneskladovae, ChaSe, RpgRaketti, TehTactiq, Edge, Knobbelboy, Juhou, Onnikonna, Ryder, Vlacc, Rustam, SlimJim, Zeroya, Terron, Jaipes, Masa, GDSpeed",
+    creators: "Metalface221, Findexi, Uneskladovae, ChaSe, RpgRaketti, GdTheTactiq, Edge, Knobbelboy, Juhou, Onnikonna, Ryder, Vlacc, Rustam, SlimJim, Zeroya, Terron, Jaipes, Masa, GDSpeed",
     verifier: "eiruni",
     publisher: "eiruni",
     video: "https://www.youtube.com/embed/YhT4_FgeAbk",
@@ -3679,6 +3679,86 @@ const demons = [
     id: "37456092",
     password: "Free to Copy",
     tag: "Former Top 1, XL, Fast-Paced, Chokepoints, Gimmicky, Wave"
+  },
+  {
+    name: "SUPER SERIOUS WORLD",
+    creators: "iIPrototypeIi, vSetna",
+    verifier: "iIPrototypeIi",
+    publisher: "iIPrototypeIi",
+    video: "https://www.youtube.com/embed/RJj5niMDX30",
+    id: "112491891",
+    password: "Free to Copy",
+    tag: "NONG, Long, Fast-Paced, Timings"
+  },
+  {
+    name: "TheCinnyBun",
+    creators: "Renn241",
+    verifier: "waturn",
+    publisher: "Cinny",
+    video: "https://www.youtube.com/embed/n8eUDCCoBF8",
+    id: "77134293",
+    password: "Free to Copy",
+    tag: "Long, Fast-Paced, Wave"
+  },
+  {
+    name: "Cadrega City",
+    creators: "Pennutoh, Berke423",
+    verifier: "lSunix",
+    publisher: "Pennutoh",
+    video: "https://www.youtube.com/embed/cHEGAqOgddA",
+    id: "37255449",
+    password: "210317",
+    tag: "Long, Timings, Duals"
+  },
+  {
+    name: "Stalemate Redux",
+    creators: "GdTheTactiq, TheFrozenTide",
+    verifier: "Zephal11",
+    publisher: "GdTheTactiq",
+    video: "https://www.youtube.com/embed/t9XP1lhMrPo",
+    id: "37398911",
+    password: "115911",
+    tag: "Former Top 1, Long, Timings, Wave, UFO, Ship"
+  },
+  {
+    name: "ZAPHKIEL",
+    creators: "Darwin, Noctaliium",
+    verifier: "DiamondSplash",
+    publisher: "Darwin",
+    video: "https://www.youtube.com/embed/-w8Pi_hg7fc",
+    id: "36329434",
+    password: "Free to Copy",
+    tag: "Originally Hack Verified (Noctaliium), Long, Timings, Wave, Chokepoints, Learny"
+  },
+  {
+    name: "Omicron",
+    creators: "Team Proxima(34 people)",
+    verifier: "Dorami(Original), Nexus(Update)",
+    publisher: "Team Proxima",
+    video: "https://www.youtube.com/embed/f2LHF8YMXlk",
+    id: "63560498",
+    password: "Free to Copy",
+    tag: "XL, Over 3 min, Clicksync"
+  },
+  {
+    name: "Xronier",
+    creators: "zJinoBeats",
+    verifier: "zJinoBeats",
+    publisher: "zJinoBeats",
+    video: "https://www.youtube.com/embed/FrjF-MQXIM4",
+    id: "88913586",
+    password: "Free to Copy",
+    tag: "NONG, Medium, Fast-Paced, Timings, Learny, Cube, Robot"
+  },
+  {
+    name: "Video",
+    creators: "MaxxoRMeN",
+    verifier: "ivyteal",
+    publisher: "MaxxoRMeN",
+    video: "https://www.youtube.com/embed/akp2P16806k",
+    id: "125713603",
+    password: "Free to Copy",
+    tag: "NONG, XL, Over 8 min, Gimmicky"
   }
 ];
 
@@ -3688,6 +3768,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-04', detail: 'SUPER SERIOUS WORLD ~ Video have been placed at #399 ~ #406.' },
   { date: '2026-01-04', detail: 'Decks Dark has been placed at #63, above Operation Evolution and below Sinister Silence. This pushes Coalescence into the Extended List, and Indivine into the Legacy List.' },
   { date: '2026-01-03', detail: 'DISCONNECT has been placed at #102, above Trueffet and below Aerial Gleam. This pushes Cognition into the Legacy List.' },
   { date: '2026-01-03', detail: 'Infinite Chaos has been placed at #61, above Sinister Silence and below Mayhem. This pushes Crystal Crusher into the Extended List, and Neon Skyline into the Legacy List.' },
@@ -4017,6 +4098,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
