@@ -693,7 +693,7 @@ const demons = [
   },
     {
     name: "BEELINE",
-    creators: "Galaxxyss, pocke, Waffl3X, 7AK",
+    creators: "Galaxxyss, pocke, Waffl3X, 7AK, MadisonYuko",
     verifier: "Motor",
     publisher: "Galaxxyss",
     video: "https://www.youtube.com/embed/nt6T9YDb6gw",
@@ -994,7 +994,7 @@ const demons = [
   },
   {
     name: "Fragile",
-    creators: "iIiViRuZiIi, EndLevel, Gablor, zYuko, XLSpiral, zDeadlox, Artumanka, Minaxa",
+    creators: "iIiViRuZiIi, EndLevel, Gablor, MadisonYuko, XLSpiral, zDeadlox, Artumanka, Minaxa",
     verifier: "vaen",
     publisher: "EndLevel",
     video: "https://www.youtube.com/embed/XfXzGv0oALw",
@@ -2956,7 +2956,7 @@ const demons = [
   },
   {
     name: "Silentium Clavas",
-    creators: "zYuko",
+    creators: "MadisonYuko",
     verifier: "DreamLightGD",
     publisher: "Xolarzz",
     video: "https://www.youtube.com/embed/qW0M7w8RwMk",
@@ -3352,7 +3352,7 @@ const demons = [
   },
   {
     name: "Devotion",
-    creators: "AVRG, Bletzee, Oreate, Kingcy2, BlaZe, FarBn, zYuko, EtVil, Solanine, Sp4rky, Duke, domi77, Proto",
+    creators: "AVRG, Bletzee, Oreate, Kingcy2, BlaZe, FarBn, MadisonYuko, EtVil, Solanine, Sp4rky, Duke, domi77, Proto",
     verifier: "GMDomy",
     publisher: "domi77",
     video: "https://www.youtube.com/embed/YX9RfSfyAWs",
@@ -4017,6 +4017,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
