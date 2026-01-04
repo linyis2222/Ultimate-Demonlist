@@ -227,7 +227,7 @@ const demons = [
     video: "https://www.youtube.com/embed/kpcF1-QAHQc",
     id: "27690100",
     password: "Free to Copy",
-    tag: "NONG, Former Top 1, Long, Fast-Paced, Wave, Cube"
+    tag: "NONG, Former Top 1, Originally Hack Verified (Spaceuk), Long, Fast-Paced, Wave, Cube"
   },
   {
     name: "KOCMOC",
@@ -678,7 +678,8 @@ const demons = [
     publisher: "DeniPol",
     video: "https://www.youtube.com/embed/1luL7tTE8p8",
     id: "103925676",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Originally Hack Verified(CBF) (BONN GD), XL, Timings, Chokepoints, Cube, Ship, Wave, Spider"
   },
     {
     name: "BEELINE",
@@ -1088,7 +1089,7 @@ const demons = [
     video: "https://www.youtube.com/embed/N4QjElo58_o",
     id: "52374843",
     password: "005875",
-    tag: "Former Top 1, XL, Over 3 min, Chokepoints, Timings"
+    tag: "Former Top 1, Originally Hack Verified (xander556), XL, Over 3 min, Chokepoints, Timings"
   },
   {
     name: "Swing Swing",
@@ -1557,7 +1558,8 @@ const demons = [
     publisher: "Moffe",
     video: "https://www.youtube.com/embed/3J0UUmHGWaM",
     id: "85426437",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Originally Hack Verified (WSCKR), Long, Timings, Chokepoints, Slow-Paced, Bossfight, Ship"
   },
   {
     name: "SUPERHATEMEWORLD",
@@ -1719,7 +1721,8 @@ const demons = [
     publisher: "Luqualizer",
     video: "https://www.youtube.com/embed/NjEiHIokTGM",
     id: "68600127",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Former Top 1, Originally Hack Verified (BlackP2sFull), Long, Chokepoints, Cube"
   },
   {
     name: "Kappa",
@@ -3435,7 +3438,7 @@ const demons = [
     video: "https://www.youtube.com/embed/Xvx01BYPgXE",
     id: "32969607",
     password: "Free to Copy",
-    tag: "Long, Chokepoints, Wave, Old Swing"
+    tag: "Originally Hack Verified (ToshDeluxe), Long, Chokepoints, Wave, Old Swing"
   },
   {
     name: "Dole Damos",
@@ -4003,6 +4006,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
