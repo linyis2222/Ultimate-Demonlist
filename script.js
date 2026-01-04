@@ -37,7 +37,7 @@ const demons = [
     video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
     password: "Free to Copy",
-    tag: "Former Top 1, NONG, XL, Over 3 min, Wave"
+    tag: "NONG, Former Top 1, XL, Over 3 min, Wave"
   },
   {
     name: "Nullscapes",
@@ -4003,6 +4003,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
