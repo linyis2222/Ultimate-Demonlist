@@ -1732,7 +1732,7 @@ const demons = [
     video: "https://www.youtube.com/embed/NjEiHIokTGM",
     id: "68600127",
     password: "Free to Copy",
-    tag: "Former Top 1, Originally Hack Verified (BlackP2sFull), Long, Chokepoints, Cube"
+    tag: "Former Top 1(Hacked), Originally Hack Verified (BlackP2sFull), Old Impossible Level, Long, Chokepoints, Cube"
   },
   {
     name: "Kappa",
