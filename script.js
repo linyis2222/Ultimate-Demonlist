@@ -1083,16 +1083,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Zodiac",
-    creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), GdTheTactiq",
-    verifier: "Technical",
-    publisher: "BIANOX",
-    video: "https://www.youtube.com/embed/N4QjElo58_o",
-    id: "52374843",
-    password: "005875",
-    tag: "Former Top 1, Originally Hack Verified (xander556), XL, Over 3 min, Chokepoints, Timings"
-  },
-  {
     name: "Swing Swing",
     creators: "KazaGD, rnexel, z3phli, rinjello, milklover2351, velkyy, KrynioGD, asmallsock, Airu2015, zurteh, itsRyoui, usbserialbus, DuskerHu, SupaCLUCK, devilmine, dshifter7, Polygd",
     verifier: "Whizkid05",
@@ -1127,6 +1117,16 @@ const demons = [
     video: "https://www.youtube.com/embed/IfFser-f9c0",
     id: "108141323",
     password: "Free to Copy"
+  },
+  {
+    name: "Zodiac",
+    creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), GdTheTactiq",
+    verifier: "Technical",
+    publisher: "BIANOX",
+    video: "https://www.youtube.com/embed/N4QjElo58_o",
+    id: "52374843",
+    password: "005875",
+    tag: "Former Top 1, Originally Hack Verified (xander556), XL, Over 3 min, Chokepoints, Timings"
   },
   {
     name: "Axinie",
@@ -3768,6 +3768,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-07', detail: 'Zodiac has been lowered from #116 to #120, above Axinie and below DISSONANCE.' },
   { date: '2026-01-07', detail: 'Axinie has been lowered from #114 to #121, above Judgement Knights and below DISSONANCE.' },
   { date: '2026-01-04', detail: 'SUPER SERIOUS WORLD ~ Video have been placed at #399 ~ #406.' },
   { date: '2026-01-04', detail: 'Decks Dark has been placed at #63, above Operation Evolution and below Sinister Silence. This pushes Coalescence into the Extended List, and Indivine into the Legacy List.' },
@@ -4099,6 +4100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
