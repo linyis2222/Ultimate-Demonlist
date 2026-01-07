@@ -1065,15 +1065,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Axinie",
-    creators: "SaturMan",
-    verifier: "SaturMan",
-    publisher: "SaturMan",
-    video: "https://www.youtube.com/embed/LjfO2fqnozI",
-    id: "107299600",
-    password: "Free to Copy"
-  },
-  {
     name: "NEUTRA",
     creators: "Jenkins, Ilrell, Marwec",
     verifier: "AeonAir",
@@ -1135,6 +1126,15 @@ const demons = [
     publisher: "ivyteal",
     video: "https://www.youtube.com/embed/IfFser-f9c0",
     id: "108141323",
+    password: "Free to Copy"
+  },
+  {
+    name: "Axinie",
+    creators: "SaturMan",
+    verifier: "SaturMan",
+    publisher: "SaturMan",
+    video: "https://www.youtube.com/embed/LjfO2fqnozI",
+    id: "107299600",
     password: "Free to Copy"
   },
   {
@@ -3768,6 +3768,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-07', detail: 'Axinie has been lowered from #114 to #121, above Judgement Knights and below DISSONANCE.' },
   { date: '2026-01-04', detail: 'SUPER SERIOUS WORLD ~ Video have been placed at #399 ~ #406.' },
   { date: '2026-01-04', detail: 'Decks Dark has been placed at #63, above Operation Evolution and below Sinister Silence. This pushes Coalescence into the Extended List, and Indivine into the Legacy List.' },
   { date: '2026-01-03', detail: 'DISCONNECT has been placed at #102, above Trueffet and below Aerial Gleam. This pushes Cognition into the Legacy List.' },
@@ -4098,6 +4099,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
