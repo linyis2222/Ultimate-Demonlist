@@ -1553,6 +1553,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Cobwebs",
+    creators: "NineDice",
+    verifier: "CursedZ",
+    publisher: "NineDice",
+    video: "https://www.youtube.com/embed/bgZ85rCaEGY",
+    id: "82172844",
+    password: "Free to Copy",
+    tag: "Medium, Fast-Paced, Learny"
+  },
+  {
     name: "Coral Cave",
     creators: "awesome360, Gnamolor",
     verifier: "Gnamolor",
@@ -1633,15 +1643,6 @@ const demons = [
     video: "https://www.youtube.com/embed/OS46C-zvqDA",
     id: "85670310",
     password: "No Copy"
-  },
-  {
-    name: "Cobwebs",
-    creators: "NineDice",
-    verifier: "CursedZ",
-    publisher: "NineDice",
-    video: "https://www.youtube.com/embed/bgZ85rCaEGY",
-    id: "82172844",
-    password: "Free to Copy"
   },
   {
     name: "Ykds1479ymdppr",
@@ -3768,6 +3769,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-08', detail: 'Cobwebs has been raised from #177 to #168, above Coral Cave and below RUTHLESS.' },
   { date: '2026-01-07', detail: 'Zodiac has been lowered from #116 to #120, above Axinie and below DISSONANCE.' },
   { date: '2026-01-07', detail: 'Axinie has been lowered from #114 to #121, above Judgement Knights and below DISSONANCE.' },
   { date: '2026-01-04', detail: 'SUPER SERIOUS WORLD ~ Video have been placed at #399 ~ #406.' },
@@ -4100,6 +4102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
