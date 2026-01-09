@@ -426,6 +426,16 @@ const demons = [
     id: "90477539",
     password: "Free to Copy"
   },
+  {
+    name: "The Salt Factory",
+    creators: "NiCkNaMe09, Pes11, EziK, E9_KH, Acvan, Sleepin, Inex, wonsay, Relix, Soywues, Yakov47, lintery, Eiriley",
+    verifier: "NiCkNaMe09",
+    publisher: "NiCkNaMe09",
+    video: "https://www.youtube.com/embed/lQ7M-Sgov24",
+    id: "113045735",
+    password: "Free to Copy",
+    tag: "NONG, Long, Fast-Paced, Cube, Robot"
+  },
     {
     name: "CONVULSION",
     creators: "femboy",
@@ -3769,6 +3779,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-09', detail: 'The Salt Factory has been placed at #44, above CONVULSION and below Saul Goodman. This pushes Waterfall into the Extended List, and ATOMIC CANNON Mk II into the Legacy List.' },
   { date: '2026-01-08', detail: 'Cobwebs has been raised from #177 to #168, above Coral Cave and below RUTHLESS.' },
   { date: '2026-01-07', detail: 'Zodiac has been lowered from #116 to #120, above Axinie and below DISSONANCE.' },
   { date: '2026-01-07', detail: 'Axinie has been lowered from #114 to #121, above Judgement Knights and below DISSONANCE.' },
@@ -4102,6 +4113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
