@@ -2116,15 +2116,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Farthest Outpost",
-    creators: "Jghost",
-    verifier: "kyoto",
-    publisher: "Jghost",
-    video: "https://www.youtube.com/embed/HvQJB1SgEvo",
-    id: "95138230",
-    password: "Free to Copy"
-  },
-  {
     name: "Ouroboros",
     creators: "ViPriN, Osiris GD, Loserchik67, G4lvatron, FerdeFunky, Rustam, Darwin, DesTicY, AbstractDark, TheDevon, ChaSe, TrusTa, Terron",
     verifier: "Technical",
@@ -3382,6 +3373,16 @@ const demons = [
     tag: "XL, Fast-Paced"
   },
   {
+    name: "Farthest Outpost",
+    creators: "Jghost",
+    verifier: "kyoto",
+    publisher: "Jghost",
+    video: "https://www.youtube.com/embed/HvQJB1SgEvo",
+    id: "95138230",
+    password: "Free to Copy",
+    tag: "Long, Timings, Ship, Wave"
+  },
+  {
     name: "Stygian Machinery",
     creators: "SyQual, Sikatsuka, Gau, iRainstorm, An Gyung, Mapo, JJin, Apostolus, Dreaming, Sepalum, Uriun, Molds, Temp, gvyjjjh, 3niv, Ticky",
     verifier: "iiLaniakea",
@@ -3602,16 +3603,6 @@ const demons = [
     tag: "Long, Timings, Chokepoints, Slow-Paced, Cube, Wave"
   },
   {
-    name: "Dimensional Breaking",
-    creators: "Davidayy, Riky2610, Sirius, AngryBoy0644, HelpegasuS, T4sty, Dublollo, Vexion, MaxiKD, Tagger, R3XX3R, ChiefWoof, Fiuxis, Laminer",
-    verifier: "Clara(Original), Zeroniumm(Reverified)",
-    publisher: "Davidayy",
-    video: "https://www.youtube.com/embed/LK0xhnip_6k",
-    id: "59868382",
-    password: "Free to Copy",
-    tag: "XL, Chokepoints, Ship, Wave"
-  },
-  {
     name: "FIREPOWER",
     creators: "Sillow",
     verifier: "Sillow",
@@ -3779,6 +3770,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-10', detail: 'Dimensional Breaking has been removed from the list due to an update.' },
+  { date: '2026-01-10', detail: 'Farthest Outpost has been lowered from #230 to #368, above Stygian Machinery and below Glory.' },
   { date: '2026-01-09', detail: 'The Salt Factory has been placed at #44, above CONVULSION and below Saul Goodman. This pushes Waterfall into the Extended List, and ATOMIC CANNON Mk II into the Legacy List.' },
   { date: '2026-01-08', detail: 'Cobwebs has been raised from #177 to #168, above Coral Cave and below RUTHLESS.' },
   { date: '2026-01-07', detail: 'Zodiac has been lowered from #116 to #120, above Axinie and below DISSONANCE.' },
@@ -4113,6 +4106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
