@@ -516,7 +516,7 @@ const demons = [
     video: "https://www.youtube.com/embed/jsrqMqs1-Ao",
     id: "79166683",
     password: "Free to Copy",
-    tag: "Unrated, Formerly Rated, Old Impossible Level, XL, Layout"
+    tag: "Unrated, Formerly Rated, Originally Hack Verified (GD virus), Old Impossible Level, XL, Layout"
   },
   {
     name: "Solar Flare",
@@ -4106,6 +4106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
