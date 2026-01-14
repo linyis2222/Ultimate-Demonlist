@@ -985,6 +985,16 @@ const demons = [
     tag: "XL, Learny, Memory"
   },
   {
+    name: "Time Lapse",
+    creators: "HappyMoby, meloni, Electro543, Underpipse, Suares, Coolg2007, Manta, Catakill, CinematGD, Ookey, Leminiskata, xwa0, KorpeGa, Unbipentium, Valentine, opalsky, CounterMD, PreeZee, FraPai, Ellyza, Starterx",
+    verifier: "Arshadow",
+    publisher: "HappyMoby",
+    video: "https://www.youtube.com/embed/MnI1mM_wjzc",
+    id: "97705490",
+    password: "Free to Copy",
+    tag: "Long, Timings"
+  },
+  {
     name: "Trueffet",
     creators: "SyQual, iRainstorm",
     verifier: "Baeru",
@@ -3780,6 +3790,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-14', detail: 'Time Lapse has been placed at #105, above Trueffet and below DISCONNECT. This pushes Disconnected Descent into the Legacy List.' },
   { date: '2026-01-14', detail: 'chrome hearts has been placed at #108, above azure blast and below Fragile. This pushes Axiom Asterism into the Legacy List.' },
   { date: '2026-01-10', detail: 'Dimensional Breaking was removed from the list at #391 due to an update.' },
   { date: '2026-01-10', detail: 'Farthest Outpost has been lowered from #230 to #368, above Stygian Machinery and below Glory.' },
@@ -4117,6 +4128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
