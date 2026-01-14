@@ -3780,7 +3780,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2026-01-14', detail: 'DISCONNECT has been placed at #108, above azure blast and below Fragile. This pushes Axiom Asterism into the Legacy List.' },
+  { date: '2026-01-14', detail: 'chrome hearts has been placed at #108, above azure blast and below Fragile. This pushes Axiom Asterism into the Legacy List.' },
   { date: '2026-01-10', detail: 'Dimensional Breaking was removed from the list at #391 due to an update.' },
   { date: '2026-01-10', detail: 'Farthest Outpost has been lowered from #230 to #368, above Stygian Machinery and below Glory.' },
   { date: '2026-01-09', detail: 'The Salt Factory has been placed at #44, above CONVULSION and below Saul Goodman. This pushes Waterfall into the Extended List, and ATOMIC CANNON Mk II into the Legacy List.' },
@@ -4117,6 +4117,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
