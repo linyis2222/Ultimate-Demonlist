@@ -1938,6 +1938,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Nhelv",
+    creators: "SrGuillerster, Dienid, notlsa",
+    verifier: "SrGuillerster",
+    publisher: "SrGuillester",
+    video: "https://www.youtube.com/embed/k117h9HUt6s",
+    id: "68353244",
+    password: "Free to Copy"
+  },
+  {
     name: "TORN",
     creators: "para, voltex, Kyhros, TheCdPre, Sauzzeth, Woom, Splinter25, expa, iBoop, tygrixon, KarolBomba, deactive",
     verifier: "DiamondSplash(Original), Slijee(Update)",
@@ -2097,15 +2106,6 @@ const demons = [
     publisher: "Goobfrudla",
     video: "https://www.youtube.com/embed/BV19Dg09LN0",
     id: "96590328",
-    password: "Free to Copy"
-  },
-  {
-    name: "Nhelv",
-    creators: "SrGuillerster, Dienid, notlsa",
-    verifier: "SrGuillerster",
-    publisher: "SrGuillester",
-    video: "https://www.youtube.com/embed/k117h9HUt6s",
-    id: "68353244",
     password: "Free to Copy"
   },
   {
@@ -3790,6 +3790,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-14', detail: 'Nhelv has been raised from #228 to #210, above TORN and below Awedsy.' },
   { date: '2026-01-14', detail: 'Time Lapse has been placed at #105, above Trueffet and below DISCONNECT. This pushes Disconnected Descent into the Legacy List.' },
   { date: '2026-01-14', detail: 'chrome hearts has been placed at #108, above azure blast and below Fragile. This pushes Axiom Asterism into the Legacy List.' },
   { date: '2026-01-10', detail: 'Dimensional Breaking was removed from the list at #391 due to an update.' },
@@ -4128,6 +4129,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
