@@ -409,6 +409,16 @@ const demons = [
     tag: "Unrated, Long, Nine Circles Level, Wave"
   },
   {
+    name: "Snowbound",
+    creators: "amplitron",
+    verifier: "amplitron",
+    publisher: "amplitron",
+    video: "https://www.youtube.com/embed/eLGr383CmyM",
+    id: "120289520",
+    password: "Free to Copy",
+    tag: "XL, Fast-Paced, Learny"
+  },
+  {
     name: "Edge of Destiny",
     creators: "CDMusic, Days of Thunder, Viper Arctarus, Linear, Avati, Rynoxious, HelpegasuS, RealVet, Nickalopogas, Firy, Unerve, Parallax, CuLuC, Salamander, Uriun, AppleCr, GD Endy, Knobbelboy, Yoonsr, Manix648, LazerBlitz",
     verifier: " PoLterGhast",
@@ -3790,6 +3800,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-15', detail: 'Snowbound has been placed at #42, above Edge of Destiny and below poocubed & Centipede [Unrated]. This pushes arcturus into the Extended List, and DIRECTIONS into the Legacy List.' },
   { date: '2026-01-14', detail: 'Nhelv has been raised from #228 to #210, above TORN and below Awedsy.' },
   { date: '2026-01-14', detail: 'Time Lapse has been placed at #105, above Trueffet and below DISCONNECT. This pushes Disconnected Descent into the Legacy List.' },
   { date: '2026-01-14', detail: 'chrome hearts has been placed at #108, above azure blast and below Fragile. This pushes Axiom Asterism into the Legacy List.' },
@@ -4129,6 +4140,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
