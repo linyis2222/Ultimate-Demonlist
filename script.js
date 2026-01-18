@@ -768,12 +768,12 @@ const demons = [
   {
     name: "Tartarus",
     creators: "Riot, Vermillion, Aurorus, Rek3dge, Aquatias, Komp, Cyclic, EndLevel, Azuler, -, Salaxium",
-    verifier: "ItzDolphy",
-    publisher: "ItzDolphy",
-    video: "https://www.youtube.com/embed/9YYQBbrsV5Y",
+    verifier: "Mullsy",
+    publisher: "-",
+    video: "https://www.youtube.com/embed/Yx2IHj6YpRw",
     id: "59075347",
     password: "061742",
-    tag: "Former Top 1, Long, Chokepoints, Ship"
+    tag: "Originally Hack Verified (-), Former Top 1, Long, Chokepoints, Ship"
   },
   {
     name: "Delta",
