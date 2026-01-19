@@ -1060,15 +1060,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Destruction 19",
-    creators: "bosjoker",
-    verifier: "razsta4ax",
-    publisher: "bosjoker",
-    video: "https://www.youtube.com/embed/UUyzGg_4mqs",
-    id: "99495619",
-    password: "Free to Copy"
-  },
-  {
     name: "Starlight Summit",
     creators: "hazelmrow",
     verifier: "hazelmrow",
@@ -1102,6 +1093,15 @@ const demons = [
     publisher: "SyQual",
     video: "https://www.youtube.com/embed/GK0Z8rgziH4",
     id: "78435955",
+    password: "Free to Copy"
+  },
+  {
+    name: "Destruction 19",
+    creators: "bosjoker",
+    verifier: "razsta4ax",
+    publisher: "bosjoker",
+    video: "https://www.youtube.com/embed/UUyzGg_4mqs",
+    id: "99495619",
     password: "Free to Copy"
   },
   {
@@ -1993,15 +1993,6 @@ const demons = [
     password: "789123"
   },
   {
-    name: "Sazerix",
-    creators: "Zeptrus",
-    verifier: "skycrab",
-    publisher: "Zeptrus",
-    video: "https://www.youtube.com/embed/l8aBStUgYOs",
-    id: "86787878",
-    password: "Free to Copy"
-  },
-  {
     name: "DsinK",
     creators: "stanstanmansan, crohn44, Nightning",
     verifier: "Laurendi(Original), fusion425(Update)",
@@ -2017,6 +2008,15 @@ const demons = [
     publisher: "Presta",
     video: "https://www.youtube.com/embed/KVlcdvGYcj0",
     id: "68668045",
+    password: "Free to Copy"
+  },
+  {
+    name: "Sazerix",
+    creators: "Zeptrus",
+    verifier: "skycrab",
+    publisher: "Zeptrus",
+    video: "https://www.youtube.com/embed/l8aBStUgYOs",
+    id: "86787878",
     password: "Free to Copy"
   },
   {
@@ -3800,6 +3800,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-19', detail: 'Sazerix has been lowered from #216 to #218, above Sigma and below Congregation.' },
+  { date: '2026-01-19', detail: 'Destruction 19 has been lowered from #113 to #117, above NEUTRA and below Esfera.' },
   { date: '2026-01-15', detail: 'Snowbound has been placed at #42, above Edge of Destiny and below poocubed & Centipede [Unrated]. This pushes arcturus into the Extended List, and DIRECTIONS into the Legacy List.' },
   { date: '2026-01-14', detail: 'Nhelv has been raised from #228 to #210, above TORN and below Awedsy.' },
   { date: '2026-01-14', detail: 'Time Lapse has been placed at #105, above Trueffet and below DISCONNECT. This pushes Disconnected Descent into the Legacy List.' },
@@ -4140,6 +4142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
