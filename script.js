@@ -1750,7 +1750,7 @@ const demons = [
   {
     name: "The Rupture",
     creators: "Ka1ns",
-    verifier: "ItzDolphy",
+    verifier: "-",
     publisher: "Ka1ns",
     video: "https://www.youtube.com/embed/SaU454afkKY",
     id: "57828784",
@@ -1773,7 +1773,7 @@ const demons = [
     video: "https://www.youtube.com/embed/NjEiHIokTGM",
     id: "68600127",
     password: "Free to Copy",
-    tag: "Former Top 1(Hacked), Originally Hack Verified (BlackP2sFull), Old Impossible Level, Long, Chokepoints, Cube"
+    tag: "Former Top 1(Hacked), Originally Hack Verified(Secret Way) (BlackP2sFull), Old Impossible Level, Long, Chokepoints, Cube"
   },
   {
     name: "Kappa",
@@ -2570,15 +2570,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "ADOMANIA",
-    creators: "Swib",
-    verifier: "Swib",
-    publisher: "Swib",
-    video: "https://www.youtube.com/embed/rPDa8gtdK_E",
-    id: "97183213",
-    password: "Free to Copy"
-  },
-  {
     name: "SisuSonic",
     creators: "RpgRaketti & more(30 people)",
     verifier: "JHdash77",
@@ -2693,6 +2684,15 @@ const demons = [
     publisher: "Rynoxiouss",
     video: "https://www.youtube.com/embed/NArTpUWoOQ0",
     id: "93122250",
+    password: "Free to Copy"
+  },
+  {
+    name: "ADOMANIA",
+    creators: "Swib",
+    verifier: "Swib",
+    publisher: "Swib",
+    video: "https://www.youtube.com/embed/rPDa8gtdK_E",
+    id: "97183213",
     password: "Free to Copy"
   },
   {
@@ -3800,7 +3800,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
-  { date: '2026-01-10', detail: '[Unrated] tag of Through The Gates has been removed due to being rated.' },
+  { date: '2026-01-24', detail: 'ADOMANIA has been lowered from #280 to #293, above Wasureta and below Collect All Pets.' },
+  { date: '2026-01-19', detail: '[Unrated] tag of Through The Gates has been removed due to being rated.' },
   { date: '2026-01-19', detail: 'Sazerix has been lowered from #216 to #218, above Sigma and below Congregation.' },
   { date: '2026-01-19', detail: 'Destruction 19 has been lowered from #113 to #117, above NEUTRA and below Esfera.' },
   { date: '2026-01-15', detail: 'Snowbound has been placed at #42, above Edge of Destiny and below poocubed & Centipede [Unrated]. This pushes arcturus into the Extended List, and DIRECTIONS into the Legacy List.' },
@@ -4143,6 +4144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
