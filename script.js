@@ -2374,6 +2374,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Icefall",
+    creators: "Filqh",
+    verifier: "BreadDemon",
+    publisher: "Filqh",
+    video: "https://www.youtube.com/embed/9dy1afi-fo4",
+    id: "92127272",
+    password: "Free to Copy",
+    tag: "Long, Timings, Duals"
+  },
+  {
     name: "Storming Summit",
     creators: "IINimbusII & more(25 people)",
     verifier: "Ozzy",
@@ -3820,6 +3830,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-02-07', detail: 'Icefall has been placed at #258, above Storming Summit and below Spectrum Cyclone.' },
   { date: '2026-02-07', detail: 'X84 has been placed at #206, above Terminux and below Excruciation Chamber.' },
   { date: '2026-02-07', detail: 'ROCKY ROAD has been placed at #253, above Plasma Pulse Finale and below Dedohexdragon.' },
   { date: '2026-02-07', detail: 'Ascent has been lowered from #133 to #138, above Promethean and below Dry Out Copyable 2.' },
@@ -4169,6 +4180,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
