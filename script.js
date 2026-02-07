@@ -180,14 +180,14 @@ const demons = [
     tag: "Former Top 1, XL, Slow-Paced, Timings, Wave, Chokepoints"
   },
   {
-    name: "Ashley Wave Trials [Unrated]",
+    name: "Ashley Wave Trials",
     creators: "OddMod",
     verifier: "zZoink",
     publisher: "xBlizzardGD",
     video: "https://www.youtube.com/embed/aTxt76U3e2Q",
     id: "123119196",
     password: "Free to Copy",
-    tag: "Unrated, CBF Verified, Old Impossible Level, XL, One-Mode, Wave"
+    tag: "CBF Verified, Old Impossible Level, XL, One-Mode, Wave"
   },
   {
     name: "Tunnel of Despair",
@@ -250,14 +250,14 @@ const demons = [
     tag: "Long, Timings, Chokepoints, Wave"
   },
     {
-    name: "Based After Based [Unrated]",
+    name: "Based After Based",
     creators: "Bedrock, Etherial, Dshifter, DashyGTC, Harsh, PastelPink, Eyeless Jack, Akunakunn",
     verifier: "DiamondSplash",
     publisher: "Akunakunn",
     video: "https://www.youtube.com/embed/yQBFyUvB3lY",
     id: "110534288",
     password: "Free to Copy",
-    tag: "Unrated, Long, Duals, Timings, Learny"
+    tag: "Long, Duals, Timings, Learny"
   },
   {
     name: "The Lightning Rod",
@@ -3800,6 +3800,8 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-01-31', detail: '[Unrated] tag of Based After Based has been removed due to being rated.' },
+  { date: '2026-01-30', detail: '[Unrated] tag of Ashley Wave Trials has been removed due to being rated.' },
   { date: '2026-01-24', detail: 'ADOMANIA has been lowered from #280 to #293, above Wasureta and below Collect All Pets.' },
   { date: '2026-01-19', detail: '[Unrated] tag of Through The Gates has been removed due to being rated.' },
   { date: '2026-01-19', detail: 'Sazerix has been lowered from #216 to #218, above Sigma and below Congregation.' },
@@ -4144,6 +4146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
