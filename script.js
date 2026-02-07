@@ -1241,15 +1241,6 @@ const demons = [
     password: "251326"
   },
   {
-    name: "Ascent",
-    creators: "Rimexon, Nekon, qGreazy, Medu, Vendas, Rhymer, Zxnt, Epdjip, Revue, Kngstn, Plugy, PreeZee, Vevex, Khelado, Vinty, Grimes, Xenith, Ego, IvashkaUA, Tomi, Iz",
-    verifier: "LordVadercraft",
-    publisher: "Rimexon",
-    video: "https://www.youtube.com/embed/sII8zQZIJlg",
-    id: "112046512",
-    password: "Free to Copy"
-  },
-  {
     name: "Lotus Flower",
     creators: "StarkyTheSalad, zzzgecko",
     verifier: "BrianTheBurger",
@@ -1292,6 +1283,15 @@ const demons = [
     publisher: "tenzk",
     video: "https://www.youtube.com/embed/FXW9J9CaREU",
     id: "106522770",
+    password: "Free to Copy"
+  },
+  {
+    name: "Ascent",
+    creators: "Rimexon, Nekon, qGreazy, Medu, Vendas, Rhymer, Zxnt, Epdjip, Revue, Kngstn, Plugy, PreeZee, Vevex, Khelado, Vinty, Grimes, Xenith, Ego, IvashkaUA, Tomi, Iz",
+    verifier: "LordVadercraft",
+    publisher: "Rimexon",
+    video: "https://www.youtube.com/embed/sII8zQZIJlg",
+    id: "112046512",
     password: "Free to Copy"
   },
   {
@@ -3800,6 +3800,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-02-07', detail: 'Ascent has been lowered from #133 to #138, above Promethean and below Dry Out Copyable 2.' },
   { date: '2026-01-31', detail: '[Unrated] tag of Based After Based has been removed due to being rated.' },
   { date: '2026-01-30', detail: '[Unrated] tag of Ashley Wave Trials has been removed due to being rated.' },
   { date: '2026-01-24', detail: 'ADOMANIA has been lowered from #280 to #293, above Wasureta and below Collect All Pets.' },
@@ -4146,6 +4147,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
