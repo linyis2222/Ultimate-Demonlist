@@ -1803,6 +1803,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Bloom",
+    creators: "zodycoder",
+    verifier: "zodycoder",
+    publisher: "zodycoder",
+    video: "https://www.youtube.com/embed/oZTyTgeb7q4",
+    id: "124037637",
+    password: "121296",
+    tag: "NONG, XL, Over 4 min, Gimmicky, Slow-Paced, Duals"
+  },
+  {
     name: "LD50",
     creators: "StarkyTheSalad, paqoe, wokecat",
     verifier: "Blitzer",
@@ -3840,6 +3850,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-02-07', detail: 'Bloom has been placed at #195, above LD50 and below FARBIDI THEORY.' },
   { date: '2026-02-07', detail: 'Death Corridor Z has been placed at #253, above Dedohexdragon and below EGO KILLING.' },
   { date: '2026-02-07', detail: 'Dance of the Violins has been raised from #290 to #280, above Eternal Moment and below Requiem.' },
   { date: '2026-02-07', detail: 'Icefall has been placed at #258, above Storming Summit and below Spectrum Cyclone.' },
@@ -4192,6 +4203,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
