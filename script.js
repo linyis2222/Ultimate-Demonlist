@@ -2573,6 +2573,15 @@ const demons = [
     password: "No Copy"
   },
   {
+    name: "Dance of the Violins",
+    creators: "DrayTM, Cyclic, Koreaqwer, Funnygame, Wabbit, nikroplays, Zipixbox, Wesp, GD Iris, pla, Fastbear",
+    verifier: "WatchPiggy",
+    publisher: "DrayTM",
+    video: "https://www.youtube.com/embed/PYwI_ODrrlw",
+    id: "91595507",
+    password: "Free to Copy"
+  },
+  {
     name: "Eternal Moment",
     creators: "iRainstorm, iEstia, TheCdPre, ZelLink",
     verifier: "nSwish",
@@ -2660,15 +2669,6 @@ const demons = [
     publisher: "GDZenmuron",
     video: "https://www.youtube.com/embed/YBs04o1ZVQY",
     id: "89490128",
-    password: "Free to Copy"
-  },
-  {
-    name: "Dance of the Violins",
-    creators: "DrayTM, Cyclic, Koreaqwer, Funnygame, Wabbit, nikroplays, Zipixbox, Wesp, GD Iris, pla, Fastbear",
-    verifier: "WatchPiggy",
-    publisher: "DrayTM",
-    video: "https://www.youtube.com/embed/PYwI_ODrrlw",
-    id: "91595507",
     password: "Free to Copy"
   },
   {
@@ -3830,6 +3830,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-02-07', detail: 'Dance of the Violins has been raised from #290 to #280, above Eternal Moment and below Requiem.' },
   { date: '2026-02-07', detail: 'Icefall has been placed at #258, above Storming Summit and below Spectrum Cyclone.' },
   { date: '2026-02-07', detail: 'X84 has been placed at #206, above Terminux and below Excruciation Chamber.' },
   { date: '2026-02-07', detail: 'ROCKY ROAD has been placed at #253, above Plasma Pulse Finale and below Dedohexdragon.' },
@@ -4180,6 +4181,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
