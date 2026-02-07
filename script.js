@@ -1903,6 +1903,16 @@ const demons = [
     password: "No Copy"
   },
   {
+    name: "X84",
+    creators: "XavT",
+    verifier: "XavT",
+    publisher: "XavT",
+    video: "https://www.youtube.com/embed/ZzGVEmS5D8s",
+    id: "110791899",
+    password: "Free to Copy",
+    tag: "Long, Fast-Paced, Learny, Wave, Duals"
+  },
+  {
     name: "Terminux",
     creators: "iRainstorm, 1374, Aerae, SyQual, TheCdPre, ZenthicAlpha, Inex, iEstia, Flosia, Mintjelly",
     verifier: "iiLaniakea",
@@ -3810,6 +3820,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-02-07', detail: 'X84 has been placed at #206, above Terminux and below Excruciation Chamber.' },
   { date: '2026-02-07', detail: 'ROCKY ROAD has been placed at #253, above Plasma Pulse Finale and below Dedohexdragon.' },
   { date: '2026-02-07', detail: 'Ascent has been lowered from #133 to #138, above Promethean and below Dry Out Copyable 2.' },
   { date: '2026-01-31', detail: '[Unrated] tag of Based After Based has been removed due to being rated.' },
@@ -4158,6 +4169,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
