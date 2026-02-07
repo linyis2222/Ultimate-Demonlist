@@ -2326,6 +2326,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "ROCKY ROAD",
+    creators: "arclightt, cdyzz",
+    verifier: "rain",
+    publisher: "arclightt",
+    video: "https://www.youtube.com/embed/uQqB3cVh_AM",
+    id: "113775365",
+    password: "Free to Copy",
+    tag: "Long, Fast-Paced, Timings, Wave"
+  },
+  {
     name: "Plasma Pulse Finale",
     creators: "xSmokes, Giron",
     verifier: "xSmokes",
@@ -3800,6 +3810,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-02-07', detail: 'ROCKY ROAD has been placed at #253, above Plasma Pulse Finale and below Dedohexdragon.' },
   { date: '2026-02-07', detail: 'Ascent has been lowered from #133 to #138, above Promethean and below Dry Out Copyable 2.' },
   { date: '2026-01-31', detail: '[Unrated] tag of Based After Based has been removed due to being rated.' },
   { date: '2026-01-30', detail: '[Unrated] tag of Ashley Wave Trials has been removed due to being rated.' },
@@ -4147,6 +4158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
