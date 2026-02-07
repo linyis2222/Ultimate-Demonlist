@@ -2327,6 +2327,16 @@ const demons = [
     password: "444445"
   },
   {
+    name: "Death Corridor Z",
+    creators: "KaotikJumper, Blaireswip",
+    verifier: "lSunix",
+    publisher: "lSunix",
+    video: "https://www.youtube.com/embed/9799msdH394",
+    id: "38403655",
+    password: "555888",
+    tag: "XL, Wave"
+  },
+  {
     name: "Dedohexdragon",
     creators: "Awedsy",
     verifier: "royen",
@@ -3830,6 +3840,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-02-07', detail: 'Death Corridor Z has been placed at #253, above Dedohexdragon and below EGO KILLING.' },
   { date: '2026-02-07', detail: 'Dance of the Violins has been raised from #290 to #280, above Eternal Moment and below Requiem.' },
   { date: '2026-02-07', detail: 'Icefall has been placed at #258, above Storming Summit and below Spectrum Cyclone.' },
   { date: '2026-02-07', detail: 'X84 has been placed at #206, above Terminux and below Excruciation Chamber.' },
@@ -4181,6 +4192,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => buildLeftList());
     }
 });
+
 
 
 
