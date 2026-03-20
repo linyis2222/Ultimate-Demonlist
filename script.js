@@ -4187,7 +4187,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btnChangelog.setAttribute('aria-pressed', 'false');
 
             // 리스트를 재생성하고 첫 번째 항목을 자동으로 선택/표시합니다.
-            buildLeftList(); 
+            // buildLeftList(); 
         });
     }
 
@@ -4202,9 +4202,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (searchInput) {
         searchInput.addEventListener('input', () => buildLeftList());
     }
-});
-
-
 // ===========================
 // Main / List 페이지 전환 추가
 // ===========================
@@ -4214,12 +4211,10 @@ const listPage = document.getElementById("list-page");
 const btnMain = document.getElementById("btn-main");
 const viewListBtn = document.getElementById("view-list-btn");
 
-// 메인 화면
 function showMain() {
     mainPage.classList.add("active");
     listPage.classList.remove("active");
 
-    // 버튼 상태 표시
     btnMain.classList.add("active");
     btnList.classList.remove("active");
     btnChangelog.classList.remove("active");
@@ -4229,18 +4224,20 @@ function showMain() {
     btnChangelog.setAttribute('aria-pressed', 'false');
 }
 
-// 리스트 화면
 function showList() {
     mainPage.classList.remove("active");
     listPage.classList.add("active");
 
-    // 기존 리스트 버튼 로직 그대로 실행
     btnList.click();
 }
 
-// 버튼 연결
 if (btnMain) btnMain.addEventListener("click", showMain);
 if (viewListBtn) viewListBtn.addEventListener("click", showList);
+
+// ⭐ 시작할 때 Main 강제
+showMain();
+});
+
 
 
 
