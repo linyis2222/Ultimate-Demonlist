@@ -3773,6 +3773,16 @@ const demons = [
     tag: "NONG, XL, imings, Chokepoints, Fast-Paced, Clicksync"
   },
   {
+    name: "Death",
+    creators: "AleeXhey, Zeptrus, DreamTide, Hypno",
+    verifier: "TheyCallMeEvan",
+    publisher: "AleeXhey",
+    video: "https://www.youtube.com/embed/uLZ6JZnHNVA",
+    id: "98929172",
+    password: "Free to Copy",
+    tag: "XL, Over 9 min, Memory, Slow-Paced"
+  },
+  {
     name: "Apollo 11",
     creators: "nasgubb",
     verifier: "Floppy",
@@ -3880,6 +3890,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Death has been placed at #408, above Apollo 11 and below POW.' },
   { date: '2026-03-20', detail: 'Gloxinia has been lowered from #165 to #169, above Akashic Records and below SAND SAILOR.' },
   { date: '2026-03-20', detail: 'The Wonder of You has been placed at #87, above Checked Steam and below Jigsaw. This pushes shimmer into the Legacy List.' },
   { date: '2026-03-20', detail: 'Luminosity has been placed at #362, above The Hell Tribute and below Dark Flare.' },
