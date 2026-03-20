@@ -4205,6 +4205,44 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// ===========================
+// Main / List 페이지 전환 추가
+// ===========================
+
+const mainPage = document.getElementById("main-page");
+const listPage = document.getElementById("list-page");
+const btnMain = document.getElementById("btn-main");
+const viewListBtn = document.getElementById("view-list-btn");
+
+// 메인 화면
+function showMain() {
+    mainPage.classList.add("active");
+    listPage.classList.remove("active");
+
+    // 버튼 상태 표시
+    btnMain.classList.add("active");
+    btnList.classList.remove("active");
+    btnChangelog.classList.remove("active");
+
+    btnMain.setAttribute('aria-pressed', 'true');
+    btnList.setAttribute('aria-pressed', 'false');
+    btnChangelog.setAttribute('aria-pressed', 'false');
+}
+
+// 리스트 화면
+function showList() {
+    mainPage.classList.remove("active");
+    listPage.classList.add("active");
+
+    // 기존 리스트 버튼 로직 그대로 실행
+    btnList.click();
+}
+
+// 버튼 연결
+if (btnMain) btnMain.addEventListener("click", showMain);
+if (viewListBtn) viewListBtn.addEventListener("click", showList);
+
+
 
 
 
