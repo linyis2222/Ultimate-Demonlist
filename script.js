@@ -775,15 +775,6 @@ const demons = [
     password: "061742",
     tag: "Originally Hack Verified (-), Former Top 1, Long, Chokepoints, Ship"
   },
-  {
-    name: "Delta",
-    creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, Mercury6779, Novaach, Tamori",
-    verifier: "Doggie",
-    publisher: "Drakosa",
-    video: "https://www.youtube.com/embed/_rr3J8DkIm4",
-    id: "93917362",
-    password: "Free to Copy"
-  },
     {
     name: "NETWORK (Agat3)",
     creators: "Agat3, Amza, theworldofme",
@@ -829,6 +820,15 @@ const demons = [
     id: "94858072",
     password: "Free to Copy",
     tag: "Long, Wave"
+  },
+  {
+    name: "Delta",
+    creators: "ArtsiBurn, Drakosa, DiamondSplash, npesta, loogiah, Ryder, Zanna83, Doggie, DTDom, Gizbro, Enzollz, crumche, goob, UltraCharge, Kelvin, Ked, Blitzer, CDMusic, DreamZoneGD, AppleCr, rynoxious, Consuno, Mercury6779, Novaach, Tamori",
+    verifier: "Doggie",
+    publisher: "Drakosa",
+    video: "https://www.youtube.com/embed/_rr3J8DkIm4",
+    id: "93917362",
+    password: "Free to Copy"
   },
   {
     name: "Checked Steam",
@@ -3910,6 +3910,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Delta has been lowered from #82 to #87, above Checked Steam and below The Wonder of You.' },
   { date: '2026-03-20', detail: 'NYUTOPIA has been placed at #187, above Pandemonium and below me when machine gang.' },
   { date: '2026-03-20', detail: 'Rage has been raised from #328 to #314, above Kjdf8314jlfssf and below Necromancer.' },
   { date: '2026-03-20', detail: 'Golden Flare has been placed at #335, above The Hell Nutz and below Silentium Clavas.' },
