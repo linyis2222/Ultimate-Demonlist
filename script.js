@@ -4198,7 +4198,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (btnChangelog) {
-        btnChangelog.addEventListener('click', () => renderChangeLog());
+        btnChangelog.addEventListener('click', () => {
+
+    mainPage.classList.remove("active");
+    listPage.classList.add("active");
+
+    renderChangeLog();
+});
     }
 
     // 3. 초기 맵 리스트 생성 및 첫 번째 항목 자동 선택
