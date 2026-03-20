@@ -2766,6 +2766,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Time Extreme",
+    creators: "DiamondSkull, vortrox, FunkyFries, galofuf, RobTop",
+    verifier: "vortrox",
+    publisher: "vortrox",
+    video: "https://www.youtube.com/embed/gzqeoJK_UvM",
+    id: "116730903",
+    password: "Free to Copy"
+  },
+  {
     name: "Wasureta",
     creators: "-, LimeTime313, zDeadlox, HelpegasuS, augi, Isane, XLSpiral, Splash, BelonziK, El3ctr0",
     verifier: "gubo(Original), VaporWubz(Update)",
@@ -3374,15 +3383,6 @@ const demons = [
     password: "314120"
   },
   {
-    name: "Time Extreme",
-    creators: "DiamondSkull, vortrox, FunkyFries, galofuf, RobTop",
-    verifier: "vortrox",
-    publisher: "vortrox",
-    video: "https://www.youtube.com/embed/gzqeoJK_UvM",
-    id: "116730903",
-    password: "Free to Copy"
-  },
-  {
     name: "Celestial Force",
     creators: "MindCap, GaidenHertuny, HelpegasuS, GeometryTom, MrLorenzo, JustBasic, Auntex, Xyriak, Soulax, Djoxy, Elayad, Manheadrambo, Stormy97, Hoshikido, Wless, Jihn, Zafkiel",
     verifier: "Dagger(Original), supahant(Update)",
@@ -3890,6 +3890,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Time Extreme has been raised from #368 to #301, above Wasureta and below ADOMANIA.' },
   { date: '2026-03-20', detail: 'Exosphere has been raised from #239 to #226, above untitled unmastered and below Aronia.' },
   { date: '2026-03-20', detail: 'Death has been placed at #408, above Apollo 11 and below POW.' },
   { date: '2026-03-20', detail: 'Gloxinia has been lowered from #165 to #169, above Akashic Records and below SAND SAILOR.' },
