@@ -372,8 +372,8 @@ const demons = [
     {
     name: "Sakupen Circles",
     creators: "Nick24, DrCuber, Korewa, Renn241, Muffy450, endevvor, Mzero, NineDice, GhostVandalf",
-    verifier: "TheDiamondPizza",
-    publisher: "TheDiamondPizza",
+    verifier: "Diamond",
+    publisher: "Diamond",
     video: "https://www.youtube.com/embed/ofG2mJi9kEA",
     id: "76962930",
     password: "Free to Copy",
@@ -896,7 +896,7 @@ const demons = [
   {
     name: "UNKNOWN",
     creators: "Relayne, NineDice, Gusearth, kywy, Renn241, DrCuber, GhostVandalf, GD Iris, muriday",
-    verifier: "TheDiamondPizza",
+    verifier: "Diamond",
     publisher: "NineDice",
     video: "https://www.youtube.com/embed/a1sQxQqU6EM",
     id: "88203501",
@@ -3318,6 +3318,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Luminosity",
+    creators: "Enfur",
+    verifier: "Vikings",
+    publisher: "Enfur",
+    video: "https://www.youtube.com/embed/yLbnrHkMxYE",
+    id: "131210884",
+    password: "Free to Copy",
+    tag: "Long, Timings, Chokepoints, Robot, New Swing"
+  },
+  {
     name: "The Hell Tribute",
     creators: "fakeblast, Varium, Iconic, Xylitol, trickyb89, Knali2001, Allan, Luqualizer, VidashGD, SuPaH AnT, Prometheus, Valentine, ItsMeGeoGD",
     verifier: "fakeblast",
@@ -3860,6 +3870,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Luminosity has been placed at #362, above The Hell Tribute and below Dark Flare.' },
   { date: '2026-03-20', detail: 'Goober Rage Stage has been placed at #124, above Zodiac and below DISSONANCE. This pushes Crimson Planet into the Legacy List.' },
   { date: '2026-02-07', detail: 'Bloom has been placed at #195, above LD50 and below FARBIDI THEORY.' },
   { date: '2026-02-07', detail: 'Death Corridor Z has been placed at #253, above Dedohexdragon and below EGO KILLING.' },
