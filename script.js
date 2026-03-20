@@ -1532,15 +1532,6 @@ const demons = [
     password: "Free to Copy"
   },
   {
-    name: "Gloxinia",
-    creators: "solarion, Cyclic, Aeidux, cleangame, Graded, Ryan LC, Isane, Yonaka, GDHand, Valentine, Motu, Mulpan, minus786",
-    verifier: "rosewa",
-    publisher: "solarion",
-    video: "https://www.youtube.com/embed/MJh_6Z5v6bM",
-    id: "110038200",
-    password: "Free to Copy"
-  },
-  {
     name: "ta1LSD0ll",
     creators: "MIRugene, Galliard, robtobfreak, ekzels, AngaraRiver, spkgmd, Antobyy, Kcool, Madterz, rivverr, Classic10, rply, PastelPink, 2003devin",
     verifier: "Arshadow",
@@ -1574,6 +1565,15 @@ const demons = [
     publisher: "Custi",
     video: "https://www.youtube.com/embed/QPmzn9X77Uo",
     id: "88868682",
+    password: "Free to Copy"
+  },
+  {
+    name: "Gloxinia",
+    creators: "solarion, Cyclic, Aeidux, cleangame, Graded, Ryan LC, Isane, Yonaka, GDHand, Valentine, Motu, Mulpan, minus786",
+    verifier: "rosewa",
+    publisher: "solarion",
+    video: "https://www.youtube.com/embed/MJh_6Z5v6bM",
+    id: "110038200",
     password: "Free to Copy"
   },
   {
@@ -3880,6 +3880,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Gloxinia has been lowered from #165 to #169, above Akashic Records and below SAND SAILOR.' },
   { date: '2026-03-20', detail: 'The Wonder of You has been placed at #87, above Checked Steam and below Jigsaw. This pushes shimmer into the Legacy List.' },
   { date: '2026-03-20', detail: 'Luminosity has been placed at #362, above The Hell Tribute and below Dark Flare.' },
   { date: '2026-03-20', detail: 'Goober Rage Stage has been placed at #124, above Zodiac and below DISSONANCE. This pushes Crimson Planet into the Legacy List.' },
