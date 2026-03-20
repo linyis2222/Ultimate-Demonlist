@@ -1732,6 +1732,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "NYUTOPIA",
+    creators: "Tornabro",
+    verifier: "meanmemo",
+    publisher: "Tornabro",
+    video: "https://www.youtube.com/embed/TPyZKiTOUQA",
+    id: "119829177",
+    password: "Free to Copy",
+    tag: "Medium, Clicksync, Fast-Paced, Learny, Wave"
+  },
+  {
     name: "Pandemonium",
     creators: "Cersia, robotchief, zmx, Nezopi, Awedsy, Magmeta, KydeR, burgz, Rulls, Zylsia, Xeinth, WackoBazacko, declan, Peton, aubreygoose, j2ko, Great",
     verifier: "TGM05",
@@ -3900,6 +3910,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'NYUTOPIA has been placed at #187, above Pandemonium and below me when machine gang.' },
   { date: '2026-03-20', detail: 'Rage has been raised from #328 to #314, above Kjdf8314jlfssf and below Necromancer.' },
   { date: '2026-03-20', detail: 'Golden Flare has been placed at #335, above The Hell Nutz and below Silentium Clavas.' },
   { date: '2026-03-20', detail: 'Through The Gates and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #34.' },
