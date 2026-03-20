@@ -1159,6 +1159,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Goober Rage Stage",
+    creators: "bonscarrot",
+    verifier: "trenbabypaleo",
+    publisher: "bonscarrot",
+    video: "https://www.youtube.com/embed/1rrouUCPXhY",
+    id: "130183035",
+    password: "Free to Copy",
+    tag: "Medium, Learny, Memory, Gimmicky, Robot"
+  },
+  {
     name: "Zodiac",
     creators: "RicoLP, Rustam, YakobNugget, BIANOX, DreamEater, Dudex, Shocksidian, Osiris GD, Juhou, Aquatias, Samifying, TMNGaming, Failure444, Marwec, Pennutoh, SilmJim, LeocreatorX, Enlex, Onnikonna, Uneskladovae(Dawnf4ll), GdTheTactiq",
     verifier: "Technical",
@@ -3850,6 +3860,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Goober Rage Stage has been placed at #124, above Zodiac and below DISSONANCE. This pushes Crimson Planet into the Legacy List.' },
   { date: '2026-02-07', detail: 'Bloom has been placed at #195, above LD50 and below FARBIDI THEORY.' },
   { date: '2026-02-07', detail: 'Death Corridor Z has been placed at #253, above Dedohexdragon and below EGO KILLING.' },
   { date: '2026-02-07', detail: 'Dance of the Violins has been raised from #290 to #280, above Eternal Moment and below Requiem.' },
