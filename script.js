@@ -977,6 +977,16 @@ const demons = [
     tag: "XL, Duals"
   },
   {
+    name: "paranoia",
+    creators: "amplitron",
+    verifier: "amplitron",
+    publisher: "amplitron",
+    video: "https://www.youtube.com/embed/Aw83i8Zmh_0",
+    id: "113364415",
+    password: "Free to Copy",
+    tag: "NONG, Long, Fast-Paced"
+  },
+  {
     name: "Blood Echo",
     creators: "Farva, Goobfrudla, LimeTime03, snapNK, clodsire",
     verifier: "swiborg",
@@ -3910,6 +3920,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'paranoia has been placed at #104, above Blood Echo and below Graceful. This pushes Trotil into the Legacy List.' },
   { date: '2026-03-20', detail: 'Devotion has been raised from #379 to #331, above Kuzureta and below Infinite Iniquity.' },
   { date: '2026-03-20', detail: 'Delta has been lowered from #82 to #87, above Checked Steam and below The Wonder of You.' },
   { date: '2026-03-20', detail: 'NYUTOPIA has been placed at #187, above Pandemonium and below me when machine gang.' },
