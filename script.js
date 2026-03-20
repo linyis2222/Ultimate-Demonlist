@@ -2,7 +2,7 @@ const demons = [
   {
     name: "Thinking Space II",
     creators: "Jawis, Rin04, HaydenDom, V453C70M14, UFokinWotM8, Hyperbola, NcaT, KugelBlitZ, Triforce, Maxmur, MeatiusGaming, DrCuber, ADrone, Korewa, GhostVandalf, CairoX, RealVet, Genoxide, Crowlley, Meox, GamerKnight750, ThunderDarkness, DiamondSkull, Kevellium",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "CairoX",
     video: "https://www.youtube.com/embed/CELNmHwln_c",
     id: "119544028",
@@ -32,7 +32,7 @@ const demons = [
   {
     name: "Tidal Wave",
     creators: "OniLinkGD",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "OniLinkGD",
     video: "https://www.youtube.com/embed/9fsZ014qB3s",
     id: "86407629",
@@ -42,7 +42,7 @@ const demons = [
   {
     name: "Nullscapes",
     creators: "ItzKiba",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "ItzKiba",
     video: "https://www.youtube.com/embed/EztneTPp5CU",
     id: "109780665",
@@ -62,7 +62,7 @@ const demons = [
   {
     name: "Quanteuse processing",
     creators: "Blankb, Renn241",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "Renn241",
     video: "https://www.youtube.com/embed/j5NC0u1Q91Q",
     id: "117692518",
@@ -142,7 +142,7 @@ const demons = [
   {
     name: "Avernus",
     creators: "BoBoBoBoBoBoBo, TriplasH, Zipixbox, kyhros, Woom, Zenntraa, El3cTr0, SyQual, Nidro, zDeadlox, GD Iris, RealVet, Looycat",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "Pockewindfish",
     video: "https://www.youtube.com/embed/16Zh8jssanc",
     id: "89496627",
@@ -152,7 +152,7 @@ const demons = [
   {
     name: "Acheron",
     creators: "GrenadeofTacos, ryamu, Riot, icedcave, silver, zDeadlox, Komp, AZuLer4, ewop, Metalface221, Cersia, LimeTime313, goob, Endlevel",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "ryamu",
     video: "https://www.youtube.com/embed/sBKR6aUorzA",
     id: "73667628",
@@ -182,7 +182,7 @@ const demons = [
   {
     name: "Ashley Wave Trials",
     creators: "OddMod",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "xBlizzardGD",
     video: "https://www.youtube.com/embed/aTxt76U3e2Q",
     id: "123119196",
@@ -192,7 +192,7 @@ const demons = [
   {
     name: "Tunnel of Despair",
     creators: "Exen, ImMaxX1",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "Exen",
     video: "https://www.youtube.com/embed/LpS4JREhW98",
     id: "91351939",
@@ -202,7 +202,7 @@ const demons = [
   {
     name: "Defeated Circles",
     creators: "Slijee, GDFluxit, SlendStone, GXQ, notcyanide, lupodzn, pootys1337, muriday",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "GXQ",
     video: "https://www.youtube.com/embed/nU5AQPzd2YA",
     id: "120012581",
@@ -232,7 +232,7 @@ const demons = [
   {
     name: "KOCMOC",
     creators: "Vernam, Spk, Synd, Vinty, Sauzzeth, Bli, Kivvvi, Xatz, zDeadlox, Cuaer",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "cherryteam",
     video: "https://www.youtube.com/embed/2CxE-UWCIG4",
     id: "87665224",
@@ -332,12 +332,12 @@ const demons = [
     {
     name: "Through The Gates",
     creators: "TeamTheDashers",
-    verifier: "zZoink",
+    verifier: "Zoink",
     publisher: "TeamTheDashers",
     video: "https://www.youtube.com/embed/4yHA6jux5UI",
     id: "49072489",
     password: "Free to Copy",
-    tag: "Old Impossible Level, Long"
+    tag: "Originally Hack Verified (Exen), Old Impossible Level, Long"
   },
   {
     name: "Eyes in the Water",
