@@ -4180,15 +4180,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // 2. 버튼 이벤트 리스너 재정의
     if (btnList) {
         btnList.addEventListener('click', () => {
-            // 버튼 활성화 클래스 설정
-            btnList.classList.add('active');
-            btnChangelog.classList.remove('active');
-            btnList.setAttribute('aria-pressed', 'true');
-            btnChangelog.setAttribute('aria-pressed', 'false');
 
-            // 리스트를 재생성하고 첫 번째 항목을 자동으로 선택/표시합니다.
-            // buildLeftList(); 
-        });
+    // ⭐ 페이지 전환 추가
+    mainPage.classList.remove("active");
+    listPage.classList.add("active");
+
+    btnList.classList.add('active');
+    btnChangelog.classList.remove('active');
+    btnMain.classList.remove('active');
+
+    btnList.setAttribute('aria-pressed', 'true');
+    btnChangelog.setAttribute('aria-pressed', 'false');
+    btnMain.setAttribute('aria-pressed', 'false');
+
+    buildLeftList();
+});
     }
 
     if (btnChangelog) {
