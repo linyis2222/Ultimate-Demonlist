@@ -2087,6 +2087,15 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "Exosphere",
+    creators: "Doggie & more(26 people)",
+    verifier: "DijonGD",
+    publisher: "Doggie",
+    video: "https://www.youtube.com/embed/HRbBub341W4",
+    id: "93247638",
+    password: "Free to Copy"
+  },
+  {
     name: "untitled unmastered",
     creators: "para",
     verifier: "vinny",
@@ -2201,15 +2210,6 @@ const demons = [
     publisher: "MCres",
     video: "https://www.youtube.com/embed/oo_PqnEHZvo",
     id: "95089240",
-    password: "Free to Copy"
-  },
-  {
-    name: "Exosphere",
-    creators: "Doggie & more(26 people)",
-    verifier: "DijonGD",
-    publisher: "Doggie",
-    video: "https://www.youtube.com/embed/HRbBub341W4",
-    id: "93247638",
     password: "Free to Copy"
   },
   {
@@ -3890,6 +3890,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Exosphere has been raised from #239 to #226, above untitled unmastered and below Aronia.' },
   { date: '2026-03-20', detail: 'Death has been placed at #408, above Apollo 11 and below POW.' },
   { date: '2026-03-20', detail: 'Gloxinia has been lowered from #165 to #169, above Akashic Records and below SAND SAILOR.' },
   { date: '2026-03-20', detail: 'The Wonder of You has been placed at #87, above Checked Steam and below Jigsaw. This pushes shimmer into the Legacy List.' },
