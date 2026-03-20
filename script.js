@@ -2902,6 +2902,15 @@ const demons = [
     tag: "Unrated, Formerly Rated, XL, Over 5 min"
   },
   {
+    name: "Sonic Wave Rebirth",
+    creators: "Cyclic, Serponge, Funnygame",
+    verifier: "Moosh",
+    publisher: "Serponge",
+    video: "https://www.youtube.com/embed/wXxPNaqTZKU",
+    id: "68688849",
+    password: "Free to Copy"
+  },
+  {
     name: "Sonic Wave",
     creators: "Cyclic",
     verifier: "lSunix",
@@ -2910,15 +2919,6 @@ const demons = [
     id: "26681070",
     password: "112516",
     tag: "Former Top 1, XL, Nine Circles Level, Wave, Chokepoints"
-  },
-  {
-    name: "Sonic Wave Rebirth",
-    creators: "Cyclic, Serponge, Funnygame",
-    verifier: "Moosh",
-    publisher: "Serponge",
-    video: "https://www.youtube.com/embed/wXxPNaqTZKU",
-    id: "68688849",
-    password: "Free to Copy"
   },
   {
     name: "IMMORTALITY",
@@ -3890,6 +3890,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Sonic Wave and Sonic Wave Rebirth have been swapped, with Sonic Wave Rebirth now sitting above, at #316.' },
   { date: '2026-03-20', detail: 'Time Extreme has been raised from #368 to #301, above Wasureta and below ADOMANIA.' },
   { date: '2026-03-20', detail: 'Exosphere has been raised from #239 to #226, above untitled unmastered and below Aronia.' },
   { date: '2026-03-20', detail: 'Death has been placed at #408, above Apollo 11 and below POW.' },
