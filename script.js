@@ -3040,6 +3040,16 @@ const demons = [
     password: "200356"
   },
   {
+    name: "Devotion",
+    creators: "AVRG, Bletzee, Oreate, Kingcy2, BlaZe, FarBn, MadisonYuko, EtVil, Solanine, Sp4rky, Duke, domi77, Proto",
+    verifier: "GMDomy",
+    publisher: "domi77",
+    video: "https://www.youtube.com/embed/YX9RfSfyAWs",
+    id: "81598025",
+    password: "Free to Copy",
+    tag: "NONG, Long, Fast-Paced"
+  },
+  {
     name: "Kuzureta",
     creators: "RealVet, River, DrCuber, Renn241, GhostVandalf, DiamondSkull, Zetalock, cxli, Genoxide, augi, SrKiwi, El3ctr0, Mystic, nicor77, Kyhros, ARWooly, zGod, Teno, Cybertron, Flamongo",
     verifier: "Teno(Original), CursedZ(Update)",
@@ -3483,16 +3493,6 @@ const demons = [
     tag: "NONG, XL, Over 4 min, Chokepoints"
   },
   {
-    name: "Devotion",
-    creators: "AVRG, Bletzee, Oreate, Kingcy2, BlaZe, FarBn, MadisonYuko, EtVil, Solanine, Sp4rky, Duke, domi77, Proto",
-    verifier: "GMDomy",
-    publisher: "domi77",
-    video: "https://www.youtube.com/embed/YX9RfSfyAWs",
-    id: "81598025",
-    password: "Free to Copy",
-    tag: "NONG, Long, Fast-Paced"
-  },
-  {
     name: "Glory",
     creators: "endevvor, Shyyo, GiggsRH, Hypno, SmitN, Tom163, EntiqueGD, ByCherk, Ducknorriss, WeirdoKid, Taco Dave, Azuvy, KoDTIFF, Nosef, PreeZee, minty, Zypheriox",
     verifier: "Gokill",
@@ -3910,6 +3910,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Devotion has been raised from #379 to #331, above Kuzureta and below Infinite Iniquity.' },
   { date: '2026-03-20', detail: 'Delta has been lowered from #82 to #87, above Checked Steam and below The Wonder of You.' },
   { date: '2026-03-20', detail: 'NYUTOPIA has been placed at #187, above Pandemonium and below me when machine gang.' },
   { date: '2026-03-20', detail: 'Rage has been raised from #328 to #314, above Kjdf8314jlfssf and below Necromancer.' },
