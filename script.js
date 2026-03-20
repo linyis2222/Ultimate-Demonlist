@@ -329,16 +329,6 @@ const demons = [
     password: "Free to Copy",
     tag: "XL, Over 4 min"
   },
-    {
-    name: "Through The Gates",
-    creators: "TeamTheDashers",
-    verifier: "Zoink",
-    publisher: "TeamTheDashers",
-    video: "https://www.youtube.com/embed/4yHA6jux5UI",
-    id: "49072489",
-    password: "Free to Copy",
-    tag: "Originally Hack Verified (Exen), Old Impossible Level, Long"
-  },
   {
     name: "Eyes in the Water",
     creators: "nothawkyre, ImMaxX1, Bli, skywalker14, darksteelflame, Arithean",
@@ -348,6 +338,16 @@ const demons = [
     id: "95851008",
     password: "Free to Copy",
     tag: "Long, Timings, Learny, Memory, Ship"
+  },
+    {
+    name: "Through The Gates",
+    creators: "TeamTheDashers",
+    verifier: "Zoink",
+    publisher: "TeamTheDashers",
+    video: "https://www.youtube.com/embed/4yHA6jux5UI",
+    id: "49072489",
+    password: "Free to Copy",
+    tag: "Originally Hack Verified (Exen), Old Impossible Level, Long"
   },
   {
     name: "Element 111 Rg [Unrated]",
@@ -3890,6 +3890,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Through The Gates and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #34.' },
   { date: '2026-03-20', detail: 'Sonic Wave and Sonic Wave Rebirth have been swapped, with Sonic Wave Rebirth now sitting above, at #316.' },
   { date: '2026-03-20', detail: 'Time Extreme has been raised from #368 to #301, above Wasureta and below ADOMANIA.' },
   { date: '2026-03-20', detail: 'Exosphere has been raised from #239 to #226, above untitled unmastered and below Aronia.' },
