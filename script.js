@@ -3075,6 +3075,16 @@ const demons = [
     password: "090210"
   },
   {
+    name: "Golden Flare",
+    creators: "krakow1918",
+    verifier: "krakow1918",
+    publisher: "krakow1918",
+    video: "https://www.youtube.com/embed/fwytjLtpgdI",
+    id: "91071815",
+    password: "Free to Copy",
+    tag: "XL, Nine Circles Level, Wave"
+  },
+  {
     name: "The Hell Nutz",
     creators: "Isane, Theorical, unnn, henry500, Awedsy, Artos, burgz, arca, Temp, hsam, aroo, TheLasaga",
     verifier: "nac",
@@ -3890,6 +3900,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Golden Flare has been placed at #335, above The Hell Nutz and below Silentium Clavas.' },
   { date: '2026-03-20', detail: 'Through The Gates and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #34.' },
   { date: '2026-03-20', detail: 'Sonic Wave and Sonic Wave Rebirth have been swapped, with Sonic Wave Rebirth now sitting above, at #316.' },
   { date: '2026-03-20', detail: 'Time Extreme has been raised from #368 to #301, above Wasureta and below ADOMANIA.' },
