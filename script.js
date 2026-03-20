@@ -821,6 +821,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "The Wonder of You",
+    creators: "HangerLord, Victurkey, zHelixx, fusion425",
+    verifier: "zHelixx",
+    publisher: "HangerLord",
+    video: "https://www.youtube.com/embed/iQ3RzYCvLvA",
+    id: "94858072",
+    password: "Free to Copy",
+    tag: "Long, Wave"
+  },
+  {
     name: "Checked Steam",
     creators: "gruzyGD",
     verifier: "Whizkid05",
@@ -1190,7 +1200,7 @@ const demons = [
   {
     name: "Judgement Knights",
     creators: "HangerLord, fusion425, Farlayy, Insxne97, kngstn",
-    verifier: "fusion425",
+    verifier: "fusion425(Original), zHelixx(Update)",
     publisher: "HangerLord",
     video: "https://www.youtube.com/embed/MzzY8nWfxnk",
     id: "110913375",
@@ -2097,7 +2107,7 @@ const demons = [
   {
     name: "Knights of Thunder",
     creators: "HangerLord",
-    verifier: "Helix",
+    verifier: "zHelixx",
     publisher: "HangerLord",
     video: "https://www.youtube.com/embed/npIZ8TGMDvk",
     id: "86412942",
@@ -3870,6 +3880,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'The Wonder of You has been placed at #87, above Checked Steam and below Jigsaw. This pushes shimmer into the Legacy List.' },
   { date: '2026-03-20', detail: 'Luminosity has been placed at #362, above The Hell Tribute and below Dark Flare.' },
   { date: '2026-03-20', detail: 'Goober Rage Stage has been placed at #124, above Zodiac and below DISSONANCE. This pushes Crimson Planet into the Legacy List.' },
   { date: '2026-02-07', detail: 'Bloom has been placed at #195, above LD50 and below FARBIDI THEORY.' },
