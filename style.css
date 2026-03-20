@@ -249,6 +249,10 @@ html, body {
    ============================== */
 #main-page {
   height: calc(100vh - 56px);
+}
+
+/* ⭐ active일 때만 보이도록 */
+#main-page.active {
   display: flex;
   justify-content: center;
   align-items: center;
