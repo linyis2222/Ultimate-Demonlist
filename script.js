@@ -2883,6 +2883,15 @@ const demons = [
     password: "555555"
   },
   {
+    name: "Rage",
+    creators: "StarkytheSalad, Yoonsrdynamix, Morin, Spectral, RealVet, nothawkyre",
+    verifier: "nSwish",
+    publisher: "nSwish",
+    video: "https://www.youtube.com/embed/RW_i0Kx3gDA",
+    id: "53878361",
+    password: "Free to Copy"
+  },
+  {
     name: "Kjdf8314jlfssf",
     creators: "Kapycta999",
     verifier: "BONN GD",
@@ -3009,15 +3018,6 @@ const demons = [
     publisher: "RubrumP",
     video: "https://www.youtube.com/embed/GzY2tXBo6fg",
     id: "122060729",
-    password: "Free to Copy"
-  },
-  {
-    name: "Rage",
-    creators: "StarkytheSalad, Yoonsrdynamix, Morin, Spectral, RealVet, nothawkyre",
-    verifier: "nSwish",
-    publisher: "nSwish",
-    video: "https://www.youtube.com/embed/RW_i0Kx3gDA",
-    id: "53878361",
     password: "Free to Copy"
   },
   {
@@ -3900,6 +3900,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-03-20', detail: 'Rage has been raised from #328 to #314, above Kjdf8314jlfssf and below Necromancer.' },
   { date: '2026-03-20', detail: 'Golden Flare has been placed at #335, above The Hell Nutz and below Silentium Clavas.' },
   { date: '2026-03-20', detail: 'Through The Gates and Eyes in the Water have been swapped, with Eyes in the Water now sitting above, at #34.' },
   { date: '2026-03-20', detail: 'Sonic Wave and Sonic Wave Rebirth have been swapped, with Sonic Wave Rebirth now sitting above, at #316.' },
