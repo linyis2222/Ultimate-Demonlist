@@ -17,47 +17,62 @@
     </div>
 
     <div class="header-right">
-      <button id="btn-list" class="top-btn" aria-pressed="true">List</button>
-      <button id="btn-changelog" class="top-btn" aria-pressed="false">Change Log</button>
+      <button id="btn-main" class="top-btn">Main</button>
+      <button id="btn-list" class="top-btn">List</button>
+      <button id="btn-changelog" class="top-btn">Change Log</button>
     </div>
   </header>
 
-  <div id="container">
-    <aside id="left-panel">
+  <!-- ✅ MAIN PAGE -->
+  <div id="main-page" class="page active">
+    <div style="text-align:center; margin-top:150px;">
+      <h1>WELCOME TO Ultimate Demon List!</h1>
+      <p>
+        Ultimate Demonlist is a community based on ranking every Extreme Demons in Geometry Dash.
+      </p>
 
-      <!-- 🔍 검색창 추가됨 -->
-      <div id="search-container">
-        <input type="text" id="search-input" placeholder="Search...">
-      </div>
+      <h3>Disclaimer:</h3>
+      <p>All rankings are subjective and may change.</p>
 
-      <ul id="map-list"></ul>
-    </aside>
+      <button id="view-list-btn">View List</button>
+    </div>
+  </div>
 
-    <main id="right-panel">
-      <section id="map-details">
-        <h2 id="map-name"></h2>
-        <p id="map-creators"></p>
-        <p id="map-verifier"></p>
-        <p id="map-publisher"></p>
-        <div id="map-video"></div>
-        <p id="map-id"></p>
-        <p id="map-password"></p>
-        <p id="map-tag"></p>
-      </section>
+  <!-- ✅ LIST PAGE -->
+  <div id="list-page" class="page">
+    <div id="container">
+      <aside id="left-panel">
 
-      <section id="change-log" aria-label="Change Log" class="hidden"></section>
-    </main>
+        <div id="search-container">
+          <input type="text" id="search-input" placeholder="Search...">
+        </div>
+
+        <ul id="map-list"></ul>
+      </aside>
+
+      <main id="right-panel">
+        <section id="map-details">
+          <h2 id="map-name"></h2>
+          <p id="map-creators"></p>
+          <p id="map-verifier"></p>
+          <p id="map-publisher"></p>
+          <div id="map-video"></div>
+          <p id="map-id"></p>
+          <p id="map-password"></p>
+          <p id="map-tag"></p>
+        </section>
+
+        <section id="change-log" aria-label="Change Log" class="hidden"></section>
+      </main>
+    </div>
   </div>
 
   <!-- JS -->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 
-<footer style="text-align:center; font-size:12px; padding:10px; background:#f0f0f0;">
-  Created by <a href="https://www.youtube.com/@SatelliteLz" target="_blank">Satellite</a>
-</footer>
+  <footer style="text-align:center; font-size:12px; padding:10px; background:#f0f0f0;">
+    Created by <a href="https://www.youtube.com/@SatelliteLz" target="_blank">Satellite</a>
+  </footer>
+
 </body>
 </html>
-
-
-
-
