@@ -32,9 +32,9 @@ const demons = [
   {
     name: "Tidal Wave",
     creators: "OniLinkGD",
-    verifier: "Zoink",
+    verifier: "Zoink(Original), andreya6(Update)",
     publisher: "OniLinkGD",
-    video: "https://www.youtube.com/embed/9fsZ014qB3s",
+    video: "https://www.youtube.com/embed/gmWPsZ_g_O4",
     id: "86407629",
     password: "Free to Copy",
     tag: "NONG, Former Top 1, XL, Over 3 min, Wave"
