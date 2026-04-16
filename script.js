@@ -904,6 +904,15 @@ const demons = [
     password: "446799"
   },
   {
+    name: "Levigo",
+    creators: "Swib",
+    verifier: "KandaiGDG",
+    publisher: "Swib",
+    video: "https://www.youtube.com/embed/AROmUo7DNkE",
+    id: "97086864",
+    password: "Free to Copy"
+  },
+  {
     name: "UNKNOWN",
     creators: "Relayne, NineDice, Gusearth, kywy, Renn241, DrCuber, GhostVandalf, GD Iris, muriday",
     verifier: "Diamond",
@@ -3920,6 +3929,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-04-16', detail: 'Levigo has been placed at #96, above UNKNOWN and below Verdant Landscape. This pushes Calculator Core into the Legacy List.' },
   { date: '2026-03-20', detail: 'paranoia has been placed at #104, above Blood Echo and below Graceful. This pushes Trotil into the Legacy List.' },
   { date: '2026-03-20', detail: 'Devotion has been raised from #379 to #331, above Kuzureta and below Infinite Iniquity.' },
   { date: '2026-03-20', detail: 'Delta has been lowered from #82 to #87, above Checked Steam and below The Wonder of You.' },
