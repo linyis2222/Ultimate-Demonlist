@@ -910,7 +910,8 @@ const demons = [
     publisher: "Swib",
     video: "https://www.youtube.com/embed/AROmUo7DNkE",
     id: "97086864",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Long, Timings, Cube, Ship"
   },
   {
     name: "UNKNOWN",
@@ -1287,6 +1288,16 @@ const demons = [
     video: "https://www.youtube.com/embed/pTgOHcwJhd0",
     id: "75813671",
     password: "Free to Copy"
+  },
+  {
+    name: "Galeforce",
+    creators: "OniLinkGD",
+    verifier: "Blitzer",
+    publisher: "OniLinkGD",
+    video: "https://www.youtube.com/embed/G6VF2Gvmpz0",
+    id: "115313314",
+    password: "Free to Copy",
+    tag: "NONG, Long"
   },
   {
     name: "in this",
@@ -3929,6 +3940,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-04-16', detail: 'Galeforce has been placed at #138, above in this and below Lotus Flower. This pushes Sky Shredder into the Legacy List.' },
   { date: '2026-04-16', detail: 'Levigo has been placed at #96, above UNKNOWN and below Verdant Landscape. This pushes Calculator Core into the Legacy List.' },
   { date: '2026-03-20', detail: 'paranoia has been placed at #104, above Blood Echo and below Graceful. This pushes Trotil into the Legacy List.' },
   { date: '2026-03-20', detail: 'Devotion has been raised from #379 to #331, above Kuzureta and below Infinite Iniquity.' },
