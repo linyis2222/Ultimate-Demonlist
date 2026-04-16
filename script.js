@@ -190,16 +190,6 @@ const demons = [
     tag: "CBF Verified, Old Impossible Level, XL, One-Mode, Wave"
   },
   {
-    name: "Tunnel of Despair",
-    creators: "Exen, ImMaxX1",
-    verifier: "Zoink",
-    publisher: "Exen",
-    video: "https://www.youtube.com/embed/LpS4JREhW98",
-    id: "91351939",
-    password: "Free to Copy",
-    tag: "Long, Timings, Learny, Wave"
-  },
-  {
     name: "Defeated Circles",
     creators: "Slijee, GDFluxit, SlendStone, GXQ, notcyanide, lupodzn, pootys1337, muriday",
     verifier: "Zoink",
@@ -208,6 +198,16 @@ const demons = [
     id: "120012581",
     password: "Free to Copy",
     tag: "NONG, Old Impossible Level, Long, Nine Circles Level, Timings, Wave"
+  },
+  {
+    name: "Tunnel of Despair",
+    creators: "Exen, ImMaxX1",
+    verifier: "Zoink",
+    publisher: "Exen",
+    video: "https://www.youtube.com/embed/LpS4JREhW98",
+    id: "91351939",
+    password: "Free to Copy",
+    tag: "Long, Timings, Learny, Wave"
   },
   {
     name: "Kyouki",
@@ -3950,6 +3950,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-04-16', detail: 'Tunnel of Despair and Defeated Circles have been swapped, with Defeated Circles now sitting above, at #20.' },
   { date: '2026-04-16', detail: 'Voltage has been placed at #35, above Through The Gates and below Eyes in the Water. This pushes BEELINE into the Extended List, and Instinct (Krazyman50) into the Legacy List.' },
   { date: '2026-04-16', detail: 'Galeforce has been placed at #138, above in this and below Lotus Flower. This pushes Sky Shredder into the Legacy List.' },
   { date: '2026-04-16', detail: 'Levigo has been placed at #96, above UNKNOWN and below Verdant Landscape. This pushes Calculator Core into the Legacy List.' },
