@@ -766,7 +766,8 @@ const demons = [
     publisher: "Zeniux",
     video: "https://www.youtube.com/embed/qirwgz-haVQ",
     id: "93732702",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "2P, Gimmicky, Wave"
   },
     {
     name: "Sonic Wave Infinity",
@@ -1127,7 +1128,8 @@ const demons = [
     publisher: "Smarted",
     video: "https://www.youtube.com/embed/RKX6VOsICOg",
     id: "87130877",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "2P, Old Impossible Level, Clicksync, Timings, Ship"
   },
   {
     name: "Esfera",
