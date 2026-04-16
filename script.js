@@ -100,6 +100,16 @@ const demons = [
     tag: "Old Impossible Level, Long, Chokepoints, Wave, Nine Circles Level"
   },
   {
+    name: "Ashley Wave Trials",
+    creators: "OddMod",
+    verifier: "Zoink",
+    publisher: "xBlizzardGD",
+    video: "https://www.youtube.com/embed/aTxt76U3e2Q",
+    id: "123119196",
+    password: "Free to Copy",
+    tag: "CBF Verified, Old Impossible Level, XL, One-Mode, Wave"
+  },
+  {
     name: "Silent clubstep",
     creators: "TheRealSailent",
     verifier: "paqoe",
@@ -178,16 +188,6 @@ const demons = [
     id: "49896559",
     password: "Free to Copy",
     tag: "Former Top 1, XL, Slow-Paced, Timings, Wave, Chokepoints"
-  },
-  {
-    name: "Ashley Wave Trials",
-    creators: "OddMod",
-    verifier: "Zoink",
-    publisher: "xBlizzardGD",
-    video: "https://www.youtube.com/embed/aTxt76U3e2Q",
-    id: "123119196",
-    password: "Free to Copy",
-    tag: "CBF Verified, Old Impossible Level, XL, One-Mode, Wave"
   },
   {
     name: "Defeated Circles",
@@ -3950,6 +3950,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-04-16', detail: 'Ashley Wave Trials has been raised from #19 to #11, above Silent clubstep and below Subsuming Vortex.' },
   { date: '2026-04-16', detail: 'Tunnel of Despair and Defeated Circles have been swapped, with Defeated Circles now sitting above, at #20.' },
   { date: '2026-04-16', detail: 'Voltage has been placed at #35, above Through The Gates and below Eyes in the Water. This pushes BEELINE into the Extended List, and Instinct (Krazyman50) into the Legacy List.' },
   { date: '2026-04-16', detail: 'Galeforce has been placed at #138, above in this and below Lotus Flower. This pushes Sky Shredder into the Legacy List.' },
