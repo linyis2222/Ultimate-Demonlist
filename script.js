@@ -557,6 +557,16 @@ const demons = [
     password: "Free to Copy"
   },
   {
+    name: "The Catacombs",
+    creators: "Cersia",
+    verifier: "Slithium",
+    publisher: "Cersia",
+    video: "https://www.youtube.com/embed/T9-75lfKVQg",
+    id: "104232191",
+    password: "Free to Copy",
+    tag: "CBF Verified, 1.9 GDPS, Long, Ship, Wave"
+  },
+  {
     name: "Climax",
     creators: "HushLC, Wain",
     verifier: "Wain",
@@ -3955,6 +3965,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-04-16', detail: 'The Catacombs has been placed at #58, above Climax and below MINUSdry. This pushes PSYCHOPATH into the Extended List, and We Are Not The Same into the Legacy List.' },
   { date: '2026-04-16', detail: 'Trotil has been raised from #154 to #151, above Instinct (Krazyman50) and below We Are Not The Same.' },
   { date: '2026-04-16', detail: 'Ashley Wave Trials has been raised from #19 to #11, above Silent clubstep and below Subsuming Vortex.' },
   { date: '2026-04-16', detail: 'Tunnel of Despair and Defeated Circles have been swapped, with Defeated Circles now sitting above, at #20.' },
