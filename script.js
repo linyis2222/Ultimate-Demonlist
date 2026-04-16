@@ -7,7 +7,7 @@ const demons = [
     video: "https://www.youtube.com/embed/CELNmHwln_c",
     id: "119544028",
     password: "Free to Copy",
-    tag: "CBF Blocker, Long, Chokepoints, Ship, Wave, Timings"
+    tag: "Long, Chokepoints, Ship, Wave, Timings"
   },
   {
     name: "Amethyst",
@@ -17,7 +17,7 @@ const demons = [
     video: "https://www.youtube.com/embed/4lfkzz1VCbA",
     id: "119550490",
     password: "Free to Copy",
-    tag: "Former Top 1, CBF Blocker, Long, Wave"
+    tag: "Former Top 1, Long, Wave"
   },
   {
     name: "Flamewall",
@@ -27,7 +27,7 @@ const demons = [
     video: "https://www.youtube.com/embed/x4Io4zkWVRw",
     id: "126242564",
     password: "Free to Copy",
-    tag: "CBF Blocker, XL, Over 6 min, Fast-Paced"
+    tag: "XL, Over 6 min, Fast-Paced"
   },
   {
     name: "Tidal Wave",
@@ -47,7 +47,7 @@ const demons = [
     video: "https://www.youtube.com/embed/EztneTPp5CU",
     id: "109780665",
     password: "Free to Copy",
-    tag: "CBF Blocker, Long, One-Mode, Robot, Timings"
+    tag: "Long, One-Mode, Robot, Timings"
   },
   {
     name: "BOOBAWAMBA",
@@ -67,7 +67,7 @@ const demons = [
     video: "https://www.youtube.com/embed/j5NC0u1Q91Q",
     id: "117692518",
     password: "Free to Copy",
-    tag: "CBF Blocker, Long"
+    tag: "Long"
   },
   {
     name: "Every End",
@@ -92,8 +92,8 @@ const demons = [
   {
     name: "Subsuming Vortex",
     creators: "SeptaGon7, Renn241",
-    verifier: "CursedZ",
-    publisher: "CursedZ",
+    verifier: "Cursed",
+    publisher: "Cursed",
     video: "https://www.youtube.com/embed/0eYG1ogJpIQ",
     id: "127997391",
     password: "Free to Copy",
@@ -131,7 +131,7 @@ const demons = [
   },
   {
     name: "Aquamarine [Unrated]",
-    creators: "sincos, CursedZ, Taika, Scorpion",
+    creators: "sincos, Cursed, Taika, Scorpion",
     verifier: "seels55",
     publisher: "sincos",
     video: "https://www.youtube.com/embed/Q__EnRojGt4",
@@ -182,12 +182,12 @@ const demons = [
   {
     name: "Abyss of Darkness",
     creators: "Exen, CDMusic, Megaskill, DigitalZero, Masterman, maxfs, Xolarzz, Waffle, ZmL(XDiamondX), GrenadeofTacos, Fenrrig, AlrexX, rynoxious, RealVet, GD Iris, GrayRain, celestia",
-    verifier: "CursedZ",
+    verifier: "Cursed",
     publisher: "Exen",
     video: "https://www.youtube.com/embed/ejJkpqcMMCY",
     id: "49896559",
     password: "Free to Copy",
-    tag: "Former Top 1, XL, Slow-Paced, Timings, Wave, Chokepoints"
+    tag: "Former Top 1, Old Impossible Level, XL, Slow-Paced, Timings, Wave, Chokepoints"
   },
   {
     name: "Defeated Circles",
@@ -372,8 +372,8 @@ const demons = [
   {
     name: "Firework",
     creators: "Vernam, lillium, 00Zero, Konsi, RealVet, Desumari, Itami, Lekvid, Buragoz, Crouley, Orte, Hantein",
-    verifier: "TrickGMD",
-    publisher: "TrickGMD",
+    verifier: "Trick",
+    publisher: "Trick",
     video: "https://www.youtube.com/embed/QBe5x2o9v2w",
     id: "75296202",
     password: "234000",
@@ -590,7 +590,8 @@ const demons = [
     publisher: "TCTEam",
     video: "https://www.youtube.com/embed/IKGk41hSnDo",
     id: "62556400",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "2P, Long, Fast-Paced, Timings, Chokepoints"
   },
   {
     name: "Wavterminal",
@@ -728,7 +729,8 @@ const demons = [
     publisher: "Galaxxyss",
     video: "https://www.youtube.com/embed/nt6T9YDb6gw",
     id: "93792764",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "2P, Long"
   },
   {
     name: "arcturus",
@@ -783,7 +785,7 @@ const demons = [
     video: "https://www.youtube.com/embed/Yx2IHj6YpRw",
     id: "59075347",
     password: "061742",
-    tag: "Originally Hack Verified (-), Former Top 1, Long, Chokepoints, Ship"
+    tag: "Originally Hack Verified (-), Former Top 1, Old Impossible Level, Long, Chokepoints, Ship"
   },
     {
     name: "NETWORK (Agat3)",
@@ -865,7 +867,8 @@ const demons = [
     publisher: "iIiLaSeRiIi",
     video: "https://www.youtube.com/embed/_0GqdSFmG_8",
     id: "107741051",
-    password: "Free to Copy"
+    password: "Free to Copy",
+    tag: "Old Impossible Level, Long, Fast-Paced, Wave"
   },
   {
     name: "Terminal Rampancy",
@@ -1655,7 +1658,7 @@ const demons = [
   {
     name: "Cobwebs",
     creators: "NineDice",
-    verifier: "CursedZ",
+    verifier: "Cursed",
     publisher: "NineDice",
     video: "https://www.youtube.com/embed/bgZ85rCaEGY",
     id: "82172844",
@@ -1684,7 +1687,7 @@ const demons = [
   {
     name: "SUPERHATEMEWORLD",
     creators: "IcEDCave, loogiah, EndLevel, RealVet, River, Doop",
-    verifier: "CursedZ",
+    verifier: "Cursed",
     publisher: "IcEDCave",
     video: "https://www.youtube.com/embed/fhmgZYCJ29M",
     id: "57571983",
@@ -3092,7 +3095,7 @@ const demons = [
   {
     name: "Kuzureta",
     creators: "RealVet, River, DrCuber, Renn241, GhostVandalf, DiamondSkull, Zetalock, cxli, Genoxide, augi, SrKiwi, El3ctr0, Mystic, nicor77, Kyhros, ARWooly, zGod, Teno, Cybertron, Flamongo",
-    verifier: "Teno(Original), CursedZ(Update)",
+    verifier: "Teno(Original), Cursed(Update)",
     publisher: "Teno",
     video: "https://www.youtube.com/embed/Z7NLOIyjbhU",
     id: "71216292",
