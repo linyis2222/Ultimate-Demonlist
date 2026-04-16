@@ -339,6 +339,16 @@ const demons = [
     password: "Free to Copy",
     tag: "Long, Timings, Learny, Memory, Ship"
   },
+  {
+    name: "Voltage",
+    creators: "Phantom7Ks, Lagnugg, Vendas, budapest, Sysafk, Millan, Boshet, heptanone, Xenith, Xatz, Kgnstn, zof, rubrum, Silsa, Acomet, Lapatatatom, Choms",
+    verifier: "Maybbee",
+    publisher: "ThePurgatory",
+    video: "https://www.youtube.com/embed/wBRvBN9tmlc",
+    id: "131599104",
+    password: "Free to Copy",
+    tag: "Long, Timings, Chokepoints"
+  },
     {
     name: "Through The Gates",
     creators: "TeamTheDashers",
@@ -484,7 +494,7 @@ const demons = [
   },
   {
     name: "Sevvend Clubstep",
-    creators: "MinAY, Maybee, Nickname, IGenoxide, _ego11, winchester, Koshkaht, WarningGoat, Vizitek, Quminy",
+    creators: "MinAY, Maybbee, Nickname, IGenoxide, _ego11, winchester, Koshkaht, WarningGoat, Vizitek, Quminy",
     verifier: "Vorten",
     publisher: "cherryteam",
     video: "https://www.youtube.com/embed/TvA8EJTJFCc",
@@ -787,7 +797,7 @@ const demons = [
   {
     name: "BPATA MPAKA",
     creators: "Inex, NitroN, MittiRan, WitaWaier, Axon, Zeox, Unity, Nezeritos, Yakov47, Hashinoby, Akeko, Dilisae, Ziza, Pes11, Markota, E9_KH, Sosiska",
-    verifier: "Maybee",
+    verifier: "Maybbee",
     publisher: "Inex",
     video: "https://www.youtube.com/embed/sSbHYzYgYfA",
     id: "109947627",
@@ -2263,7 +2273,7 @@ const demons = [
   },
   {
     name: "Visible Ray",
-    creators: "KrampuX, Maybee, Nonamed, Vismuth, C4rpediem, Dister K, Hobbyboat, 1234, DarkBoshy, Spica, Ekko4, Mulpan, KeiAs, Renovatio, Soulsand, DEMN, Senousia, MoonlightEVE, HaNavi, Ticky, LioLeo, Dominator, ThorMode",
+    creators: "KrampuX, Maybbee, Nonamed, Vismuth, C4rpediem, Dister K, Hobbyboat, 1234, DarkBoshy, Spica, Ekko4, Mulpan, KeiAs, Renovatio, Soulsand, DEMN, Senousia, MoonlightEVE, HaNavi, Ticky, LioLeo, Dominator, ThorMode",
     verifier: "Seturan",
     publisher: "KrampuX",
     video: "https://www.youtube.com/embed/hHpaB752peM",
@@ -3940,6 +3950,7 @@ const demons = [
    - 날짜는 문자열(YYYY-MM-DD 또는 로컬 포맷)로 표기.
    =========================== */
 const changeLog = [
+  { date: '2026-04-16', detail: 'Voltage has been placed at #35, above Through The Gates and below Eyes in the Water. This pushes BEELINE into the Extended List, and Instinct (Krazyman50) into the Legacy List.' },
   { date: '2026-04-16', detail: 'Galeforce has been placed at #138, above in this and below Lotus Flower. This pushes Sky Shredder into the Legacy List.' },
   { date: '2026-04-16', detail: 'Levigo has been placed at #96, above UNKNOWN and below Verdant Landscape. This pushes Calculator Core into the Legacy List.' },
   { date: '2026-03-20', detail: 'paranoia has been placed at #104, above Blood Echo and below Graceful. This pushes Trotil into the Legacy List.' },
